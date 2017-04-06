@@ -1,0 +1,325 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "台东县"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.08581542968751,
+          22.847070687839064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "屏东县"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.60241699218751,
+          22.44149485938026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "高雄市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.70678710937499,
+          23.024131861805987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "台南市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.377197265625,
+          23.175713800385203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "嘉义县"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6573486328125,
+          23.433009077420344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "花莲县"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.39892578125,
+          23.725011735951796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "南投县"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.97595214843749,
+          23.85569800975124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "云林县"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32226562500001,
+          23.704894502324912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "彰化县"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.47607421874999,
+          23.926013033021203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "宜兰县"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.67358398437499,
+          24.50214490121089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "台中市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8441162109375,
+          24.206889622398023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "苗栗县"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.82763671875,
+          24.472150437226865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "新竹县"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1572265625,
+          24.637031353509528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "桃园县"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.212158203125,
+          24.891419479211137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "新北市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5252685546875,
+          24.82163935684663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "澎湖县"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5147705078125,
+          23.46828520085324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "金门"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.39965820312499,
+          24.457150524185852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "新竹市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9320068359375,
+          24.766784522874453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "台北市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5582275390625,
+          25.095548539604252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "基隆市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.70654296874999,
+          25.120419105501256
+        ]
+      }
+    }
+  ]
+}

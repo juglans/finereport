@@ -1,0 +1,22 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"南阳市"},"geometry": {"type": "Point","coordinates": [112.4011,33.0359]}},
+{"type": "Feature","properties": {"name":"信阳市"},"geometry": {"type": "Point","coordinates": [114.8291,32.0197]}},
+{"type": "Feature","properties": {"name":"洛阳市"},"geometry": {"type": "Point","coordinates": [112.0605,34.3158]}},
+{"type": "Feature","properties": {"name":"驻马店市"},"geometry": {"type": "Point","coordinates": [114.1589,32.9041]}},
+{"type": "Feature","properties": {"name":"周口市"},"geometry": {"type": "Point","coordinates": [114.873,33.6951]}},
+{"type": "Feature","properties": {"name":"商丘市"},"geometry": {"type": "Point","coordinates": [115.741,34.2828]}},
+{"type": "Feature","properties": {"name":"三门峡市"},"geometry": {"type": "Point","coordinates": [110.8301,34.3158]}},
+{"type": "Feature","properties": {"name":"新乡市"},"geometry": {"type": "Point","coordinates": [114.2029,35.3595]}},
+{"type": "Feature","properties": {"name":"平顶山市"},"geometry": {"type": "Point","coordinates": [112.9724,33.739]}},
+{"type": "Feature","properties": {"name":"郑州市"},"geometry": {"type": "Point","coordinates": [113.4668,34.6234]}},
+{"type": "Feature","properties": {"name":"安阳市"},"geometry": {"type": "Point","coordinates": [114.5325,36.0022]}},
+{"type": "Feature","properties": {"name":"开封市"},"geometry": {"type": "Point","coordinates": [114.5764,34.6124]}},
+{"type": "Feature","properties": {"name":"焦作市"},"geometry": {"type": "Point","coordinates": [112.8406,35.1508]}},
+{"type": "Feature","properties": {"name":"许昌市"},"geometry": {"type": "Point","coordinates": [113.6975,34.0466]}},
+{"type": "Feature","properties": {"name":"濮阳市"},"geometry": {"type": "Point","coordinates": [115.1917,35.799]}},
+{"type": "Feature","properties": {"name":"漯河市"},"geometry": {"type": "Point","coordinates": [113.8733,33.6951]}},
+{"type": "Feature","properties": {"name":"鹤壁市"},"geometry": {"type": "Point","coordinates": [114.3787,35.744]}}
+]
+}

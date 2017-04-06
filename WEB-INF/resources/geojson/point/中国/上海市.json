@@ -1,0 +1,24 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"崇明县"},"geometry": {"type": "Point","coordinates": [121.5637,31.5383]}},
+{"type": "Feature","properties": {"name":"南汇区"},"geometry": {"type": "Point","coordinates": [121.8755,30.954]}},
+{"type": "Feature","properties": {"name":"奉贤区"},"geometry": {"type": "Point","coordinates": [121.5747,30.8475]}},
+{"type": "Feature","properties": {"name":"浦东新区"},"geometry": {"type": "Point","coordinates": [121.6928,31.2561]}},
+{"type": "Feature","properties": {"name":"金山区"},"geometry": {"type": "Point","coordinates": [121.2657,30.8112]}},
+{"type": "Feature","properties": {"name":"青浦区"},"geometry": {"type": "Point","coordinates": [121.1751,31.1909]}},
+{"type": "Feature","properties": {"name":"松江区"},"geometry": {"type": "Point","coordinates": [121.1984,31.0268]}},
+{"type": "Feature","properties": {"name":"嘉定区"},"geometry": {"type": "Point","coordinates": [121.2437,31.3625]}},
+{"type": "Feature","properties": {"name":"宝山区"},"geometry": {"type": "Point","coordinates": [121.4346,31.4051]}},
+{"type": "Feature","properties": {"name":"闵行区"},"geometry": {"type": "Point","coordinates": [121.4992,31.0838]}},
+{"type": "Feature","properties": {"name":"杨浦区"},"geometry": {"type": "Point","coordinates": [121.528,31.2966]}},
+{"type": "Feature","properties": {"name":"普陀区"},"geometry": {"type": "Point","coordinates": [121.3879,31.2602]}},
+{"type": "Feature","properties": {"name":"徐汇区"},"geometry": {"type": "Point","coordinates": [121.4333,31.1607]}},
+{"type": "Feature","properties": {"name":"长宁区"},"geometry": {"type": "Point","coordinates": [121.3852,31.2115]}},
+{"type": "Feature","properties": {"name":"闸北区"},"geometry": {"type": "Point","coordinates": [121.4511,31.2794]}},
+{"type": "Feature","properties": {"name":"虹口区"},"geometry": {"type": "Point","coordinates": [121.4882,31.2788]}},
+{"type": "Feature","properties": {"name":"黄浦区"},"geometry": {"type": "Point","coordinates": [121.4868,31.219]}},
+{"type": "Feature","properties": {"name":"卢湾区"},"geometry": {"type": "Point","coordinates": [121.4758,31.2074]}},
+{"type": "Feature","properties": {"name":"静安区"},"geometry": {"type": "Point","coordinates": [121.4484,31.2286]}}
+]
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugin>
+    <id>com.fr.online.update</id>
+    <name><![CDATA[设计器更新升级]]></name>
+    <active>yes</active>
+    <version>3.0</version>
+    <env-version>8.0</env-version>
+    <jartime>2016-01-07</jartime>
+    <vendor>finereport.zhouping</vendor>
+    <description><![CDATA[可以使用该插件进行在线升级，无需自己去替换各种jar包，一键完成，并会将老的jar包按日期备份至安装目录下，可以随时替换回老版本。新增了版本升级功能，改进了界面，新增了还原功能。]]></description>
+    <change-notes><![CDATA[[2015-09-30]新增了版本升级功能，改进了界面，新增了还原功能,<br />
+    [2015-10-19]解决了jdk1.7不能使用的重大BUG,<br />
+    [2016-01-11]加入功能点记录,<br />
+    [2016-06-07]修改了功能点记录,<br />
+    [2016-06-08]修改了jar包依赖时间,<br />
+    [2016-08-10]修改了部分jar包重启删除失败的问题,<br />
+    [2016-08-30]修改插件的名字(更新升级->设计器更新升级),同时支持third的更新,<br />
+    [2016-09-30]优化了升级包的下载机制,下载出现问题后会自动重下载<br />
+    [2016-10-24]更新升级在远程设计下禁止使用<br />
+    [2017-01-18]更新升级新增日志查看功能<br />
+    ]]></change-notes>
+    <extra-core>
+        <LocaleFinder class="com.fr.plugin.update.UpdateLocaleFinder"/>
+    </extra-core>
+    <extra-report/>
+    <extra-designer>
+        <MenuHandler class="com.fr.plugin.update.UpdateMenuHandler"/>
+    </extra-designer>
+</plugin>

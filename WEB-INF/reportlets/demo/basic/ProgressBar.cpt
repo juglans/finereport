@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<TableDataMap>
+<TableData name="bkzjh_jd" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[DXJMC,,.,,JHLZE,,.,,BQJDFSLZE,,.,,BQSDLZE,,.,,BQZZLZE,,.,,BQBZLZE,,.,,TQJDFSLZE,,.,,TQSDLZE]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[9iLFS'L<<.h=D=E_L2"JbWMI=6pq.k'egP[&.]ADjKaSai_!j,)_S1a&YmXkjZZA3.2:^6*pH
+,R5o0qPC6YKdi&2<VmjVK35O9n8%"'OH)qdK8>X+Z^si.F:Q&h6_4MR&<@`q>hopgU@EdH/t
+3Yr!S'KZHqhBRIfM<HnK=cei)J"]A(=&2,^\9BEVEKMXjDKnB#.L?E/6-["?Oa>;$`@\Qn-bk
+\aWT3of:+3JCXG_$ho.<l,1\YnFV;bNZpqWpa7".0]A`>RXIWXjhONjR-`$+58SbB=>06acNX
+Aj&I,:_Xo`YkW<Inn%emuHhZR<0Uts\:`Kck.3H<V]AQ=#(/bNBXTI['$'g+<H06:>2BTT\U[
+kPb@Vi^7r_M6,B6&-LD:8N3_HL5W+HF2rPSgq$jpGcoP3\`0_<2kD#uf9_*?f^2pt[0<O(0,
+!#\rT\N4^9QY%(o,jedLU2uGTiM;f!kDNd=K)+ZnQG+SX6"e&45J>#mL9FJ,FDdkklOV@Z6_
+iZS@G=B)1Ia?`fQ$DE'arM?V+]AMHY:o>$Wu_Q\RB9au*Zir"8&4UWj]AFMS;(kId]A#fRAKC4F
+-3?5r%0,M-nQ4[56~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars/>
+<WebPage isPage="false" isShowAsImage="false" isAutoScale="false" isTDHeavy="false"/>
+</WebPageContent>
+<WebWriteContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Print')}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<SelectedColor/>
+<WebWrite SheetPosition="1"/>
+<RptLocation isShowAtLeft="true"/>
+<UnloadCheck/>
+<ShowWidgets/>
+<OtherAttr isAutoStash="false"/>
+</WebWriteContent>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="总计划进度">
+<ReportPageAttr>
+<HR F="1" T="2"/>
+<FR/>
+<HC F="1" T="2"/>
+<FC/>
+<UPFCR COLUMN="true" ROW="true"/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[457200,1141920,1141920,1141920,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[457200,1524000,3048000,3047040,3047040,3047040,3047040,0,10782300,3047040,3047040,3047040,3047040,3047040,3047040,3047040,1524000,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="1" r="1" rs="2" s="0">
+<O>
+<![CDATA[序号]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="1" rs="2" s="0">
+<O>
+<![CDATA[地区]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="1" cs="8" s="1">
+<O>
+<![CDATA[本期完成情况]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="1" cs="5" s="0">
+<O>
+<![CDATA[同期完成情况]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="1" rs="2" s="0">
+<O>
+<![CDATA[排名]]></O>
+<PrivilegeControl/>
+<CellGUIAttr>
+<ToolTipText>
+<![CDATA[按收订进度排名]]></ToolTipText>
+</CellGUIAttr>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="3" r="2" s="0">
+<O>
+<![CDATA[计划金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="2" s="0">
+<O>
+<![CDATA[实际金额]]></O>
+<PrivilegeControl/>
+<CellGUIAttr>
+<ToolTipText>
+<![CDATA[收订流转额-退订流转额]]></ToolTipText>
+</CellGUIAttr>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="5" r="2" s="0">
+<O>
+<![CDATA[流转金额]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="6" r="2" s="0">
+<O>
+<![CDATA[合计]]></O>
+<PrivilegeControl/>
+<CellGUIAttr>
+<ToolTipText>
+<![CDATA[收订流转额+集订分送流转额]]></ToolTipText>
+</CellGUIAttr>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="7" r="2" s="0">
+<O>
+<![CDATA[进度]]></O>
+<PrivilegeControl/>
+<CellGUIAttr>
+<ToolTipText>
+<![CDATA[合计/计划流转额*100/%]]></ToolTipText>
+</CellGUIAttr>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="8" r="2" s="0">
+<O>
+<![CDATA[进度]]></O>
+<PrivilegeControl/>
+<CellGUIAttr>
+<ToolTipText>
+<![CDATA[合计/计划流转额*100/%]]></ToolTipText>
+</CellGUIAttr>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="9" r="2" s="0">
+<O>
+<![CDATA[其中之一]]></O>
+<PrivilegeControl/>
+<CellGUIAttr>
+<ToolTipText>
+<![CDATA[本收本投+他收本投+集订分送]]></ToolTipText>
+</CellGUIAttr>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="10" r="2" s="0">
+<O>
+<![CDATA[其中之二]]></O>
+<PrivilegeControl/>
+<CellGUIAttr>
+<ToolTipText>
+<![CDATA[本收本投+他收本投+集订分送]]></ToolTipText>
+</CellGUIAttr>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="11" r="2" s="0">
+<O>
+<![CDATA[实际金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="2" s="0">
+<O>
+<![CDATA[流转金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="2" s="0">
+<O>
+<![CDATA[合计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="2" s="0">
+<O>
+<![CDATA[同比增量]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="2" s="0">
+<O>
+<![CDATA[同比增幅]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="3" s="2">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SEQ()]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C4"/>
+</C>
+<C c="2" r="3" s="2">
+<O t="DSColumn">
+<Attributes dsName="bkzjh_jd" columnName="DXJMC"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="3" r="3" s="3">
+<O t="DSColumn">
+<Attributes dsName="bkzjh_jd" columnName="JHLZE"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="4" r="3" s="4">
+<O t="DSColumn">
+<Attributes dsName="bkzjh_jd" columnName="BQSDLZE"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="5" r="3" s="4">
+<O t="DSColumn">
+<Attributes dsName="bkzjh_jd" columnName="BQJDFSLZE"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=E4 + F4]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="7" r="3" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=G4 / D4]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0" showAsDefault="true"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="8" r="3" s="3">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[="<table width=" + ROUND(H4 * 1000 / sum(H4[!0;!0]A), 2) + "% border=0 cellspacing=0 cellpadding=0> <tr> <td bgcolor=#81ceea><div color=#81ceea align=right>&nbsp</div></td> </tr> </table>"]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr showAsHTML="true">
+<ToolTipText>
+<![CDATA[=ROUND(H4 * 1000 / sum(H4[!0;!0]A), 2) + "%"]]></ToolTipText>
+</CellGUIAttr>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="9" r="3" s="4">
+<O t="DSColumn">
+<Attributes dsName="bkzjh_jd" columnName="BQZZLZE"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="10" r="3" s="4">
+<O t="DSColumn">
+<Attributes dsName="bkzjh_jd" columnName="BQBZLZE"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="11" r="3" s="4">
+<O t="DSColumn">
+<Attributes dsName="bkzjh_jd" columnName="TQSDLZE"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="12" r="3" s="4">
+<O t="DSColumn">
+<Attributes dsName="bkzjh_jd" columnName="TQJDFSLZE"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="13" r="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=L4 + M4]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="14" r="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=G4 - N4]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="3" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(G4 = 0, 0, (G4 - N4) / N4)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="1" size="72" foreground="-1555905"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="1" size="72" foreground="-13312"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="16" r="3" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SORT(G4 - D4)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting>
+<PaperSize width="72000000" height="50400000"/>
+<Margin top="986400" left="2743200" bottom="986400" right="2743200"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+<Parameter>
+<Attributes name="xmid"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="nd"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="orgcode"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="1" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14378799"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" textStyle="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="1" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14378799"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-15066598"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top style="1" color="-2171170"/>
+<Bottom style="1" color="-2171170"/>
+<Left style="1" color="-2171170"/>
+<Right style="1" color="-2171170"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-15066598"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-2171170"/>
+<Bottom style="1" color="-2171170"/>
+<Left style="1" color="-2171170"/>
+<Right style="1" color="-2171170"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.0#]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-15066598"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-2171170"/>
+<Bottom style="1" color="-2171170"/>
+<Left style="1" color="-2171170"/>
+<Right style="1" color="-2171170"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" textStyle="2" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.0000%]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-15066598"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-2171170"/>
+<Bottom style="1" color="-2171170"/>
+<Left style="1" color="-2171170"/>
+<Right style="1" color="-2171170"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.0%]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-15066598"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-2171170"/>
+<Bottom style="1" color="-2171170"/>
+<Left style="1" color="-2171170"/>
+<Right style="1" color="-2171170"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="1" size="72" foreground="-15066598"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-2171170"/>
+<Bottom style="1" color="-2171170"/>
+<Left style="1" color="-2171170"/>
+<Right style="1" color="-2171170"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="0"/>
+</WorkBook>

@@ -1,0 +1,2455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<TableDataMap>
+<TableData name="proc1_CABINETSOR" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[MAINID,,.,,ORDER_NO,,.,,BOOKINGLIST_1,,.,,BOOKINGLIST_2,,.,,BOOKINGLIST_3,,.,,BOOKINGLIST_4,,.,,BOOKINGLIST_5,,.,,BOOKINGLIST_5_1,,.,,BOOKINGLIST_6,,.,,BOOKINGLIST_7,,.,,BOOKINGLIST_8,,.,,BOOKINGLIST_9,,.,,BOOKINGLIST_10,,.,,BOOKINGLIST_11,,.,,BOOKINGLIST_12,,.,,BOOKINGLIST_13,,.,,BOOKINGLIST_14,,.,,BOOKINGLIST_15,,.,,BOOKINGLIST_16,,.,,BOOKINGLIST_17,,.,,BOOKINGLIST_18,,.,,BOOKINGLIST_19,,.,,BOOKINGLIST_20,,.,,BOOKINGLIST_21,,.,,BOOKINGLIST_22,,.,,BOOKINGLIST_23,,.,,BOOKINGLIST_24,,.,,BOOKINGLIST_25,,.,,BOOKINGLIST_26,,.,,BOOKINGLIST_27,,.,,BOOKINGLIST_28,,.,,BOOKINGLIST_29,,.,,BOOKINGLIST_30,,.,,BOOKINGLIST_31,,.,,BOOKINGLIST_32,,.,,BOOKINGLIST_33,,.,,BOOKINGLIST_34,,.,,BOOKINGLIST_35,,.,,BOOKINGLIST_36,,.,,SOC_FLAG]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[KoXDM_a"oifB4a^!eG\SS]AP_m[6gSF&,8OF>-+F9/kT-T&H(3`E"b(*'ji:D8QWWX'4V23n=
+'f,L<H!+LiGBoKM:M9KZ#q0J/b2*6Iu9^\g[-7c,S;gPFl=_m$<k&eV,$GCm+b+-L#JWP\H<
+e.+Ef&OV"Q!N<Rl!Yr[@GS%M"mYg4WWO"]A]AIU0"\%V6K\'p4#@-2`U"173Ydh2)kf(^Z#3.'
+3r2LDF\T9\p01&-G-oN[<LkBmlK(7VW*nSgi87!em5.j8?Gq':>@*Io)*!=]AtJeHis[;*rD*
+~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<Report class="com.fr.report.worksheet.WorkSheet" name="cabinet">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[2057400,876300,762000,685800,609600,685800,685800,723900,647700,381000,647700,685800,685800,457200,762000,647700,685800,723900,495300,723900,952500,1066800,38100,0,0,1257300,723900,0,1257300,2057400,838200,685800,685800,685800,647700,723900,571500,609600,381000,800100,723900,723900,381000,647700,647700,571500,609600,533400,800100,762000,990600,38100,0,38100,1295400,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[1181100,2019300,2133600,1866900,1905000,1524000,2247900,1524000,1333500,228600,114300,1485900,1676400,2171700,1676400,2247900,2247900,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" s="0">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="MAINID"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr previewContent="false" printBackground="false" printContent="false"/>
+<CellPageAttr pageBeforeRow="true"/>
+<Expand dir="0"/>
+</C>
+<C c="1" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="0" cs="4" s="0">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="ORDER_NO"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Present class="com.fr.report.cell.cellattr.BarcodePresent">
+<BarcodeAttr height="12" RCodeVersion="7" RCodeErrorCorrect="1" RcodeDrawPix="1"/>
+</Present>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="8" r="0" s="0">
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="9" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1" cs="8" s="1">
+<O>
+<![CDATA[南京快递物流有限公司]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="1" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="1" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="1" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="1" cs="6" s="2">
+<O>
+<![CDATA[放柜纸]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="2" cs="9" s="3">
+<O>
+<![CDATA[Nanjing Express Logistics Ltd.]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="2" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="2" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="2" s="4">
+<O>
+<![CDATA[TO:]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="2" cs="5" s="4">
+<O>
+<![CDATA[(柜场：请於免费仓期内放行此货柜)]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="3" cs="2" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SWITCH(V_TYPE, "BK", "船開日期", "I", "船到日期", "")]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="3" cs="2" s="5">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_1"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="4" r="3" cs="2" s="5">
+<O>
+<![CDATA[免费仓期至]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="3" cs="3" s="5">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_2"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="9" r="3" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="3" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="3" cs="6" s="6">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_28"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="0" r="4" cs="2" s="5">
+<O>
+<![CDATA[工程日期]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="4" cs="2" s="5">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_3"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="4" r="4" cs="3" s="5">
+<O>
+<![CDATA[免费吉柜期于取柜日起计共]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="4" s="5">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_4"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="8" r="4" s="5">
+<O>
+<![CDATA[天]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="4" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="4" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="4" cs="6" rs="2" s="8">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_29"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="0" r="5" cs="9" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SWITCH(V_TYPE, "BK", "发货人", "I", "收货人", "")]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="5" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="5" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="6" cs="9" rs="4" s="10">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_5"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="9" r="6" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="6" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="6" cs="6" s="6">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_30"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="9" r="7" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="7" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="7" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="7" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="7" s="0">
+<PrivilegeControl/>
+</C>
+<C c="14" r="7" s="0">
+<PrivilegeControl/>
+</C>
+<C c="15" r="7" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="7" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="8" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="8" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="8" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="8" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="8" s="0">
+<PrivilegeControl/>
+</C>
+<C c="14" r="8" s="0">
+<PrivilegeControl/>
+</C>
+<C c="15" r="8" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="8" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="9" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="9" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="9" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="9" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="9" s="0">
+<PrivilegeControl/>
+</C>
+<C c="14" r="9" s="0">
+<PrivilegeControl/>
+</C>
+<C c="15" r="9" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="9" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="10" cs="2" s="11">
+<O>
+<![CDATA[TEL：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="10" cs="2" s="12">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_6"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="4" r="10" s="12">
+<O>
+<![CDATA[FAX：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="10" cs="4" s="13">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_7"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="9" r="10" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="10" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="10" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="10" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="10" s="0">
+<PrivilegeControl/>
+</C>
+<C c="14" r="10" s="0">
+<PrivilegeControl/>
+</C>
+<C c="15" r="10" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="10" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="11" cs="9" s="9">
+<O>
+<![CDATA[柜主：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="11" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="11" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="11" s="6">
+<O>
+<![CDATA[FOR:]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="11" cs="5" s="6">
+<O>
+<![CDATA[Nanjing Express Logistics Ltd.]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand/>
+</C>
+<C c="0" r="12" cs="9" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_8"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="9" r="12" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="12" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="12" s="4">
+<O>
+<![CDATA[DATE:]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="12" cs="5" s="4">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_36"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="0" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="13" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="14" cs="2" s="9">
+<O>
+<![CDATA[船名]]></O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="2" r="14" cs="2" s="9">
+<O>
+<![CDATA[航次]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="14" cs="2" s="9">
+<O>
+<![CDATA[起运港]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="14" cs="2" s="9">
+<O>
+<![CDATA[到达港]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="14" cs="4" s="9">
+<O>
+<![CDATA[起运日期]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="14" cs="2" s="9">
+<O>
+<![CDATA[提单号]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="14" cs="3" s="9">
+<O>
+<![CDATA[船公司]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="15" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_9"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="2" r="15" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_10"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="4" r="15" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_11"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="6" r="15" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_12"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="8" r="15" cs="4" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_13"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="12" r="15" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_14"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="14" r="15" cs="3" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_15"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="0" r="16" cs="2" s="9">
+<O>
+<![CDATA[货柜号码]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="2" r="16" cs="2" s="9">
+<O>
+<![CDATA[封条号码]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="4" r="16" cs="2" s="9">
+<O>
+<![CDATA[柜型尺码]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="6" r="16" cs="2" s="9">
+<O>
+<![CDATA[吉/重]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="8" r="16" cs="2" s="9">
+<O>
+<![CDATA[毛重]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="10" r="16" cs="3" s="9">
+<O>
+<![CDATA[车头号码]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="13" r="16" cs="2" s="9">
+<O>
+<![CDATA[车架号码]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="15" r="16" cs="2" s="9">
+<O>
+<![CDATA[条款]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="17" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_16"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="2" r="17" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_17"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="4" r="17" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_18"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="6" r="17" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_19"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="8" r="17" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_20"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="10" r="17" cs="3" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_21"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="13" r="17" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_22"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="15" r="17" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_23"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="0" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="18" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="19" cs="3" rs="6" s="15">
+<O>
+<![CDATA[货柜放行时，货柜及封条完整无缺（除非附有破损报告）]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="19" cs="3" rs="6" s="15">
+<O>
+<![CDATA[收到货柜时，货柜及封条完整无缺（除非附有破损报告）]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="19" cs="10" s="4">
+<O>
+<![CDATA[备注：请提前12小时，联络柜场取柜]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="19" s="16">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="20" cs="5" s="6">
+<O>
+<![CDATA[过期仓租：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="20" cs="5" s="6">
+<O>
+<![CDATA[NJ$200/20\' NJ$400/40\' 每天]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="20" s="17">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="21" cs="5" s="6">
+<O>
+<![CDATA[过期柜租：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="21" cs="5" s="6">
+<O>
+<![CDATA[NJ$200/20\' NJ$400/40\' 每天]]></O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="16" r="21" s="17">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="22" cs="10" rs="3" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="22" s="17">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="23" s="17">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="24" s="17">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="25" cs="3" s="5">
+<O>
+<![CDATA[柜场代表]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="25" cs="3" s="5">
+<O>
+<![CDATA[拖车代表]]></O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="25" cs="10" s="12">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_27"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="16" r="25" s="18">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="26" cs="2" s="0">
+<O>
+<![CDATA[第一联：]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="2" r="26" cs="3" s="6">
+<O>
+<![CDATA[码头放柜联]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="5" r="26" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="6" r="26" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="7" r="26" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="8" r="26" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="9" r="26" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="10" r="26" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="11" r="26" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="12" r="26" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="13" r="26" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="14" r="26" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="15" r="26" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="16" r="26" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="27" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="28" cs="17" s="19">
+<O>
+<![CDATA[--------------------------------------------------------------------------------------------------------------]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="29" s="0">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="MAINID"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr previewContent="false" printBackground="false" printContent="false"/>
+<CellPageAttr/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="1" r="29" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="2" r="29" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="3" r="29" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="4" r="29" cs="4" s="0">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="ORDER_NO"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<Present class="com.fr.report.cell.cellattr.BarcodePresent">
+<BarcodeAttr height="12" RCodeVersion="7" RCodeErrorCorrect="1" RcodeDrawPix="1"/>
+</Present>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="8" r="29" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand dir="0"/>
+</C>
+<C c="9" r="29" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="10" r="29" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="11" r="29" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="12" r="29" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="13" r="29" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="14" r="29" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="15" r="29" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="29" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="30" cs="8" s="20">
+<O>
+<![CDATA[南京快递有限公司]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="30" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="30" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="30" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="30" cs="6" s="21">
+<O>
+<![CDATA[放柜纸]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="31" cs="9" s="22">
+<O>
+<![CDATA[CHU KONG TRANSHIPMENT & LOGISTIC CO.,LTD]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="31" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="31" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="31" s="4">
+<O>
+<![CDATA[TO:]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="31" cs="5" s="4">
+<O>
+<![CDATA[(柜场：请于免费仓期内放行此货柜)]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="32" cs="2" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SWITCH(V_TYPE, "BK", "船開日期", "I", "船到日期", "")]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="32" cs="2" s="5">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_1"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="4" r="32" cs="2" s="5">
+<O>
+<![CDATA[免費仓期至]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="32" cs="3" s="5">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_2"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="9" r="32" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="32" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="32" cs="6" s="6">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_32"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="0" r="33" cs="2" s="5">
+<O>
+<![CDATA[工程日期]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="33" cs="2" s="5">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_3"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="4" r="33" cs="3" s="5">
+<O>
+<![CDATA[免費吉柜期于取柜日起计共]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="33" s="5">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_4"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="8" r="33" s="5">
+<O>
+<![CDATA[天]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="33" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="33" cs="6" rs="2" s="8">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_33"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="0" r="34" cs="9" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SWITCH(V_TYPE, "BK", "发货人", "I", "收货人", "")]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="35" cs="9" rs="4" s="10">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_5_1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="9" r="35" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="35" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="35" cs="6" s="6">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_34"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="9" r="36" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="36" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="36" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="36" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="36" cs="2" rs="4" s="23">
+<O t="DSColumn">
+<Attributes dsName="session_info" columnName="OFFICE_SIGN_UP_URL"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[IF(LEN(OFFICE_SIGN_UP_URL)=0,'',TOIMAGE($$$,false))]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="15" r="36" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="36" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="37" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="37" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="37" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="37" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="37" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="37" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="38" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="38" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="38" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="38" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="38" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="38" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="39" cs="2" s="11">
+<O>
+<![CDATA[TEL：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="39" cs="2" s="12">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_6"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="4" r="39" s="12">
+<O>
+<![CDATA[FAX：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="39" cs="4" s="13">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_7"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="9" r="39" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="39" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="39" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="39" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="39" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="39" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="40" cs="9" s="9">
+<O>
+<![CDATA[柜主：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="40" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="40" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="40" s="6">
+<O>
+<![CDATA[FOR:]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="40" cs="5" s="6">
+<O>
+<![CDATA[CHU KONG TRANSHIPMENT & LOGISTIC CO.,LTD]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand/>
+</C>
+<C c="0" r="41" cs="9" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_8"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="9" r="41" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="41" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="41" s="4">
+<O>
+<![CDATA[DATE:]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="41" cs="5" s="4">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_36"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="0" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="42" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="43" cs="2" s="9">
+<O>
+<![CDATA[船名]]></O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="2" r="43" cs="2" s="9">
+<O>
+<![CDATA[航次]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="43" cs="2" s="9">
+<O>
+<![CDATA[起运港]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="43" cs="2" s="9">
+<O>
+<![CDATA[到达港]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="43" cs="4" s="9">
+<O>
+<![CDATA[起运日期]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="43" cs="2" s="9">
+<O>
+<![CDATA[提单号]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="43" cs="3" s="9">
+<O>
+<![CDATA[船公司]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="44" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_9"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="2" r="44" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_10"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="4" r="44" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_11"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="6" r="44" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_12"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="8" r="44" cs="4" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_13"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="12" r="44" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_14"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="14" r="44" cs="3" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_15"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="0" r="45" cs="2" s="9">
+<O>
+<![CDATA[货柜号码]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="2" r="45" cs="2" s="9">
+<O>
+<![CDATA[封条号码]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="4" r="45" cs="2" s="9">
+<O>
+<![CDATA[柜型尺码]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="6" r="45" cs="2" s="9">
+<O>
+<![CDATA[吉/重]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="8" r="45" cs="2" s="9">
+<O>
+<![CDATA[毛重]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="10" r="45" cs="3" s="9">
+<O>
+<![CDATA[车头号码]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="13" r="45" cs="2" s="9">
+<O>
+<![CDATA[车架号码]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="15" r="45" cs="2" s="9">
+<O>
+<![CDATA[条款]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="46" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_16"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="2" r="46" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_17"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[IF($V_TYPE='I','',$$$)]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="4" r="46" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_18"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="6" r="46" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_19"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="8" r="46" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_20"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="10" r="46" cs="3" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_21"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="13" r="46" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_22"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="15" r="46" cs="2" s="14">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_23"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand leftParentDefault="false" left="A1"/>
+</C>
+<C c="0" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="47" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="48" cs="3" rs="6" s="15">
+<O>
+<![CDATA[货柜放行时，货柜及封条完整无缺（除非附有破损报告）]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="48" cs="3" rs="6" s="15">
+<O>
+<![CDATA[收到货柜时，货柜及封条完整无缺（除非附有破损报告）]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="48" cs="11" s="9">
+<O>
+<![CDATA[备注：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="49" cs="5" s="7">
+<O>
+<![CDATA[过期仓租：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="49" cs="6" s="24">
+<O>
+<![CDATA[HK$200/20\' HK$400/40\' 每天]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="50" cs="5" s="7">
+<O>
+<![CDATA[过期柜租：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="50" cs="6" s="24">
+<O>
+<![CDATA[HK$200/20\' HK$400/40\' 每天]]></O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="51" cs="11" s="25">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="52" cs="11" s="25">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="53" cs="11" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="54" cs="3" s="5">
+<O>
+<![CDATA[柜场代表]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="54" cs="3" s="5">
+<O>
+<![CDATA[拖车代表]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="54" cs="10" s="12">
+<O t="DSColumn">
+<Attributes dsName="proc1_CABINETSOR" columnName="BOOKINGLIST_27"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A1"/>
+</C>
+<C c="16" r="54" s="13">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="55" cs="2" s="0">
+<O>
+<![CDATA[第二联：]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="2" r="55" cs="3" s="6">
+<O>
+<![CDATA[码头收集联]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="5" r="55" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="6" r="55" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="7" r="55" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="8" r="55" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="9" r="55" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="10" r="55" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="11" r="55" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="12" r="55" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="13" r="55" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="14" r="55" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="15" r="55" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="16" r="55" s="0">
+<PrivilegeControl/>
+<CellPageAttr/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting>
+<Margin top="986400" left="986400" bottom="986400" right="986400"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="false" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+<Parameter>
+<Attributes name="V_DAY"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="1" size="112"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="88"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="96"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Left style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" vertical_alignment="1" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" vertical_alignment="1" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1"/>
+<Left style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" vertical_alignment="1" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Right style="1"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="1" size="112"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="88"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="96"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="2">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="0"/>
+</WorkBook>

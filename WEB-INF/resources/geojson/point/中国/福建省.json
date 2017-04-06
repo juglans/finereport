@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "宁德市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.674072265625,
+          27.117812842321225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "南平市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.10302734374999,
+          27.254629577800088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "福州市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.42138671875,
+          26.007424156802212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "三明市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.57568359374999,
+          26.046912801683984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "龙岩市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.78466796875,
+          25.24469595130604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "漳州市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.454833984375,
+          24.23694700391751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "莆田市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.1741943359375,
+          25.279470734081812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "泉州市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3172607421875,
+          25.13533901613099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "厦门市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.11950683593749,
+          24.647017162630366
+        ]
+      }
+    }
+  ]
+}

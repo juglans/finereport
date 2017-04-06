@@ -1,0 +1,21 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"普洱市"},"geometry": {"type": "Point","coordinates": [100.7446,23.4229]}},
+{"type": "Feature","properties": {"name":"红河哈尼族彝族自治州"},"geometry": {"type": "Point","coordinates": [103.0408,23.6041]}},
+{"type": "Feature","properties": {"name":"文山壮族苗族自治州"},"geometry": {"type": "Point","coordinates": [104.8865,23.5712]}},
+{"type": "Feature","properties": {"name":"曲靖市"},"geometry": {"type": "Point","coordinates": [103.9417,25.7025]}},
+{"type": "Feature","properties": {"name":"楚雄彝族自治州"},"geometry": {"type": "Point","coordinates": [101.6016,25.3619]}},
+{"type": "Feature","properties": {"name":"大理白族自治州"},"geometry": {"type": "Point","coordinates": [99.9536,25.6805]}},
+{"type": "Feature","properties": {"name":"临沧市"},"geometry": {"type": "Point","coordinates": [99.613,24.0546]}},
+{"type": "Feature","properties": {"name":"迪庆藏族自治州"},"geometry": {"type": "Point","coordinates":[99.4592,27.9327]}},
+{"type": "Feature","properties": {"name":"昭通市"},"geometry": {"type": "Point","coordinates":[104.0955,27.6031]}},
+{"type": "Feature","properties": {"name":"昆明市"},"geometry": {"type": "Point","coordinates":[102.9199,25.4663]}},
+{"type": "Feature","properties": {"name":"丽江市"},"geometry": {"type": "Point","coordinates":[100.448,26.955]}},
+{"type": "Feature","properties": {"name":"西双版纳傣族自治州"},"geometry": {"type": "Point","coordinates":[100.8984,21.8628]}},
+{"type": "Feature","properties": {"name":"保山市"},"geometry": {"type": "Point","coordinates":[99.0637,24.9884]}},
+{"type": "Feature","properties": {"name":"玉溪市"},"geometry": {"type": "Point","coordinates":[101.9312,23.8898]}},
+{"type": "Feature","properties": {"name":"怒江傈僳族自治州"},"geometry": {"type": "Point","coordinates":[99.1516,26.5594]}},
+{"type": "Feature","properties": {"name":"德宏傣族景颇族自治州"},"geometry": {"type": "Point","coordinates":[98.1299,24.5874]}}
+]
+}

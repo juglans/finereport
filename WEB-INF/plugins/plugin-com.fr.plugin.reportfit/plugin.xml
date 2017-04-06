@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugin>
+    <id>com.fr.plugin.reportfit</id>
+    <name><![CDATA[报表自适应插件]]></name>
+    <active>yes</active>
+    <hidden>no</hidden>
+    <version>3.9.7</version>
+    <env-version>8.0</env-version>
+    <jartime>2017-04-01</jartime>
+    <vendor>finereport</vendor>
+    <description><![CDATA[安装后, 报表在web端将自适应屏幕大小, 设计器中可以自由配置模板以及全局设置。<a href="http://bbs.finereport.com/thread-69111-1-1.html">具体请查看这里。</a>]]></description>
+    <change-notes><![CDATA[
+    <p>[2015-09-21]新增移动端报表自适应的设置选项</p>
+    <p>[2015-11-02]修改内置接口的调用</p>
+    <p>[2016-01-28]规范接口调用</p>
+	<p>[2016-03-20]加入字体自适应</p>
+	<p>[2016-05-11]删除移动端自适应</p>
+	<p>[2016-05-30]API变动, 横向自适应预留滚动条</p>
+	<p>[2016-06-15]修改了界面和交互效果，加入全局设置</p>
+	<p>[2016-07-19]填报预览方式支持自适应</p>
+	<p>[2016-07-25]远程设计支持全局设置</p>
+	<p>[2016-08-04]修复参数面板收起正文下方留白的bug</p>
+	<p>[2016-09-09]修复firefox下切换tab表单重新加载的bug</p>
+	<p>[2016-09-19]将列宽最小宽度比例改成40%</p>
+	<p>[2016-09-28]修复设置了下边距之后二分不等距问题</p>
+	<p>[2016-10-09]修复bug</p>
+	<p>[2016-10-19]修复插件和表单绝对布局冲突的问题</p>
+	<p>[2016-10-19]修复设置了组件间隔之后二分不等距的问题</p>
+	<p>[2016-10-27]修复了表单类型转换出现的报错问题</p>
+	<p>[2016-11-15]英文国际化修复</p>
+	<p>[2016-12-09]修复cpt选择不自适应的bug</p>
+	<p>[2016-12-09]开启自适应后强制居左</p>
+	<p>[2016-12-09]多sheet，填报双向自适应，有滚动条</p>
+	<p>[2017-01-24]改善性能</p>
+	<p>[2017-03-31]修复绝对布局中适应区域自适应显示问题</p>
+	<p>[2017-04-01]修复了自适应时填报冻结显示异常的问题</p>
+    ]]></change-notes>
+    <extra-core>
+        <WebService class="com.fr.plugin.reportfit.web.FitService"/>
+        <LocaleFinder class="com.fr.plugin.reportfit.locale.FitLocaleFinder"/>
+        <ReportFitProcessor class="com.fr.plugin.reportfit.ReportFitImpl"/>
+        <XMLFileManagerProvider class="com.fr.plugin.reportfit.ReportFitXMLFileManager"/>
+    </extra-core>
+    <extra-report>
+        <JavaScriptFileHandler class="com.fr.plugin.reportfit.web.JavaScriptFile"/>
+    </extra-report>
+    <extra-designer>
+        <MenuHandler class="com.fr.plugin.reportfit.designer.menupane.FitMenuHandler"/>
+        <PropertyEditor class="com.fr.plugin.reportfit.designer.propertypane.BrowserFitPropertyEditor"/>
+    </extra-designer>
+</plugin>

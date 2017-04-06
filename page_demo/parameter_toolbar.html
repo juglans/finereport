@@ -1,0 +1,57 @@
+<html>
+  <head>  
+  <title>FineReport Demo</title>  
+  <meta http-equiv="Content-Type" content="text/html; charset=GBK" />  
+  <script type="text/javascript">
+    //cjkEncode方法的实现代码，放在网页head中或者用户自己的js文件中
+    function cjkEncode(text) {                                                                          
+      if (text == null) {       
+        return "";       
+      }       
+      var newText = "";       
+      for (var i = 0; i < text.length; i++) {       
+        var code = text.charCodeAt (i);        
+        if (code >= 128 || code == 91 || code == 93) {  //91 is "[", 93 is "]".       
+          newText += "[" + code.toString(16) + "]";       
+        } else {       
+          newText += text.charAt(i);       
+        }       
+      }       
+      return newText;       
+    }   
+
+    function autoSubmit() {
+	  var num = document.getElementById('num').value; //获取文本控件的值
+	  var row = document.getElementById('row').value; //获取下拉框控件的值
+	  //拼接出最终报表访问路径，并对完整的路径进行编码转换，防止乱码问题
+	  var reportURL = cjkEncode("/WebReport/ReportServer?reportlet=/demo/parameter/number1.cpt&para=" + num + "&row=" + row);
+	  document.paraForm.action = reportURL; //通过form的name获取表单，并将报表访问路径赋给表单的action
+	  document.paraForm.submit(); //触发表单提交事件
+    }
+  </script>
+  </head>  
+  <body>
+ 
+	<fieldset>
+    <legend>查询表单：</legend>
+	<form name="paraForm" method="post" target="reportFrame">
+		最小库存量：<input type="text" name="num" id="num" value="1"/>
+		每页显示行数：<select name="row" id="row">  
+		<option value="10" select>10  
+		<option value="20">20
+		<option value="30">30
+		<input type="button" name="show" value="查询" onclick="autoSubmit()"/>
+    </form> <!-- 自定义工具栏-->  
+    <div id="toolbar">       
+    <button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoFirstPage()">首页</button>  
+    <button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoPreviousPage()">上一页</button>       
+    <button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoNextPage()">下一页</button>       
+    <button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoLastPage()">末页</button>              
+    <button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.flashPrint()">客户端FLASH打印</button>          
+    <button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.exportReportToExcel('page')">导出[Excel](分页)</button>  
+    <button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.exportReportToWord()">导出[Word]</button>              
+    </div>  
+	</fieldset>
+    <iframe id="reportFrame" name="reportFrame" width="100%" height="100%" ></iframe>  
+  </body>  
+</html>

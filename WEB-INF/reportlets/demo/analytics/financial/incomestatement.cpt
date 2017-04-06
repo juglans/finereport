@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20140501" releaseVersion="7.1.0">
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1485900,1257300,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[10287000,5524500,9144000,8915400,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" cs="4" s="0">
+<O>
+<![CDATA[损益表]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1" s="1">
+<O>
+<![CDATA[项目]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" s="1">
+<O>
+<![CDATA[行次]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="1" s="1">
+<O>
+<![CDATA[上期累计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="1" s="1">
+<O>
+<![CDATA[本期累计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="2" s="2">
+<O>
+<![CDATA[一、营业总收入]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="2" s="3">
+<O t="I">
+<![CDATA[1]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="2" s="2">
+<O>
+<![CDATA[148,525,268,999.44]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="2" s="2">
+<O>
+<![CDATA[202,413,451,160.48]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="3" s="4">
+<O>
+<![CDATA[营业收入]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="3" s="5">
+<O t="I">
+<![CDATA[2]]></O>
+<PrivilegeControl/>
+</C>
+<C c="2" r="3" s="5">
+<O t="BigDecimal">
+<![CDATA[148326363909.94]]></O>
+<PrivilegeControl/>
+</C>
+<C c="3" r="3" s="5">
+<O t="BigDecimal">
+<![CDATA[202149152364.77]]></O>
+<PrivilegeControl/>
+</C>
+<C c="0" r="4" s="2">
+<O>
+<![CDATA[二、营业总成本]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="4" s="3">
+<O t="I">
+<![CDATA[3]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="4" s="2">
+<O>
+<![CDATA[142,117,550,906.22]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="4" s="2">
+<O>
+<![CDATA[186,586,431,218.13]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="5" s="4">
+<O>
+<![CDATA[营业成本]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="5" s="5">
+<O t="I">
+<![CDATA[4]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="5" s="5">
+<O>
+<![CDATA[ 134,332,458,305.02]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="5" s="5">
+<O>
+<![CDATA[ 177,816,743,212.39]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="6" s="4">
+<O>
+<![CDATA[营业税金及附加]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="6" s="5">
+<O t="I">
+<![CDATA[5]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="6" s="5">
+<O>
+<![CDATA[ 569,634,292.13]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="6" s="5">
+<O>
+<![CDATA[ 525,055,202.74]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="7" s="4">
+<O>
+<![CDATA[销售费用]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="7" s="5">
+<O t="I">
+<![CDATA[6]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="7" s="5">
+<O>
+<![CDATA[ 1,458,740,948.42]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="7" s="5">
+<O>
+<![CDATA[ 1,784,620,103.36]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="8" s="4">
+<O>
+<![CDATA[管理费用]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="8" s="5">
+<O t="I">
+<![CDATA[7]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="8" s="5">
+<O>
+<![CDATA[ 4,592,115,090.69]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="8" s="5">
+<O>
+<![CDATA[ 5,304,370,387.55]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="9" s="4">
+<O>
+<![CDATA[财务费用]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="9" s="5">
+<O t="I">
+<![CDATA[8]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="9" s="5">
+<O>
+<![CDATA[ 1,675,503,461.87]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="9" s="5">
+<O>
+<![CDATA[ 806,574,502.66]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="10" s="4">
+<O>
+<![CDATA[资产减值损失]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="10" s="5">
+<O t="I">
+<![CDATA[9]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="10" s="5">
+<O>
+<![CDATA[ -635,104,394.76]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="10" s="5">
+<O>
+<![CDATA[ 187,685,600.66]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="11" s="2">
+<O>
+<![CDATA[三、其他经营收益]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="11" s="3">
+<O t="I">
+<![CDATA[10]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="11" s="2">
+<O>
+<![CDATA[ 316,070,757]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="11" s="2">
+<O>
+<![CDATA[ -14,870,783.07]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="12" s="4">
+<O>
+<![CDATA[公允价值变动净收益]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="12" s="5">
+<O t="I">
+<![CDATA[11]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="12" s="5">
+<O>
+<![CDATA[ -107,403,713.41]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="12" s="5">
+<O>
+<![CDATA[ 12,063,575.63]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="13" s="4">
+<O>
+<![CDATA[投资净收益]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="13" s="5">
+<O t="I">
+<![CDATA[12]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="13" s="5">
+<O>
+<![CDATA[ 953,451,861.75]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="13" s="5">
+<O>
+<![CDATA[ 826,681,541.14]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="14" s="4">
+<O>
+<![CDATA[联营、合营企业投资收益]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="14" s="5">
+<O t="I">
+<![CDATA[13]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="14" s="5">
+<O>
+<![CDATA[ --]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="14" s="5">
+<O>
+<![CDATA[ --]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="15" s="4">
+<O>
+<![CDATA[汇兑净收益]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="15" s="5">
+<O t="I">
+<![CDATA[14]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="15" s="5">
+<O>
+<![CDATA[ --]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="15" s="5">
+<O>
+<![CDATA[ --]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="16" s="2">
+<O>
+<![CDATA[四、营业利润]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="16" s="3">
+<O t="I">
+<![CDATA[15]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="16" s="2">
+<O>
+<![CDATA[ 7,253,766,241.56]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="16" s="2">
+<O>
+<![CDATA[ 16,665,765,059.12]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="17" s="4">
+<O>
+<![CDATA[营业外收入]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="17" s="5">
+<O t="I">
+<![CDATA[16]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="17" s="5">
+<O>
+<![CDATA[ 495,599,260.18]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="17" s="5">
+<O>
+<![CDATA[ 589,839,984.17]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="18" s="4">
+<O>
+<![CDATA[营业外支出]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="18" s="5">
+<O t="I">
+<![CDATA[17]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="18" s="5">
+<O>
+<![CDATA[ 454,810,105.87]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="18" s="5">
+<O>
+<![CDATA[ 179,372,012.82]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="19" s="4">
+<O>
+<![CDATA[非流动资产处置净损失]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="19" s="5">
+<O t="I">
+<![CDATA[18]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="19" s="5">
+<O>
+<![CDATA[ 342,022,037.9]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="19" s="5">
+<O>
+<![CDATA[ 133,386,264.64]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="20" s="2">
+<O>
+<![CDATA[五、利润总额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="20" s="3">
+<O t="I">
+<![CDATA[19]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="20" s="2">
+<O>
+<![CDATA[ 7,294,555,395.87]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="20" s="2">
+<O>
+<![CDATA[ 17,076,233,030.47]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="21" s="4">
+<O>
+<![CDATA[所得税]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="21" s="5">
+<O t="I">
+<![CDATA[20]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="21" s="5">
+<O>
+<![CDATA[ 1,199,353,677.79]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="21" s="5">
+<O>
+<![CDATA[ 3,715,345,425.92]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="22" s="4">
+<O>
+<![CDATA[未确认的投资损失]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="22" s="5">
+<O t="I">
+<![CDATA[21]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="22" s="5">
+<O>
+<![CDATA[ --]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="22" s="5">
+<O>
+<![CDATA[ --]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="23" s="2">
+<O>
+<![CDATA[六、净利润]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="23" s="3">
+<O t="I">
+<![CDATA[22]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="23" s="2">
+<O>
+<![CDATA[ 6,095,201,718.08]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="23" s="2">
+<O>
+<![CDATA[ 13,360,887,604.55]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="24" s="4">
+<O>
+<![CDATA[少数股东损益]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="24" s="5">
+<O t="I">
+<![CDATA[23]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="24" s="5">
+<O>
+<![CDATA[ 278,974,324.98]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="24" s="5">
+<O>
+<![CDATA[ 471,804,285.43]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="25" s="6">
+<O>
+<![CDATA[归属于母公司股东的净利润]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="25" s="7">
+<O t="I">
+<![CDATA[24]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="25" s="7">
+<O>
+<![CDATA[ 5,816,227,393.1]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="25" s="7">
+<O>
+<![CDATA[ 12,889,083,319.12]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting>
+<PaperSize width="40320000" height="42768000"/>
+<Margin top="432000" left="720000" bottom="432000" right="1152000"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="0" paddingRight="0">
+<FRFont name="微软雅黑" style="0" size="128"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88" foreground="-1"/>
+<Background name="ColorBackground" color="-13719584"/>
+<Border>
+<Bottom style="14" color="-1579033"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="80" foreground="-13421773"/>
+<Background name="ColorBackground" color="-1182733"/>
+<Border>
+<Top style="14" color="-1579033"/>
+<Bottom style="14" color="-1579033"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="80" foreground="-13421773"/>
+<Background name="ColorBackground" color="-1182733"/>
+<Border>
+<Top style="14" color="-1579033"/>
+<Bottom style="14" color="-1579033"/>
+</Border>
+</Style>
+<Style imageLayout="1" paddingLeft="54" paddingRight="0">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="14" color="-1579033"/>
+<Bottom style="14" color="-1579033"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="0" paddingRight="0">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="14" color="-1579033"/>
+<Bottom style="14" color="-1579033"/>
+</Border>
+</Style>
+<Style imageLayout="1" paddingLeft="54" paddingRight="0">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="14" color="-1579033"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="0" paddingRight="0">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="14" color="-1579033"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="HBA"/>
+<PreviewType PreviewType="0"/>
+</WorkBook>

@@ -1,0 +1,18 @@
+{"type": "FeatureCollection",
+"center":[116.0156,27.29],
+
+"features":
+[
+{"type": "Feature","properties": {"name":"赣州市"},"geometry": {"type": "Point","coordinates": [115.2795,25.8124]}},
+{"type": "Feature","properties": {"name":"吉安市"},"geometry": {"type": "Point","coordinates": [114.884,26.9659]}},
+{"type": "Feature","properties": {"name":"上饶市"},"geometry": {"type": "Point","coordinates": [117.8613,28.7292]}},
+{"type": "Feature","properties": {"name":"九江市"},"geometry": {"type": "Point","coordinates": [115.4224,29.3774]}},
+{"type": "Feature","properties": {"name":"抚州市"},"geometry": {"type": "Point","coordinates": [116.4441,27.4933]}},
+{"type": "Feature","properties": {"name":"宜春市"},"geometry": {"type": "Point","coordinates": [115.0159,28.3228]}},
+{"type": "Feature","properties": {"name":"南昌市"},"geometry": {"type": "Point","coordinates": [116.0046,28.6633]}},
+{"type": "Feature","properties": {"name":"景德镇市"},"geometry": {"type": "Point","coordinates": [117.334,29.3225]}},
+{"type": "Feature","properties": {"name":"萍乡市"},"geometry": {"type": "Point","coordinates": [113.9282,27.4823]}},
+{"type": "Feature","properties": {"name":"鹰潭市"},"geometry": {"type": "Point","coordinates": [117.0813,28.2349]}},
+{"type": "Feature","properties": {"name":"新余市"},"geometry": {"type": "Point","coordinates": [114.95,27.8174]}}
+]
+}

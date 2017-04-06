@@ -1,0 +1,22 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"烟台市"},"geometry": {"type": "Point","coordinates": [120.7397,37.5128]}},
+{"type": "Feature","properties": {"name":"临沂市"},"geometry": {"type": "Point","coordinates": [118.3118,35.2936]}},
+{"type": "Feature","properties": {"name":"潍坊市"},"geometry": {"type": "Point","coordinates": [119.0918,36.524]}},
+{"type": "Feature","properties": {"name":"青岛市"},"geometry": {"type": "Point","coordinates": [120.4651,36.3373]}},
+{"type": "Feature","properties": {"name":"菏泽市"},"geometry": {"type": "Point","coordinates": [115.6201,35.2057]}},
+{"type": "Feature","properties": {"name":"济宁市"},"geometry": {"type": "Point","coordinates": [116.8286,35.3375]}},
+{"type": "Feature","properties": {"name":"德州市"},"geometry": {"type": "Point","coordinates": [116.6858,37.2107]}},
+{"type": "Feature","properties": {"name":"滨州市"},"geometry": {"type": "Point","coordinates": [117.8174,37.4963]}},
+{"type": "Feature","properties": {"name":"聊城市"},"geometry": {"type": "Point","coordinates": [115.9167,36.4032]}},
+{"type": "Feature","properties": {"name":"东营市"},"geometry": {"type": "Point","coordinates": [118.7073,37.5513]}},
+{"type": "Feature","properties": {"name":"济南市"},"geometry": {"type": "Point","coordinates": [117.1582,36.8701]}},
+{"type": "Feature","properties": {"name":"泰安市"},"geometry": {"type": "Point","coordinates": [117.0264,36.0516]}},
+{"type": "Feature","properties": {"name":"威海市"},"geometry": {"type": "Point","coordinates": [121.9482,37.1393]}},
+{"type": "Feature","properties": {"name":"日照市"},"geometry": {"type": "Point","coordinates": [119.2786,35.5023]}},
+{"type": "Feature","properties": {"name":"淄博市"},"geometry": {"type": "Point","coordinates": [118.0371,36.6064]}},
+{"type": "Feature","properties": {"name":"枣庄市"},"geometry": {"type": "Point","coordinates": [117.323,34.8926]}},
+{"type": "Feature","properties": {"name":"莱芜市"},"geometry": {"type": "Point","coordinates": [117.6526,36.2714]}}
+]
+}

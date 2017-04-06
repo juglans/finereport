@@ -1,0 +1,4502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<TableDataMap>
+<TableData name="abcz" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[ID,,.,,FG_13,,.,,SKU_13,,.,,TOT_SALE_AMT_13,,.,,TOT_SALE_AMT_团购_13,,.,,TOT_SALE_AMT_散客_13,,.,,PROFIT_AMT_13,,.,,BUY_AMT_13,,.,,RTN_AMT_13,,.,,STK_AMT_13,,.,,FG_14,,.,,SKU_14,,.,,TOT_SALE_AMT_13_1,,.,,TOT_SALE_AMT_14,,.,,TOT_SALE_AMT_团购_13_1,,.,,TOT_SALE_AMT_团购_14,,.,,TOT_SALE_AMT_散客_13_1,,.,,TOT_SALE_AMT_散客_14,,.,,PROFIT_AMT_13_1,,.,,PROFIT_AMT_14,,.,,BUY_AMT_13_1,,.,,BUY_AMT_14,,.,,RTN_AMT_13_1,,.,,RTN_AMT_14,,.,,STK_AMT_13_1,,.,,STK_AMT_14,,.,,DY]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.math.BigDecimal,java.lang.String,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.lang.String,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[X]AIZ'(,6B&-RU'kdJD`a!Y$u*T-+92LD3R(!^r$$`+_b5DLm;of]A,[M;>;Yb^&E1fhQpkON&
+CRIIXhCnlK6Q"deYrEVka5^V\l2<j:4<LFu0*c1/^.,J[N=k@"]A\1-@P+H>C<UNZV,`#Z'To
+XV?ie6lp?bqnf_Ck)8kp1N+_O"q-BA9N;iaf]A)2:$k5%HQANWDP-S3!>WM'-QS(RM)iBBYSd
+DotZ_8rfJm*eB!rBH*GRI>U>]AD_<\rou"T_-\4qEFMYaFXhB-Cjt<<NfjTo(ZDLn&tgQX[u\
+JpYA\6U`m`>^lL#Y>7c*icZVE"#cgqF?QlGGn#IaFucp`fFmmI'=c"ln"Js=u8;Y*n+c$`aY
+*m'([TUmnad"Hg\?G(YDCgGUGi.U.s-7kgN!9;h0*>k9^Mn%o((N.@j-,mK3REO9eYU;M6Xb
+;ul_2Zs[[7^g7pT1l"gLg6=*0[S4bIOuo-]AaHrP]As6\7U^eJ</E=k_Ga.W82o-&Qk[/0LhM0
+4c)-b+hT>&a*@8cTFsBOA83?Mp8T@F5QV9LJLcl->euKoK++<K$,^#oq+5%sUqI,jq_k"0e2
+0/s=B]AjqOi79u0=!b+]AAYIB37l)pNnI,=Ul%q;[@22@reh10W&8D<bJi-MPZC"*0';b;\gBV
+_2f9hUCoL=-o(gCu@Se@GX^Upt]AhZ,>^N>W46id:iE'Kd,SF?3&Z1N9rCK^af1e4#)qDQ.1'
+@FK'%1]AR;Ni7`aFWH@%_15HnN5t(>jjED8`6s6Ak/<+(nSl8:qkZWNo+RE>-g(^5<Qrbu7!_
+5#dfE5Sk2mGe[7[tdX(?3/j<WjCBW'hfm>To=@B;J;WWLgW<h-=.`1?0>CL[=ZIL=N""6j)E
+'"5-8XYncL`=hI.\"n16k0Kb.(<ioIDlC#saOl\3m=j&e+Hp<mt#e?ZaKdf&pC7c&(PP\jo;
+qR?I45E?hF>,Dh%W%&n`4AgVDjZie:MK.u)Z)3C:68>Kl9qUqTR<CEgienqk,Na0f>E?0,1`
+f`?;?Z[-q;l_Tj8oW:=.5qkgMp_>Bh-gU?ljg<'M[O4?j>3EXgCkN9lR)TN,AtZLOCIm1/bG
+n!A(99bF@,0-6=.1HusJ+I9r)D?lhtm)-tWCK"gUKY/q+5EA[(JarQYY!'ch~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars/>
+<WebPage isPage="false" isShowAsImage="false" isAutoScale="false" isTDHeavy="false"/>
+</WebPageContent>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR F="0" T="3"/>
+<FR/>
+<HC F="1" T="2"/>
+<FC/>
+<UPFCR COLUMN="true" ROW="true"/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1371600,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[381000,2743200,3505200,1943100,1828800,2590800,1866900,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="0" cs="15" s="0">
+<O>
+<![CDATA[销售额等级分析]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" rs="3" s="1">
+<O>
+<![CDATA[2014销售额等级]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="1" rs="3" s="1">
+<O>
+<![CDATA[2015销售额等级]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="1" cs="4" s="2">
+<O>
+<![CDATA[库存量单位]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="1" cs="9" s="2">
+<O>
+<![CDATA[销售额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="1" cs="5" s="3">
+<O>
+<![CDATA[销售毛利额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="1" cs="5" s="3">
+<O>
+<![CDATA[买入额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="1" cs="5" s="3">
+<O>
+<![CDATA[退货额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="1" cs="5" s="3">
+<O>
+<![CDATA[库存额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="2" cs="2" s="1">
+<O t="I">
+<![CDATA[2014]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="2" cs="2" s="1">
+<O t="I">
+<![CDATA[2015]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="2" cs="4" s="1">
+<O t="I">
+<![CDATA[2014]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="2" cs="4" s="1">
+<O t="I">
+<![CDATA[2015]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="2" rs="2" s="1">
+<O>
+<![CDATA[增长率(%)]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="2" cs="2" s="4">
+<O t="I">
+<![CDATA[2014]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="2" cs="2" s="4">
+<O t="I">
+<![CDATA[2015]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="2" rs="2" s="1">
+<O>
+<![CDATA[增长率(%)]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="2" cs="2" s="4">
+<O t="I">
+<![CDATA[2014]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="2" cs="2" s="4">
+<O t="I">
+<![CDATA[2015]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="2" rs="2" s="1">
+<O>
+<![CDATA[增长率(%)]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="2" cs="2" s="4">
+<O t="I">
+<![CDATA[2014]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="2" cs="2" s="4">
+<O t="I">
+<![CDATA[2015]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="2" rs="2" s="1">
+<O>
+<![CDATA[增长率(%)]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="2" cs="2" s="4">
+<O t="I">
+<![CDATA[2014]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="2" cs="2" s="4">
+<O t="I">
+<![CDATA[2015]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="35" r="2" rs="2" s="1">
+<O>
+<![CDATA[增长额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="3" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="3" s="1">
+<O>
+<![CDATA[百分比]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="3" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="3" s="1">
+<O>
+<![CDATA[百分比]]></O>
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="人力部高级职员"/>
+</PrivilegeControl>
+<Expand/>
+</C>
+<C c="7" r="3" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="3" s="1">
+<O>
+<![CDATA[百分比]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="3" s="1">
+<O>
+<![CDATA[分销]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="3" s="1">
+<O>
+<![CDATA[直营]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="3" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="3" s="1">
+<O>
+<![CDATA[百分比]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="3" s="1">
+<O>
+<![CDATA[分销]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="3" s="1">
+<O>
+<![CDATA[直营]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="3" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="3" s="1">
+<O>
+<![CDATA[百分比]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="3" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="3" s="1">
+<O>
+<![CDATA[百分比]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="3" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="3" s="1">
+<O>
+<![CDATA[百分比]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="3" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="3" s="1">
+<O>
+<![CDATA[百分比]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="3" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="3" s="1">
+<O>
+<![CDATA[百分比]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="3" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="3" s="1">
+<O>
+<![CDATA[百分比]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="3" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="32" r="3" s="1">
+<O>
+<![CDATA[百分比]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="3" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="34" r="3" s="1">
+<O>
+<![CDATA[百分比]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="4" rs="3" s="6">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="FG_13"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="2" r="4" s="7">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="FG_14"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="7">
+<O>
+<![CDATA[IN]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="7">
+<O>
+<![CDATA[OUT]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[row() % 2 != 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Scope val="1"/>
+<Background name="ColorBackground" color="-1836545"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0" leftParentDefault="false" left="B5"/>
+</C>
+<C c="3" r="4" s="8">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="SKU_13"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="B5"/>
+</C>
+<C c="4" r="4" s="9">
+<O t="Formula" class="Formula">
+<Attributes reserveExecute="true">
+<![CDATA[=D5 / D11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="B5"/>
+</C>
+<C c="5" r="4" s="8">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="SKU_14"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C5"/>
+</C>
+<C c="6" r="4" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=F5 / F11]]></Attributes>
+</O>
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="人力部高级职员"/>
+</PrivilegeControl>
+<Expand/>
+</C>
+<C c="7" r="4" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_13_1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="8" r="4" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=H5 / H11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="4" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_散客_13_1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="10" r="4" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_团购_13_1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="11" r="4" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="12" r="4" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=L5 / L11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="4" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_散客_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="14" r="4" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_团购_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="15" r="4" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(L5 - H5) / H5]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei" style="0" size="72" foreground="-15829794"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="16" r="4" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="PROFIT_AMT_13_1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="17" r="4" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=Q5 / Q11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="4" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="PROFIT_AMT_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="19" r="4" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=S5 / S11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="4" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(S5 - Q5) / Q5]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="21" r="4" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="BUY_AMT_13_1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="22" r="4" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=V5 / V11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="4" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="BUY_AMT_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="24" r="4" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=X5 / X11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="4" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(X5 - V5) / V5]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="26" r="4" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="RTN_AMT_13_1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000*-1]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="27" r="4" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AA5 / AA11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="4" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="RTN_AMT_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000*-1]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="29" r="4" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AC5 / AC11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="4" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(AC5 - AA5) / AA5]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="31" r="4" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="STK_AMT_13_1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="32" r="4" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AF5 / AF11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="4" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="STK_AMT_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="34" r="4" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AH5 / AH11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="35" r="4" s="13">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AH5 - AF5]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="2" r="5" s="6">
+<O>
+<![CDATA[计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="5" s="14">
+<O t="Formula" class="Formula">
+<Attributes reserveExecute="true">
+<![CDATA[=D5]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="B5"/>
+</C>
+<C c="4" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes reserveExecute="true">
+<![CDATA[=D6 / D11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="B5"/>
+</C>
+<C c="5" r="5" s="14">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(F5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="B5"/>
+</C>
+<C c="6" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=F6 / F11]]></Attributes>
+</O>
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="人力部高级职员"/>
+</PrivilegeControl>
+<Expand/>
+</C>
+<C c="7" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(H5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=H6 / H11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(J5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(K5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(L5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=L6 / L11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(N5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(O5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="5" s="17">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(L6 - H6) / H6]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="16" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(Q5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=Q6 / Q11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(S5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=S6 / S11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="5" s="17">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(S6 - Q6) / Q6]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="21" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(V5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=V6 / V11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(X5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=X6 / X11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="5" s="17">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(X6 - V6) / V6]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="26" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(AA5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AA6 / AA11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(AC5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AC6 / AC11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="5" s="17">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(AC6 - AA6) / AA6]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="31" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(AF5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="32" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AF6 / AF11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(AH5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="34" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AH6 / AH11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="35" r="5" s="18">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AH6 - AF6]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="2" r="6" s="7">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="FG_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="6">
+<O>
+<![CDATA[OUT]]></O>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="B5"/>
+</C>
+<C c="3" r="6" s="8">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="SKU_14"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="4" r="6" s="9">
+<O t="Formula" class="Formula">
+<Attributes reserveExecute="true">
+<![CDATA[=D7 / D11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="6" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="6" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="人力部高级职员"/>
+</PrivilegeControl>
+<Expand/>
+</C>
+<C c="7" r="6" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_13_1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="8" r="6" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=H7 / H11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="6" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_散客_13_1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="10" r="6" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_团购_13_1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="11" r="6" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="6" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="6" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="6" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="6" s="20">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(L6 - (H6 + H7)) / (H6 + H7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="16" r="6" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="PROFIT_AMT_13_1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="17" r="6" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=Q7 / Q11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="6" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="6" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="6" s="20">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(S6 - (Q6 + Q7)) / (Q6 + Q7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="21" r="6" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="BUY_AMT_13_1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="22" r="6" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=V7 / V11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="6" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="6" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="6" s="20">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(X6 - (V6 + V7)) / (V6 + V7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="26" r="6" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="RTN_AMT_13_1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000*-1]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="27" r="6" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AA7 / AA11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="6" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="6" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="6" s="20">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(AC6 - (AA6 + AA7)) / (AA6 + AA7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="31" r="6" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="STK_AMT_13_1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<ColumnRow column="1" row="4"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="32" r="6" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AF7 / AF11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="6" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="34" r="6" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="35" r="6" s="21">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AH6 - (AF6 + AF7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="7" rs="2" s="22">
+<O>
+<![CDATA[海外市场]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="7" s="7">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="FG_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="6">
+<O>
+<![CDATA[IN]]></O>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="3" r="7" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="7" s="23">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="7" s="8">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="SKU_14"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C8"/>
+</C>
+<C c="6" r="7" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=F8 / F11]]></Attributes>
+</O>
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="人力部高级职员"/>
+</PrivilegeControl>
+<Expand/>
+</C>
+<C c="7" r="7" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="7" s="23">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="7" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="7" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="7" s="8">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_14"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="12" r="7" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=L8 / L11]]></Attributes>
+</O>
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="人力部高级职员"/>
+</PrivilegeControl>
+<Expand/>
+</C>
+<C c="13" r="7" s="8">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_散客_14"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="14" r="7" s="8">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_团购_14"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="15" r="7" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="7" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="7" s="23">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="7" s="8">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="PROFIT_AMT_14"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="19" r="7" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=S8 / S11]]></Attributes>
+</O>
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="人力部高级职员"/>
+</PrivilegeControl>
+<Expand/>
+</C>
+<C c="20" r="7" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="7" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="7" s="23">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="7" s="8">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="BUY_AMT_14"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="24" r="7" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=X8 / X11]]></Attributes>
+</O>
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="人力部高级职员"/>
+</PrivilegeControl>
+<Expand/>
+</C>
+<C c="25" r="7" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="7" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="7" s="23">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="7" s="8">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="RTN_AMT_14"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000*-1]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="29" r="7" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AC8 / AC11]]></Attributes>
+</O>
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="人力部高级职员"/>
+</PrivilegeControl>
+<Expand/>
+</C>
+<C c="30" r="7" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="7" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="32" r="7" s="23">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="7" s="8">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="STK_AMT_14"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="34" r="7" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AH8 / AH11]]></Attributes>
+</O>
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="人力部高级职员"/>
+</PrivilegeControl>
+<Expand/>
+</C>
+<C c="35" r="7" s="13">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AH8 - AF8]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="2" r="8" s="22">
+<O>
+<![CDATA[计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="8" s="24">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="8" s="25">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="8" s="26">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(F8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="6" r="8" s="27">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=F9 / F11]]></Attributes>
+</O>
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="人力部高级职员"/>
+</PrivilegeControl>
+<Expand/>
+</C>
+<C c="7" r="8" s="24">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="8" s="25">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="8" s="24">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="8" s="24">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="8" s="28">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(L8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="12" r="8" s="27">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=L9 / H11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="8" s="28">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(N8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="14" r="8" s="28">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(O8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="15" r="8" s="25">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="8" s="24">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="8" s="25">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="8" s="28">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(S8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="19" r="8" s="27">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=S9 / S11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="8" s="25">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="8" s="24">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="8" s="25">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="8" s="28">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(X8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="24" r="8" s="27">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=X9 / X11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="8" s="25">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="8" s="24">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="8" s="25">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="8" s="28">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(AC8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="29" r="8" s="27">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AC9 / AC11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="8" s="25">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="8" s="24">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="32" r="8" s="25">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="8" s="28">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(AH8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="34" r="8" s="27">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AH9 / AH11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="35" r="8" s="25">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="9" rs="3" s="29">
+<O>
+<![CDATA[合计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="9" s="7">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="FG_14"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="7">
+<O>
+<![CDATA[OUT]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="7">
+<O>
+<![CDATA[IN]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="3" r="9" s="11">
+<O t="Formula" class="Formula">
+<Attributes reserveExecute="true">
+<![CDATA[=D6]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="4" r="9" s="9">
+<O t="Formula" class="Formula">
+<Attributes reserveExecute="true">
+<![CDATA[=D10 / D11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="9" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="SKU_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="6" r="9" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=F10 / F11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="7" r="9" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_13_1"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="11">
+<O>
+<![CDATA[OUT]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="8" r="9" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=H10 / H11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="9" r="9" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_散客_13_1"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="11">
+<O>
+<![CDATA[OUT]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="10" r="9" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_团购_13_1"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="11">
+<O>
+<![CDATA[OUT]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="11" r="9" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="12" r="9" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=L10 / L11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="13" r="9" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_散客_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="14" r="9" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="TOT_SALE_AMT_团购_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="15" r="9" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(L10 - H10) / H10]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="16" r="9" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="PROFIT_AMT_13_1"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="11">
+<O>
+<![CDATA[OUT]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="17" r="9" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=Q10 / Q11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="18" r="9" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="PROFIT_AMT_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="19" r="9" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=S10 / S11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="20" r="9" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(S10 - Q10) / Q10]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="21" r="9" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="BUY_AMT_13_1"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="11">
+<O>
+<![CDATA[OUT]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="22" r="9" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=V10 / V11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="23" r="9" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="BUY_AMT_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="24" r="9" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=X10 / X11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="25" r="9" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(X10 - V10) / V10]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="26" r="9" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="RTN_AMT_13_1"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="11">
+<O>
+<![CDATA[OUT]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$/1000*-1]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="27" r="9" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AA10 / AA11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="28" r="9" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="RTN_AMT_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$/1000*-1]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="29" r="9" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AC10 / AC11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="30" r="9" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(AC10 - AA10) / AA10]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="31" r="9" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="STK_AMT_13_1"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_13]]></CNAME>
+<Compare op="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="11">
+<O>
+<![CDATA[OUT]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="32" r="9" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AF10 / AF11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="33" r="9" s="11">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="STK_AMT_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$/1000]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="34" r="9" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AH10 / AH11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="35" r="9" s="13">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AH10 - AF10]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="2" r="10" s="29">
+<O>
+<![CDATA[计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="10" s="30">
+<O t="Formula" class="Formula">
+<Attributes reserveExecute="true">
+<![CDATA[=sum(D10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="10" s="31">
+<O t="Formula" class="Formula">
+<Attributes reserveExecute="true">
+<![CDATA[=D11 / D11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="10" s="30">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(F10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="10" s="31">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=F11 / F11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="10" s="32">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(H10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="10" s="31">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=H11 / H11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="10" s="32">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(J10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="10" s="32">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(K10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="10" s="32">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(L10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="10" s="31">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=L11 / L11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="10" s="32">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(N10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="10" s="32">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(O10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="10" s="33">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(L11 - H11) / H11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="16" r="10" s="32">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(Q10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="10" s="31">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=Q11 / Q11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="10" s="32">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(S10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="10" s="31">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=S11 / S11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="10" s="33">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(S11 - Q11) / Q11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="21" r="10" s="32">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(V10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="10" s="31">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=V11 / V11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="10" s="32">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(X10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="10" s="31">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=X11 / X11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="10" s="33">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(X11 - V11) / V11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="26" r="10" s="32">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(AA10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="10" s="31">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AA11 / AA11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="10" s="32">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(AC10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="10" s="31">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AC11 / AC11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="10" s="33">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=(AC11 - AA11) / AA11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="31" r="10" s="32">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(Q10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="32" r="10" s="31">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AF11 / AF11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="10" s="32">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(AH10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="34" r="10" s="31">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AH11 / AH11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="35" r="10" s="34">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AH11 - AF11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="2" r="11" s="7">
+<O t="DSColumn">
+<Attributes dsName="abcz" columnName="FG_14"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[FG_14]]></CNAME>
+<Compare op="6">
+<O>
+<![CDATA[OUT]]></O>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="3" r="11" s="11">
+<O t="Formula" class="Formula">
+<Attributes reserveExecute="true">
+<![CDATA[=sum(D7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="4" r="11" s="9">
+<O t="Formula" class="Formula">
+<Attributes reserveExecute="true">
+<![CDATA[=D12 / D11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="11" s="11">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(H7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="11" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=H12 / H11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="11" s="11">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(J7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="11" s="11">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(K7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="11" s="11">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(Q7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="11" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=Q12 / Q11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="11" s="11">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(V7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="11" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=V12 / V11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="11" s="11">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(AA7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="11" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AA12 / AA11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="11" s="11">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(AF7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="32" r="11" s="9">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AF12 / AF11]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="34" r="11" s="19">
+<O t="BiasTextPainter">
+<IsBackSlash value="true"/>
+<![CDATA[|]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="35" r="11" s="13">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AH12 - AF12]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="3">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13408513"/>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="4">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-2151893"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting>
+<PaperSize width="144000000" height="42768000"/>
+<Margin top="986400" left="2743200" bottom="986400" right="2743200"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="128"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-16734998"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-16477509"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-16477509"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-16734998"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-16734998"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-3873033"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#,##0]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#,##0]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[+#0.0%;▲#0.0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[+#,##0;▲#,##0]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-3873033"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-3873033"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#,##0]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-3873033"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[+#0.0%;▲#0.0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-3873033"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[+#,##0;▲#,##0]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-3873033"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-3355444"/>
+<Background name="ColorBackground" color="-855310"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[+#0.0%;▲#0.0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-70"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[+#,##0;▲#,##0]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-70"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-7152421"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72" foreground="-3355444"/>
+<Background name="ColorBackground" color="-855310"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-3355444"/>
+<Background name="ColorBackground" color="-7152421"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72" foreground="-3355444"/>
+<Background name="ColorBackground" color="-7152421"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-7152421"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-7152421"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#,##0]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-7152421"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-12141632"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-12141632"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-12141632"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#,##0]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-12141632"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[+#0.0%;▲#0.0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-12141632"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[+#,##0;▲#,##0]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-12141632"/>
+<Border>
+<Top style="1" color="-6630166"/>
+<Bottom style="1" color="-6630166"/>
+<Left style="1" color="-6630166"/>
+<Right style="1" color="-6630166"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="0"/>
+</WorkBook>

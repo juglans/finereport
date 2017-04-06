@@ -1,0 +1,27 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"儋州市"},"geometry": {"type": "Point","coordinates": [109.3291,19.5653]}},
+{"type": "Feature","properties": {"name":"文昌市"},"geometry": {"type": "Point","coordinates": [110.8905,19.7823]}},
+{"type": "Feature","properties": {"name":"乐东黎族自治县"},"geometry": {"type": "Point","coordinates": [109.0283,18.6301]}},
+{"type": "Feature","properties": {"name":"三亚市"},"geometry": {"type": "Point","coordinates": [109.3716,18.3698]}},
+{"type": "Feature","properties": {"name":"琼中黎族苗族自治县"},"geometry": {"type": "Point","coordinates": [109.8413,19.0736]}},
+{"type": "Feature","properties": {"name":"东方市"},"geometry": {"type": "Point","coordinates": [108.8498,19.0414]}},
+{"type": "Feature","properties": {"name":"海口市"},"geometry": {"type": "Point","coordinates": [110.3893,19.8516]}},
+{"type": "Feature","properties": {"name":"万宁市"},"geometry": {"type": "Point","coordinates": [110.3137,18.8388]}},
+{"type": "Feature","properties": {"name":"澄迈县"},"geometry": {"type": "Point","coordinates": [109.9937,19.7314]}},
+{"type": "Feature","properties": {"name":"白沙黎族自治县"},"geometry": {"type": "Point","coordinates": [109.3703,19.211]}},
+{"type": "Feature","properties": {"name":"琼海市"},"geometry": {"type": "Point","coordinates": [110.4208,19.224]}},
+{"type": "Feature","properties": {"name":"昌江黎族自治县"},"geometry": {"type": "Point","coordinates": [109.0407,19.2137]}},
+{"type": "Feature","properties": {"name":"临高县"},"geometry": {"type": "Point","coordinates": [109.6957,19.8063]}},
+{"type": "Feature","properties": {"name":"陵水黎族自治县"},"geometry": {"type": "Point","coordinates": [109.9924,18.5415]}},
+{"type": "Feature","properties": {"name":"屯昌县"},"geometry": {"type": "Point","coordinates": [110.0377,19.362]}},
+{"type": "Feature","properties": {"name":"定安县"},"geometry": {"type": "Point","coordinates": [110.3384,19.4698]}},
+{"type": "Feature","properties": {"name":"保亭黎族苗族自治县"},"geometry": {"type": "Point","coordinates": [109.6284,18.6108]}},
+{"type": "Feature","properties": {"name":"五指山市"},"geometry": {"type": "Point","coordinates": [109.5282,18.8299]}},
+{"type": "Feature","properties": {"name":"三沙市"},"geometry": {"type": "Point","coordinates": [
+          112.33245849609375,
+          16.809799590706195
+        ]}}
+]
+}

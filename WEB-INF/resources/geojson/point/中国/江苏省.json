@@ -1,0 +1,18 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"盐城市"},"geometry": {"type": "Point","coordinates": [120.2234,33.5577]}},
+{"type": "Feature","properties": {"name":"徐州市"},"geometry": {"type": "Point","coordinates": [117.5208,34.3268]}},
+{"type": "Feature","properties": {"name":"南通市"},"geometry": {"type": "Point","coordinates": [121.1023,32.1625]}},
+{"type": "Feature","properties": {"name":"淮安市"},"geometry": {"type": "Point","coordinates": [118.927,33.4039]}},
+{"type": "Feature","properties": {"name":"苏州市"},"geometry": {"type": "Point","coordinates": [120.6519,31.3989]}},
+{"type": "Feature","properties": {"name":"宿迁市"},"geometry": {"type": "Point","coordinates": [118.5535,33.7775]}},
+{"type": "Feature","properties": {"name":"连云港市"},"geometry": {"type": "Point","coordinates": [119.1248,34.552]}},
+{"type": "Feature","properties": {"name":"扬州市"},"geometry": {"type": "Point","coordinates": [119.4653,32.8162]}},
+{"type": "Feature","properties": {"name":"南京市"},"geometry": {"type": "Point","coordinates": [118.8062,31.9208]}},
+{"type": "Feature","properties": {"name":"泰州市"},"geometry": {"type": "Point","coordinates": [120.0586,32.5525]}},
+{"type": "Feature","properties": {"name":"无锡市"},"geometry": {"type": "Point","coordinates": [120.3442,31.5527]}},
+{"type": "Feature","properties": {"name":"常州市"},"geometry": {"type": "Point","coordinates": [119.4543,31.5582]}},
+{"type": "Feature","properties": {"name":"镇江市"},"geometry": {"type": "Point","coordinates": [119.4763,31.9702]}}
+]
+}

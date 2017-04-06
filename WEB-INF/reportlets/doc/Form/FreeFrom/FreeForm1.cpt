@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20131111" releaseVersion="7.0.5">
+<TableDataMap>
+<TableData name="ds1" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM 雇员]]></Query>
+</TableData>
+<TableData name="ds2" class="com.fr.data.impl.DBTableData">
+<Parameters>
+<Parameter>
+<Attributes name="C9"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+</Parameters>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT 城市 FROM [雇员]A where 地区='${C9}']]></Query>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<RowHeight defaultValue="723900">
+<![CDATA[723900,1866900,723900,990600,723900,914400,952500,990600,990600,838200,838200,914400,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2667000,1562100,1676400,2743200,2705100,1295400,3124200,2743200,2743200,2743200,2743200,914400,914400,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<Expand/>
+</C>
+<C c="1" r="1" cs="7" s="0">
+<O>
+<![CDATA[员工信息登记表]]></O>
+<Expand/>
+</C>
+<C c="1" r="3" s="1">
+<O>
+<![CDATA[编号：]]></O>
+<Expand/>
+</C>
+<C c="2" r="3" cs="2" s="2">
+<O>
+<![CDATA[]]></O>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr/>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="5" r="3" cs="2" s="1">
+<O>
+<![CDATA[填写日期：]]></O>
+<Expand/>
+</C>
+<C c="7" r="3" s="3">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=today()]]></Attributes>
+</O>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr/>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="5" s="4">
+<O>
+<![CDATA[姓名：]]></O>
+<Expand/>
+</C>
+<C c="2" r="5" cs="2" s="5">
+<O>
+<![CDATA[]]></O>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr/>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="5" s="4">
+<O>
+<![CDATA[性别：]]></O>
+<Expand/>
+</C>
+<C c="5" r="5" cs="2" s="5">
+<Widget class="com.fr.form.ui.RadioGroup">
+<WidgetAttr/>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="男" value="M"/>
+<Dict key="女" value="F"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="7" r="5" rs="4" s="6">
+<CellGUIAttr/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.MultiFileEditor">
+<WidgetAttr/>
+<FileAttr maxlength="1"/>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="6" s="4">
+<O>
+<![CDATA[出生日期：]]></O>
+<Expand/>
+</C>
+<C c="2" r="6" cs="2" s="7">
+<Widget class="com.fr.form.ui.DateEditor">
+<WidgetAttr/>
+<DateAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="6" s="4">
+<O>
+<![CDATA[雇用日期：]]></O>
+<Expand/>
+</C>
+<C c="5" r="6" cs="2" s="7">
+<Widget class="com.fr.form.ui.DateEditor">
+<WidgetAttr/>
+<DateAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="7" s="4">
+<O>
+<![CDATA[职务：]]></O>
+<Expand/>
+</C>
+<C c="2" r="7" cs="2" s="5">
+<CellGUIAttr/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.ComboBox">
+<WidgetAttr/>
+<Dictionary class="com.fr.data.impl.TableDataDictionary">
+<FormulaDictAttr ki="2" vi="2"/>
+<TableDataDictAttr>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[ds1]]></Name>
+</TableData>
+</TableDataDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="7" s="4">
+<O>
+<![CDATA[国家：]]></O>
+<Expand/>
+</C>
+<C c="5" r="7" cs="2" s="5">
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr/>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="8" s="4">
+<O>
+<![CDATA[地区：]]></O>
+<Expand/>
+</C>
+<C c="2" r="8" cs="2" s="5">
+<CellGUIAttr/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.ComboBox">
+<WidgetName name="地区"/>
+<WidgetAttr/>
+<Dictionary class="com.fr.data.impl.TableDataDictionary">
+<FormulaDictAttr kiName="地区" viName="地区"/>
+<TableDataDictAttr>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[ds1]]></Name>
+</TableData>
+</TableDataDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="8" s="8">
+<O>
+<![CDATA[城市：]]></O>
+<Expand/>
+</C>
+<C c="5" r="8" cs="2" s="5">
+<O>
+<![CDATA[]]></O>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.ComboBox">
+<WidgetAttr/>
+<Dictionary class="com.fr.data.impl.TableDataDictionary">
+<FormulaDictAttr ki="0" vi="0"/>
+<TableDataDictAttr>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[ds2]]></Name>
+</TableData>
+</TableDataDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="9" s="4">
+<O>
+<![CDATA[家庭地址：]]></O>
+<Expand/>
+</C>
+<C c="2" r="9" cs="3" s="5">
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr/>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="5" r="9" s="4">
+<O>
+<![CDATA[邮编：]]></O>
+<Expand/>
+</C>
+<C c="6" r="9" cs="2" s="9">
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr/>
+<EMSG>
+<![CDATA[邮政编码错误！]]></EMSG>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.PostCardReg"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="10" s="4">
+<O>
+<![CDATA[手机：]]></O>
+<Expand/>
+</C>
+<C c="2" r="10" cs="3" s="5">
+<CellGUIAttr/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr/>
+<EMSG>
+<![CDATA[手机号错误！]]></EMSG>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.MobileReg"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="5" r="10" s="4">
+<O>
+<![CDATA[家庭电话：]]></O>
+<Expand/>
+</C>
+<C c="6" r="10" cs="2" s="9">
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr/>
+<EMSG>
+<![CDATA[电话号码错误！]]></EMSG>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.PhoneReg">
+<PhoneReg phoneReg="025-85679591"/>
+</Reg>
+<watermark>
+<![CDATA[例如:025-85679591]]></watermark>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="11" cs="7" s="10">
+<O>
+<![CDATA[备注：]]></O>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="1" r="12" cs="7" rs="4" s="5">
+<CellGUIAttr/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.TextArea">
+<WidgetAttr/>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="1" r="16">
+<Expand/>
+</C>
+<C c="2" r="16">
+<Expand/>
+</C>
+<C c="3" r="16">
+<Expand/>
+</C>
+<C c="4" r="16">
+<Expand/>
+</C>
+<C c="5" r="16">
+<Expand/>
+</C>
+<C c="6" r="16">
+<Expand/>
+</C>
+<C c="7" r="16">
+<Expand/>
+</C>
+<C c="1" r="17">
+<Expand/>
+</C>
+<C c="2" r="17">
+<Expand/>
+</C>
+<C c="3" r="17">
+<Expand/>
+</C>
+<C c="4" r="17">
+<Expand/>
+</C>
+<C c="5" r="17">
+<Expand/>
+</C>
+<C c="6" r="17">
+<Expand/>
+</C>
+<C c="7" r="17">
+<Expand/>
+</C>
+<C c="1" r="18">
+<Expand/>
+</C>
+<C c="2" r="18">
+<Expand/>
+</C>
+<C c="3" r="18">
+<Expand/>
+</C>
+<C c="4" r="18">
+<Expand/>
+</C>
+<C c="5" r="18">
+<Expand/>
+</C>
+<C c="6" r="18">
+<Expand/>
+</C>
+<C c="7" r="18">
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+<ReportWriteAttr>
+<Submiter class="com.fr.report.write.BuiltInSQLSubmiter" name="内置SQL1">
+<Attributes dsName="FRDemo"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table schema="" name="雇员"/>
+<ColumnConfig name="雇员ID" isKey="true" skipUnmodified="false">
+<ColumnRow column="2" row="3"/>
+</ColumnConfig>
+<ColumnConfig name="姓名" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="5"/>
+</ColumnConfig>
+<ColumnConfig name="职务" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="7"/>
+</ColumnConfig>
+<ColumnConfig name="性别" isKey="false" skipUnmodified="false">
+<ColumnRow column="5" row="5"/>
+</ColumnConfig>
+<ColumnConfig name="出生日期" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="雇用日期" isKey="false" skipUnmodified="false">
+<ColumnRow column="5" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="地址" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="9"/>
+</ColumnConfig>
+<ColumnConfig name="城市" isKey="false" skipUnmodified="false">
+<ColumnRow column="5" row="8"/>
+</ColumnConfig>
+<ColumnConfig name="地区" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="8"/>
+</ColumnConfig>
+<ColumnConfig name="邮政编码" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="9"/>
+</ColumnConfig>
+<ColumnConfig name="国家" isKey="false" skipUnmodified="false">
+<ColumnRow column="5" row="7"/>
+</ColumnConfig>
+<ColumnConfig name="家庭电话" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="10"/>
+</ColumnConfig>
+<ColumnConfig name="手机" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="10"/>
+</ColumnConfig>
+<ColumnConfig name="照片" isKey="false" skipUnmodified="false">
+<ColumnRow column="7" row="5"/>
+</ColumnConfig>
+<ColumnConfig name="备注" isKey="false" skipUnmodified="false">
+<ColumnRow column="1" row="12"/>
+</ColumnConfig>
+<Condition class="com.fr.data.condition.ListCondition"/>
+</DMLConfig>
+</Submiter>
+</ReportWriteAttr>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="1"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="1" size="120" foreground="-16744320"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="6" color="-16744320"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1" color="-13382452"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="1" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1" color="-6697729"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="1" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-13382452"/>
+<Bottom style="1" color="-13382452"/>
+<Left style="1" color="-13382452"/>
+<Right style="1" color="-13382452"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-13382452"/>
+<Bottom style="1" color="-13382452"/>
+<Left style="1" color="-13382452"/>
+<Right style="1" color="-13382452"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-13382452"/>
+<Bottom style="1" color="-13382452"/>
+<Left style="1" color="-13382452"/>
+<Right style="1" color="-13382452"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<Format class="java.text.SimpleDateFormat">
+<![CDATA[yyyy-MM-dd]]></Format>
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-13382452"/>
+<Bottom style="1" color="-13382452"/>
+<Left style="1" color="-13382452"/>
+<Right style="1" color="-13382452"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="1" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-13382452"/>
+<Bottom style="1" color="-13382452"/>
+<Left style="1" color="-13382452"/>
+<Right style="1" color="-13382452"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="1" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-13382452"/>
+<Bottom style="1" color="-13382452"/>
+<Left style="1" color="-13382452"/>
+<Right style="1" color="-13382452"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="HAF"/>
+<PreviewType PreviewType="1"/>
+</WorkBook>

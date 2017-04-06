@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<TableDataMap>
+<TableData name="ds1" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM 销量]]></Query>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars/>
+<WebPage isPage="false" isShowAsImage="false" isAutoScale="false" isTDHeavy="false"/>
+</WebPageContent>
+<WebWriteContent>
+<Listener event="startload">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[     var doc=document;  
+    var link=doc.createElement("link");  
+    link.setAttribute("rel", "stylesheet");  
+    link.setAttribute("type", "text/css");  
+    link.setAttribute("href", "/WebReport/btn.css");  
+  
+    var heads = doc.getElementsByTagName("head");  
+    if(heads.length)  
+        heads[0]A.appendChild(link);  
+    else  
+        doc.documentElement.appendChild(link);  
+
+        ]]></Content>
+</JavaScript>
+</Listener>
+<Listener event="afterload">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[$('.fr-btn-up').on('click',function(){
+$('.fr-btn-up').removeClass("on");
+$(this).addClass("on");
+})
+$('.fr-btn-up').on('click',function(){
+$('.fr-btn-up').removeClass("on");
+$(this).addClass("on");
+})
+var no=-1;
+$ce=$(".celink button");
+flag=0;
+$(".content-container").click(function()
+{
+	flag=1;
+})
+var interval=setInterval(function(){
+	if (flag==1)
+	{
+		clearInterval(interval)
+	}else
+	{
+	no++;
+	no=no % 3;
+	$ce.eq(parseInt(no)).trigger("click");
+	flag=0;
+	}	
+},5000)]]></Content>
+</JavaScript>
+</Listener>
+<ToolBars/>
+<SelectedColor/>
+<WebWrite SheetPosition="3"/>
+<RptLocation isShowAtLeft="true"/>
+<UnloadCheck/>
+<ShowWidgets/>
+<OtherAttr isAutoStash="false"/>
+</WebWriteContent>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[2133600,761760,1333500,380160,570240,570240,570240,570240,570240,570240,380160,723900,723900,723900,723900,11353800,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[1141920,37071300,380160,5448300,380160,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<FloatElementList>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float173"/>
+<PrivilegeControl/>
+<Location leftDistance="1714500" topDistance="609600" width="914400" height="914400"/>
+<O t="Image">
+<IM>
+<![CDATA[!?D4#reXHH7h#eD$31&+%7s)Y;?-[s(]AXO9(^L0C!!$pPWilC&!9?^>5u`*_@p!pI>LMXE'I
+'1n%$[4_6,Ug;aeumO_4[)=T/YX)6)d0#q`b*U_.V-c/)SPDI_p"qiNA5WY(%g,&4CiafrmC
+t5%6AqIHuYWQbGbM&N0oNJ9H)WqZ>9%B$f<@#ZHO7#_LF_V=2>=1^,iJ]A):jfhYTO"Pr9W[$
+jd_,[fFgtVn[0hFQ:Uf+?K8VpU3.[ea%.$a#!j,$;`#LK-9C!j'P&nmIfq+07IiRKuFa8%73
+NLSX?:9@h91lGjlBk'J^+!qXMe9?YG&P(k`V5+bPMP;+n%V#QVHTr<F0dM)G>6!!#SZ:.26O
+@"J~
+]]></IM>
+</O>
+<Style index="0"/>
+</com.fr.report.cell.FloatElement>
+</FloatElementList>
+<CellElementList>
+<C c="0" r="0" cs="5" s="1">
+<O t="RichText">
+<RichText>
+<RichChar styleIndex="2">
+<text>
+<![CDATA[            散点图]]></text>
+</RichChar>
+</RichText>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr showAsHTML="true"/>
+<Expand/>
+</C>
+<C c="1" r="1" rs="15">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.IframeEditor">
+<WidgetName name="REPORT"/>
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Iframe src="${servlatURL}?reportlet=doc/Advanced/Chart/NewScatter/Scatter.cpt&amp;op=write" overflowx="false" overflowy="false"/>
+<Parameters/>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="2" s="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="2" s="4">
+<O>
+<![CDATA[普通功能]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="2" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="3" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="3" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="4" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="4" rs="2" s="8">
+<PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="网络报表1">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<Parameters/>
+<TargetFrame>
+<![CDATA[_self]]></TargetFrame>
+<Features width="600" height="400"/>
+<ReportletName showPI="true">
+<![CDATA[/chart/Columnchart.cpt]]></ReportletName>
+</JavaScript>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<Widget class="com.fr.form.ui.FreeButton">
+<Listener event="click">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[var url = "ReportServer?reportlet=doc/Advanced/Chart/NewScatter/Scatter.cpt&op=write&__showtoolbar__=false";  
+FR.doHyperlinkByPost(url,{para:''},'REPORT');]]></Content>
+</JavaScript>
+</Listener>
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[普通散点图]]></Text>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="4" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="5" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="5" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="6" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="6" rs="2" s="8">
+<PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="网络报表1">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<Parameters/>
+<TargetFrame>
+<![CDATA[_self]]></TargetFrame>
+<Features width="600" height="400"/>
+<ReportletName showPI="true">
+<![CDATA[/chart/Columnchart.cpt]]></ReportletName>
+</JavaScript>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<Widget class="com.fr.form.ui.FreeButton">
+<Listener event="click">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[var url = "ReportServer?reportlet=doc/Advanced/Chart/NewScatter/GradientScatter.cpt&op=write&__showtoolbar__=false";  
+FR.doHyperlinkByPost(url,{para:''},'REPORT');]]></Content>
+</JavaScript>
+</Listener>
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[渐变色散点图]]></Text>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="6" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="7" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="7" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="8" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="8" rs="2" s="8">
+<PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="网络报表1">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<Parameters/>
+<TargetFrame>
+<![CDATA[_self]]></TargetFrame>
+<Features width="600" height="400"/>
+<ReportletName showPI="true">
+<![CDATA[/chart/Columnchart.cpt]]></ReportletName>
+</JavaScript>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<Widget class="com.fr.form.ui.FreeButton">
+<Listener event="click">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[var url = "ReportServer?reportlet=doc/Advanced/Chart/NewScatter/LegendRangeScatter.cpt&op=write&__showtoolbar__=false";  
+FR.doHyperlinkByPost(url,{para:''},'REPORT');]]></Content>
+</JavaScript>
+</Listener>
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[区域段散点图]]></Text>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="8" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="9" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="9" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="10" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="10" s="10">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="10" s="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="12" s="12">
+<PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="网络报表1">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<Parameters/>
+<TargetFrame>
+<![CDATA[_self]]></TargetFrame>
+<Features width="600" height="400"/>
+<ReportletName showPI="true">
+<![CDATA[/chart/Columnchart.cpt]]></ReportletName>
+</JavaScript>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting orientation="1">
+<PaperSize width="17568000" height="42768000"/>
+<Margin top="288000" left="576000" bottom="288000" right="576000"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="16777215"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="160" foreground="-13989946"/>
+<Background name="ColorBackground" color="-1312772"/>
+<Border>
+<Bottom style="5" color="-6958092"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="216" foreground="-13989946"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-6958092"/>
+<Border>
+<Top style="1" color="-723724"/>
+<Left style="1" color="-723724"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="88" foreground="-1"/>
+<Background name="ColorBackground" color="-6958092"/>
+<Border>
+<Top style="1" color="-723724"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-6958092"/>
+<Border>
+<Top style="1" color="-723724"/>
+<Right style="1" color="-723724"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Left style="1" color="-723724"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Right style="1" color="-723724"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="88" foreground="-16776961" underline="1"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1" color="-723724"/>
+<Left style="1" color="-723724"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1" color="-723724"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1" color="-723724"/>
+<Right style="1" color="-723724"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-16776961" underline="1"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="1"/>
+</WorkBook>

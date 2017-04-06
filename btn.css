@@ -1,0 +1,17 @@
+.fr-btn button{
+  color: #424242;
+  font-size:12px;
+  font-family:Microsoft YaHei UI; 
+  float:left;
+}
+
+
+.fr-btn-up {
+background:#ffffff;
+}
+
+.fr-btn-over {
+background:#f7f7f7;
+}
+
+.on {background:#d8f2fd;} 

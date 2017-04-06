@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<ReportWebAttr>
+<ServerPrinter/>
+<Background name="ColorBackground" color="-1183756"/>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[304800,1104900,419100,1143000,1181100,533400,76200,1028700,1028700,952500,723900,723900,457200,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[457200,3581400,5067300,5181600,4724400,5448300,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" cs="5" s="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(len($fr_authority) > 0 && $fr_authority = "SUPERROLE", "  各", GETUSERDEPARTMENTS()) + "部门员工信息查看"]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="3" s="1">
+<O>
+<![CDATA[用户名]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="3" s="1">
+<O>
+<![CDATA[姓名]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="3" s="1">
+<O>
+<![CDATA[部门]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="3" s="1">
+<O>
+<![CDATA[职务]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="3" s="1">
+<O>
+<![CDATA[密码]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="4" s="2">
+<O t="DSColumn">
+<Attributes dsName="staff" columnName="name"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[department]]></CNAME>
+<Compare op="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(len($fr_authority) > 0 && $fr_authority = "SUPERROLE", nofilter, GETUSERDEPARTMENTS())]]></Attributes>
+</O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[GETUSERJOBTITLES() = "部长"]]></Formula>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[row() % 2 = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Scope val="1"/>
+<Background name="ColorBackground" color="-1"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="2" r="4" s="3">
+<O t="DSColumn">
+<Attributes dsName="staff" columnName="fullname"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="3" r="4" s="3">
+<O t="DSColumn">
+<Attributes dsName="staff" columnName="department"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="4" r="4" s="3">
+<O t="DSColumn">
+<Attributes dsName="staff" columnName="position"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="5" r="4" s="4">
+<O t="DSColumn">
+<Attributes dsName="staff" columnName="password"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="1" r="7" s="5">
+<O>
+<![CDATA[概念：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="7" cs="4" s="6">
+<O>
+<![CDATA[模板内容权限是指不同用户登录系统，查看同一张模板，其看到的内容不一样。]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="8" rs="3" s="5">
+<O>
+<![CDATA[说明：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="8" cs="4" rs="2" s="7">
+<O>
+<![CDATA[FineReport内置数据决策系统中，配置了一套用户角色，分为三个部门，开发、人力资源和技术支持，分别用部门部长角色用户Mike,Lily,Alice登录系统，可查看该部门下所有员工信息]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="10" cs="4" s="8">
+<O>
+<![CDATA[其中：管理员登录系统可以查看所有员工的详细信息]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="11" cs="3" s="9">
+<O>
+<![CDATA[注：使用参数对同一模板内容进行权限控制使用过程请查看帮助文档：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="11" s="10">
+<O>
+<![CDATA[模板内容权限控制]]></O>
+<PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="网页链接1">
+<JavaScript class="com.fr.js.WebHyperlink">
+<JavaScript class="com.fr.js.WebHyperlink">
+<Parameters/>
+<TargetFrame>
+<![CDATA[_blank]]></TargetFrame>
+<Features width="600" height="400"/>
+<URL>
+<![CDATA[http://help.finereport.com/doc-view-865.html]]></URL>
+</JavaScript>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<Expand/>
+</C>
+<C c="0" r="12" s="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="12" s="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="12" s="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="12" s="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="12" s="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="12" s="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting orientation="1">
+<PaperSize width="32918400" height="40233600"/>
+<Margin top="0" left="0" bottom="0" right="2743200"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="144" foreground="-1"/>
+<Background name="ColorBackground" color="-11561760"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00]]></Format>
+<FRFont name="微软雅黑" style="1" size="72" foreground="-13421773"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="64" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Right style="1" color="-3090713"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="java.text.SimpleDateFormat">
+<![CDATA[yyyy-MM-dd]]></Format>
+<FRFont name="微软雅黑" style="0" size="64" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Left style="1" color="-3090713"/>
+<Right style="1" color="-3090713"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="微软雅黑" style="0" size="64" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Left style="1" color="-3090713"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="27">
+<FRFont name="微软雅黑" style="1" size="80" foreground="-13421773"/>
+<Background name="ColorBackground" color="-3415818"/>
+<Border>
+<Top style="1" color="-3221529"/>
+<Bottom style="1" color="-3221529"/>
+<Left style="1" color="-3221529"/>
+<Right style="1" color="-3221529"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="80" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Top style="1" color="-3221529"/>
+<Bottom style="1" color="-3221529"/>
+<Left style="1" color="-3221529"/>
+<Right style="1" color="-3221529"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="80" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Top style="1" color="-3221529"/>
+<Bottom color="-3221529"/>
+<Left style="1" color="-3221529"/>
+<Right style="1" color="-3221529"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="80" foreground="-11364897"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Top color="-3221529"/>
+<Bottom style="1" color="-3221529"/>
+<Left style="1" color="-3221529"/>
+<Right style="1" color="-3221529"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-11364897"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-16776961" underline="1"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="0"/>
+</WorkBook>

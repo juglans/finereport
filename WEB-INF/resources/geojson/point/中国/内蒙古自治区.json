@@ -1,0 +1,17 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"呼伦贝尔市"},"geometry": {"type": "Point","coordinates": [120.8057,50.2185]}},
+{"type": "Feature","properties": {"name":"阿拉善盟"},"geometry": {"type": "Point","coordinates": [102.019,40.1001]}},
+{"type": "Feature","properties": {"name":"锡林郭勒盟"},"geometry": {"type": "Point","coordinates": [115.6421,44.176]}},
+{"type": "Feature","properties": {"name":"鄂尔多斯市"},"geometry": {"type": "Point","coordinates": [108.9734,39.2487]}},
+{"type": "Feature","properties": {"name":"赤峰市"},"geometry": {"type": "Point","coordinates": [118.6743,43.2642]}},
+{"type": "Feature","properties": {"name":"巴彦淖尔市"},"geometry": {"type": "Point","coordinates": [107.5562,41.3196]}},
+{"type": "Feature","properties": {"name":"通辽市"},"geometry": {"type": "Point","coordinates": [121.4758,43.9673]}},
+{"type": "Feature","properties": {"name":"乌兰察布市"},"geometry": {"type": "Point","coordinates": [112.5769,41.77]}},
+{"type": "Feature","properties": {"name":"兴安盟"},"geometry": {"type": "Point","coordinates": [121.3879,46.1426]}},
+{"type": "Feature","properties": {"name":"包头市"},"geometry": {"type": "Point","coordinates": [110.3467,41.4899]}},
+{"type": "Feature","properties": {"name":"呼和浩特市"},"geometry": {"type": "Point","coordinates": [111.4124,40.4901]}},
+{"type": "Feature","properties": {"name":"乌海市"},"geometry": {"type": "Point","coordinates": [106.886,39.4739]}}
+]
+}

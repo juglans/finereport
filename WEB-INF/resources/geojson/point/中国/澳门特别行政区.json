@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "澳门"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.57048034667969,
+          22.14607179265913
+        ]
+      }
+    }
+  ]
+}

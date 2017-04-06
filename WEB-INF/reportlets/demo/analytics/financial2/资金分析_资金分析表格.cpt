@@ -1,0 +1,1848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Print')}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Email')}]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<WebPage isPage="false" isShowAsImage="false" isAutoScale="false" isTDHeavy="false"/>
+</WebPageContent>
+<Background name="ColorBackground" color="-526085"/>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR F="0" T="5"/>
+<FR/>
+<HC/>
+<FC/>
+<UPFCR COLUMN="false" ROW="true"/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1181100,381000,723900,381000,936000,936000,936000,936000,936000,936000,936000,936000,936000,936000,936000,936000,936000,936000,936000,936000,936000,936000,936000,936000,936000,936000,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[5257800,2743200,2743200,3600000,3600000,3600000,3600000,3600000,3600000,3600000,3600000,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" cs="11" s="0">
+<O>
+<![CDATA[存款情况统计表]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="2" cs="11" s="2">
+<O>
+<![CDATA[报表日期：2016年05月]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="3" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="3" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="3" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="3" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="3" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="3" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="3" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="3" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="3" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="3" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="3" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="4" rs="2" s="3">
+<O>
+<![CDATA[项目]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="4" rs="2" s="3">
+<O>
+<![CDATA[币种]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="4" rs="2" s="3">
+<O>
+<![CDATA[银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="4" cs="4" s="3">
+<O>
+<![CDATA[金额（原币万元）]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="4" cs="4" s="3">
+<O>
+<![CDATA[金额（RMB万元）]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="5" s="3">
+<O>
+<![CDATA[活期金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="5" s="3">
+<O>
+<![CDATA[定期金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="5" s="3">
+<O>
+<![CDATA[ 理财]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="5" s="3">
+<O>
+<![CDATA[ 小计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="5" s="3">
+<O>
+<![CDATA[活期金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="5" s="3">
+<O>
+<![CDATA[定期金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="5" s="3">
+<O>
+<![CDATA[ 理财]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="5" s="3">
+<O>
+<![CDATA[ 小计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="6" rs="15" s="4">
+<O>
+<![CDATA[浙江海利得]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="6" rs="5" s="5">
+<O>
+<![CDATA[RMB]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="6" s="5">
+<O>
+<![CDATA[中国银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="6" s="5">
+<O>
+<![CDATA[ 9,386.04 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="6" s="5">
+<O>
+<![CDATA[ 9,275.00 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="6" s="5">
+<O>
+<![CDATA[ 111.04 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="6" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D7:F7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="6" s="5">
+<O>
+<![CDATA[ 9,386.04 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="6" s="5">
+<O>
+<![CDATA[ 9,275.00 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="6" s="5">
+<O>
+<![CDATA[101.20%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="6" s="5">
+<O>
+<![CDATA[ 8,974.55 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="7" s="5">
+<O>
+<![CDATA[建设银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="7" s="5">
+<O>
+<![CDATA[ 10,494.22 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="7" s="5">
+<O>
+<![CDATA[ 10,580.00 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="7" s="5">
+<O>
+<![CDATA[ -85.78 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="7" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D8:F8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="7" s="5">
+<O>
+<![CDATA[ 10,494.22 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="7" s="5">
+<O>
+<![CDATA[ 10,580.00 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="7" s="5">
+<O>
+<![CDATA[99.19%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="7" s="5">
+<O>
+<![CDATA[ 11,574.31 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="8" s="5">
+<O>
+<![CDATA[工商银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="8" s="5">
+<O>
+<![CDATA[ 430.02 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="8" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="8" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="8" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D9:F9)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="8" s="5">
+<O>
+<![CDATA[ 430.02 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="8" s="5">
+<O>
+<![CDATA[ -   ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="8" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="8" s="5">
+<O>
+<![CDATA[ 259.86 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="9" s="5">
+<O>
+<![CDATA[交通银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="9" s="5">
+<O>
+<![CDATA[ 2,251.18 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="9" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="9" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="9" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D10:F10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="9" s="5">
+<O>
+<![CDATA[ 2,251.18 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="9" s="5">
+<O>
+<![CDATA[ -   ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="9" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="9" s="5">
+<O>
+<![CDATA[ 2,979.70 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="10" s="5">
+<O>
+<![CDATA[其他]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="10" s="5">
+<O>
+<![CDATA[ 7,813.02 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="10" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="10" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="10" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D11:F11)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="10" s="5">
+<O>
+<![CDATA[ 7,813.02 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="10" s="5">
+<O>
+<![CDATA[ -   ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="10" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="10" s="5">
+<O>
+<![CDATA[ 8,334.76 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="11" rs="5" s="5">
+<O>
+<![CDATA[USD]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="11" s="5">
+<O>
+<![CDATA[中国银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="11" s="5">
+<O>
+<![CDATA[ 2,088.20 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="11" s="5">
+<O>
+<![CDATA[ 1,887.32 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="11" s="5">
+<O>
+<![CDATA[ 200.88 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="11" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D12:F12)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="11" s="5">
+<O>
+<![CDATA[ 2,088.20 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="11" s="5">
+<O>
+<![CDATA[ 1,887.32 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="11" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="11" s="5">
+<O>
+<![CDATA[ 1,584.97 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="12" s="5">
+<O>
+<![CDATA[建设银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="12" s="5">
+<O>
+<![CDATA[19.90%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="12" s="5">
+<O>
+<![CDATA[17.84%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="12" s="5">
+<O>
+<![CDATA[2.06%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="12" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D13:F13)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="12" s="5">
+<O>
+<![CDATA[19.90%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="12" s="5">
+<O>
+<![CDATA[17.84%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="12" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="12" s="5">
+<O>
+<![CDATA[13.69%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="13" s="5">
+<O>
+<![CDATA[工商银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="13" s="5">
+<O>
+<![CDATA[ 162.01 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="13" s="5">
+<O>
+<![CDATA[ 209.80 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="13" s="5">
+<O>
+<![CDATA[ -47.79 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="13" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D14:F14)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="13" s="5">
+<O>
+<![CDATA[ 162.01 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="13" s="5">
+<O>
+<![CDATA[ 209.80 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="13" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="13" s="5">
+<O>
+<![CDATA[ 155.72 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="14" s="5">
+<O>
+<![CDATA[交通银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="14" s="5">
+<O>
+<![CDATA[ 141.08 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="14" s="5">
+<O>
+<![CDATA[ 141.72 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="14" s="5">
+<O>
+<![CDATA[ 178.56 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="14" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D15:F15)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="14" s="5">
+<O>
+<![CDATA[ 141.08 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="14" s="5">
+<O>
+<![CDATA[ 141.72 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="14" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="14" s="5">
+<O>
+<![CDATA[ 104.25 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="15" s="5">
+<O>
+<![CDATA[其他]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="15" s="5">
+<O>
+<![CDATA[ 179.20 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="15" s="5">
+<O>
+<![CDATA[ -   ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="15" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="15" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D16:F16)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="15" s="5">
+<O>
+<![CDATA[ 179.20 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="15" s="5">
+<O>
+<![CDATA[ -   ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="15" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="15" s="5">
+<O>
+<![CDATA[ 383.04 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="16" rs="5" s="5">
+<O>
+<![CDATA[EUR]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="16" s="5">
+<O>
+<![CDATA[中国银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="16" s="5">
+<O>
+<![CDATA[ 175.94 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="16" s="5">
+<O>
+<![CDATA[ 273.50 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="16" s="5">
+<O>
+<![CDATA[ -97.56 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="16" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D17:F17)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="16" s="5">
+<O>
+<![CDATA[ 175.94 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="16" s="5">
+<O>
+<![CDATA[ 273.50 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="16" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="16" s="5">
+<O>
+<![CDATA[ 182.12 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="17" s="5">
+<O>
+<![CDATA[建设银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="17" s="5">
+<O>
+<![CDATA[ -   ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="17" s="5">
+<O>
+<![CDATA[ -   ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="17" s="5">
+<O>
+<![CDATA[ -   ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="17" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D18:F18)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="17" s="5">
+<O>
+<![CDATA[ -   ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="17" s="5">
+<O>
+<![CDATA[ -   ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="17" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="17" s="5">
+<O>
+<![CDATA[ -   ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="18" s="5">
+<O>
+<![CDATA[工商银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="18" s="5">
+<O>
+<![CDATA[ 260.83 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="18" s="5">
+<O>
+<![CDATA[ 256.42 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="18" s="5">
+<O>
+<![CDATA[ 4.41 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="18" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D19:F19)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="18" s="5">
+<O>
+<![CDATA[ 260.83 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="18" s="5">
+<O>
+<![CDATA[ 256.42 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="18" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="18" s="5">
+<O>
+<![CDATA[ 270.12 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="19" s="5">
+<O>
+<![CDATA[交通银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="19" s="5">
+<O>
+<![CDATA[ 919.05 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="19" s="5">
+<O>
+<![CDATA[ 881.44 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="19" s="5">
+<O>
+<![CDATA[ 37.61 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="19" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D20:F20)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="19" s="5">
+<O>
+<![CDATA[ 919.05 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="19" s="5">
+<O>
+<![CDATA[ 881.44 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="19" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="19" s="5">
+<O>
+<![CDATA[ 1,095.25 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="20" s="5">
+<O>
+<![CDATA[其他]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="20" s="5">
+<O>
+<![CDATA[8.76%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="20" s="5">
+<O>
+<![CDATA[8.33%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="20" s="5">
+<O>
+<![CDATA[0.43%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="20" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D21:F21)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="20" s="5">
+<O>
+<![CDATA[8.76%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="20" s="5">
+<O>
+<![CDATA[8.33%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="20" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="20" s="5">
+<O>
+<![CDATA[9.46%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="21" rs="10" s="4">
+<O>
+<![CDATA[香港海利得]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="21" rs="5" s="5">
+<O>
+<![CDATA[USD]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="21" s="5">
+<O>
+<![CDATA[中国银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="21" s="5">
+<O>
+<![CDATA[ 1,169.15 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="21" s="5">
+<O>
+<![CDATA[ 1,005.88 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="21" s="5">
+<O>
+<![CDATA[ 163.27 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="21" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D22:F22)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="21" s="5">
+<O>
+<![CDATA[ 1,169.15 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="21" s="5">
+<O>
+<![CDATA[ 1,005.88 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="21" s="5">
+<O>
+<![CDATA[ -   ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="21" s="5">
+<O>
+<![CDATA[ 489.71 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="22" s="5">
+<O>
+<![CDATA[建设银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="22" s="5">
+<O>
+<![CDATA[ -42.53 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="22" s="5">
+<O>
+<![CDATA[ -   ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="22" s="5">
+<O>
+<![CDATA[ -42.53 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="22" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D23:F23)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="22" s="5">
+<O>
+<![CDATA[ -42.53 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="22" s="5">
+<O>
+<![CDATA[ -   ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="22" s="5">
+<O>
+<![CDATA[ -   ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="22" s="5">
+<O>
+<![CDATA[ -19.35 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="23" s="5">
+<O>
+<![CDATA[工商银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="23" s="5">
+<O>
+<![CDATA[ 1,211.67 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="23" s="5">
+<O>
+<![CDATA[ 1,006 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="23" s="5">
+<O>
+<![CDATA[ 205.79 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="23" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D24:F24)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="23" s="5">
+<O>
+<![CDATA[ 1,211.67 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="23" s="5">
+<O>
+<![CDATA[ 1,006 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="23" s="5">
+<O>
+<![CDATA[120.46%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="23" s="5">
+<O>
+<![CDATA[ 509.07 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="24" s="5">
+<O>
+<![CDATA[交通银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="24" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="24" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="24" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="24" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D25:F25)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="24" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="24" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="24" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="24" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="25" s="5">
+<O>
+<![CDATA[其他]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="25" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="25" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="25" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="25" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D26:F26)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="25" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="25" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="25" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="25" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="26" rs="5" s="5">
+<O>
+<![CDATA[EUR]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="26" s="5">
+<O>
+<![CDATA[中国银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="26" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="26" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="26" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="26" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D27:F27)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="26" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="26" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="26" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="26" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="27" s="5">
+<O>
+<![CDATA[建设银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="27" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="27" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="27" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="27" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D28:F28)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="27" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="27" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="27" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="27" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="28" s="5">
+<O>
+<![CDATA[工商银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="28" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="28" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="28" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="28" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D29:F29)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="28" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="28" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="28" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="28" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="29" s="5">
+<O>
+<![CDATA[交通银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="29" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="29" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="29" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="29" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D30:F30)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="29" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="29" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="29" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="29" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="30" s="5">
+<O>
+<![CDATA[其他]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="30" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="30" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="30" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="30" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D18:F18)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="30" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="30" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="30" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="30" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="31" rs="4" s="4">
+<O>
+<![CDATA[应收票据、信用证]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="31" s="5">
+<O>
+<![CDATA[应收票据]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="31" s="5">
+<O>
+<![CDATA[RMB]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="31" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="31" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="31" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="31" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D19:F19)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="31" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="31" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="31" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="31" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="32" rs="3" s="5">
+<O>
+<![CDATA[应收信用证]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="32" s="5">
+<O>
+<![CDATA[RMB]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="32" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="32" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="32" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="32" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D20:F20)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="32" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="32" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="32" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="32" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="33" s="5">
+<O>
+<![CDATA[USD]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="33" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="33" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="33" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="33" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D21:F21)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="33" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="33" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="33" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="33" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="34" s="5">
+<O>
+<![CDATA[EUR]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="34" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="34" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="34" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="34" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D22:F22)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="34" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="34" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="34" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="34" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting orientation="1">
+<PaperSize width="30240000" height="50688000"/>
+<Margin top="986400" left="2743200" bottom="986400" right="2743200"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="128"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="72"/>
+<Background name="ColorBackground" color="-12478742"/>
+<Border>
+<Top style="1" color="-4144960"/>
+<Bottom style="1" color="-4144960"/>
+<Left style="1" color="-4144960"/>
+<Right style="1" color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="72" foreground="-15454905"/>
+<Background name="ColorBackground" color="-3743751"/>
+<Border>
+<Top style="1" color="-4144960"/>
+<Bottom style="1" color="-4144960"/>
+<Left style="1" color="-4144960"/>
+<Right style="1" color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top style="1" color="-4144960"/>
+<Bottom style="1" color="-4144960"/>
+<Left style="1" color="-4144960"/>
+<Right style="1" color="-4144960"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="1"/>
+</WorkBook>

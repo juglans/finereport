@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><phantom>
+    <!--版本号，决定依赖是否需要重新加载，和插件版本号对应-->
+    <version>8.2.0</version>
+
+    <!--指定服务IP，注意最好配置成127.0.0.1，配置成其他IP可能某些系统会出错-->
+    <ip>127.0.0.1</ip>
+
+    <!--可以指定多个端口号，指定的端口号数就是服务开启的个数-->
+    <portList>
+        <port>60880</port>
+        <port>60890</port>
+    </portList>
+
+    <!--指定可执行程序路径，不写则使用内置应用，如果填写default，确保phantomjs已经配置了环境变量-->
+    <exe></exe>
+
+    <!--指定显示的log等级，可选none, error, warn, notice, info, debug, all-->
+    <!--推荐使用error-->
+    <log-level>error</log-level>
+</phantom>

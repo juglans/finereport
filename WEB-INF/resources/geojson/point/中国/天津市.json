@@ -1,0 +1,23 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"蓟县"},"geometry": {"type": "Point","coordinates": [117.4672,40.004]}},
+{"type": "Feature","properties": {"name":"武清区"},"geometry": {"type": "Point","coordinates": [117.0621,39.4121]}},
+{"type": "Feature","properties": {"name":"宝坻区"},"geometry": {"type": "Point","coordinates": [117.4274,39.5913]}},
+{"type": "Feature","properties": {"name":"静海县"},"geometry": {"type": "Point","coordinates": [116.9824,38.8312]}},
+{"type": "Feature","properties": {"name":"宁河县"},"geometry": {"type": "Point","coordinates": [117.6801,39.3853]}},
+{"type": "Feature","properties": {"name":"大港区"},"geometry": {"type": "Point","coordinates": [117.3875,38.757]}},
+{"type": "Feature","properties": {"name":"塘沽区"},"geometry": {"type": "Point","coordinates": [117.6801,38.9987]}},
+{"type": "Feature","properties": {"name":"西青区"},"geometry": {"type": "Point","coordinates": [117.1829,39.0022]}},
+{"type": "Feature","properties": {"name":"北辰区"},"geometry": {"type": "Point","coordinates": [117.1761,39.2548]}},
+{"type": "Feature","properties": {"name":"东丽区"},"geometry": {"type": "Point","coordinates": [117.4013,39.1223]}},
+{"type": "Feature","properties": {"name":"汉沽区"},"geometry": {"type": "Point","coordinates": [117.8888,39.2191]}},
+{"type": "Feature","properties": {"name":"津南区"},"geometry": {"type": "Point","coordinates": [117.3958,38.9603]}},
+{"type": "Feature","properties": {"name":"河西区"},"geometry": {"type": "Point","coordinates": [117.2365,39.0804]}},
+{"type": "Feature","properties": {"name":"河东区"},"geometry": {"type": "Point","coordinates": [117.2571,39.1209]}},
+{"type": "Feature","properties": {"name":"南开区"},"geometry": {"type": "Point","coordinates": [117.1527,39.1065]}},
+{"type": "Feature","properties": {"name":"河北区"},"geometry": {"type": "Point","coordinates": [117.2145,39.1615]}},
+{"type": "Feature","properties": {"name":"红桥区"},"geometry": {"type": "Point","coordinates": [117.1596,39.1663]}},
+{"type": "Feature","properties": {"name":"和平区"},"geometry": {"type": "Point","coordinates": [117.2008,39.1189]}}
+]
+}

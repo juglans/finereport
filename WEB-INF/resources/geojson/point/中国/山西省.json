@@ -1,0 +1,16 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"忻州市"},"geometry": {"type": "Point","coordinates": [112.4561,38.8971]}},
+{"type": "Feature","properties": {"name":"吕梁市"},"geometry": {"type": "Point","coordinates": [111.3574,37.7325]}},
+{"type": "Feature","properties": {"name":"临汾市"},"geometry": {"type": "Point","coordinates": [111.4783,36.1615]}},
+{"type": "Feature","properties": {"name":"晋中市"},"geometry": {"type": "Point","coordinates": [112.7747,37.37]}},
+{"type": "Feature","properties": {"name":"运城市"},"geometry": {"type": "Point","coordinates": [111.1487,35.2002]}},
+{"type": "Feature","properties": {"name":"大同市"},"geometry": {"type": "Point","coordinates": [113.7854,39.8035]}},
+{"type": "Feature","properties": {"name":"长治市"},"geometry": {"type": "Point","coordinates": [112.8625,36.4746]}},
+{"type": "Feature","properties": {"name":"朔州市"},"geometry": {"type": "Point","coordinates": [113.0713,39.6991]}},
+{"type": "Feature","properties": {"name":"晋城市"},"geometry": {"type": "Point","coordinates": [112.7856,35.6342]}},
+{"type": "Feature","properties": {"name":"太原市"},"geometry": {"type": "Point","coordinates": [112.3352,37.9413]}},
+{"type": "Feature","properties": {"name":"阳泉市"},"geometry": {"type": "Point","coordinates": [113.4778,38.0951]}}
+]
+}

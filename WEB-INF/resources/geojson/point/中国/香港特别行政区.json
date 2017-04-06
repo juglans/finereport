@@ -1,0 +1,292 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+
+
+        "name": "离岛区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.94195556640625,
+          22.267493167207178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "屯门区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.95431518554686,
+          22.39071391683855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "北区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.17678833007812,
+          22.508750980898704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "元朗区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05868530273438,
+          22.44530268140158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "荃湾区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.09713745117188,
+          22.391983666602783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "葵青区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0985107421875,
+          22.344995208437894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "南区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.20150756835938,
+          22.2280904167845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "中西区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14657592773438,
+          22.26876403907398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "湾仔区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.17129516601562,
+          22.26876403907398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "东区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.22622680664062,
+          22.253512814974744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "西贡区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27978515625,
+          22.290367094285866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "观塘区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2413330078125,
+          22.300532082873683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "九龙市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.20150756835938,
+          22.30815533897154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "深水埗区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1644287109375,
+          22.311966810977616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "油水旺区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1757583618164,
+          22.302755575548254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "黄大仙区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2025375366211,
+          22.336738842238145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "沙田区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.20219421386719,
+          22.382142802727515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "大埔区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.28459167480469,
+          22.444668051657157
+        ]
+      }
+    }
+  ]
+}

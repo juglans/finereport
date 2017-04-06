@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<TableDataMap>
+<TableData name="Embedded1" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[活动,,.,,场数]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[Hb"CXZT5XhDOgQ6cR_gIY%Kh>]A]Aa0eEXg:(?>Nm>@dc'#hh(0>s+707k.Y(YmH)b*5h42Im!
+H$Raii7,+B]Ap6Y34%k?S5XWFPR_:DF:S)XkTH6T([!Dm\a>@3"7G>~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars/>
+<WebPage isPage="true" isShowAsImage="false" isAutoScale="false" isTDHeavy="false"/>
+</WebPageContent>
+<Background name="ColorBackground"/>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,8458200,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,2743200,2743200,2743200,2743200,2743200,15468600,2743200,2743200,2743200]]></ColumnWidth>
+<FloatElementList>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float54"/>
+<PrivilegeControl/>
+<Location leftDistance="2971800" topDistance="2590800" width="1752600" height="1562100"/>
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n&M?beXK/$Q`"O@:3KSm-3LH;K;$iSA^8R%0RZX)*'i\Yc*4/#u
+,)@<`&kf*12DD']AnN7]A_CA/';Lc3Tk`V[`Q!8dIOj3tq,UqAJ-)10Zfgm2Q?(G\/9e2m7#^]A
+r/"cPu<H1%@03KCH0h#::Uqma$AbDk^gaBR7nd9h@hN`3+M8MoX8\i/p_9$B>RY'*>/j,"2N
+Z:f>_Jc;Y=a;;_ZM)>bbL6TC`pTscmq[<sYZ4Eh24NUQ;r:<9SB,J?1#'aPBZrI#;Y<N"'>I
+ZY>rtq!Pnr1)i;9m(g)hic4_k3FfA(SObS+!&0#-#@DcYK8V%Yu/Q:sBL9:`?1qo+lTIn/?$
+.UE(up$Ku<j80OM7>f<pN**P\Y@$!*eZn5ZQX<cW/UtVnqgpk4=`6M<SpWc&6g$p`pP_c.4$
+1>@HK'CGSN\9monQk:fD!EfaeD+*DjPiUl9&XPLN1G#(:D+'$4^tF'l3*=3DfR.j(o:ek>tk
+(Q'tC=bn8f6rbni^;G-glM]A5kekAsFWRWS()oY5g0*X5]ALQ!i3;he-3,3mB;4IIDga?VIVI0
+<K7qI-UBAqYUo^4uX#N@.0m3EKMn+-5KUX=tB24H>GLAh4j_`^$Wh15S*hCN\:l[j\c$+<1'
+7PFAWTH>hf-O4d()Na[o:;nDbuNF!l"q]A'%dc't5]Ad[DYUA?2Q=qc-GX)VTeaJ<EN-7q"Wmd
+F!b5bU[P[>.GjB/aSg0(8'$(E#@<;arptO.[5S$LHQR+'+d9qG_4<q)&pk2lQP>JD.sgBF"L
+suK=8ZP\iZo)BDU.r%/gl!-8e1lCl(.@t74-K1Xm,]A=X`h.Y\P<1kZnE;?=Y/,=27.P3iP"U
+iD>F!tgYjeA68R["P1)(Rk@qt3N*>[Sl;G<F6=0Z]A;g/YXS\B)5k%NYCBGCHUZnl4crJO0YE
+j&h[]A15:,,n8QjQC$15@laGU[<)u3e()cUSPqig!!~
+]]></IM>
+</O>
+<Style index="0"/>
+</com.fr.report.cell.FloatElement>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float69"/>
+<PrivilegeControl/>
+<Location leftDistance="3048000" topDistance="4191000" width="1447800" height="2133600"/>
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n&M?beXK/$Q`"O@:3L@lfmCG;K;$iSW/>Y*(4$6S_Bu$]AU3Y(;,
+tD(V.@Pu!8.@LG7?kn9WC0V]AI#2caM]A^_ZXrm+jLNj2/O/Rg^@hNCL'RuC38f2#jQs1Ec[qu
+O[ZnF%&b>@G(%UlSm\[CsV8blFg4[2B.7p%q?>;aVe.NnI6[dYkn(lHG\s/O4SeRimaEBDVl
+&$ftl^XdqhAoXs$Ns)8%"Np=5f&()2cLZ!Y6]A9O]A$*$HS?PVkc"cKpT%)TjfXV'MMqG.I"&Y
+7G?<R$S"/pjo.;i5ZAIla]A;k3VIM^YT@5+B4T?0W%46]AEpb:X_FWAiKHhjd06:,h8ElCI2hU
+:uN#,%Hhh<k"\fFM0A*%1e\Tc_p'(/]AP!5%([&s\?Bl8>5sZMlWD=3P]ARZ6)Dbq-E;.986Ys
+j,)L)e[\P,@iPn6@<%'X1*la]AC[!K:0%mX_`iVfWeIoVlRknbfUt#""+&qFK)j!9r6s3kD=H
+tN_?ZsEe[7'0\Y1N>]A@<L',UC;Set>DO*N0+0q9cV<QK4P[RFN[.t=SZMSfBhCZcTThKo)P2
+,0-GYKb&R>G'5(D;eZH5l\=]AlP3Z5X_.^K7"8t=R6.b<a8:atqV#SRY,LWJhgUKuWZ^BdjJ%
+g!UUr&V?@TY^rX'T,[O05JIic4&,j1J*/r8iXlK>Iu.A7%J~
+]]></IM>
+</O>
+<Style index="0"/>
+</com.fr.report.cell.FloatElement>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float86"/>
+<PrivilegeControl/>
+<Location leftDistance="2933700" topDistance="6286500" width="1828800" height="1905000"/>
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n&M?beXK/$Q`"O@:3J*n*/gK;K;$iXc$ta$q/_h=>MC11auW_.2
+t)mDeK9Y%@ECK#eo?O46]A7&MoLV^@Jf\(2Y3uWs!uI+0OLCP%Q`*D2XKn=C>:6*`c8BX:Rap
+IWCSlG':DK^[u)H&-5c-]Ahp.?(EBJ76g/mUb3D5uD^%1!nmPSL%Q1+sbT]A"S*?Z*FnFu<<CG
+=u%\\Sb"5g/g'SC;2r'd0uIj,43d8Zn8?.*[]ALqg9iGVY*H`1Lh5f*kg`Q]AMp6HfS`U?qm!O
+t=;AG;nrPtATVfEiNen4$W5%QW\,5Z\g9?[q7"PQ>1VFmHL=FKIHm-?:W'8qiWb&D1#PaK(-
+7eV&^e\O=sEiMfU8D.tGYEK$Oi!H*s0DB).4d&Lk?Z9(qXmo>F=o<=sSfTAP0#)/m9dbYV;m
+YgNTBn+UqCB/)VTs9noZhr1B<NuCB/RNhP2R*%cQ)g4dbcFUk>=5XX8\<r.!iIPr/G+Km,gA
+gg32o>.\Hb@l]AQI`YmQUEQR'*4Imtn/;4=$Tl?3'[ka,O)h<`e#*<k=NIbi:YPT$MSd)b1?^
+_Eb,@1FZH(@6!J;%dPI'D>g+4r\k/L(K'>RtWNZ0Z)l.6W8E6F5r%jf's\E>YeEcQZZ%09`P
+~
+]]></IM>
+</O>
+<Style index="0"/>
+</com.fr.report.cell.FloatElement>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float99"/>
+<PrivilegeControl/>
+<Location leftDistance="2971800" topDistance="8458200" width="1676400" height="1676400"/>
+<O t="Image">
+<IM>
+<![CDATA[!@J$&qh\-E7h#eD$31&+%7s)Y;?-[sA,lT0A-`A>!!$utPuI_`"7A`K5u`*_m@>bNlS&m)Z\
+0m'9?7_S0.8L_'Z^?gJ-(?2_G%gF?=7_<?pGOd"U#YH)L):#EiY_Ab"*H*EK3Qg^N4K(3q[!
+3Nuk&d(CL3Czzzb_`32<gTQQ:KRA8Yk`@R(;/@.N9-n#QZBU#aAFk?2i5TC?/)L>h0sqq[0+
+_r7i0nIdplHp]ABUk(4PWYiXSL,\ioJ%^>?gI&L0Xg5o>QNTHZg/pT+/DVMqs6"Ad32F)Y&]A(
+?9pPr8(a@M;:Gf0]AVc>p*6rnJ3Vg)5-CATY5n8oj<bUR]AK'XF8Da]AYcnO1j;nPc*C^DA,'3:
+>/0a_QWMD/uTE,=]AUng6keARGua+T+ka^[i8<PVsTjpFU-YZdG+mso`1(XrcPU:>#9>Bq%9?
+g"VEN,fRmYna]AWV1@Mk:k8<aX>+?PDL4AfjJ+K(6O5`?1u/5CL:1=@XX5X%gKn=gkEeO(&&g
+rHja(cok<^L<a?`"7r)HAH%"qtTLk)9+i&e#$4eSf0LA_kFNL%h9KI>h/0ZH<j6B?[kc%.V<
+S!?/?E-ln-P\/A86R\b2b_j)9=>,TZ#2XC?GB(M8!M1>ecBJ!Vjp]A!a'Dc7*pp./VB0Lkhe<
+*KsQICF4&mW(ADnqt!jhP,kU'k_,$bPhVSdj,l-L]A)16Z%&3#2^:)naU+E%/*2E+7^qH&JhO
+rB^W#dfOG'".U1%J72HQmg!*>'=4Oa:g9=C[0<$;1+k6:=?9^rURC(LJ6Y%d%0*Ot)1nAbdY
+bO\4V+jIp*aM2s0Rp_"oH_1F5_Q]A^tC;.p?bLkq*;4hTI[8cfPL&_l%a^8=m1Julm[^"Fo="
+G594A#R#)bab2&6&ksPEeGPH"G/lM#Qd:78/Qpm;?\L^0FfPNL3<i<S+N.)R?:;+Z;^gU.*9
+$$34*g&_ubj!d_d_jR.gIV:6k&=*Fd_Y(+_p+5!MQ]A+68"Wai2Tp:t)!KHWro,9($dXd1Ga9
+%b(<d,!jNsKb3@[0<>`WlpYmJ&hLYl1',^l"hU6rg3sFQVO_f@&k%1aP+*pQRo5<*d'-JTP7
+khY7aN)==&V7p`3DNjpoVqYC.DN&nX696JGbh1@%C$5E<aRH.$^V9;k`)ub&'abq*N7Z*2A4
+,h/hFC20l3]AS!1-$NmbdW%O%EM>tPYTp,MCc:9Fhj&X=/Jm5%GD/a&QW'X1)#g@6`O^/Xr8L
+^L"5WlG..*"%+2#Vi"O:BubUk\K*m`=W6arD/MZ)f^)qY5V]A^qkM%0zzz!-%$-4A'(rL\;aI
+z8OZBBY!QNJ~
+]]></IM>
+</O>
+<Style index="0"/>
+</com.fr.report.cell.FloatElement>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float124"/>
+<PrivilegeControl/>
+<Location leftDistance="2552700" topDistance="10172700" width="2476500" height="1943100"/>
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n&M?beXK/$Q`"O@:3ImnoSj[WOVVENdf7s#Ee_:*\*Y43aIssT(
+#\kZAe-D0'YO/;sAGVC_si?^G)M?b*C`MoN?+\fm?Nfn%L0KMuS%Z48sG0\<jf_!s1=?A_o<
+Q/e&+MH(Qn$;a#ERWm(>!KuP3=Eh^dkG6tmR32`;+>lNrg]AUmM'@K07B"Thaq?(Um[H-%8p9
+Ff;b7kRTm-mHcZf>H;%.*K8M^E,J(?P3W*br,7"$Km6ZW?lIh*;d?9C9c:2p3u6p'>.uD9ip
+DEWNMFopVl:pc]AhAs1-.&D\G^U1/H/g96g5`E.fR+$2Kf]A2+(@=]AGEjo>41pcP7&FjNrr]Ar?
+Zh2,\+&arI^+K<;p/XhoWXc`>8eY6I$,l7Q<<s:=gsmW#OgSlQi>4eW_L]A>eXgu.6f7`H)k1
+e1)XQ!IFIFUt?lI<78M@ZjbpmP0W]A)$if@-CnJlYe0>%G_q/3j%fCib,;uH+P)$DA1<DlVt;
+XW3"bHOK4l$kBTc1k`XTqlM>`)c;b&b[sm8Fffe:p`?%$@mR::iihin_c7]A%D;m(H#D<Yu>%
+_5r-Yktp_n<-;a>Le)@>XIg2::4o+Zds:ec\bfd]A;Ak\Z/\f#Q2'tdYC8u859oqsl,0s_]A:V
+QGmWgN[@eV&=TClM68%[AiIE^,S)CVW#b9BjSi/:)SXXm-%XRWs:m#fI$Mki?L,[2+U"IM.g
+3>>R0)[([2#"9$A('PJ)-34>]A&BBn88a(kDe'D\.q87PlUcpabs2=*TZKBaWAtPgM?2j\I#_
+#U=*qOi!F,*UU;s^-3Ml*t4Pu6O,,`RHp29[^jPrBfA]ARh$>pN6(L=m)$r"98~
+]]></IM>
+</O>
+<Style index="0"/>
+</com.fr.report.cell.FloatElement>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float145"/>
+<PrivilegeControl/>
+<Location leftDistance="2781300" topDistance="12115800" width="2133600" height="2400300"/>
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n&M?beXK/$Q`"O@:3K/oQ5']AWOVVE:9NMa!s&YoKgJrNKdHqAH8
+mVK9k\51EaTO.@cXntgALZh;^Y!ILIqBe-d0:'delR;g8nnH*s39dctN3uBNnB[eh)>T_sXX
+u2d\<)[c`[b[?A!0s1$jp^jFm'br:"Jhl[^GmPnt<.'Z"JDs_q40+#<T]A;oaRV3@Kq`5ga!'
+DNi%]AmA:B/VC650D@LL0OCu3j';+cgO`[R*f2Tb0[dMBc*o!.Z!tb,oQ1hsb^#VW66+UVSEQ
+SZEj]A]A"jt0G(bF6=O`BGlYo^WP%l<(?ecKWF@.pH5ph!X#54EIWPrB.olZFT:<>'R\a4*hD-
+9j4j8S^UkmnX4+cIsXR5/?s=YOh5SSXl*^CBCD?B]ACP4c>:E;7Q8dsTG;/CnlVL<IE;fWa`C
+X@I48uj=.4D(,rDPI=J?t7(cW.l]AD9L'b17:.0IM]AUqU\Q0Rl,p]A=23Wp-'iO1dN:ieSm.@(
+u/Z?SM>5h!b$-F\U?ET;I@^"_://MBNr@%LkTRGSdRBNX_[3V)V??t8XA+T6tpB:La.ScFVD
+uTGiq3)0Q8)D7UqC$=IXlbbt!ga@uG&[XZ?/9J]Ap6@\`,=aSVbaDnajXIi^TmLFW?Dh^3Id_
+mSHfAROfDJceS)JDQaUsro'4,gJR',q:pRT4.C$jf>>?tPUa4X/`<lKkRp3'2TqHDM`f+H!0
+??UA:F">N^maJU:aXD'Z>uK&ff9&2en,BE#^LEA0l5LM*?Obo7q=;_R>pifo=SltFnsJ;[?n
+L\bEr"c93N&ek)%DjFWriKn"Bl47VJE..5()fk91lk81,Y?S9.)B,q/bas;O>k0\2sXTO)+#
+2-4*KEXa):i25PVno-C6.I68FIMNMlse(4m'N%:A]ABpkR8md@KH`>5TPSs/@*&_Guh9"R!jp
+97o(kc4@n5CI]AQ>I*Elj-%(!dr$1i-@PET+3>BK>e=^^lZ&aI)ctp.fK\t!1UGt.KpTtV)Y5
+$hFkT;Jrh:tfB.(?7cK9m(IB]APV`ZND`0"\!aqnYDt`:\6FF'7[jcia=~
+]]></IM>
+</O>
+<Style index="0"/>
+</com.fr.report.cell.FloatElement>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float158"/>
+<PrivilegeControl/>
+<Location leftDistance="2895600" topDistance="14516100" width="1752600" height="1562100"/>
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n&M?beXK/$Q`"O@:3KUlKR:F;K;$ih1rO8%L`etmKkF^"]A/_6,[
+YN_4Q,Eb^_-!KYYau:_Dq\4pU/M?pqGdQ;qQ'DF-6kA]Aq!<K..VSG\^YE6-eF^UIG]A@!kq9Z
+;JQ;9]Ap<!>RO3KDlI8FD#N?Fp,PJju1J_n09)K*<5@O\YGiSpJUSh*19S3[d79bc@tDU2'?H
+g\gMf:?QgXQYY$RW*M3A=0p4ERsNF\Pq<jmu9MRjkX[hX0MTG?7\;\C<t/;n:0]A&-O)MsiaQ
+KqpM>r:EnZedH$r,BeXlGl"n2&j?2i&"pHa#kbaTS"Y'2>iXm]At+1UB/0q=<q"`>dCnZ?W=<
+fP.O$WGahEQIS/f!VT/E;D&:d%1J1f@$6A#6NG,SG=qH;9BPefV><;?]A3D)aKDb.`#r!.fm+
+D8oD:7<I&$Go&ceMV^A^CC?l'?\igFtedQI5ThIQ[)6A*[H@XuP^f!]A<VI5_4d6"j(ir%KT$
+5Rt)t9*-M0\FZ!"^?_,MpoIkM1PM0B0MpGm[4]Ah#SB(L4<]AtR-dhn:^Y]AsrN3mt-^Cmn1:kU
+`#4GWpaa'\1%_(+%snoP.&!f.Um[1,Qen0%%aVN0'f#?RK*~
+]]></IM>
+</O>
+<Style index="0"/>
+</com.fr.report.cell.FloatElement>
+</FloatElementList>
+<CellElementList>
+<C c="0" r="0" cs="8" rs="13">
+<O t="CC">
+<LayoutAttr selectedIndex="0"/>
+<Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
+<Chart class="com.fr.plugin.chart.vanchart.VanChart">
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-1118482"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<ChartAttr isJSDraw="true" isStyleGlobal="false"/>
+<Title4VanChart>
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[条形图应用]]></O>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Microsoft YaHei UI" style="0" size="160" foreground="-5723992"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="true" position="2"/>
+</Title>
+<Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
+</Title4VanChart>
+<Plot class="com.fr.plugin.chart.column.VanChartColumnPlot">
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="0" combinedSize="50.0"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name="">
+<AttrList>
+<Attr class="com.fr.chart.base.AttrBorder">
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="5"/>
+<newColor borderColor="-1"/>
+</AttrBorder>
+</Attr>
+<Attr class="com.fr.plugin.chart.base.AttrLabel">
+<AttrLabel>
+<labelAttr enable="true"/>
+<labelDetail class="com.fr.plugin.chart.base.AttrLabelDetail">
+<Attr showLine="false" position="5" isCustom="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="宋体" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<AttrToolTipContent>
+<Attr isCommon="true"/>
+<value class="com.fr.plugin.chart.base.format.AttrTooltipValueFormat">
+<AttrTooltipValueFormat>
+<Attr enable="true"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##场]]></Format>
+</AttrTooltipValueFormat>
+</value>
+<percent class="com.fr.plugin.chart.base.format.AttrTooltipPercentFormat">
+<AttrTooltipPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipPercentFormat>
+</percent>
+<category class="com.fr.plugin.chart.base.format.AttrTooltipCategoryFormat">
+<AttrToolTipCategoryFormat>
+<Attr enable="true"/>
+</AttrToolTipCategoryFormat>
+</category>
+<series class="com.fr.plugin.chart.base.format.AttrTooltipSeriesFormat">
+<AttrTooltipSeriesFormat>
+<Attr enable="false"/>
+</AttrTooltipSeriesFormat>
+</series>
+<HtmlLabel customText="" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+</AttrToolTipContent>
+</labelDetail>
+</AttrLabel>
+</Attr>
+<Attr class="com.fr.plugin.chart.base.VanChartAttrTrendLine">
+<TrendLine>
+<Attr trendLineName=""/>
+<LineStyleInfo>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+<AttrColor>
+<Attr/>
+</AttrColor>
+<AttrLineStyle>
+<newAttr lineStyle="0"/>
+</AttrLineStyle>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+</LineStyleInfo>
+</TrendLine>
+</Attr>
+<Attr class="com.fr.plugin.chart.base.AttrTooltip">
+<AttrTooltip>
+<Attr enable="true" followMouse="false" showMutiSeries="false" isCustom="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="宋体" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<AttrToolTipContent>
+<Attr isCommon="true"/>
+<value class="com.fr.plugin.chart.base.format.AttrTooltipValueFormat">
+<AttrTooltipValueFormat>
+<Attr enable="true"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+</AttrTooltipValueFormat>
+</value>
+<percent class="com.fr.plugin.chart.base.format.AttrTooltipPercentFormat">
+<AttrTooltipPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipPercentFormat>
+</percent>
+<category class="com.fr.plugin.chart.base.format.AttrTooltipCategoryFormat">
+<AttrToolTipCategoryFormat>
+<Attr enable="true"/>
+</AttrToolTipCategoryFormat>
+</category>
+<series class="com.fr.plugin.chart.base.format.AttrTooltipSeriesFormat">
+<AttrTooltipSeriesFormat>
+<Attr enable="true"/>
+</AttrTooltipSeriesFormat>
+</series>
+<HtmlLabel customText="" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+</AttrToolTipContent>
+<GI>
+<AttrBackground>
+<Background name="ColorBackground" color="-16777216"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="2"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="0.5"/>
+</AttrAlpha>
+</GI>
+</AttrTooltip>
+</Attr>
+</AttrList>
+</ConditionAttr>
+</DefaultAttr>
+</ConditionCollection>
+<Legend4VanChart>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-3355444"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="false"/>
+<FRFont name="SimSun" style="0" size="88" foreground="-10066330"/>
+</Legend>
+<Attr4VanChart floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
+</Legend4VanChart>
+<DataSheet>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isVisible="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+</DataSheet>
+<newPlotFillStyle>
+<AttrFillStyle>
+<AFStyle colorStyle="1"/>
+<FillStyleName fillStyleName="新特性"/>
+<isCustomFillStyle isCustomFillStyle="false"/>
+<ColorList>
+<OColor colvalue="-10243346"/>
+<OColor colvalue="-8988015"/>
+<OColor colvalue="-472193"/>
+<OColor colvalue="-486008"/>
+<OColor colvalue="-8595761"/>
+<OColor colvalue="-7236949"/>
+<OColor colvalue="-8873759"/>
+<OColor colvalue="-1071514"/>
+<OColor colvalue="-1188474"/>
+<OColor colvalue="-6715442"/>
+<OColor colvalue="-10243346"/>
+<OColor colvalue="-8988015"/>
+<OColor colvalue="-472193"/>
+<OColor colvalue="-486008"/>
+<OColor colvalue="-8595761"/>
+<OColor colvalue="-7236949"/>
+<OColor colvalue="-8873759"/>
+<OColor colvalue="-1071514"/>
+<OColor colvalue="-1188474"/>
+<OColor colvalue="-6715442"/>
+<OColor colvalue="-10243346"/>
+<OColor colvalue="-8988015"/>
+<OColor colvalue="-472193"/>
+<OColor colvalue="-486008"/>
+<OColor colvalue="-8595761"/>
+<OColor colvalue="-7236949"/>
+<OColor colvalue="-8873759"/>
+<OColor colvalue="-1071514"/>
+<OColor colvalue="-1188474"/>
+<OColor colvalue="-6715442"/>
+<OColor colvalue="-10243346"/>
+<OColor colvalue="-8988015"/>
+</ColorList>
+</AttrFillStyle>
+</newPlotFillStyle>
+<VanChartPlotAttr isAxisRotation="false"/>
+<VanChartRectanglePlotAttr vanChartPlotType="normal" isDefaultIntervalBackground="true"/>
+<XAxisList>
+<VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartValueAxis">
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[]]></O>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="88" foreground="-10066330"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="true" position="0"/>
+</Title>
+<newAxisAttr isShowAxisLabel="false"/>
+<AxisLineStyle AxisStyle="0" MainGridStyle="1"/>
+<newLineColor lineColor="-5197648"/>
+<AxisPosition value="3"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Verdana" style="0" size="88" foreground="-10066330"/>
+</Attr>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+<VanChartAxisAttr mainTickLine="0" secTickLine="0" axisName="X轴" titleUseHtml="false" autoLabelGap="true" limitSize="false" maxHeight="15.0" commonValueFormat="true" isRotation="false"/>
+<HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+<alertList/>
+<customBackgroundList/>
+<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+</VanChartAxis>
+</XAxisList>
+<YAxisList>
+<VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartAxis">
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[]]></O>
+<TextAttr>
+<Attr rotation="-90" alignText="0">
+<FRFont name="微软雅黑" style="0" size="88" foreground="-10066330"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="true" position="0"/>
+</Title>
+<newAxisAttr isShowAxisLabel="true"/>
+<AxisLineStyle AxisStyle="0" MainGridStyle="1"/>
+<newLineColor lineColor="-5197648"/>
+<AxisPosition value="2"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="88" foreground="-10066330"/>
+</Attr>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="true"/>
+<VanChartAxisAttr mainTickLine="0" secTickLine="0" axisName="Y轴" titleUseHtml="false" autoLabelGap="true" limitSize="false" maxHeight="15.0" commonValueFormat="true" isRotation="false"/>
+<HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+<alertList/>
+<customBackgroundList/>
+</VanChartAxis>
+</YAxisList>
+<stackAndAxisCondition>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name=""/>
+</DefaultAttr>
+</ConditionCollection>
+</stackAndAxisCondition>
+<VanChartColumnPlotAttr seriesOverlapPercent="20.0" categoryIntervalPercent="20.0" fixedWidth="true" columnWidth="40" filledWithImage="false" isBar="true"/>
+</Plot>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
+<ChartDefinition>
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[Embedded1]]></Name>
+</TableData>
+<CategoryName value="活动"/>
+<ChartSummaryColumn name="场数" function="com.fr.data.util.function.NoneFunction" customName="场数"/>
+</MoreNameCDDefinition>
+</ChartDefinition>
+</Chart>
+<tools hidden="true" sort="true" export="true" fullScreen="true"/>
+<VanChartZoom>
+<zoomAttr zoomVisible="false" zoomResize="true" zoomType="xy"/>
+<from>
+<![CDATA[]]></from>
+<to>
+<![CDATA[]]></to>
+</VanChartZoom>
+</Chart>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting>
+<PaperSize width="40320000" height="21600000"/>
+<Margin top="986400" left="2743200" bottom="986400" right="2743200"/>
+</PaperSetting>
+<Background name="ColorBackground"/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="4">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="0"/>
+</WorkBook>

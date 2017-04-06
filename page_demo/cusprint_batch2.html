@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html> 
+<head> 
+<title>FineReport Demo</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=GBK" />  
+<script type="text/javascript" src="/WebReport/ReportServer?op=emb&resource=finereport.js"></script>  
+<link rel="stylesheet" type="text/css" href="/WebReport/ReportServer?op=emb&resource=finereport.css"/>  
+ <script type="text/javascript"> 
+ function doPrint(){ 
+ var printUrl="http://localhost:8075/WebReport/ReportServer?reportlets=";//端口和ip根据具体情况设定 
+  var tmpURL = ''; 
+  for (var i=0;i<document.report.cpt.length;i++ ){ 
+  if (document.report.cpt[i].checked) { 
+  if (tmpURL) { 
+  tmpURL += ','; 
+  } 
+  tmpURL += document.report.cpt[i].value; 
+  } 
+  } 
+  if (tmpURL) { 
+  printUrl += '[' + tmpURL + ']'; 
+  } 
+ var isPopUp = false;
+ var config = {'url' : printUrl,'isPopUp' : isPopUp}
+ FR.doURLPDFPrint(config); //不弹对话框的批量打印(pdf打印)
+}
+
+ </script> 
+ </head> 
+ <body> 
+ <form name="report" width="200" height="200"> 
+ <input id="cpt" type="checkbox" value="{reportlet:'/GettingStarted.cpt',地区:'华南'}" />华东<br> 
+ <input id="cpt" type="checkbox" value="{reportlet:'/GettingStarted.cpt',地区:'华北'}" />华北<br> 
+ <input type="button" name="doprint" onClick="doPrint()" value="doPrint"></input> 
+ </form> 
+ </body> 
+ </html> 

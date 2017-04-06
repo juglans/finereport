@@ -1,0 +1,15 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"榆林市"},"geometry": {"type": "Point","coordinates": [109.8743,38.205]}},
+{"type": "Feature","properties": {"name":"延安市"},"geometry": {"type": "Point","coordinates": [109.1052,36.4252]}},
+{"type": "Feature","properties": {"name":"汉中市"},"geometry": {"type": "Point","coordinates": [106.886,33.0139]}},
+{"type": "Feature","properties": {"name":"安康市"},"geometry": {"type": "Point","coordinates": [109.1162,32.7722]}},
+{"type": "Feature","properties": {"name":"商洛市"},"geometry": {"type": "Point","coordinates": [109.8083,33.761]}},
+{"type": "Feature","properties": {"name":"宝鸡市"},"geometry": {"type": "Point","coordinates": [107.1826,34.3433]}},
+{"type": "Feature","properties": {"name":"渭南市"},"geometry": {"type": "Point","coordinates": [109.7864,35.0299]}},
+{"type": "Feature","properties": {"name":"咸阳市"},"geometry": {"type": "Point","coordinates": [108.4131,34.8706]}},
+{"type": "Feature","properties": {"name":"西安市"},"geometry": {"type": "Point","coordinates": [109.1162,34.2004]}},
+{"type": "Feature","properties": {"name":"铜川市"},"geometry": {"type": "Point","coordinates": [109.0393,35.1947]}}
+]
+}

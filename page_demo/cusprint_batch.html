@@ -1,0 +1,31 @@
+<html>     
+<head>    
+<title>FineReport Demo</title>  
+<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+<script type="text/javascript" src="/WebReport/ReportServer?op=emb&resource=finereport.js"></script>     
+<link rel="stylesheet" type="text/css" href="/WebReport/ReportServer?op=emb&resource=finereport.css"/>  
+<script type="text/javascript">          
+    function doPrint(){     //通过sessionid打印    
+        var printurl="http://localhost:8075/WebReport/ReportServer"; 
+		var p1=document.report.config1.value;
+		var p2=document.report.config2.value;
+		var reportlets = FR.cjkEncode("[{reportlet: '/doc/Primary/Parameter/Parameter_1.cpt', 地区 : " + p1 + "}, {reportlet: '/doc/Primary/Parameter/Parameter_1.cpt', 地区 : " + p2 + "}]");
+				var config = {
+				url : printurl,
+				isPopUp : false,
+				data : {
+					reportlets: reportlets
+				}
+		};
+		FR.doURLPDFPrint(config);
+    }
+</script>     
+</head>     
+<body>     
+<form name="report" width="200" height="200">
+	<input id="config1" type="checkbox" value="华东" />华东<br>  
+	<input id="config2" type="checkbox" value="华北" />华北<br>  
+	<input type="button" onClick="doPrint();" value="doPrint"><br>   
+</form>     
+<body>     
+</html>

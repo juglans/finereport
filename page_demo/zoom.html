@@ -1,0 +1,31 @@
+<html>  
+ <head>  
+  <title>FineReport Demo</title>  
+  <meta http-equiv="Content-Type" content="text/html; charset=GBK" />  
+ </head> 
+<script type="text/javascript">      
+   function afterload(){      
+   document.getElementById('reportFrame').contentWindow.contentPane.scale('-');      
+   fuzhi();      
+   }      
+   function afterload2(){      
+   document.getElementById('reportFrame').contentWindow.contentPane.scale('+');      
+   fuzhi();      
+   }      
+   function fuzhi()      
+   {      
+       var contentPane = document.getElementById("reportFrame").contentWindow.contentPane;      
+       var zoom = contentPane.zoom * 100 +"%";       
+       document.getElementById("zoom").value = zoom;  //将新的显示百分比赋给zoom文本框    
+   }      
+</script>  
+ <body>  
+ <iframe id="reportFrame" width="900" height="500" src="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/Bubble.cpt"></iframe>  
+<body onload="fuzhi()">    
+        <div id="toolbar">    
+            <input type="button" onclick="afterload();" value="-"></input>    
+            <input id="zoom" type="text" readonly="true" style="width: 80px">    
+            <input type="button" onclick="afterload2();" value="+"></input>    
+        </div> 
+ </body>  
+</html>  

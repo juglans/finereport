@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>丰富的图表</title>
+  <meta name="keywords" content="图表库,可视化,数据可视化,Data Visualization,visualization,visualisation">
+  <meta name="description" content="帆软图表库">
+  <link rel="icon" href="/WebReport/picture/chart/logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/WebReport/picture/chart/logo.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="/WebReport/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/WebReport/css/codemirror.css" />
+  <script src="/WebReport/css/jquery.js"></script>
+  <script src="/WebReport/css/sea.js"></script>
+  <script src="https://g.alicdn.com/bui/bui/1.1.17/config.js"></script>
+  <script src="/WebReport/css/script.js"></script>
+  <script type="text/javascript" src="/WebReport/ReportServer?op=emb&resource=finereport.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    var href = window.location.href;
+    if (href.indexOf('site.alipay.net') !== -1) {
+      window.location.href = 'https://g2.alipay.com';
+    }
+  </script>
+ 
+<div class="banner">
+  <div class="banner-inner">
+    <h1>新颖的图表</h1>
+    <p class="intro">多种基础图表类型&&适合dashboard展示的新颖图表类型<p/>
+    <p class="intro">强大的自定义功能制作出更具视觉冲击力的图表</p>
+  </div>
+</div>
+
+  <div class="main-container clearfix">
+<div class="body-content demo-body">
+  <div class="doc-content demo-doc">
+    <div class="doc-inner">
+      <h2 id="组合图">组合图</h2>
+      <ul class="demo-detail-list clearfix" id="J_组合图">
+	  <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewCombination/VerticalLineBubbleChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/VerticalLineBubbleChart.png" width="316px" height="167px" />
+            <div class="des">纵向折线图气泡图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewCombination/LineBubbleChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/LineBubbleChart.png" width="316px" height="167px" />
+            <div class="des">折线图气泡图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewCombination/ColumnAreaChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/ColumnAreaChart.png" width="316px" height="167px" />
+            <div class="des">柱形图面积图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewCombination/ColumnBubbleChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/ColumnBubbleChart.png" width="316px" height="167px" />
+            <div class="des">柱形图气泡图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewCombination/StackColumnLineChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/StackColumnLineChart.png" width="316px" height="167px" />
+            <div class="des">堆积柱形图折线图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewCombination/ColumnPieChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/ColumnPieChart.png" width="316px" height="167px" />
+            <div class="des">柱形图饼图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/CombinationChart/Column_line2.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/Column_line2.png" width="316px" height="167px" />
+            <div class="des">柱形图折线图</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="地图">地图</h2>
+      <ul class="demo-detail-list clearfix" id="J_地图">
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewMap/map2.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/map2.png" width="316px" height="167px" />
+            <div class="des">区域地图——普通图例</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewMap/MapScatter.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/MapScatter.png" width="316px" height="167px" />
+            <div class="des">点地图——散点地图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewMap/worldmap.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/worldmap.png" width="316px" height="167px" />
+            <div class="des">世界地图</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewMap/ThreeLevelDrillMap.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/ThreeLevelDrillMap.png" width="316px" height="167px" />
+            <div class="des">三级钻取</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewMap/AutomaticDrillDown.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/AutomaticDrillDown.png" width="316px" height="167px" />
+            <div class="des">自动钻取</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewMap/market.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/market.png" width="316px" height="167px" />
+            <div class="des">自定义地图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewMap/CombinatorialMap.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/CombinatorialMap.png" width="316px" height="167px" />
+            <div class="des">组合地图</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewMap/FlowMap.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/FlowMap.png" width="316px" height="167px" />
+            <div class="des">流向地图-组合图</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewMap/FlowMapPicture.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/FlowMapPicture.png" width="316px" height="167px" />
+            <div class="des">流向地图-自定义图片</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewMap/FlowMapNoline.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/FlowMapNoline.png" width="316px" height="167px" />
+            <div class="des">流向地图-线宽为零</div>
+          </a>
+        </li>
+
+      </ul>
+	  <h2 id="热力地图">热力地图</h2>
+      <ul class="demo-detail-list clearfix" id="J_热力地图">
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewHeatMap/HeatMap.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/HeatMap.png" width="316px" height="167px" />
+            <div class="des">热力地图</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewHeatMap/WebPageHeatMap.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/WebPageHeatMap.png" width="316px" height="167px" />
+            <div class="des">网页热力图</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="柱形图">柱形图</h2>
+      <ul class="demo-detail-list clearfix" id="J_柱形图">
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewColumnChart/CustomAxisLabel3.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/CustomAxisLabel3.png" width="316px" height="167px" />
+            <div class="des">自定义堆积+提示自定义</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewColumnChart/AxisCustom2.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/AxisCustom2.png" width="316px" height="167px" />
+            <div class="des">多个坐标轴位置自定义</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewColumnChart/StackedPercent.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/StackedPercent.png" width="316px" height="167px" />
+            <div class="des">百分比堆积柱形图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/ColumnChart/Transverse3D.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/Transverse3D.png" width="316px" height="167px" />
+            <div class="des">三维柱形图(横向)</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewColumnChart/Change_waterfall.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/Change_waterfall.png" width="316px" height="167px" />
+            <div class="des">变化瀑布图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/ColumnChart/DemensionalChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/DemensionalChart.png" width="316px" height="167px" />
+            <div class="des">多维度坐标轴</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/ColumnChart/Trendline.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/Trendline.png" width="316px" height="167px" />
+            <div class="des">趋势统计图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewColumnChart/NewChartscaling2.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/NewChartscaling2.png" width="316px" height="167px" />
+            <div class="des">图表缩放-缩放控件</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewColumnChart/NewChartscaling.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/NewChartscaling.png" width="316px" height="167px" />
+            <div class="des">手势缩放</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewColumnChart/FlashingColumnChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/FlashingColumnChart.png" width="316px" height="167px" />
+            <div class="des">柱形图——闪烁动画</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="条形图">条形图</h2>
+      <ul class="demo-detail-list clearfix" id="J_条形图">
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewBarChart/detail.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/detail.png" width="316px" height="167px" />
+            <div class="des">条形图应用</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewBarChart/PercentStackedBar.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/PercentStackedBar.png" width="316px" height="167px" />
+            <div class="des">堆积条形图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewBarChart/BarChartOfPicture.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/BarChartOfPicture.png" width="316px" height="167px" />
+            <div class="des">图片填充条形图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewBarChart/StackedFloatingBar.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/StackedFloatingBar.png" width="316px" height="167px" />
+            <div class="des">多维条形图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewBarChart/CustomAxisLabel.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/CustomAxisLabel.png" width="316px" height="167px" />
+            <div class="des">坐标轴自定义+标签自定义</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewBarChart/CustomAxisLabel2.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/CustomAxisLabel2.png" width="316px" height="167px" />
+            <div class="des">X轴值自定义+Y轴位置自定义</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewBarChart/Columnrange.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/Columnrange.png" width="316px" height="167px" />
+            <div class="des">列范围</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="折线图">折线图</h2>
+      <ul class="demo-detail-list clearfix" id="J_折线图">
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewLineChart/BigData.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/BigData.png" width="316px" height="167px" />
+            <div class="des">大数据展示</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewLineChart/Logarithmic_axis.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/Logarithmic_axis.png" width="316px" height="167px" />
+            <div class="des">对数轴折线图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewLineChart/CurveLineChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/CurveLineChart.png" width="316px" height="167px" />
+            <div class="des">曲线折线图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewLineChart/VerticalLineChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/VerticalLineChart.png" width="316px" height="167px" />
+            <div class="des">垂直折线图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewLineChart/StackedLineChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/StackedLineChart.png" width="316px" height="167px" />
+            <div class="des">堆积折线图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewLineChart/TimedRefresh.cpt&op=write" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/TimedRefresh.png" width="316px" height="167px" />
+            <div class="des">定时刷新</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewLineChart/LineWithDifferentColors.cpt&op=write" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/LineWithDifferentColors.png" width="316px" height="167px" />
+            <div class="des">区域段颜色自定义</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewLineChart/LinechartCustomMarkType.cpt&op=write" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/LinechartCustomMarkType.png" width="316px" height="167px" />
+            <div class="des">标记点自定义</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewLineChart/FlashingLineChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/FlashingLineChart.png" width="316px" height="167px" />
+            <div class="des">折线图——闪烁动画</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="面积图">面积图</h2>
+      <ul class="demo-detail-list clearfix" id="J_面积图">
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewAreaChart/cutpoint.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/cutpoint.png" width="316px" height="167px" />
+            <div class="des">提示点自定义+背景间隔</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewAreaChart/Areachart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/Areachart.png" width="316px" height="167px" />
+            <div class="des">面积图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewAreaChart/PercentStackedArea.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/PercentStackedArea.png" width="316px" height="167px" />
+            <div class="des">百分比堆积面积图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewAreaChart/CurveAreachart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/CurveAreachart.png" width="316px" height="167px" />
+            <div class="des">曲线面积图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewAreaChart/StepLineChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/StepLineChart.png" width="316px" height="167px" />
+            <div class="des">垂直面积图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewAreaChart/RangeAreachart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/RangeAreachart.png" width="316px" height="167px" />
+            <div class="des">范围面积图</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewAreaChart/ReverseValueAxis.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/ReverseValueAxis.png" width="316px" height="167px" />
+            <div class="des">反向数值轴</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewAreaChart/Custom1.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/Custom1.png" width="316px" height="167px" />
+            <div class="des">缺失数据的面积图+图例自定义</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewAreaChart/TimeCoordinates.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/TimeCoordinates.png" width="316px" height="167px" />
+            <div class="des">时间坐标轴</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="散点图">散点图</h2>
+      <ul class="demo-detail-list clearfix" id="J_散点图">
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewScatter/Scatter.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/Scatter.png" width="316px" height="167px" />
+            <div class="des">标准散点图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewScatter/ConnectingScatterPlots.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/ConnectingScatterPlots.png" width="316px" height="167px" />
+            <div class="des">线连接的散点图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewScatter/GradientScatter.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/GradientScatter.png" width="316px" height="167px" />
+            <div class="des">渐变色散点图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewScatter/LegendRangeScatter.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/LegendRangeScatter.png" width="316px" height="167px" />
+            <div class="des">区域段形态散点图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewScatter/ScatterTrend.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/ScatterTrend.png" width="316px" height="167px" />
+            <div class="des">趋势线散点图</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="气泡图">气泡图</h2>
+      <ul class="demo-detail-list clearfix" id="J_气泡图">
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewBubble/Bubble.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/Bubble.png" width="316px" height="167px" />
+            <div class="des">标准气泡图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewBubble/LegendRangeBubble.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/LegendRangeBubble.png" width="316px" height="167px" />
+            <div class="des">区域段形态气泡图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewBubble/ForceBubble.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/ForceBubble.png" width="316px" height="167px" />
+            <div class="des">力学气泡图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewBubble/GradientBubble2.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/GradientBubble2.png" width="316px" height="167px" />
+            <div class="des">热门话题热议度与热搜度关系图(气泡表示热搜度)</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="仪表盘">仪表盘</h2>
+      <ul class="demo-detail-list clearfix" id="J_仪表盘">
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewDashboard/MultiPanelmeter.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/MultiPanelmeter.png" width="316px" height="167px" />
+            <div class="des">多指针的仪表盘360度</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewDashboard/MultiPanelmeter180degrees.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/MultiPanelmeter180degrees.png" width="316px" height="167px" />
+            <div class="des">多指针的仪表盘180度</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewDashboard/PercentDashboard.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/PercentDashboard.png" width="316px" height="167px" />
+            <div class="des">百分比圆环仪表盘</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewDashboard/PercentScaleDashboard.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/PercentScaleDashboard.png" width="316px" height="167px" />
+            <div class="des">百分比刻度槽型仪表盘</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewDashboard/TubeDashboard.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/TubeDashboard.png" width="316px" height="167px" />
+            <div class="des">试管型仪表盘</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewDashboard/DashboardAutoRefresh.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/DashboardAutoRefresh.png" width="316px" height="167px" />
+            <div class="des">自动刷新</div>
+          </a>
+        </li>
+      </ul>
+      <h2 id="雷达图">雷达图</h2>
+      <ul class="demo-detail-list clearfix" id="J_雷达图">
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewRadarChart/Radar.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/Radar.png" width="316px" height="167px" />
+            <div class="des">武将属性对比</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewRadarChart/CustomRadar.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/CustomRadar.png" width="316px" height="167px" />
+            <div class="des">背景自定义</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewRadarChart/CustomMarkRadar.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/CustomMarkRadar.png" width="316px" height="167px" />
+            <div class="des">标记点自定义</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewRadarChart/RadarCircle.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/RadarCircle.png" width="316px" height="167px" />
+            <div class="des">形态为圆形的雷达图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewRadarChart/NagativeRadar.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/NagativeRadar.png" width="316px" height="167px" />
+            <div class="des">带负值的雷达图</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewRadarChart/FlashingRadarCircle.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/FlashingRadarCircle.png" width="316px" height="167px" />
+            <div class="des">形态为圆形的雷达图——闪烁动画</div>
+          </a>
+        </li>
+
+      </ul>
+      <h2 id="饼图">饼图</h2>
+      <ul class="demo-detail-list clearfix" id="J_饼图">
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewPieChart/PieChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/PieChart.png" width="316px" height="167px" />
+            <div class="des">各地区销售额占比</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewPieChart/DonutChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/DonutChart.png" width="316px" height="167px" />
+            <div class="des">有内径的饼图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewPieChart/RosesChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/RosesChart.png" width="316px" height="167px" />
+            <div class="des">等弧度玫瑰图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewPieChart/PercentInformationMap1.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/PercentInformationMap1.png" width="316px" height="167px" />
+            <div class="des">多分类百分比环形图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewPieChart/CutPointimage.cpt&op=write" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/CutPointimage.png" width="316px" height="167px" />
+            <div class="des">数据提示点为图片</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewPieChart/Tooltip.cpt&op=write" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/Tooltip.png" width="316px" height="167px" />
+            <div class="des">数据提示点为字段内容</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/Doughnut/Doughnut.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/Doughnut.png" width="316px" height="167px" />
+            <div class="des">环形图</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/MultiLevelPie/MultiLevelPie.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/MultiLevelPie.png" width="316px" height="167px" />
+            <div class="des">多层饼图</div>
+          </a>
+        </li>
+      </ul>
+	  <h2 id="矩形树图">矩形树图</h2>
+      <ul class="demo-detail-list clearfix" id="J_矩形树图">
+	  <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/treemap/treemap.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/treemap.png" width="316px" height="167px" />
+            <div class="des">矩形树图</div>
+          </a>
+        </li>
+	  </ul>
+	  <h2 id="漏斗图">漏斗图</h2>
+      <ul class="demo-detail-list clearfix" id="J_漏斗图">
+	  <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewFunnelPlot/DiscontinuousFunnelPlot.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/DiscontinuousFunnelPlot.png" width="316px" height="167px" />
+            <div class="des">漏斗图</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/NewFunnelPlot/MultiFunnelPlot.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/MultiFunnelPlot.png" width="316px" height="167px" />
+            <div class="des">组合漏斗图</div>
+          </a>
+        </li>
+	  </ul>
+	  <h2 id="词云">词云</h2>
+      <ul class="demo-detail-list clearfix" id="J_词云">
+	  <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/WordCloud/WordCloud.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/WordCloud.png" width="316px" height="167px" />
+            <div class="des">词云</div>
+          </a>
+        </li>
+	  </ul>
+      <h2 id="其他图表">其他图表</h2>
+      <ul class="demo-detail-list clearfix" id="J_其他图表">
+	  <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/GraphSwitching.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/GraphSwitching.png" width="316px" height="167px" />
+            <div class="des">图表按钮切换</div>
+          </a>
+        </li>
+		<li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/GraphSwitching2.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/GraphSwitching2.png" width="316px" height="167px" />
+            <div class="des">图表轮播</div>
+          </a>
+        </li>
+
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/StockChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/StockChart.png" width="316px" height="167px" />
+            <div class="des">股价图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/RangeMapchart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/RangeMapchart.png" width="316px" height="167px" />
+            <div class="des">全距图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/GanttChart.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/GanttChart.png" width="316px" height="167px" />
+            <div class="des">甘特图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/heat.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/heat.png" width="316px" height="167px" />
+            <div class="des">热力图</div>
+          </a>
+        </li>
+        <li>
+          <a href="/WebReport/ReportServer?reportlet=/doc/Advanced/Chart/Sparklines.cpt" target="_blank">
+            <img class="lazy" data-original="/WebReport/picture/chart/Sparklines.png" width="316px" height="167px" />
+            <div class="des">迷你图</div>
+          </a>
+        </li>
+      </ul> 
+    </div>
+  </div>
+</div>
+<div class="nav-menu hide" id="J_navMenu"></div>
+<script type="text/javascript" src="/WebReport/css/jquery.lazyload.js"></script>
+<script type="text/javascript">
+  $(function() {
+    $("img.lazy").lazyload();
+  });
+</script>
+<script type="text/javascript" src="/WebReport/css/nav-menu.js"></script>
+
+  </div>
+  
+ <a href="javascript:void(0);" id='toTop' title="返回顶部">
+	<i class="iconfont icon-to-top"></i>
+</a>
+</body>
+</html>

@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20140501" releaseVersion="7.1.0">
+<TableDataMap>
+<TableData name="ds_1" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[Province,,.,,Month,,.,,Year,,.,,Amount]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[D3[h5gb9.jf?S*3s5t=:D1O<l!!.+kDIsJ;mA?5<)>"cR,AHpDe&r8RXH-.$Dr71jIss$/rq
+^2_le7Z3mbcKqj7pDE&l+#di@LHP0![MOY(@VO-?paDfpbdC$*JrZ%[J(T*@rp*3]Ai(kK-b)
+!B?/-AJNdHT>T=dJ_JXt;cL8O"O&nrOY(S*lbZN<8JZtqK$=QLRD1j4+e-J]A.R9*<J+=ud,k
+icDgdF#eCK3IH#V:L4+P]AUqdFJ(33SQm-TbZgodYa!H9hVV]A.QT%O7D_ePme$%*5a^!nX-(W
+8iR!1PEV%X+n'AC5UmrI@2,]A@dJbNe:VT-Tj%D00@nN=L&)Wd.K3#MKgi8N-0tY9.-?n%U9A
+E5XQ;U_?eGP"l:iM51e'iSq&DoLm&a:8ij)mk*eBe^8rfOq&HN/7E[;AfEQbd-$U36?-h%e`
+CVRj5ekZppf3W\'%3![aFG'5)l+nC$Zg\BB&:<@L>(KNL`>Eq7i/5@\UOb*3<eD8#t'!n9$D
+iT[nD4!3Ll6F0uM?E7I"il>kH1HdgI.S`')4n(S@jCk48t[a1BN9T:XOl>24)^r98li+e`na
+3Ae3Na\gb^sq"5c8p;^MiQ(;\/cUR]AsAS%7V>JGUB=f%B%s!0JZdq.>O6h~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.page.First">
+<WidgetAttr disabled="true">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[首页]]></Text>
+<IconName>
+<![CDATA[first]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Previous">
+<WidgetAttr disabled="true">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[上一页]]></Text>
+<IconName>
+<![CDATA[previous]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.PageNavi">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Next">
+<WidgetAttr disabled="true">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[下一页]]></Text>
+<IconName>
+<![CDATA[next]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Last">
+<WidgetAttr disabled="true">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[末页]]></Text>
+<IconName>
+<![CDATA[last]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.FlashPrint">
+<WidgetAttr disabled="true">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[打印[客户端]A]]></Text>
+<IconName>
+<![CDATA[flashprint]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[打印]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[输出]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr disabled="true">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[邮件]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<WebPage isPage="false" isShowAsImage="false" isAutoScale="false" isTDHeavy="false"/>
+</WebPageContent>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1143000,838200,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,762000,0,0,0,0,0,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[5981700,1714500,2247900,2933700,2743200,2743200,1143000,1295400,2743200,2705100,1676400,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" cs="2" s="0">
+<O>
+<![CDATA[07、08年度 汽车终端同比销售情况对比\"]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand upParentDefault="false"/>
+</C>
+<C c="0" r="1" cs="2" s="1">
+<O>
+<![CDATA[单位：辆]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand upParentDefault="false"/>
+</C>
+<C c="0" r="2" cs="2" rs="15" s="2">
+<O t="CC">
+<LayoutAttr selectedIndex="0"/>
+<Chart name="Default">
+<Chart class="com.fr.chart.chartattr.Chart">
+<GI>
+<AttrBackground>
+<Background name="GradientBackground" color1="-1" color2="-1" direction="1" useCell="true" begin="0.0" finish="0.0" cyclic="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor borderColor="-6697729"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<ChartAttr isJSDraw="false"/>
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[="07、08年度 " + $Start + "月-" + $end + "月份汽车终端同比销售情况对比"]]></Attributes>
+</O>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="宋体" style="0" size="80"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="false" position="0"/>
+</Title>
+<Plot class="com.fr.chart.chartattr.Bar3DPlot">
+<CategoryPlot>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="-1" seriesDragEnable="false" plotStyle="0"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" seriesLabel="${SERIES}${BR}${CATEGORY}${BR}${VALUE}"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name=""/>
+</DefaultAttr>
+</ConditionCollection>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="true"/>
+<FRFont name="微软雅黑" style="0" size="72"/>
+</Legend>
+<DataSheet>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isVisible="false"/>
+</DataSheet>
+<NameJavaScriptGroup>
+<NameJavaScript name="模板hy2">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<Parameters>
+<Parameter>
+<Attributes name="province"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=CATEGORY]]></Attributes>
+</O>
+</Parameter>
+<Parameter>
+<Attributes name="Year"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SERIES]]></Attributes>
+</O>
+</Parameter>
+</Parameters>
+<TargetFrame>
+<![CDATA[_self]]></TargetFrame>
+<Features width="600" height="400"/>
+<ReportletName>
+<![CDATA[/doc/Advanced/Chart/hy2.cpt]]></ReportletName>
+</JavaScript>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<newPlotFillStyle>
+<AttrFillStyle>
+<AFStyle colorStyle="0"/>
+<FillStyleName fillStyleName=""/>
+</AttrFillStyle>
+</newPlotFillStyle>
+<RectanglePlotAttr interactiveAxisTooltip="false"/>
+<xAxis>
+<CategoryAxis class="com.fr.chart.chartattr.CategoryAxis">
+<newAxisAttr isShowAxisLabel="true"/>
+<AxisLineStyle AxisStyle="1" MainGridStyle="0"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="3"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</CategoryAxis>
+</xAxis>
+<yAxis>
+<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
+<ValueAxisAttr201108 alignZeroValue="false"/>
+<newAxisAttr isShowAxisLabel="true"/>
+<AxisLineStyle AxisStyle="1" MainGridStyle="1"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="2"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</ValueAxis>
+</yAxis>
+<secondAxis>
+<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
+<ValueAxisAttr201108 alignZeroValue="false"/>
+<newAxisAttr isShowAxisLabel="true"/>
+<AxisLineStyle AxisStyle="1" MainGridStyle="1"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="4"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</ValueAxis>
+</secondAxis>
+<CateAttr isStacked="false"/>
+<BarAttr isHorizontal="false" overlap="1.0" interval="1.0"/>
+<Attr3D horizontalDrawBar="false" seriesIntervalPercent="0.0"/>
+<Projection mode="2" elevation="15" rotation="20" focus="800"/>
+</CategoryPlot>
+</Plot>
+<ChartDefinition>
+<NormalReportDataDefinition>
+<Series>
+<SeriesDefinition>
+<SeriesName>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=B20]]></Attributes>
+</O>
+</SeriesName>
+<SeriesValue>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=B22]]></Attributes>
+</O>
+</SeriesValue>
+</SeriesDefinition>
+</Series>
+<Category>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=B19]]></Attributes>
+</O>
+</Category>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+</NormalReportDataDefinition>
+</ChartDefinition>
+</Chart>
+</Chart>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand extendable="2" upParentDefault="false"/>
+</C>
+<C c="0" r="18" rs="2" s="3">
+<O t="BiasTextPainter">
+<IsBackSlash value="false"/>
+<![CDATA[省份|销售量|月份]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand extendable="1" leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="1" r="18" s="4">
+<O t="DSColumn">
+<Attributes dsName="ds_1" columnName="Province"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand dir="1"/>
+</C>
+<C c="1" r="19" s="4">
+<O t="DSColumn">
+<Attributes dsName="ds_1" columnName="Year"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand dir="1"/>
+</C>
+<C c="0" r="20" s="5">
+<O t="DSColumn">
+<Attributes dsName="ds_1" columnName="Month"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand dir="0" extendable="1" leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="1" r="20" s="4">
+<O t="DSColumn">
+<Attributes dsName="ds_1" columnName="Amount"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="21" s="5">
+<O>
+<![CDATA[合计]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand extendable="1" leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="1" r="21" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(B21)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="22">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="1" r="22">
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="23" cs="2" s="6">
+<O>
+<![CDATA[说明：]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand upParentDefault="false"/>
+</C>
+<C c="0" r="24" cs="2" s="7">
+<O>
+<![CDATA[1、图例、标题动态显示]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="25" cs="2" s="7">
+<O>
+<![CDATA[   该图表中含有参数，选择不同的月份，能将相关数值传递给图表，从而动态地显示某时间段汽车销售量]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="26" cs="2" s="7">
+<O>
+<![CDATA[   同时标题部分也会随输入月份动态显示]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="27" cs="2" s="7">
+<O>
+<![CDATA[2、热点链接]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="28" cs="2" s="7">
+<O>
+<![CDATA[   将鼠标移至某一地区的任意柱子上时，将变成手型，点击后，则链接到该省07、08年度对应月份的销售情况]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="29" cs="2" s="8">
+<O>
+<![CDATA[   进行钻取时会将当前月份参数及图表分类名传递给子模板]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting>
+<Margin top="286560" left="574560" bottom="286560" right="574560"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<ReportWriteAttr/>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="false" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+<Parameter>
+<Attributes name="Start"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="End"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="144" foreground="-16777088"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="84" foreground="-13408513"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00]]></Format>
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-6697729"/>
+<Bottom style="1" color="-6697729"/>
+<Left style="1" color="-6697729"/>
+<Right style="1" color="-6697729"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="2">
+<IM>
+<![CDATA[V-/4OPNCZ9p2[e0/H`pL_N6cO4[ki>^4aKq+m>\uQB0r3Cqa,2:iQUAp4APR#[7&^q5A+$a%
+T2e:k>9L<4Y,fN/Wi,L8&PjEBoJlNG[ji?T5?`kOU^[+2E$Tp[@jgI_Y@?ot&7Lr`Ztl\<(\
+1!5Cr1@p]AIkAHdV3_]A8iObdt#d*WX%ZMdg0sB)_Y2[H3sWN.J8LDNFh$^PdQ^O''%IG!j<;P
+CE*m'JH!m1\3MA??MuMDUGm7Qh^#rpB>/EK=bdWcJ6-L%B6O1'K,4gYUi\5;]AD(is.*&%+,W
+"38Nf"ZpXqZX$f27I[h%$>8r\BR7Li8p=39*:G)]A/q<=tZ2gO2f%a0PXnce`69X6Dt-8&bPH
+((JS6k/<r:)R0UJO`>nF(QL($*\P:AHn]A(>?O5/eX_23K='mB^%@)ZIG8O?>H)B"NcS7`UPS
+Ra25?doGWXe&fbMmYX3[J\E[7ecE]A_nI`9pK/L)5's?/>]AWqeNR*4/7rE4rn\Z;pc%H%Z/uR
+/AfeS4;PZo,\Xbf.F/0!$Tb@ET5*qK;77/T"Qq<ZeGPZi=iMZLWl`QoNkST74?C.MRIA1OMi
+6+aIXN?.K>l-BjkVGLc6:;MIaE65f:5JpF4)NEhqA"`e<?4#aYa:!&#EU9%=1L\2]AKFm&F__
+1WASe!0e^tJ+b*qY'Cc08Hh1&'W/tF+06"5SkF:AmgPD6\1=FVo46omcir#+K#J,A#`1ql;Q
+)JoDsSJ8`qS#YGdqPEK_;F7g\5:Ca:?=@lIIN0aacq9[XM0u]AKnV922E^OG^e)_2oMJT4MPd
+4Q%$-i"0)eE*GUR@f8(k#K[1`tF)5.%#/>C[I_;nT7g;7AJk-GnEq0e#uCgVs/Oi#MiR9n8P
+la40SonE3.q$6dN!mBmBJZhN)/H?#kRR(fCHo%\#J.YYD08/CQr4oI.^e[&mIDDp*PSD%;=&
+D:Ob%,AIB-W\!1I!Z,pg[#j<#H-muRg,B935lk=pP/6B>Li!\oh.5ec-EpQ>sGc7g?U$,\=k
+><:jBudj<3FAld'6:EWWGO(rP-=j*HHI-[sJ,URMA7%Pi!1G4D]Ar"%c:*O@i1u^CJhC[jb"2
+WJS<'(EJ,*qB\0uJ+8/NRmh+t'6qj3+]AFmuV*OG]Ao7T:m,>j:E*.`P,VcF"/4LdS7&b*)QL8
+hO0D^)%`%k#:leKdpFH'Db;Gd^KS"I`':(JHEGG)Q=9ZcpKL?OYa1%[g-DB8Q=%Q>4!"LQ7b
+`Qo.:uo-cgAR0[6eegfaQSS0_FnfjYg/D9sNZd,ssM\7a*a8(q!I<C1K,%A_%:rqiU#a4XG3
+r6LXGK%Bu\I=7TGL6'.EgM#UAbT!IcPV0[+ZjjpVLpo[L4C\Dn1--f`_.XSmsTto/1aqqZL]A
+5[UGHD&g9Cg:rPctgpD8YZ-*KDE`ZsX!^1j41hmLLC/FBH61*cqBKT'rda!>!ZRg]AhF`)l-.
+@!q8>>PFNgHsIQ_IdLAk@@-WSH5$-#h"4/CPY\*^]An,2l'$T=qN5ZLkTG-h8V@N.kdLNj3TG
+)=E$:[#:4t8%-9UA`=^2`sLBn]A0/iKNgd\\+<%"?(sf$$Lg-5hLDYp=gJN:FcU=5l[Q>m\fj
+gcf`)9PHj-E9.8aB2ALWC2R!))S2)plh-q@o*e7m*oD%s?Ym>N?rFo:\<!:go3,>NuhS4L7I
+Kcn,fjpC^0P!M&;P0MbE`t(*;`4;e+cc?,#6Z`P0K;sP)`8f@6rQ_%L3e6\[0cY@o9+[]Aaum
+XVC[pFTR;:^#G3!!N2#ba_&D8</kH95XE^2.U^A;\Ne`qapqe6-]A_=\1(8aN(4K&:<i+3(tW
+`"FI%bN$9hQ"^"HY2'k?*^4kc+t@DlM#OeuC&mt)qap"Y]Am'T*g;HDCCC7O(gpHKL&JUI[K=
+tC"0LET&XSXi(r\u*f'$IP]A;Ugo-IJi&7X5pqcbA$F\&q/c9WgIkM8T@`\@PJ2cXh'PGq;/W
+Y!ug/Q.,122)u9$,g$J"Kn,rnHk,u>NW1D[,qnNSrBeZlS8FBFf/.fd5N8<s:8F]A#S6HMWLH
+=\(V6ePR-($r@rs!?(?%V`X^CV\,gr!:8W^f0fISsYV?$$GX44M]A"u7O/TaA&#1Oc-F36_@r
+n-XKrGq;,93,-tTnC7K3#?KJ;79:\^>o7LiUM&S^Mu%8@o;jUW6-kdPp3.21jO@D-15\9+bK
+n]A3JG7iuh@.*@5fpIT,1G<5t`-PDP5<eC2'=RV(XE(qrr8H;UPa*TCmkuMk@C<\UJI.V9\q2
+nT1FrUpN[C6$m?GS[."1n,Z[5mon,Bo/4c/udNRiS>kE<=2o"P3]A*p@EJeqpb+fkoX@W@G1o
+^*iqV?H8N;^a9o/#=EuJIU0JN@2b?%Gr2H^1G,NA:]AkTE:#LMsnA.[faPgq3=Nec]AVFh.C")
+YoBcKmQ5$)a2f)T!k?U44,R0)BQ[65dbO3ReX$W8O-"=:9E%L67h'6O[WuJJD(\!FSkAfZQi
+2qTdIScIO6bQ"H!$s5>K1+JeJ\2?pa,i=ST*\"qM%V,q0f]AQ,!<R`71Fm$;)"k-RL=Ll]ADoL
+6U.7,&t6_(>uP?n=91eP(@##3arILS!ZXNB<au/j-%#]AKf+9XkS594CiPmZa'J%P?\!N@;r)
+K$\YD1OJjG`-8]A[lfUTLE8M]A&aIY,8GgS7\m9sC%&A&;m9-lPP@L]AAOLJk!dqilV0*t1ePs4
+-cm2Sb.+qRPi9nsZ?2[ig(%2rQ7i[BQ$oQJAZQXH6G@u61VU,lB8M8%PA[j1"@JuTi%?-6YE
+A(O^;8.:F0n.WQlWP9J"g[;A=]AeGC"0ht(b1Uu=l"1!>+o3BB]Ao]AUO!sf<i4=ibCLSU21%Ti
+%[&gD&,)G/q%daNSZlH\UkAmVm>7kM\_,>Ed^>"R$U:8*4VOdW)"6_T*JPlYUHWoNXM.OasF
+#*W[3_!84_KUQ?61CbXo+)L./@J_GR#"qf88d5s8<A6dP\36!*M`6S>go,)rZSZTM:W?8HKq
+>bF;sV1>bh^"V^_IcTpCEm_Q3:XmiY=aR7O)dQjuII8B$jq<J%;A-miIhTkt-R8<0W1tU0=m
+WVAi4\SVK\#&jih@DQ2DB<<5N/@d`OV.*F9iem)L`Ha"2;*PabEA'tB<U]A-mhlu:lr8,f"m2
+kLtfCM05]AFDEPOJt<,,k1o>+Z\2OF(Q%F1\MR:J'Aie$P(gi4L6iP"-M#575)VDge_]ATdd>G
+)[2BJA>ml1(Frc5P>4SGlP?@AuKDApgL50h>=@)`83`,jUVh#r6BNW6it4TP3`To!Kt8TPJH
+e_dW3npP]A<(f93'F'H7P.UoC_R4Ib`"$S.=I.ER,?<e^"X!3T]A#!W>'(:BJI2ibh-Y?3:+[\
+.]Ah=$Yp's0\Tj]AEO+?k9VM4SJG<jmUZQO^#kp5ip(*SOe^0*^Hbg/5X.AUp@eR(=-U^u^4,Y
+[-gV>^!)sp0nMX'iFqb[t7)'qf3"S#KbV-+B!4G*>gaY<P6ER,:)i'aQ#`T"GL)kd,-"gOfU
+Q]A&bHW_%1n(A=#(BWOSB==J`S`kGX<j@V%O*2c)mHF$@<7'RMdfG.E#B687BY$5kDd\-F^7k
+f0&iR-EX]A>Y0@t\co'G^ica[2L_f$aWAPJ@R"=qXLaK:?#&<B6L"%'JOhiCG#_6Mcc;-$EqH
+%rCf5QB8BY_#)1TIr4/$KC6E[\;*fp8Y&56>#g'Y5:?b>SQ]Al*2YoO9l7nb=n"Y2Df0<efOT
+WC3^a%,Nm3%j.%E0U]AG.p!kkjN@T>Tt.ikGmH"U8n8F0Jn]A2'es!%SgE/W\/Z=-+u=a8IcDR
+,U4,b1I+Ru^l&$7%H"g-DZ[i:nRb]AH<%sUeKe.=q:;B^V+AeBSi,qf1c6[N&id^XX@F8L-o?
+)kp&Z:M:d5BMr;8nq_tEC'UK+i'>Zf^CWY;Gf'>0b")g/Ta^c&+QSML8hX'inKSp?*V0;55J
+SYO_<CV@:X)UV0f!e3UL!l?)=3ET:VW:F7g]Aro#!Z6"Hk&A.2a]A)Rnh.9HfsrdU>8,('4H,%
+-Et@YoT1,jVhKCo]A_d![LA%l_WY5tf\m0Yld2%_\[A]A(1`nBn8?uF*e;r[.L4&\OVgSXXuNV
+arD^aMXn@<'XWOZ4%*+Yro^5^]AKF_kGWV"r1W9THH,K]A+j5VmUaoGrl/;=WLT+84AbnpR'1E
+q5IP`ZlTk]A!kj"IE`QWK8rB(PcN"LU_4Y.j$)[-dH;>d<JC*A@p!2%RFQtHj&<pMuMifOBRa
+8is!M<:]A8!`shi:6H?m>B:YCNaZu=@nf_BlmP#'-7F(ZHA7hu.)8uLQ3ZRQ!>Q:W]A&^_N[\!
+=&a.l*De@nG:lpAlA0N$n`c5S3fh??'YUFI6ah]AL[dlIoDhIs,fD(tHX=M52ca>J#)O6[KG-
+OG1,tX\uVI4l+al\+Dj6jMlM1$uOX>/W;J*Ga;[VLmFpKl"dq<2`um+NMO,Di'H/NH4[i_@1
+C0UDejK9K4SD^AVBuEWKq@!2u$>4PfVl_(oY@hVX,.#[^$p:K2l]A/QW9VcQ)OrcFK!e8(-[g
+Z8)+6]A]AhV:_ZQ*^f#c2jlW54spQUAm;_6s<sVQ-&.DfHIFg^or9,s<X';dIHt?,hPnIcSuVp
+g",LitSZNme(l^OD]AZ2Obpalh8.rXG93M8Np7"e1NVoAiSIl')`tnMm*`grjDsm<!%-TqHfU
+@V8XI%rODZ3b#';ICbG"cI8f$(`aicNoB%St)UB[;L^jG=bHY`1nVR)f:6)/"9GP2Wb9)^_I
+#%J-:))q0digF3Ra$)F\/7[3.,P\rPIn+8sj=3]AibP\V^Q?(J#RRhDsquGW?@"lQ2%56[qY\
+noM\71PlFW2r(YC(4tjMSe.3G7ES`)%[=FA[>*D#U%4rfY1?roOFI%t,El+c)u$P.K@t.+Ru
+7RG]AJoG%Lq^9;HOF&:2+.5"<I7XrK\pIg72Os#PBa`8iSi75X:,0o=kdG`CV%f3OQ/NQ0sS@
+B%hAQ>uiHA6DRYZ9dQONH)f)T[&t;@GjG:K6bjI=4X@92AQ&ZG>N_:qiQP!oh(k&VVWi,\+4
+Le"0A7(6[c^KGdZ9f>!=PgMOQeu&<:XcN)F3&TQ-"0s-]AtbO'Rd_6EP%%L9kq4\Sbo!p9$;"
+[XV.)r70>!lc<@(p._W%%aj+((2@6c%[/nIa5gcLn">_:KKY#OT<bZ.,KT`&UEir./`aYa(t
+;tsg"qa)h-ih1*FQT80;(Y.>+&\]AUYR+p7%E*YR6cTiOTrT;B-@)h[=HDQa4;rgJa_=.m#8"
+Wa==Ug!N'>!0>@Y53pJ%fFU:<nH2u;6.`ba3:almQ_&Zod`PFO<2)ZaiobZX.rG[M,R\;<\U
+NCF*;YbI%&WUgiAo*KkLB4u`O:"g^d0`^JGng>OK`cjsC)P&hTf?)RldVt<=S\aB$]Ae7J_!2
+r^aEQu!dUr?HQi(WjI@7>tVPHkUkB>U;_@4!<XF4l*@ch92_^s2QEIDY]A?_lgpda:qKOG`m1
+?Z?d>8@TR@dqEI@M-9*.5H@aQ=Rjs44'_=_7*$_iA2HAKs*6f%5S"h(ppf>t$?WAp(RhpPf7
+t_YrQ/+8DK7^mB`D^OZjL*5i+!W/aIXG?e3Msj"=/V&as">K9MOeqa!'/!$VPWZNLD3Vb99#
+#`[\ARA\cChlEC!+q.]AblpfPMNkO:tcSLj,]AO2N[e8(9a2CpVdd9N+LEJpom7BL+"\2*JY/[
+SmF*oj+kYkFKiC*R$="mY5BiIiVks^l_L9nRjlS+2?7+d=n.Vh]AteKV/gFPe$ktt>8uW^[uG
+elk,\L:1.UciS\r-:o71H9W#?!jVFdOqE-=t6W!`D=7t<I7<$?[Kj"ZYsepFLkL>\$paJn;W
+F)Q[.:qAc+M^7nQ7(5cprm9KA9b00'N/U\gN1*NQ7UGUgW5S[T3Tj#=k"W$;`"VS[_7:M2VD
+WTCqc'6WYRI-<cj&,R=:<hb&9p%WB3_%80kS<9]ABb$K]A?cjX3a0s;[S>BSY6\jK<3BK5_M4Z
+ICfmR(,X6B)d!EZ/UjenINmnFaFiuYN4sOYBV9/b01>J,S%ebUj"0IAi[LS9"/uMQt`c#Bh2
+]AFPQ_&FWA4.lD!MrZ4s-5&X#o4%>,kI3E-O),-"%gXNU@p=L!mL'FdNo4f)*48;F31,95a^H
+3mo`ZVLcqQSYW?]A^03/Ag76+%()b5uZakZ$tK*Tj(eMDBV?7Fa^%e:L6RX6m_EAH>6!S(-EN
+NpD`H_))W2_BVXpf&1F+(*iVBb0"+V%1e;kpjCY[D^.gpY'6F)WWjbRj*]AFR>$-I%nNX$_`2
+qA;b^TAcA['I4713F[4o^B`pYP~
+]]></IM>
+</Background>
+<Border>
+<Top style="1" color="-6894375"/>
+<Bottom style="1" color="-6894375"/>
+<Left style="1" color="-6894375"/>
+<Right style="1" color="-6894375"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-6894375"/>
+<Bottom style="1" color="-6894375"/>
+<Left style="1" color="-6894375"/>
+<Right style="1" color="-6894375"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="2"/>
+<Border>
+<Top style="1" color="-6894375"/>
+<Bottom style="1" color="-6894375"/>
+<Left style="1" color="-6894375"/>
+<Right style="1" color="-6894375"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-328966"/>
+<Border>
+<Top style="3" color="-6894375"/>
+<Left style="3" color="-6894375"/>
+<Right style="3" color="-6894375"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-328966"/>
+<Border>
+<Left style="3" color="-6894375"/>
+<Right style="3" color="-6894375"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-328966"/>
+<Border>
+<Bottom style="3" color="-6894375"/>
+<Left style="3" color="-6894375"/>
+<Right style="3" color="-6894375"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="HBA"/>
+<PreviewType PreviewType="0"/>
+</WorkBook>

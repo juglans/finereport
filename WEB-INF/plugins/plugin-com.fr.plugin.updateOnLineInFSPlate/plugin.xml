@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugin>
+    <id>com.fr.plugin.updateOnLineInFSPlate</id>
+    <name><![CDATA[决策平台升级更新]]></name>
+    <active>yes</active>
+    <hidden>no</hidden>
+    <version>2.0</version>
+    <env-version>8.0</env-version>
+    <jartime>2016-04-20</jartime>
+    <vendor>finereport.xiaxiang</vendor>
+    <description><![CDATA[安装后, 可在决策平台升级更新jar包]]></description>
+    <change-notes>
+    <![CDATA[
+         <p>[2016-09-04]安装后, 可在决策平台升级更新jar包</p>
+         <p>[2016-09-06]修复bug</p>
+         <p>[2016-09-08]添加更新进度条</p>
+         <p>[2016-11-22]修复无法获取新版本的bug</p>
+         <p>[2017-02-14]平台升级更新新增日志功能</p>
+    ]]>
+    </change-notes>
+    <extra-report>
+	</extra-report>
+    <extra-designer>
+    </extra-designer>
+    <extra-platform>
+        <PlateProvider class="com.fr.plugin.updateOnLineInFSPlate.UpdateOnLineInFSPlateImpl"/>
+    </extra-platform>>
+</plugin>

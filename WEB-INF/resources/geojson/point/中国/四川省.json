@@ -1,0 +1,26 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"甘孜藏族自治州"},"geometry": {"type": "Point","coordinates": [99.9207,31.0803]}},
+{"type": "Feature","properties": {"name":"阿坝藏族羌族自治州"},"geometry": {"type": "Point","coordinates": [102.4805,32.4536]}},
+{"type": "Feature","properties": {"name":"凉山彝族自治州"},"geometry": {"type": "Point","coordinates": [101.9641,27.6746]}},
+{"type": "Feature","properties": {"name":"绵阳市"},"geometry": {"type": "Point","coordinates": [104.7327,31.8713]}},
+{"type": "Feature","properties": {"name":"达州市"},"geometry": {"type": "Point","coordinates": [107.6111,31.333]}},
+{"type": "Feature","properties": {"name":"广元市"},"geometry": {"type": "Point","coordinates": [105.6885,32.2284]}},
+{"type": "Feature","properties": {"name":"雅安市"},"geometry": {"type": "Point","coordinates": [102.6672,29.8938]}},
+{"type": "Feature","properties": {"name":"宜宾市"},"geometry": {"type": "Point","coordinates": [104.6558,28.548]}},
+{"type": "Feature","properties": {"name":"乐山市"},"geometry": {"type": "Point","coordinates": [103.5791,29.1742]}},
+{"type": "Feature","properties": {"name":"南充市"},"geometry": {"type": "Point","coordinates": [106.2048,31.1517]}},
+{"type": "Feature","properties": {"name":"巴中市"},"geometry": {"type": "Point","coordinates": [107.0618,31.9977]}},
+{"type": "Feature","properties": {"name":"泸州市"},"geometry": {"type": "Point","coordinates": [105.4578,28.493]}},
+{"type": "Feature","properties": {"name":"成都市"},"geometry": {"type": "Point","coordinates": [103.9526,30.7617]}},
+{"type": "Feature","properties": {"name":"资阳市"},"geometry": {"type": "Point","coordinates": [104.9744,30.1575]}},
+{"type": "Feature","properties": {"name":"攀枝花市"},"geometry": {"type": "Point","coordinates": [101.6895,26.7133]}},
+{"type": "Feature","properties": {"name":"眉山市"},"geometry": {"type": "Point","coordinates": [103.8098,30.0146]}},
+{"type": "Feature","properties": {"name":"广安市"},"geometry": {"type": "Point","coordinates": [106.6333,30.4376]}},
+{"type": "Feature","properties": {"name":"德阳市"},"geometry": {"type": "Point","coordinates": [104.48,31.1133]}},
+{"type": "Feature","properties": {"name":"内江市"},"geometry": {"type": "Point","coordinates": [104.8535,29.6136]}},
+{"type": "Feature","properties": {"name":"遂宁市"},"geometry": {"type": "Point","coordinates": [105.5347,30.6683]}},
+{"type": "Feature","properties": {"name":"自贡市"},"geometry": {"type": "Point","coordinates": [104.6667,29.2786]}}
+]
+}

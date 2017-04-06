@@ -1,0 +1,19 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"大连市"},"geometry": {"type": "Point","coordinates": [122.2229,39.4409]}},
+{"type": "Feature","properties": {"name":"朝阳市"},"geometry": {"type": "Point","coordinates": [120.0696,41.4899]}},
+{"type": "Feature","properties": {"name":"丹东市"},"geometry": {"type": "Point","coordinates": [124.541,40.4242]}},
+{"type": "Feature","properties": {"name":"铁岭市"},"geometry": {"type": "Point","coordinates": [124.2773,42.7423]}},
+{"type": "Feature","properties": {"name":"沈阳市"},"geometry": {"type": "Point","coordinates": [123.1238,42.1216]}},
+{"type": "Feature","properties": {"name":"抚顺市"},"geometry": {"type": "Point","coordinates": [124.585,41.8579]}},
+{"type": "Feature","properties": {"name":"葫芦岛市"},"geometry": {"type": "Point","coordinates": [120.1575,40.578]}},
+{"type": "Feature","properties": {"name":"阜新市"},"geometry": {"type": "Point","coordinates": [122.0032,42.2699]}},
+{"type": "Feature","properties": {"name":"锦州市"},"geometry": {"type": "Point","coordinates": [121.6626,41.4294]}},
+{"type": "Feature","properties": {"name":"鞍山市"},"geometry": {"type": "Point","coordinates": [123.0798,40.6055]}},
+{"type": "Feature","properties": {"name":"本溪市"},"geometry": {"type": "Point","coordinates": [124.1455,41.1987]}},
+{"type": "Feature","properties": {"name":"营口市"},"geometry": {"type": "Point","coordinates": [122.4316,40.4297]}},
+{"type": "Feature","properties": {"name":"辽阳市"},"geometry": {"type": "Point","coordinates": [123.4094,41.1383]}},
+{"type": "Feature","properties": {"name":"盘锦市"},"geometry": {"type": "Point","coordinates": [121.9482,41.0449]}}
+]
+}

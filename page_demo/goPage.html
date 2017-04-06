@@ -1,0 +1,39 @@
+﻿<html>     
+  <head>     
+  <title>自定义浏览页面</title>     
+  <script type="text/javascript">     
+    function afterload() {     //iframe加载后触发
+      var contentPane = document.getElementById("reportFrame").contentWindow.contentPane;  //获取报表contentPane   
+      var cPageIndex = contentPane.currentPageIndex;   //当前所在页
+      var pv = "第" + cPageIndex + "页/共" + contentPane.reportTotalPage + "页";   //报表首次加载结束后显示的页码信息
+	  document.getElementById("page").value = pv;     //将页码信息赋给page文本
+
+      contentPane.on("afterload", function() {      //报表加载结束监听事件
+        cPageIndex = contentPane.currentPageIndex;      //每次加载完后重新获取当前页码
+        pv = "第" + cPageIndex + "页/共" + contentPane.reportTotalPage + "页";     //重新生成页码信息 
+        document.getElementById("page").value = pv;      //重新给page文本赋页码信息   
+      });      
+    }     
+
+  function gotopage() {     
+    var contentpane= document.getElementById('reportFrame').contentWindow.contentPane;     
+    var page = document.getElementById("index").value;     
+    if(page >= contentpane.reportTotalPage) {     
+      contentpane.gotoLastPage();     
+    }      
+    contentpane.gotoPage(parseInt(page));     
+  }     
+</script>     
+</head>     
+<body>     
+  <div id="toolbar">     
+    <button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoFirstPage()">首页</button>     
+    <button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoPreviousPage()">上一页</button>      
+    <button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoNextPage()">下一页</button>       
+    <button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoLastPage()">末页</button>
+    <input id="page" type="text" readonly="true" size="12" style="border:none">     
+    到<input id ="index" type ="text" size="3"/>页 <a onclick="gotopage()" href="javascript:void(0)">跳转</a>
+  </div>     
+  <iframe id="reportFrame" onload="afterload()" src="../ReportServer?reportlet=/doc/Primary/DetailReport/Details.cpt&__showtoolbar__=false" width =100% height =80%></iframe>     
+</body>     
+</html> 

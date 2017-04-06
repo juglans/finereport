@@ -1,0 +1,14 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"吴忠市"},"geometry": {"type": "Point","coordinates": [106.853,37.3755]}},
+{"type": "Feature","properties": {"name":"海西蒙古族藏族自治州"},"geometry": {"type": "Point","coordinates": [94.9768,37.1118]}},
+{"type": "Feature","properties": {"name":"玉树藏族自治州"},"geometry": {"type": "Point","coordinates": [93.5925,33.9368]}},
+{"type": "Feature","properties": {"name":"果洛藏族自治州"},"geometry": {"type": "Point","coordinates": [99.3823,34.0466]}},
+{"type": "Feature","properties": {"name":"海南藏族自治州"},"geometry": {"type": "Point","coordinates": [100.3711,35.9418]}},
+{"type": "Feature","properties": {"name":"海北藏族自治州"},"geometry": {"type": "Point","coordinates": [100.3711,37.9138]}},
+{"type": "Feature","properties": {"name":"黄南藏族自治州"},"geometry": {"type": "Point","coordinates": [101.5686,35.1178]}},
+{"type": "Feature","properties": {"name":"海东地区"},"geometry": {"type": "Point","coordinates": [102.3706,36.2988]}},
+{"type": "Feature","properties": {"name":"西宁市"},"geometry": {"type": "Point","coordinates": [101.4038,36.8207]}}
+]
+}

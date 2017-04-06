@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars/>
+<WebPage isPage="false" isShowAsImage="false" isAutoScale="false" isTDHeavy="false"/>
+</WebPageContent>
+<Background name="ColorBackground" color="-1183756"/>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[457200,1714500,457200,1028700,914400,1371600,457200,914400,1066800,2476500,1143000,723900,1714500,914400,1447800,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[381000,1981200,2933700,1295400,1409700,3124200,1638300,1638300,3123360,1790700,1408320,3429000,10858500,419100,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1" cs="13" s="0">
+<O>
+<![CDATA[  多级权限配置使用说明]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="3" s="1">
+<O>
+<![CDATA[概念：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="3" cs="11" s="2">
+<O>
+<![CDATA[多级权限分配是指多部门共用系统、各个部门有其自己的管理员，并可以给其部门员工分配权限，即实现多级管理员层层分配。]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="4" rs="2" s="3">
+<O>
+<![CDATA[说明：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="4" cs="11" rs="2" s="2">
+<O>
+<![CDATA[FineReport内置数据决策系统中，配置了一套用户角色，其中，技术支持部门部长作为次级管理员，管理员将参数查询和填报录入目录以及管理系统中的移动平台，定时调度和（权限管理）的授权权限分配给技术支持部长角色，使该用户可以对技术支持部门下的所有用户分配其所拥有的权限。]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="7" cs="8" s="4">
+<O>
+<![CDATA[注：下面的所有用户登录系统的密码均为123456，详细的配置过程请查看帮助文档]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="7" s="5">
+<O>
+<![CDATA[分级权限控制]]></O>
+<PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="网页链接1">
+<JavaScript class="com.fr.js.WebHyperlink">
+<JavaScript class="com.fr.js.WebHyperlink">
+<Parameters/>
+<TargetFrame>
+<![CDATA[_blank]]></TargetFrame>
+<Features width="600" height="400"/>
+<URL>
+<![CDATA[http://help.finereport.com/doc-view-711.html]]></URL>
+</JavaScript>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<Expand/>
+</C>
+<C c="5" r="9" cs="4" s="6">
+<O>
+<![CDATA[登出系统，用技术支持部长Alice的账号登录系统，点击管理系统>用户管理，给2个下级角色分配权限]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="10" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="11" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="12" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="12" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="12" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="12" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="12" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="12" s="10">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="13" cs="4" rs="2" s="6">
+<O>
+<![CDATA[登出系统，用技术支持总调度Jack登录系统，可查看其所拥有的权限]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="13" cs="4" rs="2" s="6">
+<O>
+<![CDATA[登出系统，用技术支持一线技术支持Anna登录系统，可查看其所拥有的权限]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="13">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="14">
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting orientation="1">
+<PaperSize width="18000000" height="40608000"/>
+<Margin top="0" left="2743200" bottom="0" right="2743200"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="160" foreground="-1"/>
+<Background name="ColorBackground" color="-11561760"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="80" foreground="-13421773"/>
+<Background name="ColorBackground" color="-3415818"/>
+<Border>
+<Top style="1" color="-3221529"/>
+<Bottom style="1" color="-3221529"/>
+<Left style="1" color="-3221529"/>
+<Right style="1" color="-3221529"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="80" foreground="-13421773"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Top style="1" color="-3221529"/>
+<Bottom style="1" color="-3221529"/>
+<Left style="1" color="-3221529"/>
+<Right style="1" color="-3221529"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="80" foreground="-13421773"/>
+<Background name="ColorBackground" color="-3415818"/>
+<Border>
+<Top style="1" color="-3221529"/>
+<Bottom style="1" color="-3221529"/>
+<Left style="1" color="-3221529"/>
+<Right style="1" color="-3221529"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-11364897"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-16776961" underline="1"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="80" foreground="-1"/>
+<Background name="ColorBackground" color="-11561760"/>
+<Border>
+<Top style="1" color="-11561760"/>
+<Bottom style="1" color="-11561760"/>
+<Left style="1" color="-11561760"/>
+<Right style="1" color="-11561760"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top color="-11561760"/>
+<Bottom color="-11561760"/>
+<Left color="-11561760"/>
+<Right style="1" color="-11561760"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="2" color="-11561760"/>
+<Bottom color="-11561760"/>
+<Left style="2" color="-11561760"/>
+<Right color="-11561760"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="2" color="-11561760"/>
+<Bottom color="-11561760"/>
+<Left color="-11561760"/>
+<Right color="-11561760"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="2" color="-11561760"/>
+<Bottom color="-11561760"/>
+<Left color="-11561760"/>
+<Right style="2" color="-11561760"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="0"/>
+</WorkBook>

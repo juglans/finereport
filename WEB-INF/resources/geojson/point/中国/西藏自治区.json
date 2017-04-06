@@ -1,0 +1,12 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"那曲地区"},"geometry": {"type": "Point","coordinates": [88.1982,33.3215]}},
+{"type": "Feature","properties": {"name":"阿里地区"},"geometry": {"type": "Point","coordinates": [82.3645,32.7667]}},
+{"type": "Feature","properties": {"name":"日喀则地区"},"geometry": {"type": "Point","coordinates": [86.2427,29.5093]}},
+{"type": "Feature","properties": {"name":"林芝地区"},"geometry": {"type": "Point","coordinates": [95.4602,29.1138]}},
+{"type": "Feature","properties": {"name":"昌都地区"},"geometry": {"type": "Point","coordinates": [97.0203,30.7068]}},
+{"type": "Feature","properties": {"name":"山南地区"},"geometry": {"type": "Point","coordinates": [92.2083,28.3392]}},
+{"type": "Feature","properties": {"name":"拉萨市"},"geometry": {"type": "Point","coordinates": [91.1865,30.1465]}}
+]
+}

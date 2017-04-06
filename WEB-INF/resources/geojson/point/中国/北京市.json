@@ -1,0 +1,293 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "密云县"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.993408203125,
+          40.57224011776902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "平谷区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1636962890625,
+          40.19146303804063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "怀柔区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.630859375,
+          40.76390128094589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "昌平区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.25732421875,
+          40.27952566881291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "顺义区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.72973632812499,
+          40.1452892956766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "通州区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.72973632812499,
+          39.80009595634841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "大兴区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.400146484375,
+          39.63953756436671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "房山区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.83984375,
+          39.690280594818034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "门头沟区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7464599609375,
+          40.01499435375046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "朝阳区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.51687622070314,
+          39.95606977009003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "丰台区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.26556396484374,
+          39.84334044044997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "石景山区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1639404296875,
+          39.939224840791965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "海淀区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.25183105468751,
+          40.00447583427404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "崇文区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.41868591308592,
+          39.88603083007855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "东城区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.42005920410155,
+          39.92606185382841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "西城区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.36444091796875,
+          39.92132255884663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "延庆县"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0870361328125,
+          40.526326510744006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        
+        
+       
+        "name": "宣武区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3671875,
+          39.88181567751361
+        ]
+      }
+    }
+  ]
+}

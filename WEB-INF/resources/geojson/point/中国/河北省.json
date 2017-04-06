@@ -1,0 +1,16 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"承德市"},"geometry": {"type": "Point","coordinates": [117.5757,41.4075]}},
+{"type": "Feature","properties": {"name":"张家口市"},"geometry": {"type": "Point","coordinates": [115.1477,40.8527]}},
+{"type": "Feature","properties": {"name":"保定市"},"geometry": {"type": "Point","coordinates": [115.0488,39.0948]}},
+{"type": "Feature","properties": {"name":"唐山市"},"geometry": {"type": "Point","coordinates": [118.4766,39.6826]}},
+{"type": "Feature","properties": {"name":"沧州市"},"geometry": {"type": "Point","coordinates": [116.8286,38.2104]}},
+{"type": "Feature","properties": {"name":"石家庄市"},"geometry": {"type": "Point","coordinates": [114.4995,38.1006]}},
+{"type": "Feature","properties": {"name":"邢台市"},"geometry": {"type": "Point","coordinates": [114.8071,37.2821]}},
+{"type": "Feature","properties": {"name":"邯郸市"},"geometry": {"type": "Point","coordinates": [114.4775,36.535]}},
+{"type": "Feature","properties": {"name":"秦皇岛市"},"geometry": {"type": "Point","coordinates": [119.2126,40.0232]}},
+{"type": "Feature","properties": {"name":"衡水市"},"geometry": {"type": "Point","coordinates": [115.8838,37.7161]}},
+{"type": "Feature","properties": {"name":"廊坊市"},"geometry": {"type": "Point","coordinates": [116.521,39.0509]}}
+]
+}

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20141222" releaseVersion="8.0.0">
+<TableDataMap>
+<TableData name="ds1" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM `订单`]]></Query>
+</TableData>
+<TableData name="ds2" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM `订单2`]]></Query>
+</TableData>
+</TableDataMap>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="订单ID"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="1" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="客户ID"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="2" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="雇员ID"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="3" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="订购日期"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="4" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="到货日期"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="5" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="发货日期"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="6" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="运货商"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="7" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="运货费"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="8" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="货主名称"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="9" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="货主地址"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="10" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="货主城市"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="11" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="货主地区"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="12" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="货主邮政编码"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="13" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="货主国家"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="14" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="是否已付"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="15" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="货主省份"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="16" r="0">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="应付金额"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<ReportWriteAttr>
+<Submiter class="com.fr.report.write.BuiltInSQLSubmiter" name="内置SQL1">
+<Attributes dsName="FRDemo"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table schema="" name="订单"/>
+<ColumnConfig name="订单ID" isKey="true" skipUnmodified="false">
+<ColumnRow column="0" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="客户ID" isKey="false" skipUnmodified="false">
+<ColumnRow column="1" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="雇员ID" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="订购日期" isKey="false" skipUnmodified="false">
+<ColumnRow column="3" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="到货日期" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="发货日期" isKey="false" skipUnmodified="false">
+<ColumnRow column="5" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="运货商" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="运货费" isKey="false" skipUnmodified="false">
+<ColumnRow column="7" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="货主名称" isKey="false" skipUnmodified="false">
+<ColumnRow column="8" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="货主地址" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="货主城市" isKey="false" skipUnmodified="false">
+<ColumnRow column="10" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="货主地区" isKey="false" skipUnmodified="false">
+<ColumnRow column="11" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="货主邮政编码" isKey="false" skipUnmodified="false">
+<ColumnRow column="12" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="货主国家" isKey="false" skipUnmodified="false">
+<ColumnRow column="13" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="是否已付" isKey="false" skipUnmodified="false">
+<ColumnRow column="14" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="货主省份" isKey="false" skipUnmodified="false">
+<ColumnRow column="15" row="0"/>
+</ColumnConfig>
+<ColumnConfig name="应付金额" isKey="false" skipUnmodified="false">
+<ColumnRow column="16" row="0"/>
+</ColumnConfig>
+<Condition class="com.fr.data.condition.ListCondition"/>
+</DMLConfig>
+</Submiter>
+</ReportWriteAttr>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList/>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="1"/>
+</WorkBook>

@@ -1,0 +1,23 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"巴音郭楞蒙古自治州"},"geometry": {"type": "Point","coordinates": [88.1653,39.6002]}},
+{"type": "Feature","properties": {"name":"和田地区"},"geometry": {"type": "Point","coordinates": [81.167,36.9855]}},
+{"type": "Feature","properties": {"name":"哈密地区"},"geometry": {"type": "Point","coordinates": [93.7793,42.9236]}},
+{"type": "Feature","properties": {"name":"阿克苏地区"},"geometry": {"type": "Point","coordinates": [82.9797,41.0229]}},
+{"type": "Feature","properties": {"name":"阿勒泰地区"},"geometry": {"type": "Point","coordinates": [88.2971,47.0929]}},
+{"type": "Feature","properties": {"name":"喀什地区"},"geometry": {"type": "Point","coordinates": [77.168,37.8534]}},
+{"type": "Feature","properties": {"name":"塔城地区"},"geometry": {"type": "Point","coordinates": [86.6272,45.8514]}},
+{"type": "Feature","properties": {"name":"昌吉回族自治州"},"geometry": {"type": "Point","coordinates": [89.6814,44.4507]}},
+{"type": "Feature","properties": {"name":"克孜勒苏柯尔克孜自治州"},"geometry": {"type": "Point","coordinates": [74.6301,39.5233]}},
+{"type": "Feature","properties": {"name":"吐鲁番地区"},"geometry": {"type": "Point","coordinates": [89.6375,42.4127]}},
+{"type": "Feature","properties": {"name":"伊犁哈萨克自治州"},"geometry": {"type": "Point","coordinates": [82.5513,43.5498]}},
+{"type": "Feature","properties": {"name":"博尔塔拉蒙古自治州"},"geometry": {"type": "Point","coordinates": [81.8481,44.6979]}},
+{"type": "Feature","properties": {"name":"乌鲁木齐市"},"geometry": {"type": "Point","coordinates": [87.9236,43.5883]}},
+{"type": "Feature","properties": {"name":"克拉玛依市"},"geometry": {"type": "Point","coordinates": [85.2869,45.5054]}},
+{"type": "Feature","properties": {"name":"阿拉尔市"},"geometry": {"type": "Point","coordinates": [81.2769,40.6549]}},
+{"type": "Feature","properties": {"name":"图木舒克市"},"geometry": {"type": "Point","coordinates": [79.1345,39.8749]}},
+{"type": "Feature","properties": {"name":"五家渠市"},"geometry": {"type": "Point","coordinates": [87.5391,44.3024]}},
+{"type": "Feature","properties": {"name":"石河子市"},"geometry": {"type": "Point","coordinates": [86.0229,44.2914]}}
+]
+}

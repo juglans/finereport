@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20131111" releaseVersion="7.0.5">
+<TableDataMap>
+<TableData name="ds1" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[级别,,.,,名次,,.,,姓名]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.Integer,java.lang.Integer,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[-'ILni]An'/Ihtmjd\-)QF$(kh8:h4B%#DqAQ>oA`L.+?N09`E3hniUfhu-;o<ScE[%QTc#7i
+TdaeLNZ@'#-oAI[B.PaAD;[l/r>X9_j`;f"\Qf##q9In>1I@GtR<ZQJP`<)<d%-I3:$^Z:Zk
+\ZC,Wl&ZDQA4DsZZ%HO&C*1YZRO,?\0edo'c<]AYpBNXts5;`#ciOnY2]AWE;XMR<XS%T.!b4E
+Y`o4>F&NRZX1g_aMS5'--VJ<Ke,BK+o;j^Isb";TJCM6-.+q@]AR\A*m9q9L!mmomkO=3:ImI
+_3^HM19,HhbWQ0e=;oWP))JngP-7ac,=kS(7!e&HO\Ko^V&U"Ue1/2Xl;=n5e06W5i^2#A9h
+lo.N@c4Q!'r^.n0k7`%El$a*t`7"r1[s5(-ap:kRk7\^b5SZE+::^luF?kOs=hUaU"5=)p4%
+XT[!`b/M8alPX7^<l-q\rh$;<M-8+(GJ30L+H,nWeDYl5se8G8'o]A7O.+HInf;_quQ~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<RowHeight defaultValue="723900">
+<![CDATA[1219200,1143000,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[571500,1485900,1828800,2590800,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<Expand/>
+</C>
+<C c="1" r="0" cs="3" s="0">
+<O>
+<![CDATA[男子举重取得十二运决赛资格级别运动员名单 ]]></O>
+<Expand/>
+</C>
+<C c="1" r="1" cs="3" s="1">
+<O>
+<![CDATA[(预赛各级别前16名)]]></O>
+<Expand/>
+</C>
+<C c="1" r="2" s="2">
+<O>
+<![CDATA[级别]]></O>
+<Expand/>
+</C>
+<C c="2" r="2" cs="2" s="2">
+<O>
+<![CDATA[运动员名单]]></O>
+<Expand/>
+</C>
+<C c="1" r="3" rs="2" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds1" columnName="级别"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<Expand dir="0"/>
+</C>
+<C c="2" r="3" s="2">
+<O>
+<![CDATA[名次]]></O>
+<Expand/>
+</C>
+<C c="3" r="3" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds1" columnName="名次"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<Expand dir="1"/>
+</C>
+<C c="2" r="4" s="2">
+<O>
+<![CDATA[姓名]]></O>
+<Expand/>
+</C>
+<C c="3" r="4" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds1" columnName="姓名"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<Expand dir="1"/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<WorkSheetAttr direction="1" indexsToCopy="3" start="3" oppoStart="3" end="3" oppoEnd="4" columnOrRowCount="2" isShowBlank="true"/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="128" foreground="-16749689"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="2" size="112" foreground="-14190157"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="HAF"/>
+<PreviewType PreviewType="0"/>
+</WorkBook>

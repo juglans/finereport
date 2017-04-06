@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20110221">
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.ui.impl.page.First">
+<WidgetAttr/>
+<Text>
+<![CDATA[${i18n("ReportServerP-First")}]]></Text>
+<IconName>
+<![CDATA[first]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.ui.impl.page.Previous">
+<WidgetAttr/>
+<Text>
+<![CDATA[${i18n("ReportServerP-Previous")}]]></Text>
+<IconName>
+<![CDATA[previous]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.ui.impl.page.PageNavi">
+<WidgetAttr/>
+</Widget>
+<Widget class="com.fr.report.web.ui.impl.page.Next">
+<WidgetAttr/>
+<Text>
+<![CDATA[${i18n("ReportServerP-Next")}]]></Text>
+<IconName>
+<![CDATA[next]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.ui.impl.page.Last">
+<WidgetAttr/>
+<Text>
+<![CDATA[${i18n("ReportServerP-Last")}]]></Text>
+<IconName>
+<![CDATA[last]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.ui.impl.FlashPrint">
+<WidgetAttr/>
+<Text>
+<![CDATA[${i18n("Utils-Print[Client]A")}]]></Text>
+<IconName>
+<![CDATA[flashprint]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.ui.impl.Print">
+<WidgetAttr/>
+<Text>
+<![CDATA[${i18n("Print")}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.ui.impl.Export">
+<WidgetAttr/>
+<Text>
+<![CDATA[${i18n("Export")}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true"/>
+</Widget>
+<Widget class="com.fr.report.web.ui.impl.Email">
+<WidgetAttr/>
+<Text>
+<![CDATA[${i18n("Email")}]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<WebPage isPage="true" isShowAsImage="false" isAutoScale="false"/>
+</WebPageContent>
+<WebViewContent>
+<ToolBars/>
+</WebViewContent>
+<WebWriteContent>
+<ToolBars/>
+<SelectedColor color="-10033153"/>
+</WebWriteContent>
+<Background name="NullBackground"/>
+<CacheValidateTime>
+<![CDATA[0]]></CacheValidateTime>
+</ReportWebAttr>
+<Report class="com.fr.report.WorkSheet" name="Sheet3">
+<ReportSettings headerHeight="1828800" footerHeight="1828800">
+<PaperSetting>
+<Margin top="2217600" left="2743200" bottom="3657600" right="2743200"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+<ElementCase class="com.fr.report.SingleBlock">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<RowHeight defaultValue="723900">
+<![CDATA[685800,685800,685800,685800,685800,2971800,2971800,2247900,2247900,685800,685800,685800,685800,685800,685800,914400,1866900,1866900,914400,685800,685800,990600,2209800,1257300,1104900,1104900,1714500,1714500,1714500,1714500,1714500,1714500,1714500,1714500,1714500,1714500,1714500,1714500,1714500,1714500,1714500,1714500,1714500,685800,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2209800,2209800,2209800,2209800,2209800,2209800,2209800,2209800,2209800,2209800,2209800,2209800,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" s="0">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="1" s="0">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="2" s="0">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="3" s="0">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="4" s="0">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="5" cs="11" s="1">
+<O>
+<![CDATA[房地产开发企业资质]]></O>
+<Expand/>
+</C>
+<C c="0" r="6" cs="11" s="1">
+<O>
+<![CDATA[申　报　表]]></O>
+<Expand/>
+</C>
+<C c="0" r="9" s="0">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="10" s="0">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="11" s="0">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="12" s="0">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="13" s="0">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="14" s="0">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="15" s="2">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="16" cs="5" s="3">
+<O>
+<![CDATA[企业名称：]]></O>
+<Expand/>
+</C>
+<C c="5" r="16" cs="4" s="4">
+<O>
+<![CDATA[XX建设有限公司]]></O>
+<Expand/>
+</C>
+<C c="9" r="16">
+<Expand/>
+</C>
+<C c="10" r="16">
+<Expand/>
+</C>
+<C c="0" r="17" cs="5" s="3">
+<O>
+<![CDATA[填报时间：]]></O>
+<Expand/>
+</C>
+<C c="5" r="17" cs="4" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=format(TODAY(), "yyyy-MM-dd")]]></Attributes>
+</O>
+<Expand/>
+</C>
+<C c="9" r="17">
+<Expand/>
+</C>
+<C c="10" r="17">
+<Expand/>
+</C>
+<C c="0" r="18" s="2">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="19" s="0">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="20" s="0">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="22" cs="11" s="5">
+<O>
+<![CDATA[中华人民共和国建设部制]]></O>
+<Expand/>
+</C>
+<C c="0" r="23" s="6">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="24" s="7">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="25" s="7">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="26" cs="2" s="8">
+<O>
+<![CDATA[企业名称]]></O>
+<Expand/>
+</C>
+<C c="2" r="26" cs="9" s="8">
+<O>
+<![CDATA[XX建设有限公司]]></O>
+<Expand/>
+</C>
+<C c="0" r="27" cs="2" s="8">
+<O>
+<![CDATA[企业类型]]></O>
+<Expand/>
+</C>
+<C c="2" r="27" cs="2" s="8">
+<O>
+<![CDATA[国有企业]]></O>
+<Expand/>
+</C>
+<C c="4" r="27" cs="5" s="8">
+<O>
+<![CDATA[法定代表人]]></O>
+<Expand/>
+</C>
+<C c="9" r="27" cs="2" s="8">
+<O>
+<![CDATA[王明]]></O>
+<Expand/>
+</C>
+<C c="0" r="28" cs="2" s="8">
+<O>
+<![CDATA[详细地址]]></O>
+<Expand/>
+</C>
+<C c="2" r="28" cs="9" s="8">
+<O>
+<![CDATA[XX省XX市XX区XX路187号]]></O>
+<Expand/>
+</C>
+<C c="0" r="29" cs="2" s="8">
+<O>
+<![CDATA[邮政编码]]></O>
+<Expand/>
+</C>
+<C c="2" r="29" cs="3" s="8">
+<O>
+<![CDATA[XX3462]]></O>
+<Expand/>
+</C>
+<C c="5" r="29" cs="3" s="8">
+<O>
+<![CDATA[电话]]></O>
+<Expand/>
+</C>
+<C c="8" r="29" cs="3" s="8">
+<O>
+<![CDATA[0XX-87115191]]></O>
+<Expand/>
+</C>
+<C c="0" r="30" cs="2" s="8">
+<O>
+<![CDATA[主管部门]]></O>
+<Expand/>
+</C>
+<C c="2" r="30" cs="3" s="8">
+<O>
+<![CDATA[公共事业部]]></O>
+<Expand/>
+</C>
+<C c="5" r="30" cs="5" s="8">
+<O>
+<![CDATA[企业成立时间]]></O>
+<Expand/>
+</C>
+<C c="10" r="30" s="8">
+<O>
+<![CDATA[1978年]]></O>
+<Expand/>
+</C>
+<C c="0" r="31" cs="5" s="9">
+<O>
+<![CDATA[批准从事房地产开发经营业务的房地产开发主管部门及批准时间]]></O>
+<Expand/>
+</C>
+<C c="5" r="31" cs="6" s="8">
+<O>
+<![CDATA[1997年]]></O>
+<Expand/>
+</C>
+<C c="0" r="32" cs="2" s="8">
+<O>
+<![CDATA[开户银行]]></O>
+<Expand/>
+</C>
+<C c="2" r="32" cs="3" s="8">
+<O>
+<![CDATA[招商银行XX分行]]></O>
+<Expand/>
+</C>
+<C c="5" r="32" cs="3" s="8">
+<O>
+<![CDATA[帐 号]]></O>
+<Expand/>
+</C>
+<C c="8" r="32" cs="3" s="8">
+<O>
+<![CDATA[6222124XXX4238942]]></O>
+<Expand/>
+</C>
+<C c="0" r="33" cs="3" s="9">
+<O>
+<![CDATA[企业法人营业执照注册号]]></O>
+<Expand/>
+</C>
+<C c="3" r="33" cs="8" s="8">
+<O>
+<![CDATA[XXXX]]></O>
+<Expand/>
+</C>
+<C c="0" r="34" cs="2" s="8">
+<O>
+<![CDATA[注册资本]]></O>
+<Expand/>
+</C>
+<C c="2" r="34" cs="9" s="8">
+<O>
+<![CDATA[1000万人民币]]></O>
+<Expand/>
+</C>
+<C c="0" r="35" cs="11" s="10">
+<O>
+<![CDATA[投资者名称及出资额]]></O>
+<Expand/>
+</C>
+<C c="0" r="36" s="8">
+<O>
+<![CDATA[序 号]]></O>
+<Expand/>
+</C>
+<C c="1" r="36" cs="5" s="8">
+<O>
+<![CDATA[投资者名称]]></O>
+<Expand/>
+</C>
+<C c="6" r="36" cs="5" s="8">
+<O>
+<![CDATA[出资额]]></O>
+<Expand/>
+</C>
+<C c="0" r="37" s="8">
+<O t="I">
+<![CDATA[1]]></O>
+<Expand/>
+</C>
+<C c="1" r="37" cs="5" s="8">
+<O>
+<![CDATA[金秀芳]]></O>
+<Expand/>
+</C>
+<C c="6" r="37" cs="5" s="8">
+<O>
+<![CDATA[100万人民币]]></O>
+<Expand/>
+</C>
+<C c="0" r="38" s="8">
+<O t="I">
+<![CDATA[2]]></O>
+<Expand/>
+</C>
+<C c="1" r="38" cs="5" s="8">
+<O>
+<![CDATA[王宏斌]]></O>
+<Expand/>
+</C>
+<C c="6" r="38" cs="5" s="8">
+<O>
+<![CDATA[100万人民币]]></O>
+<Expand/>
+</C>
+<C c="0" r="39" s="8">
+<O t="I">
+<![CDATA[3]]></O>
+<Expand/>
+</C>
+<C c="1" r="39" cs="5" s="8">
+<O>
+<![CDATA[李文峰]]></O>
+<Expand/>
+</C>
+<C c="6" r="39" cs="5" s="8">
+<O>
+<![CDATA[100万人民币]]></O>
+<Expand/>
+</C>
+<C c="0" r="40" s="8">
+<O t="I">
+<![CDATA[4]]></O>
+<Expand/>
+</C>
+<C c="1" r="40" cs="5" s="8">
+<O>
+<![CDATA[古韵]]></O>
+<Expand/>
+</C>
+<C c="6" r="40" cs="5" s="8">
+<O>
+<![CDATA[75万人民币]]></O>
+<Expand/>
+</C>
+<C c="0" r="41" s="8">
+<O t="I">
+<![CDATA[5]]></O>
+<Expand/>
+</C>
+<C c="1" r="41" cs="5" s="8">
+<O>
+<![CDATA[王登辉]]></O>
+<Expand/>
+</C>
+<C c="6" r="41" cs="5" s="8">
+<O>
+<![CDATA[50万人民币]]></O>
+<Expand/>
+</C>
+<C c="0" r="42" s="8">
+<O t="I">
+<![CDATA[6]]></O>
+<Expand/>
+</C>
+<C c="1" r="42" cs="5" s="8">
+<O>
+<![CDATA[邵鹏]]></O>
+<Expand/>
+</C>
+<C c="6" r="42" cs="5" s="8">
+<O>
+<![CDATA[50万人民币]]></O>
+<Expand/>
+</C>
+<C c="0" r="43" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="1" r="43" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="2" r="43" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="3" r="43" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="4" r="43" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="5" r="43" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="6" r="43" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="7" r="43" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="8" r="43" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="9" r="43" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="10" r="43" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+</CellElementList>
+</ElementCase>
+</Report>
+<Report class="com.fr.report.WorkSheet" name="sheet4">
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting orientation="1"/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+<ElementCase class="com.fr.report.SingleBlock">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<RowHeight defaultValue="723900">
+<![CDATA[1905000,723900,723900,4838700,2286000,2286000,2286000,2286000,3467100,3390900,3352800,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[4724400,6781800,4191000,4191000,4191000,4191000,4191000,4191000,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" cs="8" s="12">
+<O>
+<![CDATA[开发经营情况]]></O>
+<Expand/>
+</C>
+<C c="0" r="1" cs="2" rs="2" s="13">
+<O t="BiasTextPainter">
+<IsBackSlash value="false"/>
+<![CDATA[时间|项目]]></O>
+<Expand/>
+</C>
+<C c="2" r="1" rs="2" s="8">
+<O>
+<![CDATA[2010年]]></O>
+<Expand/>
+</C>
+<C c="3" r="1" rs="2" s="8">
+<O>
+<![CDATA[2008年]]></O>
+<Expand/>
+</C>
+<C c="4" r="1" rs="2" s="8">
+<O>
+<![CDATA[2005年]]></O>
+<Expand/>
+</C>
+<C c="5" r="1" rs="2" s="8">
+<O>
+<![CDATA[2002年]]></O>
+<Expand/>
+</C>
+<C c="6" r="1" rs="2" s="8">
+<O>
+<![CDATA[1998年]]></O>
+<Expand/>
+</C>
+<C c="7" r="1" rs="2" s="8">
+<O>
+<![CDATA[备注]]></O>
+<Expand/>
+</C>
+<C c="0" r="3" rs="5" s="8">
+<O>
+<![CDATA[开发建设情况 ]]></O>
+<Expand/>
+</C>
+<C c="1" r="3" s="8">
+<O>
+<![CDATA[完成房地产开发投资（万元）]]></O>
+<Expand/>
+</C>
+<C c="2" r="3" s="14">
+<O t="I">
+<![CDATA[7000]]></O>
+<Expand/>
+</C>
+<C c="3" r="3" s="8">
+<O t="I">
+<![CDATA[5000]]></O>
+<Expand/>
+</C>
+<C c="4" r="3" s="8">
+<O t="I">
+<![CDATA[4500]]></O>
+<Expand/>
+</C>
+<C c="5" r="3" s="8">
+<O t="I">
+<![CDATA[3000]]></O>
+<Expand/>
+</C>
+<C c="6" r="3" s="8">
+<O t="I">
+<![CDATA[1000]]></O>
+<Expand/>
+</C>
+<C c="7" r="3" s="8">
+<Expand/>
+</C>
+<C c="1" r="4" rs="2" s="8">
+<O>
+<![CDATA[施工房屋面积（万m2）]]></O>
+<Expand/>
+</C>
+<C c="2" r="4" rs="2" s="15">
+<O t="D">
+<![CDATA[12.54]]></O>
+<Expand/>
+</C>
+<C c="3" r="4" rs="2" s="15">
+<O t="D">
+<![CDATA[9.63]]></O>
+<Expand/>
+</C>
+<C c="4" r="4" rs="2" s="15">
+<O t="D">
+<![CDATA[8.71]]></O>
+<Expand/>
+</C>
+<C c="5" r="4" rs="2" s="15">
+<O t="D">
+<![CDATA[5.9]]></O>
+<Expand/>
+</C>
+<C c="6" r="4" rs="2" s="15">
+<O t="D">
+<![CDATA[2.9]]></O>
+<Expand/>
+</C>
+<C c="7" r="4" rs="2" s="16">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="1" r="6" rs="2" s="8">
+<O>
+<![CDATA[竣工房屋面积（万m2）]]></O>
+<Expand/>
+</C>
+<C c="2" r="6" rs="2" s="15">
+<O t="D">
+<![CDATA[12.54]]></O>
+<Expand/>
+</C>
+<C c="3" r="6" rs="2" s="15">
+<O t="D">
+<![CDATA[9.63]]></O>
+<Expand/>
+</C>
+<C c="4" r="6" rs="2" s="15">
+<O t="D">
+<![CDATA[8.71]]></O>
+<Expand/>
+</C>
+<C c="5" r="6" rs="2" s="15">
+<O t="D">
+<![CDATA[5.9]]></O>
+<Expand/>
+</C>
+<C c="6" r="6" rs="2" s="15">
+<O t="D">
+<![CDATA[2.9]]></O>
+<Expand/>
+</C>
+<C c="7" r="6" rs="2" s="17">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="0" r="8" rs="3" s="8">
+<O>
+<![CDATA[工程质量情况 ]]></O>
+<Expand/>
+</C>
+<C c="1" r="8" s="8">
+<O>
+<![CDATA[合格品率（%）]]></O>
+<Expand/>
+</C>
+<C c="2" r="8" s="18">
+<O t="D">
+<![CDATA[1.0]]></O>
+<Expand/>
+</C>
+<C c="3" r="8" s="18">
+<O t="I">
+<![CDATA[1]]></O>
+<Expand/>
+</C>
+<C c="4" r="8" s="18">
+<O t="I">
+<![CDATA[1]]></O>
+<Expand/>
+</C>
+<C c="5" r="8" s="18">
+<O t="I">
+<![CDATA[1]]></O>
+<Expand/>
+</C>
+<C c="6" r="8" s="18">
+<O t="I">
+<![CDATA[1]]></O>
+<Expand/>
+</C>
+<C c="7" r="8" s="17">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="1" r="9" s="8">
+<O>
+<![CDATA[优良品率（%）]]></O>
+<Expand/>
+</C>
+<C c="2" r="9" s="18">
+<O t="D">
+<![CDATA[0.97]]></O>
+<Expand/>
+</C>
+<C c="3" r="9" s="18">
+<O t="D">
+<![CDATA[0.98]]></O>
+<Expand/>
+</C>
+<C c="4" r="9" s="18">
+<O t="D">
+<![CDATA[0.95]]></O>
+<Expand/>
+</C>
+<C c="5" r="9" s="18">
+<O t="D">
+<![CDATA[0.97]]></O>
+<Expand/>
+</C>
+<C c="6" r="9" s="18">
+<O t="D">
+<![CDATA[0.98]]></O>
+<Expand/>
+</C>
+<C c="7" r="9" s="18">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="1" r="10" s="8">
+<O>
+<![CDATA[是否有重大工程质量事故]]></O>
+<Expand/>
+</C>
+<C c="2" r="10" s="18">
+<O>
+<![CDATA[否]]></O>
+<Expand/>
+</C>
+<C c="3" r="10" s="18">
+<O>
+<![CDATA[否]]></O>
+<Expand/>
+</C>
+<C c="4" r="10" s="18">
+<O>
+<![CDATA[否]]></O>
+<Expand/>
+</C>
+<C c="5" r="10" s="18">
+<O>
+<![CDATA[否]]></O>
+<Expand/>
+</C>
+<C c="6" r="10" s="18">
+<O>
+<![CDATA[否]]></O>
+<Expand/>
+</C>
+<C c="7" r="10" s="17">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+</CellElementList>
+</ElementCase>
+</Report>
+<Report class="com.fr.report.WorkSheet" name="sheet6">
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting>
+<Margin top="2427552" left="2743200" bottom="987552" right="2743200"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+<ElementCase class="com.fr.report.SingleBlock">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<RowHeight defaultValue="723900">
+<![CDATA[2095500,1752600,1752600,1752600,1752600,1752600,1752600,1752600,1752600,1752600,1752600,1752600,1752600,1752600,2247900,2247900,1981200,2286000,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" cs="9" s="19">
+<O>
+<![CDATA[企业人员情况]]></O>
+<Expand/>
+</C>
+<C c="0" r="1" cs="9" s="15">
+<O>
+<![CDATA[企业在册职工总数　　532　　人，有职称的专业人员　342　　　人]]></O>
+<Expand/>
+</C>
+<C c="0" r="2" cs="9" s="15">
+<O>
+<![CDATA[有职称专业人员]]></O>
+<Expand/>
+</C>
+<C c="0" r="3" cs="2" rs="2" s="15">
+<O t="BiasTextPainter">
+<IsBackSlash value="false"/>
+<![CDATA[职称|专业]]></O>
+<Expand/>
+</C>
+<C c="2" r="3" cs="2" rs="2" s="15">
+<O>
+<![CDATA[高级]]></O>
+<Expand/>
+</C>
+<C c="4" r="3" cs="3" rs="2" s="15">
+<O>
+<![CDATA[中级]]></O>
+<Expand/>
+</C>
+<C c="7" r="3" cs="2" rs="2" s="15">
+<O>
+<![CDATA[初级]]></O>
+<Expand/>
+</C>
+<C c="0" r="5" cs="2" s="15">
+<O>
+<![CDATA[建　筑]]></O>
+<Expand/>
+</C>
+<C c="2" r="5" cs="2" s="15">
+<O t="I">
+<![CDATA[6]]></O>
+<Expand/>
+</C>
+<C c="4" r="5" cs="3" s="15">
+<O t="I">
+<![CDATA[12]]></O>
+<Expand/>
+</C>
+<C c="7" r="5" cs="2" s="15">
+<O t="I">
+<![CDATA[56]]></O>
+<Expand/>
+</C>
+<C c="0" r="6" cs="2" s="15">
+<O>
+<![CDATA[结　构]]></O>
+<Expand/>
+</C>
+<C c="2" r="6" cs="2" s="15">
+<O t="I">
+<![CDATA[3]]></O>
+<Expand/>
+</C>
+<C c="4" r="6" cs="3" s="15">
+<O t="I">
+<![CDATA[18]]></O>
+<Expand/>
+</C>
+<C c="7" r="6" cs="2" s="15">
+<O t="I">
+<![CDATA[72]]></O>
+<Expand/>
+</C>
+<C c="0" r="7" cs="2" s="15">
+<O>
+<![CDATA[财　务]]></O>
+<Expand/>
+</C>
+<C c="2" r="7" cs="2" s="15">
+<O t="I">
+<![CDATA[2]]></O>
+<Expand/>
+</C>
+<C c="4" r="7" cs="3" s="15">
+<O t="I">
+<![CDATA[6]]></O>
+<Expand/>
+</C>
+<C c="7" r="7" cs="2" s="15">
+<O t="I">
+<![CDATA[11]]></O>
+<Expand/>
+</C>
+<C c="0" r="8" cs="2" s="15">
+<O>
+<![CDATA[经　济]]></O>
+<Expand/>
+</C>
+<C c="2" r="8" cs="2" s="15">
+<O t="I">
+<![CDATA[4]]></O>
+<Expand/>
+</C>
+<C c="4" r="8" cs="3" s="15">
+<O t="I">
+<![CDATA[14]]></O>
+<Expand/>
+</C>
+<C c="7" r="8" cs="2" s="15">
+<O t="I">
+<![CDATA[32]]></O>
+<Expand/>
+</C>
+<C c="0" r="9" cs="2" s="15">
+<O>
+<![CDATA[统　计]]></O>
+<Expand/>
+</C>
+<C c="2" r="9" cs="2" s="15">
+<O t="I">
+<![CDATA[2]]></O>
+<Expand/>
+</C>
+<C c="4" r="9" cs="3" s="15">
+<O t="I">
+<![CDATA[24]]></O>
+<Expand/>
+</C>
+<C c="7" r="9" cs="2" s="15">
+<O t="I">
+<![CDATA[65]]></O>
+<Expand/>
+</C>
+<C c="0" r="10" cs="2" s="15">
+<O>
+<![CDATA[其他相关专业]]></O>
+<Expand/>
+</C>
+<C c="2" r="10" cs="2" s="15">
+<O t="I">
+<![CDATA[7]]></O>
+<Expand/>
+</C>
+<C c="4" r="10" cs="3" s="15">
+<O t="I">
+<![CDATA[28]]></O>
+<Expand/>
+</C>
+<C c="7" r="10" cs="2" s="15">
+<O t="I">
+<![CDATA[42]]></O>
+<Expand/>
+</C>
+<C c="0" r="11" cs="2" s="15">
+<O>
+<![CDATA[小　计]]></O>
+<Expand/>
+</C>
+<C c="2" r="11" cs="2" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(C6:C11)]]></Attributes>
+</O>
+<Expand/>
+</C>
+<C c="4" r="11" cs="3" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(E6:E11)]]></Attributes>
+</O>
+<Expand/>
+</C>
+<C c="7" r="11" cs="2" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(H6:H11)]]></Attributes>
+</O>
+<Expand/>
+</C>
+<C c="0" r="12" cs="9" s="15">
+<O>
+<![CDATA[有关业务负责人情况]]></O>
+<Expand/>
+</C>
+<C c="0" r="13" s="15">
+<O>
+<![CDATA[类　别]]></O>
+<Expand/>
+</C>
+<C c="1" r="13" cs="2" s="15">
+<O>
+<![CDATA[姓名]]></O>
+<Expand/>
+</C>
+<C c="3" r="13" cs="2" s="15">
+<O>
+<![CDATA[职　务]]></O>
+<Expand/>
+</C>
+<C c="5" r="13" s="15">
+<O>
+<![CDATA[学历]]></O>
+<Expand/>
+</C>
+<C c="6" r="13" cs="2" s="15">
+<O>
+<![CDATA[专业]]></O>
+<Expand/>
+</C>
+<C c="8" r="13" s="15">
+<O>
+<![CDATA[职称]]></O>
+<Expand/>
+</C>
+<C c="0" r="14" s="15">
+<O>
+<![CDATA[工程负责人]]></O>
+<Expand/>
+</C>
+<C c="1" r="14" cs="2" s="15">
+<O>
+<![CDATA[李涛]]></O>
+<Expand/>
+</C>
+<C c="3" r="14" cs="2" s="15">
+<O>
+<![CDATA[项目负责人]]></O>
+<Expand/>
+</C>
+<C c="5" r="14" s="15">
+<O>
+<![CDATA[博士]]></O>
+<Expand/>
+</C>
+<C c="6" r="14" cs="2" s="15">
+<O>
+<![CDATA[建筑学]]></O>
+<Expand/>
+</C>
+<C c="8" r="14" s="15">
+<O>
+<![CDATA[高级工程师]]></O>
+<Expand/>
+</C>
+<C c="0" r="15" s="15">
+<O>
+<![CDATA[财务负责人]]></O>
+<Expand/>
+</C>
+<C c="1" r="15" cs="2" s="15">
+<O>
+<![CDATA[王奇]]></O>
+<Expand/>
+</C>
+<C c="3" r="15" cs="2" s="15">
+<O>
+<![CDATA[项目负责人]]></O>
+<Expand/>
+</C>
+<C c="5" r="15" s="15">
+<O>
+<![CDATA[博士]]></O>
+<Expand/>
+</C>
+<C c="6" r="15" cs="2" s="15">
+<O>
+<![CDATA[建筑学]]></O>
+<Expand/>
+</C>
+<C c="8" r="15" s="15">
+<O>
+<![CDATA[高级工程师]]></O>
+<Expand/>
+</C>
+<C c="0" r="16" s="15">
+<O>
+<![CDATA[经营负责人]]></O>
+<Expand/>
+</C>
+<C c="1" r="16" cs="2" s="15">
+<O>
+<![CDATA[郑东辉]]></O>
+<Expand/>
+</C>
+<C c="3" r="16" cs="2" s="15">
+<O>
+<![CDATA[项目负责人]]></O>
+<Expand/>
+</C>
+<C c="5" r="16" s="15">
+<O>
+<![CDATA[博士]]></O>
+<Expand/>
+</C>
+<C c="6" r="16" cs="2" s="15">
+<O>
+<![CDATA[机械动力学]]></O>
+<Expand/>
+</C>
+<C c="8" r="16" s="15">
+<O>
+<![CDATA[高级工程师]]></O>
+<Expand/>
+</C>
+<C c="0" r="17" s="15">
+<O>
+<![CDATA[统计负责人]]></O>
+<Expand/>
+</C>
+<C c="1" r="17" cs="2" s="15">
+<O>
+<![CDATA[陈雷]]></O>
+<Expand/>
+</C>
+<C c="3" r="17" cs="2" s="15">
+<O>
+<![CDATA[助理]]></O>
+<Expand/>
+</C>
+<C c="5" r="17" s="15">
+<O>
+<![CDATA[硕士]]></O>
+<Expand/>
+</C>
+<C c="6" r="17" cs="2" s="15">
+<O>
+<![CDATA[建筑学]]></O>
+<Expand/>
+</C>
+<C c="8" r="17" s="15">
+<O>
+<![CDATA[高级工程师]]></O>
+<Expand/>
+</C>
+<C c="0" r="18" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="1" r="18" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="2" r="18" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="3" r="18" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="4" r="18" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="5" r="18" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="6" r="18" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="7" r="18" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+<C c="8" r="18" s="11">
+<O>
+<![CDATA[]]></O>
+<Expand/>
+</C>
+</CellElementList>
+</ElementCase>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="false" delayPlaying="true" windowPosition="1" align="1"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style textStyle="1">
+<FRFont name="宋体" style="0" size="76"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" textStyle="1">
+<FRFont name="黑体" style="0" size="240"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style textStyle="1">
+<FRFont name="宋体" style="0" size="108"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" vertical_alignment="3" textStyle="1">
+<FRFont name="楷体_GB2312" style="0" size="132"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" vertical_alignment="3" textStyle="1">
+<FRFont name="楷体_GB2312" style="0" size="132"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" textStyle="1">
+<FRFont name="宋体" style="1" size="124"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" textStyle="1">
+<FRFont name="宋体" style="0" size="108"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" textStyle="1">
+<FRFont name="宋体" style="1" size="144"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0">
+<FRFont name="宋体" style="0" size="108"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style>
+<FRFont name="宋体" style="0" size="108"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0">
+<FRFont name="宋体" style="0" size="112"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style>
+<FRFont name="宋体" style="0" size="76"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" textStyle="1">
+<FRFont name="宋体" style="1" size="120"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1"/>
+</Border>
+</Style>
+<Style vertical_alignment="3">
+<FRFont name="宋体" style="0" size="108"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0">
+<FRFont name="SimSun" style="0" size="108"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0">
+<FRFont name="SimSun" style="0" size="108"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" vertical_alignment="1">
+<FRFont name="宋体" style="0" size="108"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style vertical_alignment="1">
+<FRFont name="宋体" style="0" size="108"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0">
+<Format class="java.text.DecimalFormat">
+<![CDATA[#0%]]></Format>
+<FRFont name="SimSun" style="0" size="108"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0">
+<FRFont name="SimSun" style="1" size="120"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1"/>
+</Border>
+</Style>
+</StyleList>
+</WorkBook>

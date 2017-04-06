@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "酒泉市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.91064453125,
+          40.36328834091583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "嘉峪关市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.173828125,
+          39.80853604144591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "张掖市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.30517578125,
+          38.8225909761771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "金昌市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.06298828125,
+          38.42777351132905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "武威市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.98583984374999,
+          37.68382032669382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "兰州市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.502197265625,
+          36.40359962073253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "白银市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.765625,
+          36.58906837139909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "临夏回族自治州"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.2440185546875,
+          35.54116627999815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "定西市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.337158203125,
+          34.97150033361733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "甘南藏族自治州"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.0023193359375,
+          34.470335121217495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "陇南市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.1171875,
+          33.710632271492095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "天水市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.6884765625,
+          34.58799745550482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "平凉市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6827392578125,
+          35.22318504970181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+
+
+
+        "name": "庆阳市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6934814453125,
+          35.964669147704086
+        ]
+      }
+    }
+  ]
+}

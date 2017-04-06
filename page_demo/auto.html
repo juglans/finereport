@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">  
+<html>  
+    <head>  
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+    <title>Demo</title>  
+    </head>  
+    <script type="text/javascript">  
+    // 由于gotoNextPage()等方法调用后，后台服务器返回结果需要一定的时间，而我们需要获得返回结果中的行  
+    // 因此添加监听，contentPane.on("afterload",function(){})：当选择页加载完毕后调用setframeHeight方法获取行数及高度从而调整框架大小  
+    window.onload=function(){  
+    var contentPane = document.getElementById('reportFrame').contentWindow.contentPane;  
+    contentPane.on("afterload",function(){  
+    setframeHeight();  
+    });  
+    }  
+    function setframeHeight(){  
+    var reportFrame = document.getElementById('reportFrame');  
+    // 获得页面中的所有行  
+    var tr = reportFrame.contentWindow.document.getElementsByTagName("tr");
+	//为了避免报表加载结束后出现滚动条现象，这里将报表容器的overflow属性设置为hidden
+	//由于在报表容器属性的设置只能在报表计算之后，所以用setTimeout来设置延迟执行时间，如果数据过多，请按照具体情况修改延迟时间
+	setTimeout(function(){document.getElementById('reportFrame').contentWindow.document.getElementById("content-container").style.overflow="hidden";},10)
+    // 由于报表页面还存在页边距，因此框架高度是大于所有行累计的高度的，这里赋一个初始值以表示边距的大小  
+    var height = 30;  
+    for(var i = 0;i<tr.length;i++){  
+    //由于报表页面加载完成之后，可能会将单元格也在加载成一个tr，会导致重复计算，这里通过条件判断来获取行的tr  
+    if(tr[i].id.substring(0,1)=="r"){  
+    height = height + tr[i].offsetHeight;  
+    }     
+    }  
+    reportFrame.height = height;  
+    }   
+
+   
+    </script>  
+    <body >   
+    <div id="toolbar">  
+    <input type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoFirstPage();" value="首页"></input>  
+    <input type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoPreviousPage();" value="上一页"></input>  
+    <input type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoNextPage();" value="下一页"></input>   
+    <input type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoLastPage();" value="末页"></input>  
+    </div>  
+    <iframe id="reportFrame" src="/WebReport/ReportServer?reportlet=/doc/Primary/DetailReport/Details.cpt&__showtoolbar__=false" width = 100% height = 80% frameborder="0" ></iframe>
+	<p>页面其他部分</p>
+	</body>
+<html>

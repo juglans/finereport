@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>FineReport Demo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<script type="text/javascript" src="/WebReport/ReportServer?op=emb&resource=finereport.js"></script>
+<script type="text/javascript">
+	function autoLoad(){
+		//返回从问号 (?) 开始的 URL（查询部分）
+		var paraString = location.search;   
+		//多个参数用&分隔，将参数字符串转为数组，使每个参数值存于一个数组元素中
+		var paras = paraString.split("&");  
+		//每个数组元素中"="后面的值即参数值
+		var reportName = paras[0].substr(paras[0].indexOf("=") + 1); 
+		var start = paras[1].substr(paras[1].indexOf("=") + 1);
+		var end = paras[2].substr(paras[2].indexOf("=") + 1);
+		var per = paras[3].substr(paras[3].indexOf("=") + 1);
+		//使用获取的参数值拼接出最终的url
+		var reportURL = "/WebReport/ReportServer?reportlet=" + reportName + "&start=" + start + "&end=" + end + "&per=" + per;
+		//url中可能包含中文或特殊字符因此需要进行编码转换，注意需要先引入finereport.js
+		reportURL = FR.cjkEncode(reportURL);
+		//将新的报表路径赋给报表所在iframe的src
+		document.getElementById("reportFrame").src = reportURL; 
+	}
+	//加载网页时调用autoLoad方法
+	window.onload = autoLoad;
+</script>
+</head>
+<body>
+<iframe id="reportFrame" width="900" height="400"></iframe>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"延边朝鲜族自治州"},"geometry": {"type": "Point","coordinates": [129.397,43.2587]}},
+{"type": "Feature","properties": {"name":"吉林市"},"geometry": {"type": "Point","coordinates": [126.8372,43.6047]}},
+{"type": "Feature","properties": {"name":"白城市"},"geometry": {"type": "Point","coordinates": [123.0029,45.2637]}},
+{"type": "Feature","properties": {"name":"松原市"},"geometry": {"type": "Point","coordinates": [124.0906,44.7198]}},
+{"type": "Feature","properties": {"name":"长春市"},"geometry": {"type": "Point","coordinates": [125.8154,44.2584]}},
+{"type": "Feature","properties": {"name":"白山市"},"geometry": {"type": "Point","coordinates": [127.2217,42.0941]}},
+{"type": "Feature","properties": {"name":"通化市"},"geometry": {"type": "Point","coordinates": [125.9583,41.8579]}},
+{"type": "Feature","properties": {"name":"四平市"},"geometry": {"type": "Point","coordinates": [124.541,43.4894]}},
+{"type": "Feature","properties": {"name":"辽源市"},"geometry": {"type": "Point","coordinates": [125.343,42.7643]}}
+]
+}

@@ -1,0 +1,23 @@
+{"type": "FeatureCollection",
+"cp":[117.2461,32.0361],
+"features":
+[
+{"type": "Feature","properties": {"name":"六安市"},"geometry": {"type": "Point","coordinates": [116.3123,31.8329]}},
+{"type": "Feature","properties": {"name":"安庆市"},"geometry": {"type": "Point","coordinates": [116.7517,30.5255]}},
+{"type": "Feature","properties": {"name":"滁州市"},"geometry": {"type": "Point","coordinates": [118.1909,32.536]}},
+{"type": "Feature","properties": {"name":"宣城市"},"geometry": {"type": "Point","coordinates": [118.8062,30.6244]}},
+{"type": "Feature","properties": {"name":"阜阳市"},"geometry": {"type": "Point","coordinates": [115.7629,32.9919]}},
+{"type": "Feature","properties": {"name":"宿州市"},"geometry": {"type": "Point","coordinates": [117.5208,33.6841]}},
+{"type": "Feature","properties": {"name":"黄山市"},"geometry": {"type": "Point","coordinates": [118.0481,29.9542]}},
+{"type": "Feature","properties": {"name":"巢湖市"},"geometry": {"type": "Point","coordinates": [117.7734,31.4978]}},
+{"type": "Feature","properties": {"name":"亳州市"},"geometry": {"type": "Point","coordinates": [116.1914,33.4698]}},
+{"type": "Feature","properties": {"name":"池州市"},"geometry": {"type": "Point","coordinates": [117.3889,30.2014]}},
+{"type": "Feature","properties": {"name":"合肥市"},"geometry": {"type": "Point","coordinates": [117.29,32.0581]}},
+{"type": "Feature","properties": {"name":"蚌埠市"},"geometry": {"type": "Point","coordinates": [117.4109,33.1073]}},
+{"type": "Feature","properties": {"name":"芜湖市"},"geometry": {"type": "Point","coordinates": [118.3557,31.0858]}},
+{"type": "Feature","properties": {"name":"淮北市"},"geometry": {"type": "Point","coordinates": [116.6968,33.6896]}},
+{"type": "Feature","properties": {"name":"淮南市"},"geometry": {"type": "Point","coordinates": [116.7847,32.7722]}},
+{"type": "Feature","properties": {"name":"马鞍山市"},"geometry": {"type": "Point","coordinates": [118.6304,31.5363]}},
+{"type": "Feature","properties": {"name":"铜陵市"},"geometry": {"type": "Point","coordinates": [117.9382,30.9375]}}
+]
+}

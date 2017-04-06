@@ -1,0 +1,19 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"百色市"},"geometry": {"type": "Point","coordinates": [106.6003,23.9227]}},
+{"type": "Feature","properties": {"name":"河池市"},"geometry": {"type": "Point","coordinates": [107.8638,24.5819]}},
+{"type": "Feature","properties": {"name":"桂林市"},"geometry": {"type": "Point","coordinates": [110.5554,25.318]}},
+{"type": "Feature","properties": {"name":"南宁市"},"geometry": {"type": "Point","coordinates": [108.479,23.1152]}},
+{"type": "Feature","properties": {"name":"柳州市"},"geometry": {"type": "Point","coordinates": [109.3799,24.9774]}},
+{"type": "Feature","properties": {"name":"崇左市"},"geometry": {"type": "Point","coordinates": [107.3364,22.4725]}},
+{"type": "Feature","properties": {"name":"来宾市"},"geometry": {"type": "Point","coordinates": [109.7095,23.8403]}},
+{"type": "Feature","properties": {"name":"玉林市"},"geometry": {"type": "Point","coordinates": [110.2148,22.3792]}},
+{"type": "Feature","properties": {"name":"梧州市"},"geometry": {"type": "Point","coordinates": [110.9949,23.5052]}},
+{"type": "Feature","properties": {"name":"贺州市"},"geometry": {"type": "Point","coordinates": [111.3135,24.4006]}},
+{"type": "Feature","properties": {"name":"钦州市"},"geometry": {"type": "Point","coordinates": [109.0283,22.0935]}},
+{"type": "Feature","properties": {"name":"贵港市"},"geometry": {"type": "Point","coordinates": [109.9402,23.3459]}},
+{"type": "Feature","properties": {"name":"防城港市"},"geometry": {"type": "Point","coordinates": [108.0505,21.9287]}},
+{"type": "Feature","properties": {"name":"北海市"},"geometry": {"type": "Point","coordinates": [109.314,21.6211]}}
+]
+}

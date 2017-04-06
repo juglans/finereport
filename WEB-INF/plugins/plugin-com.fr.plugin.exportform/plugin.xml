@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugin>
+    <id>com.fr.plugin.exportform</id>
+    <name><![CDATA[表单导出]]></name>
+    <active>yes</active>
+    <version>2.2</version>
+    <env-version>8.0</env-version>
+	 <jartime>2017-1-18</jartime>
+    <vendor>finereport.neil</vendor>
+    <description><![CDATA[支持表单整体导出到Excel和PDF文件.]]></description>
+    <change-notes><![CDATA[
+	<p>[2016-3-3] 将所有的块合并在一个sheet里导出</p>
+	<p>[2016-3-16] 加入纸张和列宽适配, 支持传参</p>
+	<p>[2016-3-17] 加入导出pdf, 访问&op=export&format=pdf, 图片之类同理</p>
+	<p>[2016-5-4] 加入导出指定sessionid的表单, sessionid=1243&op=export&format=pdf.</p>
+	<p>[2016-5-17] 屏蔽掉控件导出</p>
+	<p>[2016-6-5] 去除对聚合报表注册依赖</p>
+	<p>[2016-6-8] 国际化路径</p>
+	<p>[2016-7-4] API变动</p>
+	<p>[2016-8-17] 增加标题行导出</p>
+	<p>[2016-12-21] 修改默认纸张为A3</p>
+	]]></change-notes>
+    <extra-core>
+        <LocaleFinder class="com.fr.plugin.exportform.locale.LocaleFinder"/>
+    </extra-core>
+    <extra-form>
+        <FormExportProcessor class="com.fr.plugin.exportform.FormExportImpl"/>
+    </extra-form>
+</plugin>

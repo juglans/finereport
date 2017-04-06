@@ -1,0 +1,2849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Print')}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Email')}]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<WebPage isPage="false" isShowAsImage="false" isAutoScale="false" isTDHeavy="false"/>
+</WebPageContent>
+<Background name="ColorBackground" color="-985610"/>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1524000,381000,762000,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,1333440,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2667000,4191000,3047040,3047040,3047040,3047040,3047040,3047040,3047040,3047040,12077700,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" cs="11" s="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$bm + "销售明细表"]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="2" cs="11" s="2">
+<O>
+<![CDATA[报表日期：2016年5月      当前层级/总层级：第三级/共三级]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="3" cs="2" rs="2" s="3">
+<O>
+<![CDATA[产品名称]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="3" cs="4" s="4">
+<O>
+<![CDATA[11月份实际（国内销售）万元]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="3" cs="4" s="4">
+<O>
+<![CDATA[11月份实际（内部销售）万元]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="3" rs="2" s="3">
+<O>
+<![CDATA[备     注]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="4" s="3">
+<O>
+<![CDATA[月销量（吨）]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="4" s="3">
+<O>
+<![CDATA[月销额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="4" s="3">
+<O>
+<![CDATA[销售成本]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="4" s="3">
+<O>
+<![CDATA[毛利]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="4" s="5">
+<O>
+<![CDATA[月销量（吨）]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="4" s="3">
+<O>
+<![CDATA[月销额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="4" s="3">
+<O>
+<![CDATA[销售成本]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="4" s="3">
+<O>
+<![CDATA[毛利]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="5" s="6">
+<O t="I">
+<![CDATA[1]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "切片"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="5" s="7">
+<O>
+<![CDATA[聚酯切片]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="5" s="7">
+<O>
+<![CDATA[59.20 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="5" s="7">
+<O>
+<![CDATA[29.54 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="5" s="7">
+<O>
+<![CDATA[33.79 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="5" s="7">
+<O>
+<![CDATA[-4.26 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="5" s="7">
+<O>
+<![CDATA[1948.80 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="5" s="7">
+<O>
+<![CDATA[1046.05 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="5" s="7">
+<O>
+<![CDATA[1112.92 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="5" s="7">
+<O t="D">
+<![CDATA[66.88]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="5" s="7">
+<O>
+<![CDATA[内销含税价0.5838万元/吨，上月为0.6001万元/吨。]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="6" s="6">
+<O t="I">
+<![CDATA[2]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "切片"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="6" s="7">
+<O>
+<![CDATA[高粘度切片]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="6" s="7">
+<O>
+<![CDATA[60.00 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="6" s="7">
+<O>
+<![CDATA[30.36 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="6" s="7">
+<O>
+<![CDATA[34.44 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="6" s="7">
+<O>
+<![CDATA[-4.09 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="6" s="7">
+<O t="D">
+<![CDATA[4563.88]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="6" s="7">
+<O>
+<![CDATA[4219.25 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="6" s="7">
+<O>
+<![CDATA[3988.19 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="6" s="7">
+<O>
+<![CDATA[231.06 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="6" s="7">
+<O>
+<![CDATA[内销含税价0.5920万元/吨，上月为0.5705万元/吨。]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="7" s="6">
+<O t="I">
+<![CDATA[3]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "切片"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="7" s="7">
+<O>
+<![CDATA[高粘度切片(外购)]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="7" s="7">
+<O t="D">
+<![CDATA[34.56]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="7" s="7">
+<O t="D">
+<![CDATA[56.78]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="7" s="7">
+<O t="D">
+<![CDATA[63.54]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="7" s="7">
+<O t="D">
+<![CDATA[-2.43]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="7" s="7">
+<O>
+<![CDATA[2124.64 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="7" s="7">
+<O>
+<![CDATA[1100.64 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="7" s="7">
+<O>
+<![CDATA[1140.59 ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="7" s="7">
+<O t="D">
+<![CDATA[39.95]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="7" s="7">
+<O>
+<![CDATA[（本月对外销售119.20T）]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="8" s="8">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "切片"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="8" s="8">
+<O>
+<![CDATA[合  计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="8" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C6 + C7 + C8]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="8" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=D6 + D7 + D8]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="8" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=E6 + E7 + E8]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="8" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=F6 + F7 + F8]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="8" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=G6 + G7 + G8]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="8" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=H6 + H7 + H8]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="8" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=I6 + I7 + I8]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="8" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=J6 + J7 + J8]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="8" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="9" s="6">
+<O t="I">
+<![CDATA[1]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "纺丝一"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="9" s="7">
+<O>
+<![CDATA[气流纺10]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="9" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="9" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="9" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="9" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="9" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="9" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="9" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="9" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="9" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="10" s="6">
+<O t="I">
+<![CDATA[2]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "纺丝一"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="10" s="7">
+<O>
+<![CDATA[普梳32S棉]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="10" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="10" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="10" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="10" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="10" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="10" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="10" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="10" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="10" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="11" s="6">
+<O t="I">
+<![CDATA[3]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "纺丝一"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="11" s="7">
+<O>
+<![CDATA[精梳40S棉]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="11" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="11" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="11" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="11" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="11" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="11" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="11" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="11" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="11" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="12" s="6">
+<O t="I">
+<![CDATA[4]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "纺丝一"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="12" s="7">
+<O>
+<![CDATA[30S人棉纱]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="12" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="12" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="12" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="12" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="12" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="12" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="12" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="12" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="12" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="13" s="6">
+<O t="I">
+<![CDATA[5]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "纺丝一"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="13" s="7">
+<O>
+<![CDATA[32S纯涤纱]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="13" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="13" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="13" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="13" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="13" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="13" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="13" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="13" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="13" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="14" s="8">
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "纺丝一"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="14" s="8">
+<O>
+<![CDATA[合计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="14" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10 + C11 + C12 + C13 + C14]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="14" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=D10 + BT11 + D12 + D13 + D14]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="14" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=E10 + E11 + E12 + E13 + E14]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="14" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=F10 + F11 + F12 + F13 + F14]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="14" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=G10 + G11 + G12 + G13 + G14]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="14" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=H10 + H11 + H12 + H13 + H14]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="14" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=I10 + I11 + I12 + I13 + I14]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="14" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=J10 + J11 + J12 + C13 + C14]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="14" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="15" s="6">
+<O t="I">
+<![CDATA[1]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "纺丝二"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="15" s="7">
+<O>
+<![CDATA[气流纺10]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="15" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="15" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="15" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="15" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="15" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="15" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="15" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="15" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="15" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="16" s="6">
+<O t="I">
+<![CDATA[2]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "纺丝二"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="16" s="7">
+<O>
+<![CDATA[普梳32S棉]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="16" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="16" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="16" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="16" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="16" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="16" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="16" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="16" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="16" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="17" s="6">
+<O t="I">
+<![CDATA[3]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "纺丝二"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="17" s="7">
+<O>
+<![CDATA[精梳40S棉]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="17" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="17" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="17" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="17" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="17" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="17" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="17" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="17" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="17" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="18" s="6">
+<O t="I">
+<![CDATA[4]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "纺丝二"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="18" s="7">
+<O>
+<![CDATA[30S人棉纱]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="18" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="18" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="18" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="18" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="18" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="18" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="18" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="18" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="18" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="19" s="6">
+<O t="I">
+<![CDATA[5]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "纺丝二"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="19" s="7">
+<O>
+<![CDATA[32S纯涤纱]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="19" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="19" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="19" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="19" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="19" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="19" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="19" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="19" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="19" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="20" s="8">
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "纺丝二"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="20" s="8">
+<O>
+<![CDATA[合计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="20" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C16 + C17 + C18 + C19 + C20]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="20" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=D16 + D17 + D18 + D19 + D20]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="20" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=E16 + E17 + E18 + E19 + E20]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="20" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=F16 + F17 + F18 + F19 + F20]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="20" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=G16 + G17 + G18 + G19 + G20]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="20" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=H16 + H17 + H18 + H19 + H20]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="20" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=I16 + I17 + I18 + I19 + I20]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="20" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=J16 + J17 + J18 + J19 + J20]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="20" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="21" s="6">
+<O t="I">
+<![CDATA[1]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "加捻"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="21" s="7">
+<O>
+<![CDATA[短纤维纱]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="21" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="21" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="21" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="21" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="21" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="21" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="21" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="21" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="21" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="22" s="6">
+<O t="I">
+<![CDATA[2]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "加捻"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="22" s="7">
+<O>
+<![CDATA[丝束]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="22" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="22" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="22" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="22" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="22" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="22" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="22" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="22" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="22" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="23" s="6">
+<O t="I">
+<![CDATA[3]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "加捻"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="23" s="7">
+<O>
+<![CDATA[双股线]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="23" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="23" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="23" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="23" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="23" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="23" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="23" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="23" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="23" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="24" s="6">
+<O t="I">
+<![CDATA[4]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "加捻"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="24" s="7">
+<O>
+<![CDATA[股线]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="24" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="24" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="24" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="24" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="24" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="24" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="24" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="24" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="24" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="25" s="6">
+<O t="I">
+<![CDATA[5]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "加捻"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="25" s="7">
+<O>
+<![CDATA[复捻股纱]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="25" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="25" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="25" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="25" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="25" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="25" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="25" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="25" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="25" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="26" s="8">
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "加捻"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="26" s="8">
+<O>
+<![CDATA[合计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="26" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C22 + C23 + C24 + C25 + C26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="26" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C22 + C23 + C24 + C25 + C26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="26" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C22 + C23 + C24 + C25 + C26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="26" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C22 + C23 + C24 + C25 + C26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="26" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C22 + C23 + C24 + C25 + C26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="26" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C22 + C23 + C24 + C25 + C26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="26" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C22 + C23 + C24 + C25 + C26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="26" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C22 + C23 + C24 + C25 + C26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="26" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="27" s="6">
+<O t="I">
+<![CDATA[1]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "化纤销售部"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="27" s="7">
+<O>
+<![CDATA[涤纶短纤]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="27" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="27" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="27" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="27" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="27" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="27" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="27" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="27" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="27" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="28" s="6">
+<O t="I">
+<![CDATA[2]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "化纤销售部"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="28" s="7">
+<O>
+<![CDATA[粘胶短纤]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="28" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="28" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="28" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="28" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="28" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="28" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="28" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="28" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="28" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="29" s="6">
+<O t="I">
+<![CDATA[3]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "化纤销售部"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="29" s="7">
+<O>
+<![CDATA[腈纶短纤]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="29" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="29" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="29" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="29" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="29" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="29" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="29" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="29" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="29" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="30" s="6">
+<O t="I">
+<![CDATA[4]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "化纤销售部"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="30" s="7">
+<O>
+<![CDATA[涤纶POY]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="30" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="30" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="30" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="30" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="30" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="30" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="30" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="30" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="30" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="31" s="10">
+<O t="I">
+<![CDATA[5]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "化纤销售部"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="31" s="7">
+<O>
+<![CDATA[锦纶FDY]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="31" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(10000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="31" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 20000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="31" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 15000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="31" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=-RANDBETWEEN(500, 800) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="31" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="31" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="31" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(500000, 1000000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="31" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=RANDBETWEEN(5000, 10000) / 100]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="31" s="7">
+<O>
+<![CDATA[无]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="32" s="8">
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$bm != "化纤销售部"]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.RowHeightHighlightAction"/>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="1" r="32" s="8">
+<O>
+<![CDATA[合计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="32" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C28 + C29 + C30 + C31 + C32]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="32" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=D16 + D17 + D18 + D19 + D20]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="32" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=E16 + E17 + E18 + E19 + E20]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="32" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=F16 + F17 + F18 + F19 + F20]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="32" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=G16 + G17 + G18 + G19 + G20]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="32" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=H16 + H17 + H18 + H19 + H20]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="32" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=I16 + I17 + I18 + I19 + I20]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="32" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=J16 + J17 + J18 + J19 + J20]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="32" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting orientation="1">
+<PaperSize width="30240000" height="50688000"/>
+<Margin top="986400" left="2743200" bottom="986400" right="2743200"/>
+</PaperSetting>
+<Background name="ColorBackground" color="-526085"/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="128"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-12478742"/>
+<Border>
+<Top style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-12478742"/>
+<Border>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-12478742"/>
+<Border>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="ColorBackground" color="-3677959"/>
+<Border>
+<Top style="1" color="-4144960"/>
+<Bottom style="1" color="-4144960"/>
+<Left style="1" color="-4144960"/>
+<Right style="1" color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#,##0.00]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top style="1" color="-4144960"/>
+<Bottom style="1" color="-4144960"/>
+<Left style="1" color="-4144960"/>
+<Right style="1" color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-9389828"/>
+<Border>
+<Top style="1" color="-2234129"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-9389828"/>
+<Border>
+<Top style="1" color="-2234129"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="80"/>
+<Background name="ColorBackground" color="-3677959"/>
+<Border>
+<Top style="1" color="-4144960"/>
+<Bottom style="1" color="-4144960"/>
+<Left style="1" color="-4144960"/>
+<Right style="1" color="-4144960"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="1"/>
+</WorkBook>

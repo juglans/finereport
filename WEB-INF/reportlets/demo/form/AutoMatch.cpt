@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<TableDataMap>
+<TableData name="ds1" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM [EMPLOYEE]A]]></Query>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebWriteContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.write.Submit">
+<WidgetAttr disabled="true">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[提交]]></Text>
+<IconName>
+<![CDATA[submit]]></IconName>
+<Verify failVerifySubmit="false"/>
+</Widget>
+<Widget class="com.fr.report.web.button.write.ImportExcelData">
+<WidgetAttr disabled="true">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[导入[Excel]A]]></Text>
+<IconName>
+<![CDATA[excel]]></IconName>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<SelectedColor/>
+<WebWrite SheetPosition="3"/>
+<RptLocation isShowAtLeft="true"/>
+<UnloadCheck/>
+<ShowWidgets show="true"/>
+<OtherAttr isAutoStash="false"/>
+</WebWriteContent>
+<Background name="ColorBackground" color="-1183756"/>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1714500,952500,685800,266700,1219200,266700,1219200,723900,723900,723900,723900,723900,723900,723900,723900,723900,381000,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[0,0,381000,2324100,2857500,2667000,3505200,4191000,4191000,4191000,3124200,2514600,3505200,1333500,1333500,381000,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="0" cs="14" s="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[="  通讯录"]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="1" r="1">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="3" r="1" s="1">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="4" r="1" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="1" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="1" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="1" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="1" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="1" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="1" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="1" cs="2" s="3">
+<O>
+<![CDATA[登记日期：]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="13" r="1" cs="2" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=today()]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="15" r="1" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="2" cs="12" s="6">
+<O>
+<![CDATA[*点击工具栏上的“导入[Excel]A”按钮，导入“WebReport\\通讯录.xls”，会按照excel数据行数自动扩展导入数据]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="15" r="2" s="5">
+<PrivilegeControl/>
+</C>
+<C c="15" r="3" s="5">
+<PrivilegeControl/>
+</C>
+<C c="0" r="4" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="4" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="4" s="8">
+<O>
+<![CDATA[编号]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="4" s="8">
+<O>
+<![CDATA[姓名]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="5" r="4" s="8">
+<O>
+<![CDATA[性别]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="4" s="8">
+<O>
+<![CDATA[生日]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="4" s="8">
+<O>
+<![CDATA[毕业院校]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="4" s="8">
+<O>
+<![CDATA[专业]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="4" s="8">
+<O>
+<![CDATA[电子邮件]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="4" s="8">
+<O>
+<![CDATA[电话号码]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="4" s="8">
+<O>
+<![CDATA[家乡]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="4" s="8">
+<O>
+<![CDATA[邮编]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="4" s="8">
+<O>
+<![CDATA[插入]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="4" s="8">
+<O>
+<![CDATA[删除]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="4" s="5">
+<PrivilegeControl/>
+</C>
+<C c="15" r="5" s="5">
+<PrivilegeControl/>
+</C>
+<C c="0" r="6" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="6" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="6" s="10">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="2"/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.ComboBox">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.DatabaseDictionary">
+<FormulaDictAttr ki="0" vi="0"/>
+<DBDictAttr tableName="EMPLOYEE" schemaName="" ki="0" vi="0" kiName="" viName=""/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[row() % 2 != 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Scope val="1"/>
+<Background name="ColorBackground" color="-1"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<CellInsertPolicy/>
+<Expand dir="0"/>
+</C>
+<C c="4" r="6" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(len(D7) = 0, "", sql("FRDemo", "SELECT empname FROM EMPLOYEE WHERE empid = '" + D7 + "'", 1, 1))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="2"/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<CellInsertPolicy>
+<InsertPolicy>
+<![CDATA[copy]]></InsertPolicy>
+</CellInsertPolicy>
+<Expand/>
+</C>
+<C c="5" r="6" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(len(D7) = 0, "", sql("FRDemo", "SELECT sex FROM EMPLOYEE WHERE empid = '" + D7 + "'", 1, 1))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="2"/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<CellInsertPolicy>
+<InsertPolicy>
+<![CDATA[copy]]></InsertPolicy>
+</CellInsertPolicy>
+<Expand/>
+</C>
+<C c="6" r="6" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(len(D7) = 0, "", sql("FRDemo", "SELECT birthdate FROM EMPLOYEE WHERE empid = '" + D7 + "'", 1, 1))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="2"/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<CellInsertPolicy>
+<InsertPolicy>
+<![CDATA[copy]]></InsertPolicy>
+</CellInsertPolicy>
+<Expand/>
+</C>
+<C c="7" r="6" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(len(D7) = 0, "", sql("FRDemo", "SELECT school FROM EMPLOYEE WHERE empid = '" + D7 + "'", 1, 1))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="2"/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<CellInsertPolicy>
+<InsertPolicy>
+<![CDATA[copy]]></InsertPolicy>
+</CellInsertPolicy>
+<Expand/>
+</C>
+<C c="8" r="6" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(len(D7) = 0, "", sql("FRDemo", "SELECT major FROM EMPLOYEE WHERE empid = '" + D7 + "'", 1, 1))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="2"/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<CellInsertPolicy>
+<InsertPolicy>
+<![CDATA[copy]]></InsertPolicy>
+</CellInsertPolicy>
+<Expand/>
+</C>
+<C c="9" r="6" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(len(D7) = 0, "", sql("FRDemo", "SELECT email FROM EMPLOYEE WHERE empid = '" + D7 + "'", 1, 1))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="2"/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<CellInsertPolicy>
+<InsertPolicy>
+<![CDATA[copy]]></InsertPolicy>
+</CellInsertPolicy>
+<Expand/>
+</C>
+<C c="10" r="6" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(len(D7) = 0, "", sql("FRDemo", "SELECT tel FROM EMPLOYEE WHERE empid = '" + D7 + "'", 1, 1))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="2"/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<CellInsertPolicy>
+<InsertPolicy>
+<![CDATA[copy]]></InsertPolicy>
+</CellInsertPolicy>
+<Expand/>
+</C>
+<C c="11" r="6" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(len(D7) = 0, "", sql("FRDemo", "SELECT origin FROM EMPLOYEE WHERE empid = '" + D7 + "'", 1, 1))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="2"/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<CellInsertPolicy>
+<InsertPolicy>
+<![CDATA[copy]]></InsertPolicy>
+</CellInsertPolicy>
+<Expand/>
+</C>
+<C c="12" r="6" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(len(D7) = 0, "", sql("FRDemo", "SELECT zipcode FROM EMPLOYEE WHERE empid = '" + D7 + "'", 1, 1))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="2"/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<CellInsertPolicy>
+<InsertPolicy>
+<![CDATA[copy]]></InsertPolicy>
+</CellInsertPolicy>
+<Expand/>
+</C>
+<C c="13" r="6" s="10">
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Widget class="com.fr.report.web.button.write.AppendRowButton">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<IconName>
+<![CDATA[add]]></IconName>
+<FixCell row="6" col="3"/>
+</Widget>
+<Expand/>
+</C>
+<C c="14" r="6" s="10">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Widget class="com.fr.report.web.button.write.DeleteRowButton">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<IconName>
+<![CDATA[delete]]></IconName>
+<FixCell row="6" col="3"/>
+</Widget>
+<Expand/>
+</C>
+<C c="15" r="6" s="5">
+<PrivilegeControl/>
+</C>
+<C c="1" r="7">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="3" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="7" s="5">
+<PrivilegeControl/>
+</C>
+<C c="3" r="8" cs="12" s="11">
+<O>
+<![CDATA[说明：]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="15" r="8" s="5">
+<PrivilegeControl/>
+</C>
+<C c="3" r="9" cs="12" s="12">
+<O>
+<![CDATA[1、自匹配]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="15" r="9" s="5">
+<PrivilegeControl/>
+</C>
+<C c="3" r="10" cs="12" s="12">
+<O>
+<![CDATA[   在“编号”列选择编号，其他列自动完成对应于所选编号的内容的填写。 ]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="15" r="10" s="5">
+<PrivilegeControl/>
+</C>
+<C c="3" r="11" cs="12" s="12">
+<O>
+<![CDATA[   这个功能的实现是通过在拼接SQL的公式sql()来实现的，例如姓名单元格的值为：]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="15" r="11" s="5">
+<PrivilegeControl/>
+</C>
+<C c="3" r="12" cs="12" s="12">
+<O>
+<![CDATA[  “=if(len(C5)==0,\"\",sql(\"FRDemo\",\"SELECT empname FROM EMPLOYEE WHERE empid = \'\" + C5+\"\'\", 1, 1))”]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="15" r="12" s="5">
+<PrivilegeControl/>
+</C>
+<C c="3" r="13" cs="12" s="12">
+<O>
+<![CDATA[2、excel在线导入]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="15" r="13" s="5">
+<PrivilegeControl/>
+</C>
+<C c="3" r="14" cs="12" s="12">
+<O>
+<![CDATA[   选择工具栏中的“导入[Excel]A”按钮，导入“WebReport\\通讯录.xls”，导入Excel中的数据]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="15" r="14" s="5">
+<PrivilegeControl/>
+</C>
+<C c="3" r="15" cs="12" s="13">
+<O>
+<![CDATA[   Excel中有多少行，FR中会自动添加多少行]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="15" r="15" s="5">
+<PrivilegeControl/>
+</C>
+<C c="2" r="16" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="16" s="5">
+<PrivilegeControl/>
+</C>
+<C c="4" r="16" s="5">
+<PrivilegeControl/>
+</C>
+<C c="5" r="16" s="5">
+<PrivilegeControl/>
+</C>
+<C c="6" r="16" s="5">
+<PrivilegeControl/>
+</C>
+<C c="7" r="16" s="5">
+<PrivilegeControl/>
+</C>
+<C c="8" r="16" s="5">
+<PrivilegeControl/>
+</C>
+<C c="9" r="16" s="5">
+<PrivilegeControl/>
+</C>
+<C c="10" r="16" s="5">
+<PrivilegeControl/>
+</C>
+<C c="11" r="16" s="5">
+<PrivilegeControl/>
+</C>
+<C c="12" r="16" s="5">
+<PrivilegeControl/>
+</C>
+<C c="13" r="16" s="5">
+<PrivilegeControl/>
+</C>
+<C c="14" r="16" s="5">
+<PrivilegeControl/>
+</C>
+<C c="15" r="16" s="5">
+<PrivilegeControl/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<ReportWriteAttr>
+<SubmitVisitor class="com.fr.report.write.BuiltInSQLSubmiter">
+<Name>
+<![CDATA[内置SQL1]]></Name>
+<Attributes dsName="FRDemo"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table schema="" name="EMPLOYEE"/>
+<ColumnConfig name="EMPID" isKey="true" skipUnmodified="false">
+<ColumnRow column="3" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="EMPNAME" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="SEX" isKey="false" skipUnmodified="false">
+<ColumnRow column="5" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="BIRTHDATE" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="ORIGIN" isKey="false" skipUnmodified="false">
+<ColumnRow column="11" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="SCHOOL" isKey="false" skipUnmodified="false">
+<ColumnRow column="7" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="MAJOR" isKey="false" skipUnmodified="false">
+<ColumnRow column="8" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="ZIPCODE" isKey="false" skipUnmodified="false">
+<ColumnRow column="12" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="EMAIL" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="TEL" isKey="false" skipUnmodified="false">
+<ColumnRow column="10" row="6"/>
+</ColumnConfig>
+<Condition class="com.fr.data.condition.ListCondition"/>
+</DMLConfig>
+</SubmitVisitor>
+</ReportWriteAttr>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="false" delayPlaying="false" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="144" foreground="-1"/>
+<Background name="ColorBackground" color="-11561760"/>
+<Border>
+<Bottom style="2" color="-7354916"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-65536"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" vertical_alignment="3" imageLayout="1" paddingLeft="0" paddingRight="0">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13487566"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" vertical_alignment="3" imageLayout="1" paddingLeft="0" paddingRight="0">
+<Format class="java.text.SimpleDateFormat">
+<![CDATA[yyyy-MM-dd]]></Format>
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13487566"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-6576451"/>
+<Background name="NullBackground"/>
+<Border>
+<Top color="-3221529"/>
+<Bottom style="2" color="-3221529"/>
+<Left color="-3221529"/>
+<Right color="-3221529"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="80" foreground="-13487566"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="80" foreground="-13487566"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="64"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-14277082"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Top style="3" color="-3221529"/>
+<Left style="3" color="-3221529"/>
+<Right style="3" color="-3221529"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Left style="3" color="-3221529"/>
+<Right style="3" color="-3221529"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Bottom style="3" color="-3221529"/>
+<Left style="3" color="-3221529"/>
+<Right style="3" color="-3221529"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="1"/>
+</WorkBook>

@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20141222" releaseVersion="8.0.0">
+<TableDataMap>
+<TableData name="ds1" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM `资产管理`]]></Query>
+</TableData>
+<TableData name="ds2" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM `资产管理2`]]></Query>
+</TableData>
+</TableDataMap>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="编号"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="1" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="KmName"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="2" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="ZcName"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="3" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="GrAdd"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="4" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="GrDay"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="5" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="UsesDay"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="6" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="UsesY"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="7" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Zjl"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="8" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="ZhaiY"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="9" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Zongbumen"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="10" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Zhiwei"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="11" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Grshul"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="12" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Grjg"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="13" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Zjfangfa"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="14" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Useupdateday"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="15" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Fyname"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="16" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Xsfname"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="17" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Jieg"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="18" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="JSshuol"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="19" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Zjjiag"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="20" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Zjiuffupdate"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="21" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Zjiuffaday"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="22" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Kaiday"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="23" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Endday"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="24" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Xiangxtm"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="25" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="Qczmjg"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="26" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="BQZJJG"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="27" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="QMZMJG"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="28" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="QMLJYE"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="29" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="SYJL"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="30" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="BGDAY"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="31" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="BGYY"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="32" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="BM"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="33" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="ZW"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="34" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="SL"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="35" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="BGJE"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="36" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="ZYAO"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="37" r="1">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="BEIZHU"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="0" r="5" cs="9" rs="3">
+<O>
+<![CDATA[备注：这里用了两个资产管理表，资产管理是大家填报的表，数据会被修改，所以需要先把资产管理表原来的数据清空；\\n      资产管理2是备份的雇员表，当资产管理表数据清空后，就将资产管理2中的数据填报到资产管理表；]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+<ReportWriteAttr>
+<Submiter class="com.fr.report.write.BuiltInSQLSubmiter" name="内置SQL1">
+<Attributes dsName="FRDemo"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table schema="" name="资产管理"/>
+<ColumnConfig name="编号" isKey="true" skipUnmodified="false">
+<ColumnRow column="0" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="KmName" isKey="false" skipUnmodified="false">
+<ColumnRow column="1" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="ZcName" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="GrAdd" isKey="false" skipUnmodified="false">
+<ColumnRow column="3" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="GrDay" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="UsesDay" isKey="false" skipUnmodified="false">
+<ColumnRow column="5" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="UsesY" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Zjl" isKey="false" skipUnmodified="false">
+<ColumnRow column="7" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="ZhaiY" isKey="false" skipUnmodified="false">
+<ColumnRow column="8" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Zongbumen" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Zhiwei" isKey="false" skipUnmodified="false">
+<ColumnRow column="10" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Grshul" isKey="false" skipUnmodified="false">
+<ColumnRow column="11" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Grjg" isKey="false" skipUnmodified="false">
+<ColumnRow column="12" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Zjfangfa" isKey="false" skipUnmodified="false">
+<ColumnRow column="13" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Useupdateday" isKey="false" skipUnmodified="false">
+<ColumnRow column="14" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Fyname" isKey="false" skipUnmodified="false">
+<ColumnRow column="15" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Xsfname" isKey="false" skipUnmodified="false">
+<ColumnRow column="16" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Jieg" isKey="false" skipUnmodified="false">
+<ColumnRow column="17" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="JSshuol" isKey="false" skipUnmodified="false">
+<ColumnRow column="18" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Zjjiag" isKey="false" skipUnmodified="false">
+<ColumnRow column="19" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Zjiuffupdate" isKey="false" skipUnmodified="false">
+<ColumnRow column="20" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Zjiuffaday" isKey="false" skipUnmodified="false">
+<ColumnRow column="21" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Kaiday" isKey="false" skipUnmodified="false">
+<ColumnRow column="22" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Endday" isKey="false" skipUnmodified="false">
+<ColumnRow column="23" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Xiangxtm" isKey="false" skipUnmodified="false">
+<ColumnRow column="24" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="Qczmjg" isKey="false" skipUnmodified="false">
+<ColumnRow column="25" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="BQZJJG" isKey="false" skipUnmodified="false">
+<ColumnRow column="26" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="QMZMJG" isKey="false" skipUnmodified="false">
+<ColumnRow column="27" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="QMLJYE" isKey="false" skipUnmodified="false">
+<ColumnRow column="28" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="SYJL" isKey="false" skipUnmodified="false">
+<ColumnRow column="29" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="BGDAY" isKey="false" skipUnmodified="false">
+<ColumnRow column="30" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="BGYY" isKey="false" skipUnmodified="false">
+<ColumnRow column="31" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="BM" isKey="false" skipUnmodified="false">
+<ColumnRow column="32" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="ZW" isKey="false" skipUnmodified="false">
+<ColumnRow column="33" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="SL" isKey="false" skipUnmodified="false">
+<ColumnRow column="34" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="BGJE" isKey="false" skipUnmodified="false">
+<ColumnRow column="35" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="ZYAO" isKey="false" skipUnmodified="false">
+<ColumnRow column="36" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="BEIZHU" isKey="false" skipUnmodified="false">
+<ColumnRow column="37" row="1"/>
+</ColumnConfig>
+<Condition class="com.fr.data.condition.ListCondition"/>
+</DMLConfig>
+</Submiter>
+</ReportWriteAttr>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList/>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="0"/>
+</WorkBook>

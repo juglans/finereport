@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DatasourceManager xmlVersion="20151125" releaseVersion="8.0.0">
+<ConnectionMap>
+<Connection name="FRDemo" class="com.fr.data.impl.JDBCDatabaseConnection">
+<DatabaseAttr/>
+<JDBCDatabaseAttr url="jdbc:sqlite://${ENV_HOME}/../FRDemo.db" driver="org.sqlite.JDBC" user="" password="___" encryptPassword="true">
+<DBCPAttr/>
+</JDBCDatabaseAttr>
+</Connection>
+</ConnectionMap>
+<TableDataMap>
+<TableData name="员工信息表" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM 员工信息表]]></Query>
+</TableData>
+<TableData name="用户信息表" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM [userinfo]A]]></Query>
+</TableData>
+<TableData name="staff" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[name,,.,,password,,.,,fullname,,.,,department,,.,,position,,.,,salary,,.,,email]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[NKR(5_CuhHceX@Z5R"?c(IR\nnM\Eu%AP_K42>P72$?YOP7\=o#Y($lBHiQI$t"a4ls$u;h8
+Vc8?InjfTBGr49p\4<!9poaND(,K]AUI^o:^N5\8Y-.))Na8@0H6F?4\]Aa(;Q1AO$Y"DI(a;P
+8:/pU;c&6=jURNEfepIK:8K9J*o8br@hu9;0'IZRN/D;Xrgj7:`9u/01plZrGN\"mJ28mkEa
+ree+\R1Xh"8`_=!0r@3CPJA42Jt_(LZcUi%C6(Q&!iu;d$d0Q!1oSQjt>5$6R=)U%DNj]AJd$
+XJS_b)&2*?.j67A#o%:9ZCW-?6gV"qU#01ls:Pl#V$!LtRU,9n3M44a#II`MBsBog'Bhnb;!
+Re!08=@;Z4#/7\2?e;b:McQjn5:q91?"$_Ac1$)f7&?Uh7<2`fnR03LcN:t)_!-dA1;L:kD"
+UrBTF"*OCkeP&V^DR%G7\_YRmjEXW$Fn%k5DN#BO!7qp]AU~
+]]></RowData>
+</TableData>
+<TableData name="上报用户" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[一级用户,,.,,二级用户,,.,,三级用户]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[.k]A)iairdebf`Z?%*?iWWldlV9.pJ^#bc:389nqsVb^nZ6i\W>SsfoI!rr~
+]]></RowData>
+</TableData>
+</TableDataMap>
+</DatasourceManager>

@@ -1,0 +1,17 @@
+<html>  
+  <head>  
+  <title>FineReport Demo</title>  
+  <meta http-equiv="Content-Type" content="text/html; charset=GBK" />  
+  <script type="text/javascript" src="/WebReport/ReportServer?op=emb&resource=finereport.js"></script>
+  <script language="javascript">
+    function autoLoad(){
+      var addr = FR.cjkEncode("/WebReport/ReportServer?reportlet=/doc/Primary/Parameter/Parameter.cpt&地区=华东");
+      document.getElementById("reportFrame").src = addr;
+    }
+    window.onload = autoLoad; 
+  </script>
+  </head>  
+  <body>  
+    <iframe id="reportFrame" width="900" height="400" ></iframe>  
+  </body>
+</html>

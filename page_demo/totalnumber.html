@@ -1,0 +1,43 @@
+<html>    
+<head>    
+<title>自定义浏览页面</title>    
+<script type="text/javascript">    
+   function afterload(){    
+   var contentPane = document.getElementById("reportFrame").contentWindow.contentPane;    
+   var cPageIndex = contentPane.currentPageIndex;     
+   var pv = "第" + cPageIndex + "页/共" + contentPane.reportTotalPage + "页";     
+   document.getElementById("a").value = pv;    
+   contentPane.on("afterload", function(){     
+       cPageIndex = contentPane.currentPageIndex;     
+       pv = "第" + cPageIndex + "页/共" + contentPane.reportTotalPage + "页";     
+       document.getElementById("a").value = pv;    
+         
+    });     
+   }    
+  function gotopage()    
+  {    
+   var contentpane= document.getElementById('reportFrame').contentWindow.contentPane;    
+    var page = document.getElementById("c").value;    
+    if(page >= contentpane.reportTotalPage)    
+    {    
+       contentpane.gotoLastPage();    
+    }     
+    contentpane.gotoPage(parseInt(page));    
+ }    
+</script>    
+</head>    
+<body>    
+<div id="toolbar">    
+<input type = "text" id = "e" style="width:80px">
+<button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoFirstPage()">首页</button>    
+<button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoPreviousPage()">上一页</button>     
+<input id="a"  type="text" readonly="true" style="width:80px">    
+<lable id ="b">到</lable>    
+<input id ="c" type ="text" style="width:30px" onchange="gotopage()"/>    
+<lable id ="d">页</lable>    
+<button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoNextPage()">下一页</button>      
+<button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.gotoLastPage()">末页</button>  
+</div>    
+<iframe id="reportFrame" onload="afterload()" src="/WebReport/ReportServer?reportlet=/doc/Primary/DetailReport/Details_7.cpt&__showtoolbar__=false" width = 100% height = 80%></iframe>    
+</body>    
+</html>   

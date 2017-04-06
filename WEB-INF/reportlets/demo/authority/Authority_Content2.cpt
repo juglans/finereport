@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<TableDataMap>
+<TableData name="luoding" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM Rluoding]]></Query>
+</TableData>
+<TableData name="luomu" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM Rluomu]]></Query>
+</TableData>
+<TableData name="shangzhou" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM Rshangzhou]]></Query>
+</TableData>
+<TableData name="shoulun" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM Rshoulun]]></Query>
+</TableData>
+<TableData name="wolun" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM Rwolun]]></Query>
+</TableData>
+<TableData name="dianquan" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM Rdianquan]]></Query>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebWriteContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.write.Submit">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Utils-Submit')}]]></Text>
+<IconName>
+<![CDATA[submit]]></IconName>
+<Verify failVerifySubmit="false"/>
+</Widget>
+<Widget class="com.fr.report.web.button.write.Verify">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Verify-Data_Verify')}]]></Text>
+<IconName>
+<![CDATA[verify]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.FlashPrint">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Utils-Print[Client]A')}]]></Text>
+<IconName>
+<![CDATA[flashprint]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Print')}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Email')}]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.write.AppendColumnRow">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Add')}${i18n('Record')}]]></Text>
+<IconName>
+<![CDATA[appendcolumn]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.write.ShowCellValue">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<widgetValue/>
+<LabelAttr verticalcenter="true" textalign="0" autoline="false"/>
+<FRFont name="SimSun" style="0" size="72"/>
+<border style="0" color="-723724"/>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<SelectedColor/>
+<WebWrite SheetPosition="3"/>
+<RptLocation isShowAtLeft="true"/>
+<UnloadCheck/>
+<ShowWidgets/>
+<OtherAttr isAutoStash="false"/>
+</WebWriteContent>
+<Background name="ColorBackground" color="-1183756"/>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[723900,1143000,990600,1028700,1143000,1066800,990600,1066800,723900,723900,762000,761760,761760,762000,723900,723900,762000,762000,2019300,457200,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[457200,4800600,3314700,3086100,3429000,2743200,3390900,2743200,4381500,1181100,4305300,457200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" s="1">
+<O>
+<![CDATA[零件名称]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="1" cs="2" s="1">
+<O>
+<![CDATA[生产部门计划生产数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="1" cs="2" s="1">
+<O>
+<![CDATA[生产部门实际生产数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="1" cs="2" s="1">
+<O>
+<![CDATA[质量检测部门检测合格数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="1" s="1">
+<O>
+<![CDATA[合格率]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="1" cs="2" s="1">
+<O>
+<![CDATA[计划完成]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="1" s="0">
+<PrivilegeControl/>
+</C>
+<C c="1" r="2" s="2">
+<O>
+<![CDATA[上轴]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="2" cs="2" s="3">
+<O t="DSColumn">
+<Attributes dsName="shangzhou" columnName="计划数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<Listener event="stopedit">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters>
+<Parameter>
+<Attributes name="user"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$fr_authority]]></Attributes>
+</O>
+</Parameter>
+</Parameters>
+<Content>
+<![CDATA[if(user='SUPERROLR'&&user.length>0)
+{
+	FR.Msg.alert("警告","不能用管理员账号填报！请看使用说明");
+	this.setValue("");
+	}]]></Content>
+</JavaScript>
+</Listener>
+<WidgetName name="plan1"/>
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="4" r="2" cs="2" s="3">
+<O t="DSColumn">
+<Attributes dsName="shangzhou" columnName="生产数"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<Listener event="stopedit">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[var value=contentPane.getWidgetByName("plan1").getValue();
+if(this.getValue()>value)
+{
+	FR.Msg.alert("警告","实际完成数不能大于计划数，请重新输入！");
+	this.setValue("");
+	}]]></Content>
+</JavaScript>
+</Listener>
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="6" r="2" cs="2" s="3">
+<O t="DSColumn">
+<Attributes dsName="shangzhou" columnName="合格数"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持一线技术支持"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="8" r="2" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(E3 = 0, 0, G3 / E3)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="2" cs="2" s="5">
+<O t="DSColumn">
+<Attributes dsName="shangzhou" columnName="完成"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.RadioGroup">
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持一线技术支持"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="1" value="完成"/>
+<Dict key="0" value="未完成"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="11" r="2" s="0">
+<PrivilegeControl/>
+</C>
+<C c="1" r="3" s="6">
+<O>
+<![CDATA[螺钉]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="3" cs="2" s="7">
+<O t="DSColumn">
+<Attributes dsName="luoding" columnName="计划数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="plan2"/>
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="4" r="3" cs="2" s="7">
+<O t="DSColumn">
+<Attributes dsName="luoding" columnName="完成数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<Listener event="stopedit">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[var value=contentPane.getWidgetByName("plan2").getValue();
+if(this.getValue()>value)
+{
+	FR.Msg.alert("警告","实际完成数不能大于计划数，请重新输入！");
+	this.setValue("");
+	}]]></Content>
+</JavaScript>
+</Listener>
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="6" r="3" cs="2" s="7">
+<O t="DSColumn">
+<Attributes dsName="luoding" columnName="合格数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持一线技术支持"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="8" r="3" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(E4 = 0, 0, G4 / E4)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="3" cs="2" s="9">
+<O t="DSColumn">
+<Attributes dsName="luoding" columnName="完成"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.RadioGroup">
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持一线技术支持"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="1" value="完成"/>
+<Dict key="0" value="未完成"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="11" r="3" s="0">
+<PrivilegeControl/>
+</C>
+<C c="1" r="4" s="10">
+<O>
+<![CDATA[螺母]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="4" cs="2" s="11">
+<O t="DSColumn">
+<Attributes dsName="luomu" columnName="计划数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="plan3"/>
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="4" r="4" cs="2" s="11">
+<O t="DSColumn">
+<Attributes dsName="luomu" columnName="生产数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<Listener event="stopedit">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[var value=contentPane.getWidgetByName("plan3").getValue();
+if(this.getValue()>value)
+{
+	FR.Msg.alert("警告","实际完成数不能大于计划数，请重新输入！");
+	this.setValue("");
+	}]]></Content>
+</JavaScript>
+</Listener>
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="6" r="4" cs="2" s="11">
+<O t="DSColumn">
+<Attributes dsName="luomu" columnName="合格数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持一线技术支持"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="8" r="4" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(E5 = 0, 0, G5 / E5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="4" cs="2" s="5">
+<O t="DSColumn">
+<Attributes dsName="luomu" columnName="完成"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.RadioGroup">
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持一线技术支持"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="1" value="完成"/>
+<Dict key="0" value="未完成"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="11" r="4" s="0">
+<PrivilegeControl/>
+</C>
+<C c="1" r="5" s="12">
+<O>
+<![CDATA[手轮]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="5" cs="2" s="7">
+<O t="DSColumn">
+<Attributes dsName="shoulun" columnName="计划数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="plan4"/>
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="4" r="5" cs="2" s="7">
+<O t="DSColumn">
+<Attributes dsName="shoulun" columnName="完成数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<Listener event="stopedit">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[var value=contentPane.getWidgetByName("plan4").getValue();
+if(this.getValue()>value)
+{
+	FR.Msg.alert("警告","实际完成数不能大于计划数，请重新输入！");
+	this.setValue("");
+	}]]></Content>
+</JavaScript>
+</Listener>
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="6" r="5" cs="2" s="7">
+<O t="DSColumn">
+<Attributes dsName="shoulun" columnName="合格数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持一线技术支持"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="8" r="5" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(E6 = 0, 0, G6 / E6)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="5" cs="2" s="9">
+<O t="DSColumn">
+<Attributes dsName="shoulun" columnName="完成"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.RadioGroup">
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持一线技术支持"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="1" value="完成"/>
+<Dict key="0" value="未完成"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="11" r="5" s="0">
+<PrivilegeControl/>
+</C>
+<C c="1" r="6" s="10">
+<O>
+<![CDATA[垫圈]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="6" cs="2" s="11">
+<O t="DSColumn">
+<Attributes dsName="dianquan" columnName="计划数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="plan5"/>
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="4" r="6" cs="2" s="11">
+<O t="DSColumn">
+<Attributes dsName="dianquan" columnName="完成数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<Listener event="stopedit">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[var value=contentPane.getWidgetByName("plan5").getValue();
+if(this.getValue()>value)
+{
+	FR.Msg.alert("警告","实际完成数不能大于计划数，请重新输入！");
+	this.setValue("");
+	}]]></Content>
+</JavaScript>
+</Listener>
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="6" r="6" cs="2" s="11">
+<O t="DSColumn">
+<Attributes dsName="dianquan" columnName="合格数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持一线技术支持"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="8" r="6" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(E7 = 0, 0, G7 / E7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="6" cs="2" s="5">
+<O t="DSColumn">
+<Attributes dsName="dianquan" columnName="完成"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.RadioGroup">
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持一线技术支持"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="1" value="完成"/>
+<Dict key="0" value="未完成"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="11" r="6" s="0">
+<PrivilegeControl/>
+</C>
+<C c="1" r="7" s="12">
+<O>
+<![CDATA[蜗轮]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="7" cs="2" s="7">
+<O t="DSColumn">
+<Attributes dsName="wolun" columnName="计划数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="plan6"/>
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="4" r="7" cs="2" s="7">
+<O t="DSColumn">
+<Attributes dsName="wolun" columnName="完成数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<Listener event="stopedit">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[var value=contentPane.getWidgetByName("plan6").getValue();
+if(this.getValue()>value)
+{
+	FR.Msg.alert("警告","实际完成数不能大于计划数，请重新输入！");
+	this.setValue("");
+	}]]></Content>
+</JavaScript>
+</Listener>
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="6" r="7" cs="2" s="7">
+<O t="DSColumn">
+<Attributes dsName="wolun" columnName="合格数"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持部长"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持一线技术支持"/>
+</PrivilegeControl>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="8" r="7" s="8">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(E8 = 0, 0, G8 / E8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="7" cs="2" s="9">
+<O t="DSColumn">
+<Attributes dsName="wolun" columnName="完成"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.RadioGroup">
+<WidgetAttr>
+<PrivilegeControl>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持一线技术支持"/>
+<PrivilegeUnusableRole privilegeUnusableRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="1" value="完成"/>
+<Dict key="0" value="未完成"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="11" r="7" s="0">
+<PrivilegeControl/>
+</C>
+<C c="11" r="8" s="0">
+<PrivilegeControl/>
+</C>
+<C c="11" r="9" s="0">
+<PrivilegeControl/>
+</C>
+<C c="1" r="10" cs="9" s="13">
+<O>
+<![CDATA[说明：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="10" s="14">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="10" s="0">
+<PrivilegeControl/>
+</C>
+<C c="1" r="11" cs="9" s="15">
+<O>
+<![CDATA[填报报表中，可通过权限编辑实现不同用户可编辑不同按钮，实现联合填报。]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="11">
+<PrivilegeControl/>
+</C>
+<C c="11" r="11" s="0">
+<PrivilegeControl/>
+</C>
+<C c="1" r="12" cs="9" s="16">
+<O>
+<![CDATA[FineReport内置数据决策系统中，配置了一套用户角色，分为三个部门，开发、人力资源和技术支持，其中技术支持部门有3个职务，部长，总]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="12">
+<PrivilegeControl/>
+</C>
+<C c="11" r="12" s="0">
+<PrivilegeControl/>
+</C>
+<C c="1" r="13" cs="9" s="17">
+<O>
+<![CDATA[调度和一线技术支持。为了方便起见，这里将技术支持部门一线技术支持看做生产部门人员，输入所有零件计划生产数和实际生产数，将总调度]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="13" s="0">
+<PrivilegeControl/>
+</C>
+<C c="1" r="14" cs="9" s="18">
+<O>
+<![CDATA[看做质检部门人员，输入 零件检测合格数，部长作为审核人员，根据合格率审核该零件计划是否完成。]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="14" s="0">
+<PrivilegeControl/>
+</C>
+<C c="11" r="15" s="0">
+<PrivilegeControl/>
+</C>
+<C c="1" r="16" cs="2" rs="3" s="19">
+<O>
+<![CDATA[技术支持一线技术支持Anna或Cherry登录系统，点击权限使用>联合填报，输入生产部门计划生产数和实际生产数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="16" cs="2" rs="3" s="19">
+<O>
+<![CDATA[总调度Jack登录系统，点击权限使用>联合填报，输入质监部门检测合格数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="16" cs="3" rs="3" s="19">
+<O>
+<![CDATA[部长Alice登录系统，点击权限使用>联合填报，根据合格率确定计划是否完成，合格率大于80%即表明计划完成]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="16" s="0">
+<PrivilegeControl/>
+</C>
+<C c="11" r="17" s="0">
+<PrivilegeControl/>
+</C>
+<C c="3" r="18" s="20">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="18" s="20">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="18" s="0">
+<PrivilegeControl/>
+</C>
+<C c="1" r="19">
+<O>
+<![CDATA[ ]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting>
+<PaperSize width="40608000" height="42768000"/>
+<Margin top="986400" left="2743200" bottom="986400" right="2743200"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<ReportWriteAttr>
+<SubmitVisitor class="com.fr.report.write.BuiltInSQLSubmiter">
+<Name>
+<![CDATA[内置SQL1]]></Name>
+<Attributes dsName="FRDemo"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table schema="" name="Rshangzhou"/>
+<ColumnConfig name="计划数" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="2"/>
+</ColumnConfig>
+<ColumnConfig name="生产数" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="2"/>
+</ColumnConfig>
+<ColumnConfig name="合格数" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="2"/>
+</ColumnConfig>
+<ColumnConfig name="完成" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="2"/>
+</ColumnConfig>
+<ColumnConfig name="ID" isKey="true" skipUnmodified="false">
+<O t="I">
+<![CDATA[1]]></O>
+</ColumnConfig>
+<Condition class="com.fr.data.condition.ListCondition"/>
+</DMLConfig>
+</SubmitVisitor>
+<SubmitVisitor class="com.fr.report.write.BuiltInSQLSubmiter">
+<Name>
+<![CDATA[内置SQL2]]></Name>
+<Attributes dsName="FRDemo"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table schema="" name="Rluoding"/>
+<ColumnConfig name="ID" isKey="true" skipUnmodified="false">
+<O t="I">
+<![CDATA[1]]></O>
+</ColumnConfig>
+<ColumnConfig name="计划数" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="3"/>
+</ColumnConfig>
+<ColumnConfig name="完成数" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="3"/>
+</ColumnConfig>
+<ColumnConfig name="合格数" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="3"/>
+</ColumnConfig>
+<ColumnConfig name="完成" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="3"/>
+</ColumnConfig>
+<Condition class="com.fr.data.condition.ListCondition"/>
+</DMLConfig>
+</SubmitVisitor>
+<SubmitVisitor class="com.fr.report.write.BuiltInSQLSubmiter">
+<Name>
+<![CDATA[内置SQL3]]></Name>
+<Attributes dsName="FRDemo"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table schema="" name="Rluomu"/>
+<ColumnConfig name="ID" isKey="true" skipUnmodified="false">
+<O t="I">
+<![CDATA[1]]></O>
+</ColumnConfig>
+<ColumnConfig name="计划数" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="4"/>
+</ColumnConfig>
+<ColumnConfig name="生产数" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="4"/>
+</ColumnConfig>
+<ColumnConfig name="合格数" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="4"/>
+</ColumnConfig>
+<ColumnConfig name="完成" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="4"/>
+</ColumnConfig>
+<Condition class="com.fr.data.condition.ListCondition"/>
+</DMLConfig>
+</SubmitVisitor>
+<SubmitVisitor class="com.fr.report.write.BuiltInSQLSubmiter">
+<Name>
+<![CDATA[内置SQL4]]></Name>
+<Attributes dsName="FRDemo"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table schema="" name="Rshoulun"/>
+<ColumnConfig name="ID" isKey="true" skipUnmodified="false">
+<O t="I">
+<![CDATA[1]]></O>
+</ColumnConfig>
+<ColumnConfig name="计划数" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="5"/>
+</ColumnConfig>
+<ColumnConfig name="完成数" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="5"/>
+</ColumnConfig>
+<ColumnConfig name="合格数" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="5"/>
+</ColumnConfig>
+<ColumnConfig name="完成" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="5"/>
+</ColumnConfig>
+<Condition class="com.fr.data.condition.ListCondition"/>
+</DMLConfig>
+</SubmitVisitor>
+<SubmitVisitor class="com.fr.report.write.BuiltInSQLSubmiter">
+<Name>
+<![CDATA[内置SQL5]]></Name>
+<Attributes dsName="FRDemo"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table schema="" name="Rdianquan"/>
+<ColumnConfig name="ID" isKey="true" skipUnmodified="false">
+<O t="I">
+<![CDATA[1]]></O>
+</ColumnConfig>
+<ColumnConfig name="计划数" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="完成数" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="合格数" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="完成" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="6"/>
+</ColumnConfig>
+<Condition class="com.fr.data.condition.ListCondition"/>
+</DMLConfig>
+</SubmitVisitor>
+<SubmitVisitor class="com.fr.report.write.BuiltInSQLSubmiter">
+<Name>
+<![CDATA[内置SQL6]]></Name>
+<Attributes dsName="FRDemo"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table schema="" name="Rwolun"/>
+<ColumnConfig name="ID" isKey="true" skipUnmodified="false">
+<O t="I">
+<![CDATA[1]]></O>
+</ColumnConfig>
+<ColumnConfig name="计划数" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="7"/>
+</ColumnConfig>
+<ColumnConfig name="完成数" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="7"/>
+</ColumnConfig>
+<ColumnConfig name="合格数" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="7"/>
+</ColumnConfig>
+<ColumnConfig name="完成" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="7"/>
+</ColumnConfig>
+<Condition class="com.fr.data.condition.ListCondition"/>
+</DMLConfig>
+</SubmitVisitor>
+</ReportWriteAttr>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="false" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00]]></Format>
+<FRFont name="微软雅黑" style="1" size="80" foreground="-13421773"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00]]></Format>
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13421773"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-3090713"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="64" foreground="-13421773"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-3090713"/>
+<Right style="1" color="-3090713"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00%]]></Format>
+<FRFont name="微软雅黑" style="0" size="64" foreground="-13421773"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-3090713"/>
+<Right style="1" color="-3090713"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="64" foreground="-13421773"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-3090713"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00]]></Format>
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13421773"/>
+<Background name="NullBackground"/>
+<Border>
+<Left style="1" color="-1"/>
+<Right style="1" color="-3090713"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="64" foreground="-13421773"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-3090713"/>
+<Right style="1" color="-3090713"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00%]]></Format>
+<FRFont name="微软雅黑" style="0" size="64" foreground="-13421773"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-3090713"/>
+<Right style="1" color="-3090713"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="64" foreground="-13421773"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-3090713"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00]]></Format>
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13421773"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-3090713"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="64" foreground="-13421773"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-3090713"/>
+<Right style="1" color="-3090713"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00]]></Format>
+<FRFont name="微软雅黑" style="0" size="72" foreground="-13421773"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-3090713"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="0">
+<FRFont name="微软雅黑" style="0" size="80" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Top style="14" color="-3090713"/>
+<Bottom color="-3090713"/>
+<Left style="14" color="-3090713"/>
+<Right style="14" color="-3090713"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top color="-3090713"/>
+<Bottom color="-3090713"/>
+<Left color="-3090713"/>
+<Right color="-3090713"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Left style="14" color="-3090713"/>
+<Right style="14" color="-3090713"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Top color="-3090713"/>
+<Bottom color="-3090713"/>
+<Left style="1" color="-3090713"/>
+<Right style="1" color="-3090713"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Left style="14" color="-3090713"/>
+<Right style="14" color="-3090713"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Bottom style="14" color="-3090713"/>
+<Left style="14" color="-3090713"/>
+<Right style="14" color="-3090713"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="80" foreground="-1"/>
+<Background name="ColorBackground" color="-11561760"/>
+<Border>
+<Top style="1" color="-11561760"/>
+<Bottom style="1" color="-11561760"/>
+<Left style="1" color="-11561760"/>
+<Right style="1" color="-11561760"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="2" color="-11561760"/>
+<Bottom color="-11561760"/>
+<Left color="-11561760"/>
+<Right color="-11561760"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="1"/>
+</WorkBook>

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20140501" releaseVersion="7.1.0">
+<TableDataMap>
+<TableData name="ds_1" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[Province,,.,,Month,,.,,Year,,.,,Amount,,.,,type]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[I@AE<*CgNlf/HLSh=[[l_iP#,$jK'AMe!J&"#7%_`\0,(b[\/0DYG_SkGZ&lQuf<.3i/"^0>
+IGYr;YZ`p%@@+[r#:%/M6k7gWMg2]ARBbMLDNbX4+7#&NRF!Il+_]As\io8cU%4j*U[k(cTlQS
+O.p>b0q;4'PH-h/cK4^i?W/rm'Z)Wc*KB@j0A\."bPT))R\%btSqY`:oD('U-DUW8->)9JC<
+KS:AF<f0Es1:b2&*8\kICeQ)c+5F[jd*C..<9hiFc+O'D\%0o?LAN$4#lHJ.D)n(:(\D(62M
+9V7F%Fa:6FjQTMCW=o[kV)Ef-D3VaJ!njRNn*MU8FD2!<L?H^maq'VX\ZRms0`891U64mQXI
+)rbq%3b;Ba39B\De1#ERU6WK@HiEq?eV.aQMPi?Nn@&jl2g8S2AQ:Sp.M$:#mS68Xa=Aa<l'
+`@C:jLQE;G^Ln601C:7:fI83[tYD<`E*7LI=L0NJ>Su)N?e;F*#*3Pm=DtQ.n,S<)!s(QCu*
+@>"CiX]A!.m6U*LY7p=Lh+O1*[i4'c?o#`Z0o)Vcdn)9\T1:JmVK^((53YuC?R:RiWYK8M:d;
+e50Xl\i8OAEoCpO18,AHEat_EMpmG=556+FllHPWPhPo.jq;p`8-P<SN17_SiGi338>rFcJ;
+RD]ACP9c&$JdDlV9i<")-(t7TrXAG9U'JkYm$"X6O"OnQRWm9\,a//bc'@'-YNOT9D`i:iig%
+C#T"5;A+uKGJP]A.R^/Znl9kc?/+5;jg3C"lg/5EV>qjF<qa$mC`*%<iFOJHM2panNXD!Ta+t
+)JIO^!g)iXShPlp=W\F-gZ['VXc]Aq"5LQ$V'.-B:%uQVutagC_X$WGQS)UeCZ2;qWsC$2*aF
+Y/N1aO6FfsH>0p2c'KN?ugaG9DA@dDG[M0\"[BMpLZ(]Akc]An=Y'IsV(cT.167Od)1f:btQBR
+N!`;ZEPs[]A^_*mdXoW:/?F.&OU<S=_:XXfUF`JUPni\bS6_hpb%8.r77j#m<4T"L6tJe;.bC
+Y?F+7tjgGBhn[?=QnVK!Bd7n-YV+Rl2%/8P\DG;gkUb'gk`;&>V*U+LPGfFan%p:VUt9B['M
+#7907DF!<hI6T*GfI>DgEMp;NaCVt&f)a,hm$,O,;5X]AE\j<eH4,(^X<K.VQ7Hh9Zq8M-#qm
+#8r3^q>1k=uV8,)s1<VV!?#9``t6fI=H'EISIgi^Sklm3(o_ac<RkaP9_K[!BfYUZW>a"dM#
+qaZZVP:+;j;BLV"s49=8PSgnB%+p#q-.MmQb!O]Agi:[MQe:9-I-X`=k?N1S`H`1=@$%^t:]Ab
+gT7+6U-rGSAhrF7X<?MPZ?6F>dLFK6oepZ>djMaP,D2fVo\PCe1!.qMS&H^[6lg@mGa_k4Cp
+UQC.dkVEf(sYHchSZ5Hh"aj?+<i;i\SnLJBiR\XuuT;oCh5HHL9'#3.b6mDkYgkS0FGAZo.2
+KhgTH<ddT?4`\\B#?-\R,4ssbqKkX4V]A<=Af"AIGDa49%X+olm4AC03[7:J_Be?H6A^tS[Es
+$*(hZ^'^BnnRHd9"1B-[ppS4dPH"1OfH-C-,._\naBAiFa0-40J1^*/C(`Y/,qAe'_&q4f;7
+aEsi1OSlQJ``iIW]AKg2@82=:Z`k8SWF7ULaMVeE'hQ2<BseEC\+S[*V3Gi]A7%E_L:[M4AT[[
+pl6TGJY=\7;/2i0VS%o:RpE7ju1uMdf`Kg7fmGnU+Y3V6TWR\U/@e-f!DOm3^m`5WBR0@cm_
+:E#S/93.IK48A\6<qDGY&P;oJ[5+d_SFPj<$0dHL4'n/V~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1181100,1371600,0,723900,1638300,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,1409700,876300,723900,0,0,0,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[4457700,13449300,8420100,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<FloatElementList>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float52"/>
+<PrivilegeControl/>
+<Location leftDistance="22555200" topDistance="13487400" width="1562100" height="1066800"/>
+<O t="Image">
+<IM>
+<![CDATA[!BU>#reXHH7h#eD$31&+%7s)Y;?-[s'EA+5'F4mC!!&"8*=VuK!<Ph\5u`*_Xjt`)!DsO8n<
+&h%:l7--Tu>e4=@f_;A]A6IXR+998pTU;e*^Ekj)W.N@Mq^DHD.XQuR\k/@RJUXB36g9-!feH
+8*E^,qT(%8_\CVKR:)$,]ABQ0c#[brS%Ro#*f"d1>0(-sDgPLTg`iMR\e4Ia+tW_aJpHGe7hB
+VS7PHd1tO,A'XLh]A#<!TqS>IYZX=G[&U+=fPZR![%aOH3ef*^;bfE9ST5a*MLe2=]A.#A=DWA
+7IL:YB]A.G-rrMGOr7$k3HR+J7kpnEI@BV^F&/K[%6#K9Uq4N3K/4^/PQO=uKJYf3i`Ad"O?J
+/U50+r!ielEPI#7rUV:;*k]Ao>z8OZBBY!QNJ~
+]]></IM>
+</O>
+<Style index="0"/>
+<NameJavaScriptGroup>
+<NameJavaScript name="网络报表1">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<Parameters>
+<Parameter>
+<Attributes name="province"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$province]]></Attributes>
+</O>
+</Parameter>
+<Parameter>
+<Attributes name="Start"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$start]]></Attributes>
+</O>
+</Parameter>
+<Parameter>
+<Attributes name="Year"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$$month]]></Attributes>
+</O>
+</Parameter>
+<Parameter>
+<Attributes name="Month"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$month]]></Attributes>
+</O>
+</Parameter>
+<Parameter>
+<Attributes name="type"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$type]]></Attributes>
+</O>
+</Parameter>
+</Parameters>
+<TargetFrame>
+<![CDATA[_self]]></TargetFrame>
+<Features width="600" height="400"/>
+<ReportletName showPI="true">
+<![CDATA[/demo/chart/hy3.cpt]]></ReportletName>
+</JavaScript>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+</com.fr.report.cell.FloatElement>
+</FloatElementList>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1" cs="3" s="1">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$Year + "年" + $province + $month + $type + "类汽车终端销售情况"]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand extendable="2"/>
+</C>
+<C c="0" r="2" cs="3" s="2">
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="0" r="3" cs="2" rs="12" s="3">
+<O t="CC">
+<LayoutAttr selectedIndex="0"/>
+<Chart name="Default">
+<Chart class="com.fr.chart.chartattr.Chart">
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor borderColor="-4144960"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<ChartAttr isJSDraw="true"/>
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[新建图表标题]]></O>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="88"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="false" position="0"/>
+</Title>
+<Plot class="com.fr.chart.chartattr.MeterPlot">
+<MeterPlot>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="0"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" seriesLabel="${VALUE}"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name=""/>
+</DefaultAttr>
+</ConditionCollection>
+<DataSheet>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isVisible="false"/>
+</DataSheet>
+<newPlotFillStyle>
+<AttrFillStyle>
+<AFStyle colorStyle="0"/>
+<FillStyleName fillStyleName=""/>
+</AttrFillStyle>
+</newPlotFillStyle>
+<MeterStyle>
+<Attr meterAngle="270" maxArrowAngle="270" units="辆" order="0" designType="0" tickLabelsVisible="true" dialShape="1" startValue="=0.0" endValue="=180.0" tickSize="=20.0"/>
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+<IntervalList>
+<MeterInterval label="分段区域" backgroudColor="-1620162" beginValue="=0.0" endValue="=60.0"/>
+<MeterInterval label="分段区域" backgroudColor="-208375" beginValue="=60.0" endValue="=120.0"/>
+<MeterInterval label="分段区域" backgroudColor="-11683767" beginValue="=120.0" endValue="=180.0"/>
+</IntervalList>
+<MapHotAreaColor>
+<MC_Attr minValue="0.0" maxValue="100.0" useType="0" areaNumber="5" mainColor="-16776961"/>
+</MapHotAreaColor>
+</MeterStyle>
+</MeterPlot>
+</Plot>
+<ChartDefinition>
+<MeterReportDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<MeterDefinition201109 meterType="0"/>
+<meterDefinitionName>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=B21]]></Attributes>
+</O>
+</meterDefinitionName>
+<meterDefinitionValue>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C21]]></Attributes>
+</O>
+</meterDefinitionValue>
+</MeterReportDefinition>
+</ChartDefinition>
+</Chart>
+</Chart>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="3" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="4" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="5" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="6" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="7" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="8" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="9" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="10" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="11" rs="2" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[="共计： "+C21+"  辆"]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="13" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="14" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="16" s="5">
+<O>
+<![CDATA[返回上一层]]></O>
+<PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="网络报表1">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<Parameters>
+<Parameter>
+<Attributes name="province"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$province]]></Attributes>
+</O>
+</Parameter>
+<Parameter>
+<Attributes name="Start"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$Start]]></Attributes>
+</O>
+</Parameter>
+<Parameter>
+<Attributes name="End"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$End]]></Attributes>
+</O>
+</Parameter>
+<Parameter>
+<Attributes name="Year"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$Year]]></Attributes>
+</O>
+</Parameter>
+<Parameter>
+<Attributes name="month"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$month]]></Attributes>
+</O>
+</Parameter>
+</Parameters>
+<TargetFrame>
+<![CDATA[_self]]></TargetFrame>
+<Features width="600" height="400"/>
+<ReportletName showPI="true">
+<![CDATA[/demo/chart/hy3.cpt]]></ReportletName>
+</JavaScript>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="2" r="18">
+<O t="DSColumn">
+<Attributes dsName="ds_1" columnName="Province"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[1]]></CNUMBER>
+<CNAME>
+<![CDATA[Province]]></CNAME>
+<Compare op="0">
+<Parameter>
+<Attributes name="province"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="1"/>
+</C>
+<C c="2" r="19">
+<O t="DSColumn">
+<Attributes dsName="ds_1" columnName="Year"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[3]]></CNUMBER>
+<CNAME>
+<![CDATA[Year]]></CNAME>
+<Compare op="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$Year - 4]]></Attributes>
+</O>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="1"/>
+</C>
+<C c="0" r="20">
+<O t="DSColumn">
+<Attributes dsName="ds_1" columnName="Month"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[2]]></CNUMBER>
+<CNAME>
+<![CDATA[Month]]></CNAME>
+<Compare op="0">
+<Parameter>
+<Attributes name="month"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="1" r="20">
+<O t="DSColumn">
+<Attributes dsName="ds_1" columnName="type"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[5]]></CNUMBER>
+<CNAME>
+<![CDATA[type]]></CNAME>
+<Compare op="0">
+<Parameter>
+<Attributes name="type"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="2" r="20">
+<O t="DSColumn">
+<Attributes dsName="ds_1" columnName="Amount"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="21" cs="3" s="6">
+<O>
+<![CDATA[说明：]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="22" cs="3">
+<O>
+<![CDATA[   仪表盘显示不同类型汽车的销售情况]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting orientation="1">
+<PaperSize width="18432000" height="41760000"/>
+<Margin top="0" left="0" bottom="0" right="0"/>
+</PaperSetting>
+<Background name="ColorBackground" color="-328966"/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+<Parameter>
+<Attributes name="province"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="Year"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="month"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="type"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="128" foreground="-16749643"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="96"/>
+<Background name="ColorBackground" color="-1313291"/>
+<Border>
+<Top style="2" color="-4144960"/>
+<Bottom color="-4144960"/>
+<Left color="-4144960"/>
+<Right color="-4144960"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1313291"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="120" foreground="-16750951"/>
+<Background name="ColorBackground" color="-1313291"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="80" foreground="-11486224"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="宋体" style="0" size="88"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="14"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="HBA"/>
+<PreviewType PreviewType="0"/>
+</WorkBook>

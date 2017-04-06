@@ -1,0 +1,22 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"恩施土家族苗族自治州"},"geometry": {"type": "Point","coordinates": [109.5007,30.2563]}},
+{"type": "Feature","properties": {"name":"十堰市"},"geometry": {"type": "Point","coordinates": [110.5115,32.3877]}},
+{"type": "Feature","properties": {"name":"宜昌市"},"geometry": {"type": "Point","coordinates": [111.1707,30.7617]}},
+{"type": "Feature","properties": {"name":"襄樊市"},"geometry": {"type": "Point","coordinates": [111.9397,31.9263]}},
+{"type": "Feature","properties": {"name":"黄冈市"},"geometry": {"type": "Point","coordinates": [115.2686,30.6628]}},
+{"type": "Feature","properties": {"name":"荆州市"},"geometry": {"type": "Point","coordinates": [113.291,30.0092]}},
+{"type": "Feature","properties": {"name":"荆门市"},"geometry": {"type": "Point","coordinates": [112.6758,30.9979]}},
+{"type": "Feature","properties": {"name":"咸宁市"},"geometry": {"type": "Point","coordinates": [114.2578,29.6631]}},
+{"type": "Feature","properties": {"name":"随州市"},"geometry": {"type": "Point","coordinates": [113.4338,31.8768]}},
+{"type": "Feature","properties": {"name":"孝感市"},"geometry": {"type": "Point","coordinates": [113.9502,31.1188]}},
+{"type": "Feature","properties": {"name":"武汉市"},"geometry": {"type": "Point","coordinates": [114.3896,30.6628]}},
+{"type": "Feature","properties": {"name":"黄石市"},"geometry": {"type": "Point","coordinates": [115.0159,29.9213]}},
+{"type": "Feature","properties": {"name":"神农架林区"},"geometry": {"type": "Point","coordinates": [110.4565,31.5802]}},
+{"type": "Feature","properties": {"name":"天门市"},"geometry": {"type": "Point","coordinates": [113.0273,30.6409]}},
+{"type": "Feature","properties": {"name":"仙桃市"},"geometry": {"type": "Point","coordinates": [113.3789,30.3003]}},
+{"type": "Feature","properties": {"name":"潜江市"},"geometry": {"type": "Point","coordinates": [112.7637,30.3607]}},
+{"type": "Feature","properties": {"name":"鄂州市"},"geometry": {"type": "Point","coordinates": [114.7302,30.4102]}}
+]
+}

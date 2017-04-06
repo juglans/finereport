@@ -1,0 +1,20 @@
+{"type": "FeatureCollection"
+,"center":[126.1445,48.7156],
+
+"features":
+[
+{"type": "Feature","properties": {"name":"黑河市"},"geometry": {"type": "Point","coordinates": [127.1448,49.2957]}},
+{"type": "Feature","properties": {"name":"大兴安岭地区"},"geometry": {"type": "Point","coordinates": [124.1016,52.2345]}},
+{"type": "Feature","properties": {"name":"哈尔滨市"},"geometry": {"type": "Point","coordinates": [127.9688,45.368]}},
+{"type": "Feature","properties": {"name":"齐齐哈尔市"},"geometry": {"type": "Point","coordinates": [124.541,47.5818]}},
+{"type": "Feature","properties": {"name":"牡丹江市"},"geometry": {"type": "Point","coordinates": [129.7815,44.7089]}},
+{"type": "Feature","properties": {"name":"绥化市"},"geometry": {"type": "Point","coordinates": [126.7163,46.8018]}},
+{"type": "Feature","properties": {"name":"伊春市"},"geometry": {"type": "Point","coordinates": [129.1992,47.9608]}},
+{"type": "Feature","properties": {"name":"佳木斯市"},"geometry": {"type": "Point","coordinates": [133.0005,47.5763]}},
+{"type": "Feature","properties": {"name":"鸡西市"},"geometry": {"type": "Point","coordinates": [132.7917,45.7361]}},
+{"type": "Feature","properties": {"name":"双鸭山市"},"geometry": {"type": "Point","coordinates": [133.5938,46.7523]}},
+{"type": "Feature","properties": {"name":"大庆市"},"geometry": {"type": "Point","coordinates": [124.7717,46.4282]}},
+{"type": "Feature","properties": {"name":"鹤岗市"},"geometry": {"type": "Point","coordinates": [130.4407,47.7081]}},
+{"type": "Feature","properties": {"name":"七台河市"},"geometry": {"type": "Point","coordinates": [131.2756,45.9558]}}
+]
+}

@@ -1,0 +1,1580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<TableDataMap>
+<TableData name="ds1" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM 填报雇员表]]></Query>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebWriteContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.write.Submit">
+<WidgetAttr disabled="true" description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[提交]]></Text>
+<IconName>
+<![CDATA[submit]]></IconName>
+<Verify failVerifySubmit="false"/>
+<Sheet onlySubmitSelect="false"/>
+</Widget>
+<Widget class="com.fr.report.web.button.write.Verify">
+<WidgetAttr disabled="true" description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[数据校验]]></Text>
+<IconName>
+<![CDATA[verify]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.FlashPrint">
+<WidgetAttr disabled="true" description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[打印[客户端]A]]></Text>
+<IconName>
+<![CDATA[flashprint]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[打印]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[输出]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr disabled="true" description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[邮件]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.write.StashButton">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('FR-Engine-Write_Stash')}]]></Text>
+<IconName>
+<![CDATA[stash]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.write.ClearStashedButton">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('FR-Engine-Write_Clear')}]]></Text>
+<IconName>
+<![CDATA[clearstash]]></IconName>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<SelectedColor/>
+<WebWrite SheetPosition="3"/>
+<RptLocation isShowAtLeft="true"/>
+<UnloadCheck/>
+<ShowWidgets show="true"/>
+<OtherAttr isAutoStash="false"/>
+</WebWriteContent>
+<Background name="ColorBackground" color="-1249034"/>
+</ReportWebAttr>
+<ReportExportAttr>
+<ExcelExportAttr/>
+<PDFExportAttr/>
+<HTMLExportAttr isTDHeavy="true"/>
+<WordExportAttr/>
+</ReportExportAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1905000,380160,380160,914400,952500,914400,914400,914400,1524000,190500,1409700,1028700,838200,838200,838200,838200,838200,838200,838200,838200,838200,381000,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[381000,1600200,3467100,3657600,1409700,3619500,3276600,5334000,4229100,2514600,2514600,3200400,381000,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" cs="13" s="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[="  客户资料管理卡"]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="1" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="2" s="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="2" s="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="2" s="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="2" s="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="2" s="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="2" s="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="2" s="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="2" s="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="2" s="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="2" s="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="2" s="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="2" s="2">
+<PrivilegeControl/>
+</C>
+<C c="1" r="3" cs="2" s="4">
+<O>
+<![CDATA[* 客户名称]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="3" cs="3" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="客户名称"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="6" r="3" s="4">
+<O>
+<![CDATA[地址]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="3" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="地址"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="8" r="3" s="4">
+<O>
+<![CDATA[* 客户编号]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="3" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<CellGUIAttr printContent="false"/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="客户编号"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<CellInsertPolicy/>
+<Expand/>
+</C>
+<C c="10" r="3" s="4">
+<O>
+<![CDATA[邮编]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="3" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="邮编"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.PostCardReg"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="3" s="2">
+<PrivilegeControl/>
+</C>
+<C c="1" r="4" cs="2" s="4">
+<O>
+<![CDATA[负责人]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="4" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="负责人"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="4" s="4">
+<O>
+<![CDATA[性别]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="4" s="6">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.RadioGroup">
+<WidgetName name="性别"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="男" value="男"/>
+<Dict key="女" value="女"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="6" r="4" s="4">
+<O>
+<![CDATA[年龄]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="4" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetName name="年龄"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr allowDecimals="false" allowNegative="false" minValue="0.0" maxValue="120.0">
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="8" r="4" s="4">
+<O>
+<![CDATA[职务]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="4" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="职务"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="10" r="4" s="4">
+<O>
+<![CDATA[电话]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="4" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="电话"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.PhoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="4" s="2">
+<PrivilegeControl/>
+</C>
+<C c="1" r="5" rs="3" s="7">
+<O>
+<![CDATA[金\\n融\\n情\\n况]]></O>
+<PrivilegeControl/>
+<CellGUIAttr showAsImage="true"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand/>
+</C>
+<C c="2" r="5" s="4">
+<O>
+<![CDATA[往来银行]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="5" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.ComboCheckBox">
+<WidgetName name="往来银行"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.DynamicSQLDict">
+<FormulaDictAttr ki="1" vi="1"/>
+<Formula>
+<![CDATA[SELECT * FROM 往来银行]]></Formula>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+</Dictionary>
+<widgetValue/>
+<RAAttr delimiter="&apos;,&apos;" isArray="false"/>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="5" cs="2" s="4">
+<O>
+<![CDATA[现金情况]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="5" cs="2" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetName name="现金情况"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="8" r="5" s="4">
+<O>
+<![CDATA[承办人]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="5" cs="3" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="承办人"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="5" s="2">
+<PrivilegeControl/>
+</C>
+<C c="2" r="6" s="4">
+<O>
+<![CDATA[账号]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="6" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="账号"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="6" cs="2" s="4">
+<O>
+<![CDATA[资金周转]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="6" cs="2" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.ComboBox">
+<WidgetName name="资金周转"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="盈利" value="盈利"/>
+<Dict key="亏损" value="亏损"/>
+<Dict key="充裕" value="充裕"/>
+<Dict key="缺乏" value="缺乏"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="8" r="6" s="4">
+<O>
+<![CDATA[付款态度]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="6" cs="3" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.ComboBox">
+<WidgetName name="付款态度"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<CustomData>
+<![CDATA[false]]></CustomData>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="优" value="优"/>
+<Dict key="良" value="良"/>
+<Dict key="好" value="好"/>
+<Dict key="差" value="差"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="6" s="2">
+<PrivilegeControl/>
+</C>
+<C c="2" r="7" s="4">
+<O>
+<![CDATA[税号]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="7" cs="5" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="税号"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="8" r="7" s="4">
+<O>
+<![CDATA[付款日期]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="7" cs="3" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.DateEditor">
+<WidgetName name="付款日期"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<DateAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="7" s="2">
+<PrivilegeControl/>
+</C>
+<C c="1" r="8" cs="2" s="4">
+<O>
+<![CDATA[开始交易日期]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="8" cs="4" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.DateEditor">
+<WidgetName name="开始交易日期"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<DateAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="7" r="8" s="4">
+<O>
+<![CDATA[主营产品]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="8" cs="4" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.CheckBoxGroup">
+<WidgetName name="主营产品"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.DatabaseDictionary">
+<FormulaDictAttr ki="1" vi="1"/>
+<DBDictAttr tableName="产品项目" schemaName="" ki="1" vi="1" kiName="" viName=""/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+</Dictionary>
+<widgetValue/>
+<RAAttr isArray="false" delimiter="&apos;,&apos;"/>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="8" s="2">
+<PrivilegeControl/>
+</C>
+<C c="12" r="9" s="2">
+<PrivilegeControl/>
+</C>
+<C c="1" r="10" rs="7" s="7">
+<O>
+<![CDATA[营\\n业\\n概\\n况]]></O>
+<PrivilegeControl/>
+<CellGUIAttr showAsImage="true"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand/>
+</C>
+<C c="2" r="10" s="4">
+<O>
+<![CDATA[营业项目]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="10" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TreeComboBoxEditor">
+<WidgetName name="营业项目"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<DirectEdit>
+<![CDATA[false]]></DirectEdit>
+<TreeAttr returnFullPath="true" selectLeafOnly="false"/>
+<isLayerBuild isLayerBuild="false"/>
+<TreeNodeAttr>
+<Dictionary class="com.fr.data.impl.DatabaseDictionary">
+<FormulaDictAttr ki="1" vi="1">
+<Condition class="com.fr.data.condition.ListCondition"/>
+</FormulaDictAttr>
+<DBDictAttr tableName="产品项目" schemaName="" ki="1" vi="1" kiName="" viName=""/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Condition class="com.fr.data.condition.ListCondition"/>
+</Dictionary>
+</TreeNodeAttr>
+<TreeNodeAttr>
+<Dictionary class="com.fr.data.impl.DynamicSQLDict">
+<FormulaDictAttr ki="0" vi="0">
+<Condition class="com.fr.data.condition.ListCondition"/>
+</FormulaDictAttr>
+<Formula>
+<![CDATA[SELECT 营业项目 FROM 产品项目 where 主营产品='${@1}' ]]></Formula>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+</Dictionary>
+</TreeNodeAttr>
+<isAutoBuild autoBuild="false"/>
+<isPerformanceFirst performanceFirst="false"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="10" cs="2" s="4">
+<O>
+<![CDATA[仓库情况]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="10" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="仓库情况"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="7" r="10" s="4">
+<O>
+<![CDATA[员工人数及素质]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="10" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetName name="员工人数及素质"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr allowDecimals="false" allowNegative="false">
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="9" r="10" s="4">
+<O>
+<![CDATA[运输方式]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="10" cs="2" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.CheckBoxGroup">
+<WidgetName name="运输方式"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="铁路" value="铁路"/>
+<Dict key="水运" value="水运"/>
+<Dict key="汽运" value="汽运"/>
+<Dict key="自提" value="自提"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="10" s="2">
+<PrivilegeControl/>
+</C>
+<C c="2" r="11" s="4">
+<O>
+<![CDATA[经营体制]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="11" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.ComboBox">
+<WidgetName name="经营体制"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="合同雇佣制" value="合同雇佣制"/>
+<Dict key="职务工资制" value="职务工资制"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="11" cs="2" s="4">
+<O>
+<![CDATA[服务车数目]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="11" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetName name="服务车数目"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr allowDecimals="false" allowNegative="false">
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="7" r="11" s="4">
+<O>
+<![CDATA[零售商数及覆盖情况]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="11" cs="4" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="零售商数及覆盖情况"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="11" s="2">
+<PrivilegeControl/>
+</C>
+<C c="2" r="12" s="4">
+<O>
+<![CDATA[批发商数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="12" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr allowDecimals="false" allowNegative="false">
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="4" r="12" cs="2" s="4">
+<O>
+<![CDATA[营业范围]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="12" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="营业范围"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="7" r="12" s="4">
+<O>
+<![CDATA[门市面积]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="12" cs="4" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetName name="门市面积"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr allowNegative="false">
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="12" s="2">
+<PrivilegeControl/>
+</C>
+<C c="2" r="13" s="4">
+<O>
+<![CDATA[经营方针]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="13" cs="9" s="8">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.CheckBoxGroup">
+<WidgetName name="经营方针"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="销售上量" value="销售上量"/>
+<Dict key="利润为准" value="利润为准"/>
+<Dict key="量利兼顾" value="量利兼顾"/>
+<Dict key="积极" value="积极"/>
+<Dict key="保守" value="保守"/>
+<Dict key="平常" value="平常"/>
+<Dict key="投机" value="投机"/>
+<Dict key="凌乱" value="凌乱"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="13" s="2">
+<PrivilegeControl/>
+</C>
+<C c="2" r="14" rs="3" s="4">
+<O>
+<![CDATA[年度销售潜力]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="14" s="4">
+<O>
+<![CDATA[进货]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="14" cs="3" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetName name="进货"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="7" r="14" rs="3" s="4">
+<O>
+<![CDATA[第一品牌]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="14" s="4">
+<O>
+<![CDATA[进货]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="14" cs="3" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetName name="第一品牌进货"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="14" s="2">
+<PrivilegeControl/>
+</C>
+<C c="3" r="15" s="4">
+<O>
+<![CDATA[销售]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="15" cs="3" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetName name="销售"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="8" r="15" s="4">
+<O>
+<![CDATA[销售]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="15" cs="3" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetName name="第一品牌销售"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="15" s="2">
+<PrivilegeControl/>
+</C>
+<C c="3" r="16" s="4">
+<O>
+<![CDATA[存货]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="16" cs="3" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=E15 - E16]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="8" r="16" s="4">
+<O>
+<![CDATA[存货]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="16" cs="3" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=J15 - J16]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="第一品牌存货"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="16" s="2">
+<PrivilegeControl/>
+</C>
+<C c="1" r="17" cs="2" s="4">
+<O>
+<![CDATA[最高信用额度]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="17" cs="4" s="5">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetName name="最高信用额度"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="7" r="17" s="4">
+<O>
+<![CDATA[客户等级]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="17" cs="4" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.ComboBox">
+<WidgetName name="客户等级"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="一级" value="一级"/>
+<Dict key="二级" value="二级"/>
+<Dict key="三级" value="三级"/>
+<Dict key="四级" value="四级"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="17" s="2">
+<PrivilegeControl/>
+</C>
+<C c="1" r="18" cs="2" s="4">
+<O>
+<![CDATA[总体月均库存数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="18" cs="4" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=E17 / 12]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="7" r="18" s="4">
+<O>
+<![CDATA[月均库存数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="18" cs="4" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=J17 / 12]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetName name="月均库存数"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="18" s="2">
+<PrivilegeControl/>
+</C>
+<C c="1" r="19" cs="2" s="4">
+<O>
+<![CDATA[价格/折扣]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="19" cs="4" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetName name="折扣"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="7" r="19" cs="2" s="4">
+<O>
+<![CDATA[支持和服务的承诺]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="19" cs="3" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetName name="承诺"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="19" s="2">
+<PrivilegeControl/>
+</C>
+<C c="1" r="20" cs="2" s="4">
+<O>
+<![CDATA[竞品经营情况]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="20" cs="9" s="5">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextArea">
+<WidgetName name="竞品经营情况"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="20" s="2">
+<PrivilegeControl/>
+</C>
+<C c="0" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="21" s="2">
+<PrivilegeControl/>
+</C>
+<C c="1" r="22" cs="7" s="9">
+<O>
+<![CDATA[说明：]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="1" r="23" cs="7" s="10">
+<O>
+<![CDATA[填报可暂存提供临时保存或者定时保存的功能]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="24" cs="7" s="10">
+<O>
+<![CDATA[1、点击工具栏上的“暂存”按钮，将填报的数据暂存]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="1" r="25" cs="7" s="11">
+<O>
+<![CDATA[2、点击工具栏上的“清空”按钮，清空暂存数据]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting>
+<PaperSize width="30241008" height="40032288"/>
+<Margin top="287999" left="0" bottom="287999" right="0"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<ReportWriteAttr>
+<SubmitVisitor class="com.fr.report.write.BuiltInSQLSubmiter">
+<Name>
+<![CDATA[内置SQL1]]></Name>
+<Attributes dsName="FRDemo"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table schema="" name="填报雇员表"/>
+<ColumnConfig name="客户编号" isKey="true" skipUnmodified="false">
+<ColumnRow column="9" row="3"/>
+</ColumnConfig>
+<ColumnConfig name="客户名称" isKey="true" skipUnmodified="false">
+<ColumnRow column="3" row="3"/>
+</ColumnConfig>
+<ColumnConfig name="地址" isKey="false" skipUnmodified="false">
+<ColumnRow column="7" row="3"/>
+</ColumnConfig>
+<ColumnConfig name="邮编" isKey="false" skipUnmodified="false">
+<ColumnRow column="11" row="3"/>
+</ColumnConfig>
+<ColumnConfig name="负责人" isKey="false" skipUnmodified="false">
+<ColumnRow column="3" row="4"/>
+</ColumnConfig>
+<ColumnConfig name="性别" isKey="false" skipUnmodified="false">
+<ColumnRow column="5" row="4"/>
+</ColumnConfig>
+<ColumnConfig name="年龄" isKey="false" skipUnmodified="false">
+<ColumnRow column="7" row="4"/>
+</ColumnConfig>
+<ColumnConfig name="职务" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="4"/>
+</ColumnConfig>
+<ColumnConfig name="电话" isKey="false" skipUnmodified="false">
+<ColumnRow column="11" row="4"/>
+</ColumnConfig>
+<ColumnConfig name="来往银行" isKey="false" skipUnmodified="false">
+<ColumnRow column="3" row="5"/>
+</ColumnConfig>
+<ColumnConfig name="账号" isKey="false" skipUnmodified="false">
+<ColumnRow column="3" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="税号" isKey="false" skipUnmodified="false">
+<ColumnRow column="3" row="7"/>
+</ColumnConfig>
+<ColumnConfig name="现今情况" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="5"/>
+</ColumnConfig>
+<ColumnConfig name="资金周转" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="承办人员" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="5"/>
+</ColumnConfig>
+<ColumnConfig name="付款态度" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="6"/>
+</ColumnConfig>
+<ColumnConfig name="付款日期" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="7"/>
+</ColumnConfig>
+<ColumnConfig name="开始交易日期" isKey="false" skipUnmodified="false">
+<ColumnRow column="3" row="8"/>
+</ColumnConfig>
+<ColumnConfig name="主营产品" isKey="false" skipUnmodified="false">
+<ColumnRow column="8" row="8"/>
+</ColumnConfig>
+<ColumnConfig name="营业项目" isKey="false" skipUnmodified="false">
+<ColumnRow column="3" row="10"/>
+</ColumnConfig>
+<ColumnConfig name="经营体制" isKey="false" skipUnmodified="false">
+<ColumnRow column="3" row="11"/>
+</ColumnConfig>
+<ColumnConfig name="批发商数" isKey="false" skipUnmodified="false">
+<ColumnRow column="3" row="12"/>
+</ColumnConfig>
+<ColumnConfig name="经营方针" isKey="false" skipUnmodified="false">
+<ColumnRow column="3" row="13"/>
+</ColumnConfig>
+<ColumnConfig name="进货" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="14"/>
+</ColumnConfig>
+<ColumnConfig name="销售" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="15"/>
+</ColumnConfig>
+<ColumnConfig name="存货" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="16"/>
+</ColumnConfig>
+<ColumnConfig name="第一品牌进货" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="14"/>
+</ColumnConfig>
+<ColumnConfig name="第一品牌销售" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="15"/>
+</ColumnConfig>
+<ColumnConfig name="第一品牌存货" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="16"/>
+</ColumnConfig>
+<ColumnConfig name="最高信用额度" isKey="false" skipUnmodified="false">
+<ColumnRow column="1" row="17"/>
+</ColumnConfig>
+<ColumnConfig name="总体月均库存" isKey="false" skipUnmodified="false">
+<ColumnRow column="3" row="18"/>
+</ColumnConfig>
+<ColumnConfig name="竞品经营情况" isKey="false" skipUnmodified="false">
+<ColumnRow column="3" row="20"/>
+</ColumnConfig>
+<ColumnConfig name="客户等级" isKey="false" skipUnmodified="false">
+<ColumnRow column="8" row="17"/>
+</ColumnConfig>
+<ColumnConfig name="月均库存数" isKey="false" skipUnmodified="false">
+<ColumnRow column="8" row="18"/>
+</ColumnConfig>
+<ColumnConfig name="支持和服务的承诺" isKey="false" skipUnmodified="false">
+<ColumnRow column="9" row="19"/>
+</ColumnConfig>
+<ColumnConfig name="服务车数量" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="11"/>
+</ColumnConfig>
+<ColumnConfig name="仓储情况" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="10"/>
+</ColumnConfig>
+<ColumnConfig name="员工人数及素质" isKey="false" skipUnmodified="false">
+<ColumnRow column="8" row="10"/>
+</ColumnConfig>
+<ColumnConfig name="零售商数及覆盖情况" isKey="false" skipUnmodified="false">
+<ColumnRow column="8" row="11"/>
+</ColumnConfig>
+<ColumnConfig name="门市面积" isKey="false" skipUnmodified="false">
+<ColumnRow column="8" row="12"/>
+</ColumnConfig>
+<ColumnConfig name="营业范围" isKey="false" skipUnmodified="false">
+<ColumnRow column="6" row="12"/>
+</ColumnConfig>
+<ColumnConfig name="运输方式" isKey="false" skipUnmodified="false">
+<ColumnRow column="10" row="10"/>
+</ColumnConfig>
+<Condition class="com.fr.data.condition.ListCondition"/>
+</DMLConfig>
+</SubmitVisitor>
+</ReportWriteAttr>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="false" delayPlaying="true" windowPosition="1" align="1"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="144" foreground="-7"/>
+<Background name="ColorBackground" color="-11561760"/>
+<Border>
+<Top color="-3090711"/>
+<Bottom style="1" color="-3090711"/>
+<Left color="-3090711"/>
+<Right color="-3090711"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top color="-3090711"/>
+<Bottom style="2" color="-3090711"/>
+<Left color="-3090711"/>
+<Right color="-3090711"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="72" foreground="-13355980"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="72" foreground="-14277082"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="72" foreground="-14277082"/>
+<Background name="ColorBackground" color="-855310"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="72" foreground="-13355980"/>
+<Background name="ColorBackground" color="-5781008"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="72" foreground="-13355980"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="72" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Top style="3" color="-2828568"/>
+<Bottom color="-16777216"/>
+<Left style="3" color="-2828568"/>
+<Right style="3" color="-2828568"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="72" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left style="3" color="-2828568"/>
+<Right style="3" color="-2828568"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei" style="0" size="72" foreground="-10066330"/>
+<Background name="ColorBackground" color="-657158"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom style="3" color="-2828568"/>
+<Left style="3" color="-2828568"/>
+<Right style="3" color="-2828568"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="1"/>
+</WorkBook>

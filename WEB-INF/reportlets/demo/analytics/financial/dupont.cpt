@@ -1,0 +1,4266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20140501" releaseVersion="7.1.0">
+<TableDataMap>
+<TableData name="科目余额表" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM 科目余额表]]></Query>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebWriteContent>
+<ToolBars/>
+<SelectedColor/>
+<WebWrite SheetPosition="3"/>
+<RptLocation isShowAtLeft="true"/>
+<UnloadCheck/>
+</WebWriteContent>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[457200,1143000,114300,914400,762000,457200,457200,876300,723900,609600,533400,914400,723900,495300,457200,876300,723900,609600,495300,990600,723900,723900,723900,876300,723900,723900,723900,914400,723900,723900,723900,990600,723900,723900,990600,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[381000,1714500,609600,2095500,1485900,1600200,1600200,1485900,2095500,2133600,1676400,1676400,1676400,1828800,1828800,1828800,419100,876300,1752600,1828800,1676400,2057400,1485900,1676400,1752600,1333500,2743200]]></ColumnWidth>
+<FloatElementList>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float115"/>
+<PrivilegeControl/>
+<Location leftDistance="2362200" topDistance="25222200" width="5410200" height="5410200"/>
+<O t="Image">
+<IM>
+<![CDATA[!+S9a^PPc^7h#eD$31&+%7s)Y;?-[sNW9%ZNX,gh!!)3\0F.XY;!(>;5u`*_m@=K,<`R_):D
+/PB%X(::2jL7r.&(4l?;Rn''J$,4Jq.t-+MEL>+b=`%H:[K665"UCkogMa)^MM7YF?O2cOA)
+Y:(*FOcfT\ih"0C1fA>]AG%g>3U7UuA&dC9i.UCj$9BEY4f)Sp-H7W99@0f1kV042F+2)R6\R
+,7OtJhQ\ASnIm:^""4aHtA<&*F,CD"dZ+-,>-LMiC0bBE.rU'DJQ_j:j)ECTK7B6>W:'U,@@
+hf.\G'@Y\<2iIOXQ!rs\SG2&6W;S=iL)2>Dd75?,E).9.BT9!4(c+&\oGL0!*Z,6A[G6Ql[2
+A3;S,4B%4Jc;^RATkL[g4<.=oH3>%b/n#Pqf<Bkm-9?qEX%-VK-?TfsL>$el:\thWG;rp*<Z
+eJFWt&FHAthSC1I/b?)-j>U#?@a0_&)5(ob5"bqF9&S[;[^Lg6iHZLEaCrRGR=:O!OCeql+?
+X)Q;X0X+u>N<:@V#eN9_rq?ctHI3YcLD=;rdC0*T`_Z_IC;V^T"Z/nE8,H@Bj$2+'N&e,JDr
+h;A8_WBtiX1GI.='2<a(NVUq2V/R=Rp7A>![tZ)1j:Ln*Z:Pt_rU#$2)aIJL^")Z^W82'A8m
+*G,bS6JEliG;I05DWJB7;Z\qQ$NZ+j\FNL=:-7%pPS+eJ2ISM<:):lUD^;55=m)gjJ%E;Bo$
+01B,BYCtu9Qc2L%&+OD5I$]Aq";::@t/`"R.1fXnm6QhPo\U@mp&!s@Z+5)jXHFfn2ph3L^g`
+KY"HA5M$LE]A1@"e]A1ajjurnN[g5,<Vb-3+l[A*k\UZBJ^LLXFC%qF(u:]A;^3momKGrch7Qo;
+;UVVK09>G6di:IO3:d'E+Wk(s"QULS@6Idjr554CqLU,#8?j]AS*<Ga/]A,2?j]A53Wg>AG&u"L
+3b_M@7S44*8.msKiG"cm]ATMa`K[>&1$."U4<5rD/\8=6K-;&3,oqi73F>ubeH^k!fqB+(3Mh
+,TDKhUcjd`:;CV\>*_!**%h!A+<mZUUm?Wb9i&Zm<^LKCF0@UXPK)_7mM8P>5D`#K`T<!Q,<
+7*;b;c#'f]AGHsH-g,ba%D&c;/fOtiSjAf6]A-c/JT/"ZmnBlARfm!F.K=5OCcZ[^@i>s`>RbU
+C0j<2L.q/&5Bj7rAu?l>;mag(;<"l7L&?%5o+-3#Q;XlD]AR`ok\04H9&S#\qrA?$RAGPS9^T
+JKm9*B>%;B8<u:]A4Y<5;8)aWM3MuC2ra)(LNLM[R#hR;q`1)^9T=ln26X^@c:j]AA+d";Y;[d
+5A-n4V1kCA&ls]AXJV!Z`6OlV?u0mY^c?<GEnu<)82umo#-1ZU[G6!lh6QiQK8^!8%WGR!P#/
+$?H\m&J4@-0tnnUE1%P:PK_l@A*mO]A`pFgd.Tr-rCFWE#D@0QRs"ls,3JCbop4D`at:[lUAR
+BRoV;#H)`l=d@//*=u)HDY;7TIDbYea'ZIK88,0k':,g_KjHsrbdgj(e3=1u\^;*B`U/\R"1
+gOc;XL%$2RmE3MGmGZ@r0'/QRal,$gO%>@Wbo5H$*o\Kki;E9&(JTVcncg&&-MjW_RDO@J3K
+I@l+E:?/8t^j3Z%'8Th7%e)6s/J0WZc\JCbCdCH9f9r`LhZ9g\n;5X>=NQ(LOS>7`<D*r9LR
+A:h&NOaSeKRitAE9u\0p3BcK3u1l)gm39DXW('8^MH*gTVB8QA&'=U(P`u-C.5Mp+'##+#sG
+HrKNu$aiq\ZuoiP><]A.Nu]ACM1G"o4f#<c4lcH4`Ipmj2<L<96I'NMpTs#A)lBG8(?AGa44H)
+-lO'b9-R+\[J$9),6k/J5bYc%mfdj3DkXc.)Mreee_V$]Aam#ZcU,LR?"u)o_rYsc4nCZ8WAl
+MoUI344PQZ':XBRdXBVRk#9X2.1+"Xd0T&o`/O<iCSc\]A,'L9;4TZ4l-f]Ar+Kd6ZT%\dOqa/
+b[HlU4"QsNs\[LBo(JJ$pE[IgZOrcNY1n86Xi3\N!l4O9nGj#>(P]A*kmn"8:kj#R-=eM6]AjO
++gel$oZW_q[\:B>8MQSg9Rs+/\#64Z.kad3NANd4l.<U_1HaCJC?ODZ>(J/8Nl:*UUk`HX3M
+cSW_3F&I]AaaiHp5*3>52F<Cr!;3;aAJ#'f<>tjgSX>qsBR&Yn0WQT%hV>it9ghoC3"s%3(gn
+C=P<QlHt,3og-YZ2'aAII2Li1io>hWogrhOl4@.5;7T:*DO"A&2VGha*&Dc$q)H:Pn1j*K)1
+UM[2RfpTY+,q[fjq*%)b;f!E4SG<X)9*2W^dWMMp[gTeaPouI!CKoTn10u&]AO%=OX3.o"P1A
+?<Ksm?38&H$j@PeLWlboulG>h$a^/kK'&9"DD6lmbcL[(=5&X&W?(!?'[E`UE`$V84/QQN69
+fo]A29m\A>9eKud+rWR'%gk;PK;%"R<2jb^c`)\I;cG^5FS.m$$%A1(^1X8D/=pbIE=$4YNOc
+j!6eS%e'Z>SD@G<=8*&IKGi+:qg@\T,^-JCMXgU(tC<QZXmR9Q:`9s$41\7N_6>&^!h-&NU/
+>T;T(>umL`0<$>9X436@&iD5S64HZ!-rKY%O"UuK<.jmGZtnW!IE>#52RR:0^<;>U!mQEG2X
+)M'enLj.H*uS[.?V.MJ]ASIW8r),`L41c>)nl^(;]AT/h.CCa-R;EaZ,V@g,#gOLq#O6lE.b-=
+[W[omK:O)'$a#pZWj*UCtkOI?a*7Z4*r+kD:1"+8qH\05^lk*u6r]AkPjgn&7rmX>%>F4=u@4
+m&f!OYGZk@OR2g:/R^U;QecM_i3O?W!2?EO7X0FA(&p*L_TNn:RY1N;jH(*Y&:L^"Qp;Jo,u
+@P$E[/G,:%+0<iA*N;q.AhLXghH-WI-R7?Y7"k(pUnk*W`t2X*FIpK/LmCZ0QAWUd)jk$)kj
+Kh[k2[c`q0?Ds=]A86+,eU=G`KSEHmu#r$QPWE#Gai)iWg9#4a2kN6\CG!R^=5Hcsc\Y-r1ji
+VA[lWKf[2t"mh/Y!crq1IVHF]A"^tqk/7.[,7'!8)mHhS*`clDV]AG%h.h.;[FpbHg,bd*X_a'
+!em.M(FQPe'*<jqsIDhKI?;fq?lG2(%44^Ds%G`&%Ie!)44kFp3<QbohCj2"l,LG)51Z1"9P
+e^e).a)@M&XbR02SW-MUm)c0SmA35A_Z#i=fG+nbrD!<WQtN-Y!$_lE?9q#&j6`)S_"%A2T1
+Lq3*I8+@'i'g[?JWo-I;/GI9s=(:0.,B-)oGsdJa(GLjfe.[MW5Z]AW4T:m!)Khh%QKrpP`%a
+/V@*)eOO$0>R7ZA[;'1u?H<+9a1>6oNmI_+2&5CM6)bGD09iKRnhO3K<hb>'(!(/,W>hft%3
+VfFE#o^4qM=.<nITXt--4J^X>[L-2Sa#GHqEuIYTA^SOkq.DeCN;':Yee]Ag3$*FD_D)NTDc6
+OUUK87AY#`*YY.ff*?ru<G&cdtk6%a]Ag9C6bh2,<S#gLZ=s&U*nbq.b;<<bM:VgeNuSn.Nhm
+Z]A6L=&SUY?>8[B2t8uaP#YG]AAC[a^`:X@q<@p3/@\FhL]ArZNOC3qqO2RP[^?DG*u/J*HX)JS
+Qq$Vl\oJ"c/;o;$]AM2HgRB'lV#U`rsq9D8[3$Glm,5W4p`VP%*cK1X'hPJ]AYdoe5p*sPhL0E
+f<P.=\m_'.0@72^feDF^"t/cCl7)5,)XAQmkogE+LaZ,]ALeFb#pn7M#O4BiinLpgO_.i.tVj
+'DFX6lfaJ*VN_]ACeJ_TYs21I<HW/GHHe[Tf.be31R1Cr&"()"K)a(p3+P&qMHcrF?J%1j%fh
+RpP?uoNMqoNG+Y]AOe]AG!sh<0#dh'8o"[7dO2h^.BVNXeg^e.)C'l8Gj;lKQRPl;=V\l=$_Qo
+gi@NBbRCJ=iT*oc)5!i*fcA[C)+e5.a86?Jg77pZX_/)!H+gbUO,`pq"W<hdo3\<_lHe0n;F
+;f%/@/DWfpCmc.42@2E&TUVd2lo_p7-]A*@:-_4fu;6()+>(7ePE@s&[Tlo0.<Cg3q7]A9<nj`
+l*\3omA[M_YT2PdJL=`e5Pueb[!HrbR0Fa_:2hDWjh<4p55_^$)g"Z2hH-@6o+5gp1JloA/4
++Jb+0.H(MtpZ+hD/,S?5';!Y)Q:qf>jk6QMZ.H>qG`L>M&4_;d31r'[QYVMUIBWXQ95dF:@_
+4)mg_=9hbn.q!k6dVh<cRX*;)m\c78opEd6E[!7i^&PE!AUt!8cIo"9!<_ZW^o._U@S;*+^A
+S.32X#A_o[dC_t,*@U\<[ZaM_!6a@,i>Gla.FEC4+,3$ON9P,)3r5=H_hLXJZ^BN-bd]A;KO;
+m:'VG9#W:'dd<9nCVrRIc$!_sNT,t6A$Ot8)(<[-3&1Fl=u<=,k/`R.:0h^8EE.^_Mo05R</
+#S+\m=4J_6np/A1eu8M0.TK>c;3dFHnYiJ#,d1:ESp*=:U/mg#':`4'/n\V$N?O%%lP\_<Df
+;m5rl&*n`$f\Xa)"V;]A%o,:h7ddA\uc!&,</a*LCot\XP>T=<H(^<$Hi?X&XlXmNYIeZ^+O%
+Be[i(@QP=#>ob>nf.F$HdKDC6IR.9`Zfkrg$S(>PAULjb3S!HODSHmVD?=C*"R8]AbRA2h/7"
+Qq_Z3DihPAtLVU92AV+@@:#i2PaBQ26pNb42WiHU=sam>'4o.LfNb9_H``g?[ipT.q2r$0Gn
+EnK4),]A^?D#1R&s)5RN(s2YAO/9Ec/TXNI7>?M?Y#Zi;<d=N0*Bu[HVdiE_.'tNYJHQ#mG)6
+i<$FNE:NCS`CGg9q@f^*bO1mF[9=8VGpLVsGf+@7:8i*^6%-0Ul>'%kT6<RO3qQPsdO4co]A#
+*PYQ(;9\c52hH$Onp2_>-1N,SaZcDHWecZ*6Ph4.*2U8*$_in[WCC>c*r+T;*/Ir;B`^R%r4
+Qa]A4o+A0"_B,%34_7Y"VFp$udpV`o[bT^fP\LGe;gM[,j/'Ri%riRli3goN;EZZ=Z0k83bO?
+W<on-.OlkBE[MeJ9/6aU2idX<AF:aC:\reC07a0(gis`mE8I-K$UBp@4>q\AD1tAcV\CkahD
+lIEDLJ8RdLXXa[2qWUG-rHE_Nt4_&#jDphk!_Ie5XOq*?A>EV))JT/_hK6\f[Vn.?X$I&*6b
+C5C7CcL1`\\dk5r@>4!Y"'')pUn?<FZIP:J8(?.;O/e>Va,Kds@]A\H!opq^[p,et^nP<'C"-
+_75Xp&IfA/D2R`la&R#a[^B5\1NO%j-S_^*L5T4,3\="d[(0`5fhglpi%*s8E6L<'uU6E;g/
+_h@X_H``8u-a,AHISBGr`8A4/RVI&r;:p3O)k*)bcou^19Gop&TGpTILI#b3#"erWbMGht-4
+/eK0L[+dO<c,66G1p)h8j%Xb6O>_n3$(Y3q7m#fpin%q+PBA/PY_fD)Su4Oi/B`uUm>Y!<g+
+"n#UF\1TT>nR^%ps<]Am6WCH\H5#H!WYoEEp3DHpGC1Ib<Y?4b[$RS2Jf;6_N0-Kr'<@/i?'_
+M%`_NJ2n0J[lo7d\K!!>,LKOY25H>[B5AO'q4lkYeu0Z(bL@KffqLGdlLhhNlKu:J<(FDAFb
+a%tC)^+q\#62apDe'oVb9=I)J]ANLoS67[qd?2L/nCe+f7J)%^f<`+VgACBrN.AF6O<f-'c!R
+^_SR5-q0.G^(;XuD;Q]A#$FUBa$+3J)KKUcgta6nO'20pe&JALfM+2K9SCLj64'kOp:1e^iRX
+kL7&h`VV;IiX1h2E"S>#7%<Na@MSeS_XRs*sH;2UoNnD9@XF<=d#ZI_!sF_3X[pLI7meR%B^
+W(1\B\(p7X@#:#)aVp8oXj'CUh<4G#092TSENCS[aeFnltqjL0(HX?/FMs6Bps#uRCiU$Bji
+1[<u=M[ekLjLc8E=cuXWAfRdHKDfl1c^YYuPG8?ZSl>Bo>Zdsf0B#r]Ai0GLY\V-B$A,a^k!T
+tKn3.8#ZQS$Waceq'jO80MMqQapqA^G>n?bo(*#nIP*</,"pTV14Ej4+F\*s?4_9!qiGqP)]A
+3/EnQ2:H^/Lo8_]AgFgk;@YAu%HR/k\e!4^Dq0R'Q/`E<T!?bkpQ#?J9V852;@S)DdbJILHgr
+sN5/USA9+GW@-!k?$\C?!V;8,<1/aSGB/7C>Of*asFG^/Nd@B?4/Dc:Um:#]A6l47Wup`UAGC
+P>D*A-0@)*se<9M<h;#LNe2SEL8B9/;<P60%55l"E9YK3&]A]ACEZ'B67<L92#/O0d8;tgBc(H
+"D<:9ZhW$=jd&fA<[F$08P)qI77gK<qBAgs=q.h83lBt)2pgp_`Fuh>!Z!$CM`LbBlG_*-ke
+.eS-]AVL67j,>T-K&FX5W8LXR9ruf"Qo44_lC5VprYeI$DYY?&Y+=`*6qQt)cia]A`L!XY-O\G
+XbY.5fP>uA@l*@obO":,"KmhL`T8KTDZ@sAEe@6MQHi.`JomHoXm<YL@.tOYb'2VK=#;pl0p
+&p*pmH@tW8?N_r''B5Yns\g"jYaNX\[d2G-M='H"QsuZP?:YX4O04kUW$5Jq=/hi,e?g3MQ?
++6G$N/MQhF_Wmi,T(qI%t;bP-md@<@A,>"EC+A%0=fh]A"7rDu`jqekgR6PRlM9r(UNTmJ@5Q
+I0,LXo#.`IOX'm-+h+9o,UB>g6mO*+)UP^qVOpFS9f6>*5?NC!d\U<IV*?gsh4pVaior0[^Z
+rsNotM#46GZ)JrCF3IR9$1KLrc'2]A4Yhdf.`jl3,h[OA[H%T0HC:^%O"+7:oU2-&?@NiTXsj
+;rV^*Ao7K4rMh`@+]A!iVX]A3]A1H:d=aAou$#m-[udL3Vn$U=f.1.B,ipP6le=18B&Nc)">nmP
+a%F19j0;H:Oaj5g6nJQ8T8uPBd1o,ieLhPQU;f(YFaW!]A^"'k`a\Tr2'S1rrO:]A=VX,g2T*=
+AWmS:=5eaA@"&9.(-]AdU,7TX+XJ7A=WAE1[,P:UF)!!g20FS"OZbM?.XDJG@2Vm+?$-@AA<;
+LH^co9<UkElg'Im-VdoHBh[GF`<#s^"]AH!r9L(jn!Dc-Q`GYg!I=nk5^i@P!CAi^u3Hr,'kb
+T5j9u*h.,-g:hn<sHm_eX;iKO.-?YfdRm_P>mUe6MD_Nhh%#.]A7ZuYNWD5>^fH)J%%h;`%$T
+Zr&iYD2/5`_WTrDJG$KI-"_Ntm5l"$KZk'Z,pbM:2\qjB1QdI8m\D==i9g#Ib2Hmo,ZR[)Gl
+"t[W]A-AXR(g\9OkhiQs*pV/[rdK;e8ilKH^_g8nm,RH-6psH@9>P_g9$,9"b5gc(q=DATmn?
+A82>nu>iRsUS!\0JScEg,[4s?&abdY]A;gZ]A5eoWCM";21ZNeTasr=9&tAJ;4SAJA+knqgg+.
+AK*9O-FipC'CHa)K?e)HjKCgXJ]A,7,3S!C)?Q<"jN^2'*2o+F`iD:cN6>\[_-*MHDh^,Z)E>
++f5*=.QTVdM^==hs9R7pd,:0*0,:dh=gEXO--m8'nq>%g3+Bj7r0)IfkXaL.W_DI/%%PLX5_
+do/"TD]A=nEd'Gq;#T*cRu<8NELFgG;,]A%Q><C2TB@eCN*kbV"+Pq3j]A"bL8/3oPq?jdR2N]A?
+drXLOWa/3!klO14Q'Fq2Ki`\Enu1HbR]A4B[M,9L%7Ep>)R?]Ap6$B+S6u*#qef7S?k<V\-h8H
+#oROA?YGjParkOZri+!EhF'?mm4_gIo'F%9=()u,Ge3'Q2*fY2bqHM?ieLECs^18$UQo]AY0t
+@g\9IPJ@h,Ns#nF<JG4E^8@p1lAG,F)CU(bE/a'1X@>'i865K]A'W;7GCXe?h\]AW^no(XQhXb
+XFqU3_5=eFIi4nK'97Wc@Li6YN_Q!#G0RTK'GGg-CYP#rUBJl3A[FZO'!5no5qna327>_:c/
+-;-mL<ORn&(Vr!sjE-0+e?$bJS2r6rp2L".-_R&YYb_OJuH07\*[e2K$VDoFNoRGt.piq&#>
+JSq#D&[fpm"moSqEWI6`2m9rUcpb\Z2]Am[(b,uG@F\=Z=Emgfo-XX<;Y:BrqdH>">&\e@<N@
+I,am(MIo;_P9C4QWTp+WREj)(K-C5L]A6.,<PI2CYV3JGM_&SECFUh+"?8m)AWY5u$5=ZPfo8
+W3MBXA7m;?1JZr^Z(mC*'o<6R30Y8@U9q7O-G0]AN_td-2]A&E@C4n7cuTc!\&-[>?E2k\_ALA
+<?p@+Mms/@MBIWfkuKZPs+]Ap)`pRHGS@Z$_'(n7ec?,dB?nALa#(mWW@na\.PUbe6S.3B,Z!
+tLFPZ9cCI%@AUi9,9@kaTMo*E1XA)N."Ir6,mi5\4h#f=2DW)CMm1igRqk4:CqG8H7oSPp2S
+t\J/fUfh=0>$g?lkE='ot^aO^Kis]AqGG&=UHQ1NrX:u:FWe8R.Q$sI"k;[u0Uj171X2aSl@C
+bH7_hS[BrDJ>$%9mOj%#5Wljt64.tmbDOeeu^E-nKhpu&j[nbM*/Gk%oFTUbU^[OMmO_rehQ
+-55P%[R&aB&>"@B6hkt)EBLL?dj@3H^]ASi@M'i]Ak%N[`W"VQDt$4X0H&7M)6jMIn2(OQWi'>
+Z\Snt`:eXSe@+>RcSV&tCEM;B7?K;r&)5Z<&U6&62le4gZQEHULS&0/9q!__7d?Co(#rhe:5
+MZTDe(J$IJX8(*M:i"dJ6%Q!e5dg`F+p;?AC+(3Tf0B/RkU&lk*"IpKq8jmNnmZnE'"<`F;j
++*iS+U0o]A"e6f[ED"^caTq?`:]A]A'9^HgWT+E$Mp'-Fme*^1Z,"9Y9F)A]A)!@4#='r".38PP6
+00:>W`%#/'jDHp-6f*"Ql@\-ZHPF@#s+r=/@fR$dY!:pffWlggDcQH]AK`<J1#X)Cit9A&hPo
+H26o$9@kaTQ/uTBM;;fo;S+I,=U*okfGZk!(!sj=\Ym6k;rHjk<Dr8f5lVOkit6Rbf5"eY:s
+A0E0u]AkH(+VhV3]ArAu*Z9J="qAGRk8qN(e&9G2L_DYu%eH;4@5bMGVDub"+Sp6tL0+VQ,jdF
+ONu^^CnH5^`MF0[-!Y-23Kl2A$:dZ$c[HW]A5\ibS\n%FVkT8gW:cbG9?7+#1[GS&-WT*XKON
+5o-g[I9)pP@q\cc.2;CQBmj#e>X+QHKlrSl,PY?)Nsq_%j^*.&I=i[Ws.%.g\h!I?]ADrfK&h
+4[Vj2(jPk[NgGXCcm95:OFfF:Dc)%La$'mV&k.\hX3UIbNKJCMQM&07j5i`=*)W6^eK(!b'J
+[R,o@ej,4X,JN8fB_PnQ%0,faI/NnP\9FCLJ?p>0@lD/>i_EVRA1%B1)+N1R+9CZC/HI7_Ob
+fq<nSg[^MRa%=GV5^!GAnJ:lS?\>M`JLY_!0Rn:n/,iIYsIuIMoUODh_kH<RsmRh1M"6H_BJ
+[2e(@fl.EUl0>%FX2/Cd9IJ`__k*]Akb/>9Ql1^l+K]A\f2)1t.MG;l<A>8Y:aSA7T4U=]AD5uV
+5qRX"&@\4biF$OlM;c]AFj2FJ,QG`A'CqknNJ,8Vm@h6*DmCr&2u*Pm*)ghN0-7W3a:,"2Y6c
+2N6j;_iI&;Zu4'g8!rcWOu:NuHpda8oM:@6fpdn`0HOQZK#^8V1Z1,6kF/]A@gK,4KEk+*YP;
+P/&kVWh>L*prFr3GlM=VN7oJI7adolS!m"HC#X,(.OQ[cg[l2!HK2p;#M4S!dS%T,[I;`KO$
+;DB:!G8)bB/T%LQ=]A>E0)K.2cd%aKf3f%i48$B6UF,VhZYAY/<$RP4Y&&+Qkj(K5"Vb:`S9\
+TR(jHh1cY&nRjHp$5=E@]A,$Sr?jCRE5jIi<E"<tCtcc\h%@O+-VN.W$LX!2CbhL\L`4UpF&J
+Y-J']A0?[]A^CJ4W,F@=AoA";kK:(%.[N!albKddTptb[5A_oq8)fJ!r[V[aHfPh7Gp+`rRBe.
+]AmBUF4[#%f]Aq7S)6rP2&`q7t#66O`'\SAL>EB*"mBT"6EF3)hNSZfdV*J'#bH%g@`H+h&[>N
+C)(C>^fk]AKIekL0=MFlDN?!X"#0>t-Af)lA"pY=Ja2\G.QS1kpeueJZ$SN@T0O:*`&eu.(-)
+<S2<Th6\%893\[:[IgXK:d256"-g>a+*eD*%?KPn:&_,o^T>Ud0)'A;<EB7`-LW=5kPj^qmh
+fp@]A!K3bK'0r$"URUm0,J[)57l4Fth)gk>t<I3Or<)pB@M"#k$UN&r;%[7LO>4XOc_e9X\0&
+"mL#?5W>.]A6OA3GL<-R$aaaui!^W\U!N@"l\QP`*3&$iXb-Cu$d=R^$F:h_#XAIA0M@@J'B=
+`s9TM`"qSjEh07O/33IWZ+/qWm_^<]AEM/l1DcLE;e^l>6RbP:MO.rlg67bHYdA#(/XYN,dUV
+@7-#,0bn?SZ=UQ7^AEl0dhoE@o3:,U$#Gcf*12UU91t7i-.@;@>6B:JJQ!@Y4oH\h8K;9pOk
+5/3@2'Ci5`QZ`R&$N'S2bKi[^NV6"9\j8d@s))m.8Qnl%i.*q'SNA^NBkFq&L(),$m]A9<JR/
+onaSF6cu7-5).6YLk>dm$$A&#uF1@?H6qjq@5X<fpQS,rTS3_E"^%ZL;br6T@@G&r#(b4\Cr
+X"a^(.Z27b&XgC)e%#=iAYO\`jNTeei@1W>$8j1r&-)08G0q+R,)d%bZ`j2eO*;RhHi&;6E7
+%IgZ._I%q<V8K-^tUJeqa@_18>"hnB:7^\mX155X\&j0h`POU-N)QPYr==b;"h]Ab`>[-Xu\.
+#L1el@0?c=&f_jm/>hJ!H\#m-i0[J.S,aO.Q[1b?c;@<skWi!B&L8_kE\YMV+Z)"irr2na3,
+t[$&@nQJba<sb^A81`p?]AVsT7;Tt]AcBk?:-qWr'TQbc@ut%5eF9;(qJ"ER00U6B)#A\+^1Q.
+1W5i78PFp[YCuCX6s)8=pSnb3L!Dm&Da"7ho`S5=FNPQ^LO2(VS(*b[F)=fLG&ocQ"'NLS8%
+'raJ'/<dP('P>Y0q2QVCQPGd)I.In9uYH6+Y]AAT]AfJB4B'm3'g:OW@[kt5C[VC4TL(,#P:PX
+F/U`SCdfOKtNl-cC43$UnO0Q&+#KRerdGk#7uFk9oDmBtQ)jrtOqePgm0(d+J0%-Pf_rQ<Xb
+?;oe3RBV&'']AiO*+*gPVjBF;D8mu-OdaQ[)3>`YrmML:tH]A0%2hM?*brRNt)5*7(S4&V"Y@e
+RdX>B53aBK.VTS]A0Bl>L:JQ#u*jlPTO9sCqcSeXaB]AXTVii"^QAT>%l0N#?@hpH!5n-X+G8/
+5[GeXge*0]A<[DB!>gb370H[,R=K(Bd'215&d7i:gH,A8mN#0NWAd[cWZ1L+<Gb7eWn0?ekWR
+$NYE[QFV4Y=^Y).pg6#(`!d/#rn!?8\=C-q!oq[\pls"G5L(s6kcrA^Fb0M*FaDgkF[7\J:n
+qOWX?T$GNE[KI.;p\IAo16(G<WHGMIc$?[pm.*1#TcSd:B+5eP;CmI]AYlW)N+.)5ntsm2A)H
+np-]Ar4>&?i,*#,nq\'H#40%YK;MH&1*ZitFFXt3%jr:u3p=k=4':^.npq`mU4?Yj2[+Q>P.J
+?LHQp,",^)QZ,Ak`",j!IKSH9dMI=l(k(]AIY*kd`6dldH\Qg0^.c8kl6ou1M/_m\ipG,q0l-
+nI=Wa>G/Eja+2n'&pW";`gl._@CbBHYfDt*c>Als2<itl=7iu1'^o,TEc/DLb:V]AZPS!e?&n
+`*)RD5*9m7pmM0=H$FC-LZm^ZT^%9l!u6n(BfVQ4XR2\'ed5l1;4e)2$Ubk%[o4gL/sIXL(*
+l830-<'\=kkbKX^P2W[cPOMDKb]AI,&o"D0YBK[u:D^Qe`Q"?Im_&_9lt(#)h4=ftQ;c^o:7s
+)^SgWfI1`=mOY9!0\r6ZF2m\r4A'_qJ`_u"N(;.5++J+n4<#4YUJda1>?P)H;Clj([+;3G9N
+ulR<YW3ka4CPpVbb@/a\uX2i.TbH)#3NB`1-u=d=98U2#DSJReM+D*?KYL00e4qO+0'j[aQa
+<\G86?W)od"^UH"j)Xo;4Ho(sH41*%&2r0".h]A7BdK*UH1gM]A#5`<RK4Ll[<#_1VKk1'Y(!^
+XphCjaL<b8;Snu2L4=E1k0BKR_1IDi)u);>E5GgPi3Ak6ua8mbV7l!56%@Em,<3LNRuRbM1k
+q4$dS8#_i=5u4ug2\K0opC3-49.2..I^BTR5\;-c"0VEo12cmpCg`IN[X-P'J]AED(g-as=Dg
+[/XKbj!JM=ET+b<_o0uq*'8>f!/(Q:"&2Uj'Kf81"Fu,sOca(:Rd8S/7qQA1!E3<2*g2_NYJ
+A/ueXb-7AZ6r+4*^N3%a&S_#DF9U3`a[6'_]AQn+QZ!(_P6e`gZ@0DpkP7Sp>m\2J*Rh3q;SG
+O9;A2hSqYi9.G(2YJStDdSeQ--)#OCqFR4MsDn=%e4=Uii_VKFnD*TpW%.]A#]A4D5/#H!QKM@
+al:sa3."B9h'&U\MuGS)XX:RTX#Cbja+DV"e:A;r!P1;'<.(\AstPj@ORWKkLjL?2-u>b:eX
+ldi-bLrfC8D'1DG',m+Jo1Q<T<o`r/P$R+e_J%a/k[2ss$SJ3<&*?hI;-'7^q&&g'd%oNqcW
++,V/goFt82f8sZB9LG]At6H*u6]AbnW*kAdP2e!DqFd;kJ*Kn^I,/3GB`$&JmUd8H'sSWC.:C`
+GHT7NN5&D>#TL^!dAL<c,[SAX6H/C+Vo9p]AM*jo*3^_SPU9O6G<*+Z2WkT-iY[S$qA94*H@:
+1fJh]A8;cMpcgj/(R7_C+?LT8F@U?9^hU]A5iF\;0SGIK=&DNm'TZL%uF0R-uIm'B^!qq+-tH(
+N@As5s<k-_!-CdW&UMT1q";B^*Wkh-Wl!g[9^"EJX#-2?tO#*;56SuSR\PfT;;g$V8qaReT2
+h:E6uB;qkO]AIDQ-1^B0>B;Vkn=l5q-AkI<ZT_F^D#cIg$g@35T&1$A3BAW"4oCL-\Z$LB`L;
+:g&bT*?JYMoYa*%Ocu8eZAN[%<F%p\AepCSS\i,>#N4gQ#Fi2*@u&<(fXgssdO,+&G;s*\U6
+V*"ok/Y.p.)doeDob=7n_XY!>W">(/=:/s!J783d'kD)fE1%(gLB["[ggKCA@;9&(.e#='/R
+,(e=Mn=!\$!1fba+LY9?]Act%_[RXR:>9g>-VZQ8;MZ;C/GhGCm2%<^roB:aSR_hWVmf3YQ_L
+Se:.A#_LF`q2#c,Mko97r[8>h(`3`14)ZIMFt`0ibIE8!^fb2ErR$S:A-,85OAR-*:uBn+O`
+#q-plqTs!Ti0KB_E2nGJU+>R_Mk)7hcC,D0@qKR?YZC8SATU-_gcW^>.U'8Sl?B`),g?=/3W
+#6a!NHid'75(hq'9Ul_!ME@)\H.FSb3b]A)<QoG23VU*3E8^fBgqe:;'aCfalpI"/sXpnQYkT
+j_Y5J0,J-$8M+&^?b%_^hq'@_d!04nfe*oUU3_0u2b2#'4j,%")b37L1t:7SJJ=SVUl2IfTp
+3jA"JL!t0[s]AN[V!:DUk7bEYmE*g(4)?:e-"B..)7p!kSNcu]Ap&;oN0@C>QUK##nQln%S\E0
+ZF6.g9bS(;&#--(BGX89M)+skhtj`L[99u'`(PQ5=.`f+Y:92s3F)m%`r40P3DOV#D[6A_:?
+;`E&CbiD1onc-1O!A'cU'a+-W7dN>hW>9OAT1Q=&(snLFftL;;!Q)_#L#aN`%tUZWiLZa+T7
+GS5VG,2g-n!*^K"0Q49L-8+2/REO2liUR`Ym\cItA,Imj4)ll:*'5&,Il/,dIJ#0]A8Z>McdB
+6b:@fQ`D*,,*c%PH!S4jO?THshKB_0k4\(GY9akL'7]AQ_Du%q<om^fd7(BK>nj'-LSJ2G'%P
+<%WdQj=$4mR0>1m]Ao(":a?NGp9;H]AT?qJ"u0>V8kqSC+*%)rS6;\migH.>B%Pa$[fh*:,.R?
+*qc<TM!TfnrJ;T=O"/=5p/jf[H`X9qjhG[OBoh!1E7Y]AqKJB<j,`e$r'HW<6;SaHJjMm\>o1
+\AMc0lYi;AZFIUO9HHlYG$s'HcQeMYlHmjC%Y&#W0p6G0s,PZ1St@C"qG7GSc8",TP+&eKp(
+Rs3i'=\CL/qoK[2E=/Qr?A[@dY*eMpKV*I6@a^_4QnX"-ITa,-./CUiJ-ZTgqFjs1>^?aJ]A!
+UHZ-P[cSifOJW^r"k8c/0EI$bKY#q/Rq6h-JCAa28bfiHlF:r3Np#cF]Ae23A69L&<_St^\fV
+$iGDgHTu!EWB(a+>[,TFLZdJTt:Ho`TI/`s)L<!^AKA^F.T`Qr*4;oiT*8If/LQN>(?o@YQJ
+A@1-pHQ]AQ#J=B'_/\Gd&L9R..UFN-5ac5!VZ.r]A1ndkU.Z.8h\eXtZLEdA3\iBK_,;]AO`eJ(
+5-O"Ti/5+Z+:2^]ACXcC_jLeoN8e+(spcfdU@g@7WL3WD:**o_pfQLiN.XnV;b/&%:lq`d28n
+m.(R8Rr::QHpb-d_&]A0I1_6dNq@UUmc,-"$>HiFk2Jh*]A"3X`H^m)s)NIbNAKO&)RjFiBSMV
+ukA0XV<)"mY^K_e?'NXLlI74<V@02++:%SHQ<D0go!9CY(0C'^Q<.7JL&6%9(6F%h>Wf.\$]A
+uC!+E6`TWg*S1hYTd\s1u(h@;f9Yo[Oe-Dp)5.GW`'>`JU4GX<5[KRYO]A&*oQ`f$FFr?GnW!
+iBD,kC_Dh[$5h7?NQ!391p6hV!c'<_"kf\aRgR8#*t\Tir#J9dkHc$nl#3&pk<Fb9p\?7V$+
+AF)CS*]A?uV3,=A]A]AnLlp:]A8]AsFdq*c8pc%9TH5&@ZM`k5ku0R;MQN;e)7If*b/k%o+WJfRUR
+CUjl^Q`\9ORBqmE#mZtH0K[gdXuP>BKdtTS>;p&B3RAbu7ilro\DFc;B=,;L2ON$[koDj-2S
+c%ZFm.2g\;bndK#?1`3/!IZONK=DW\b.pNNi\ClGcfbk2lk\B4mulhR$uqN#Xk+:`T1QW&iY
+uQj-b79MPFplHoh`pG[Z^\8Zi*O/Xbe\(YA.^WP^Q)NGb&d@Nl6a'1J<-'BP1s/3Yp06+g-E
+O=EI&pL`JRU)*%0?'TqYg5R'dVEQr<k<QIJFn^XmO3O0hOc@U.QoQiq%q>OW2.uE-6>:,q9)
+iLj%`+G\$En@CKp.GEC\s$7(>_+__M!9(>=)ngI8.tm"_5&ff.g3OZa37`_XO>,JT@l)(!nL
+2:R0!6NFXXl8tGI<^B[mc=Uij4&ei>^AT+>lfMm4[]ANu@=jhBM'd(=?T.)a!*5Y!\Sp^+N/)
+\e3&0+$Ua*n!dpI:TlEcNofCN-dJ#S'/I?H3a"!l]ARV-.,2M0MnaYjaQ@kdp6TMQ2kn5lC2A
+6l:\%Xh_N[O=P6[.96C&di5c_plM0&VM-!Ut%?ku+KS6=^>FI9`P,UEoKL'jmF*JY='LC-dR
+B"1Y;9[=mUcSL?PujWgU_K*bqBo&b_d1\jgsM<VcRZk`j/3G"*KSGTY#r?e%MP.F_!$KQ0m<
+OGnMn]AHAaU2T>-J.eO.V*aT7%jo%*'/kIVp_&A06MX\SUM.N#=Fk!.kb9j_/UXapKL_?[M`/
+);$9L/Pm"IGMX3Z7<&SP6(rmEE!Q[L,VZ*Q1MbPmj*g^4Z"(fmC!+iNd7@IEQR03ILZsK=e.
+7/KqZmV\M7kg\7[YCh542JR`5ZZ]A!kA:)5#`niJZ03J/s`9Oi,^nZbU02@C!bqK''8Zeff$G
+l3:\5X(cWh)g.)AD(l`E]A@.XhJi&(e;VfV>p:ke[QohkfBVqMCGF]AlEJKBh`\P+7r*BiJ?&Q
+`<n.:_a\1iBhNE%\5]AiB)u\(XWuD"fj`L??!+P[%Vm'?Z#7#ek&%KFpj(%;C;LC,0m4PNr8n
+6Cq0jN:Sin0"[Vpq\SLrDq=rPj3gVmFso#kK9Q-+jQB.SnM%"\T,PXSRr:fIRp+aP>5@g%Qn
+`UH:t$Gk-PR*X`.<%P`nQ&!AHi:&ooN[hq'`HaNH6ZAF,W",=u+?[CBN`K`r+%K^P$i!tMpi
+SLAC/<sSRO6;tdZF&ce`4aJ\DIT8Q&7hqY&Dm'RY%3Q]AhX+qjV%/1*r6U2,+$<qFqGiOE_='
+m(jZrr!]A<(K:3:O'q<"R;"]A8<G,Vcb@'`P@bj:OY-\Gh4q1NH6KO5lSW3W)4;<!]AJFL_Jn@P
+D[LM8ob.Q:KTWg@_77#4T%P()nlj;"dgT?G%'O%c'Yea*MtDkK4!2HJX*P\]AL-1:0.G/jb88
+oMG)FT`NHYT?LT`"PXkgK)93/.4Zl.>tB'gM<>e/9rh@UgS1"!lM%Lt&+@;;Q-@]AIl7BXORt
+Y]AJ%.,#q0d6a&:Yc5`TH9Z828j2R'7e:ukO.>hM2q)G<(\Z$Q0<Ttu+Dm^d/E-Yi3IrSjVTM
+u@AKM6M^K7&*-#r@+2(ZdXIG/BrBML$14GP?7&j(m$eEVrL!UL"q(pOE&I3/!$[J'C4Y\m+%
+,Kgtf/.:#Fds!VH):5]Ai#iR"t&O'dF<qUrWV=egfu4?P[31#ik=(Gl^jm]A:(Nc1`4i,mjp/p
+YI%ZG2Fh.m)DMa?.cC1!F+nqiSYFR\'Sdk-QGV8ku8pu8;;bd0.,"JJD#jI@,f\()#*&9N#_
+MM*;sr`G23@=gq!sd(B&h^hi5X"El?EhIl?:B6Wk7E]A^`uV!8);RFb]ATL9N>%.%F0BEl&<(`
+4KUU82`#*l1gZB,UUo.3fjX'hSOPJ*E1"A<\5ZZJ(`F.o#EN(U`Ij(_h6^I^pG:83+%-&rj3
+2MkR=YOef@P(M4J8+*Ge5l_HM&FIiKirOEMP"%N:^6(/)s>)b5N,84;3f(W:MnrXViA%i9&W
+MbZ?T&)D;#oCa9G#1>l"pJ#$N#lVFH]Ar/s0`P5jbMV]AOjW&&QdS!3YbHZ42IoBEWo2UTs:W0
+dNT++XR"JddrCU-OODOm#K&#2IZ;4X75Apd?qU\)/T&W_p2s,>hsYYXUURI?&A)99u^gQI>n
+i2IZA>:O272*^;m,r7Mr-kjl)l\pFnHfo[#s[_GG5sS^e=g@J\s6<,nj'>em2:21i`F"[891
+6ZAt.f%/DARt0Gd2PtK&/srdu0FTE>K=CI1UWVfREXk.(To/.?+CS]A_GK0U&f@$nmJ>GIS=B
+$hhks`#)i&L3`:#W`We*o<:q_u@=^NADmiPAL%NAT3f+&aYsF#SL\VBJ+!TaB?B>fN+mS9nL
+?Mt\*S7@9=:Tj]AnlIfsIg3T>2(OE7*$eMW\U0:.m/o5H02)elj:E:hd5Abp.d#"jSm1'Q&1:
+Vb@.!#p+J_MhV*n;UCN,=d_*TCF.<8@^p2h?(oi2]Am)V0#Rn_3^^hR^\dHr7Rri[A(%007VW
+emW^M?SoL8GP?&8Ke!=jZ)85pR\6e0TB0NBi%9q=>q:b*!3#)=4/VF$U19G(NE6.NI`38>TL
+lTbCDUZ%V#8SVG#',7I"hJ[co\%7`62W.W6+^MKq*!g)'=SR2iNp0Zss.e<4eIR-G*,^$@Ip
+[op,@@g=:jU444I\6n[%*;"dmb%(*f-eQ?_4RFqtO_2!uMW1,GI)\b4<[^<*%P`Ice1WS5)X
+G?q:FODqp)k]AF2e5/<t(W<*P't.O`-<j:(fPm))kN(G)iHMM\YU@-j]ARR/Z[Yb[7^sX4FAmn
+s-7ekKh20'..4R!:n[=Dt0Bckm8"NA,;.VYuh]AS]A9SB7]Ar2c(`!::-":'p#LeBQ'qU`J#TP2
+:f3:oL18WQ(3kS8'H,^/b>a[Wb.O:Xgo/e'iXGO[RL!]AcnVLZs\hd*J'`JYHo+$;dRA$K?Na
+;\C!0.Yo_#p!;Lc0tOaTHdV.UWD*>:)bi061cs/KOEG]AC]Ae(DTrA^gA0)^(o++hC;5LAOq.P
+EURU.`e^Q-o7dP'f'sF+V:_Ua;4CWg?3?R9k?ho,#\>lP"hC:/+$;ghp\7%9j'Mf[r:GeCdf
+S8&ZYsk<-'@$?/\=X_:QWpOFr6'D&kWZSgmK>*!qZ2Aj-"2-Y94R9ZB!GWDYHS:e*,-fUWC5
+@F&HRA)fbY\_8sm':\eLR14`CtaoGbL^4GZs!2#lYg@--O<8$Z!kNS_jBkW(7JC'*i]AZt&Bu
+t=U8ebG?.RKbE$CM(E2$?b_a0uB:t^(4n)s]A/TUCC!^S?EqN"ln&51Q'^-"m]ANQ>l=YjAo>h
+KS7\5Fi'j^[8&U7^T;f?S/_np-TOY"7;+'I/;/nQ;:!t^=TiT=3MsP!*.8pRZfG<le:t`qU'
+]Aodj-uJq$n6[P=TI?89#KCs^3#W@Cm<h27^%Fd1a"1Xm]Ar%.JjX+iS]A7Mkb=Iul`,la-566*
+npI_jT%VOHum<1?Lc?=t+Y`s0VjX("?_cFub]AE7,BRZ8I;:R@;'+)=<%C`W6m+>aEkiN_m7$
+>l..DTl=p"CI,c('C.R!O'08%_hdc1hK@;gV./F[VanKcn$tN(`Rru1MeJF=2XheG+/dC_9j
+9:K#<F=c:M_hR$O[/4KA4):,rk<.P@VC#`+4i5),c]AKZ861mbLA%Ibcj2'?iQ=[3).6nDGR.
+\uIO1"AD/cQj3`&I(lSVi&L;<*%(eV`R:VeV`^!#?<bBgrMRH)nn<R;IH64[7,G.AIgFla2X
+N6'kFg">dj5%mF-EWIHAAouJTs!g3F#sl(,)8JQ6@>6%_dM1L08]Akn3q$O5(l>D+t+X=;H+?
+HU^Z-oD24C>b*K-`LrGZ!V#mt>Y^DG9gb1W,&[;S&Gj%,qM"d<"I28^X49sdA0Fg=lR#<hkX
+:<f?ff6e$ILgn![i""]Aq*@p3BRKNmkBQIOpC&.]AkmXQscW["<d/PdgZ-(MQ&1XP,_F(*S]AQn
+SY3E-ss;?`PD2r/S>nJD`kO*2uYTcba_*sQ._n2@;%rgc;[SeDf%Q]AE:PoINrgD'>i!oV8;.
+=q(ZXBBh^(Vk;*u`T$'T-fo./.ZEj.-sb12+Q!*Q_;St*NuU1SaG\ac&H0Z!V,sXaqB::gL'
+ER&=^#Qs4F6oRU4h[eODm4;3/8a>MpfNk*l6gq-OnT4M26klM[/UFHEqbhJnI=sp'+#1r4jJ
+o*C#O:j)Tem5D>JX6TB&[37_s'L+g=;%caH\_h+^8Y[s.GG3npQ7q`;hZ5YCbr3UD\4rZ9fm
+go@rJGIbu#<c_f*))n]A<=JRlUBe[LSnBXf=*GD`02k;!PsK@qI.9Y#U1,V3AZ?+WJ6THu_8_
+HRNRFA4`H%LO^fH.IaJQa,R%!Z3"Li^2JreIJF9m]A*J-ZJeP^q1LEN<^R9\8XXkKr-"(7jFj
+-*OX.Uh9bmXn[5=XAWo83Q;ua57ER$%aD>-+XK50-$dBPmDr!P/\S$75q+,Ir3B"%1t0Ht-Q
+>lZOZ:PgA4M^@Gg]A07L;3"m8;qXM4SS]Ai_qP\c^-N#6O$UY1'0(=k#6bhDU:ak.re$"iGRR)
+<V'//XL[C-mjFK_oMRhU3huk]Aa0e2]AQS:*c/`nC`/B.^uV+/`T#fSTB<dS,Uf2A_S?//1NV+
+=6q(/6KCfUV@n'iF6OdP>oN.27fpq7+G]AATbl^a.d+$LPW>k]A<5f>'(N$FWiZRf3"HI8XBu'
+OmR=\NmBkXl/+Z-j&VL$js>m=]Al2gWldp*'WpBnT*o-6lG#+f-[Qq*PXtSl++=9fMp9D?pBY
+&mn/TIqcZnkJ(-+R$qUrj1b_W0&-2(hBk=8%E([rm?jo7:14Q[&Ud(3R<*9A_,F6p%=&ElOt
+os8a4ht,.^)qT.L?u\;PFuW2C6Nr0;5>=>'ruM@A:I6K-f&!6>U+J^ZT"Q=i:S:JMI&\)'"C
+=>AZ*;^6m^oo.bRRI#O]A,$pUrLK)$@e0l-.lr4I%p-4!:PM=QW#EYQ7_P"P>:R-H,&\md+)m
+Hb67`W;fPiP>$IfpIY!1/hm69q$_A'.+RX43Me*qZmX,6tB<KZ=Q\(]A1`aOW<hm4#`8h@T^[
+AsP4Y2\(*ccdH9s(a6/eOm6HR(,i9I-k>$4u'&1[Mu^6\aQ-bW2Cs+Hn[P7T31USf2I02-dj
+rFN#/(3&p;pqqeZ?a:@ALl"0gqZW3VSYgN/LLhfV%-c>9/U3[JjVlB"3r*Pn@ZYYOo1]AX<2+
+gK`i9K_4X.9`f2KLKo3Olk-;AN"!g%6ftSFCr`E07/7ZhU*e.op0Nr.ULhrakAHjd<Pc)<S-
+[%SM.mr4HVl`\1ML;:F]A<`4.8kr;0(\8IY:/V5piGEYE9.7.5-i0`"FH"VM;+-Vc\R`IVOq+
+;C>:,t(EuKSKoQduTos\B&L*MA8U!Lhi[Z)Jhk3\V,XOd'GDHBg^+T/ZK0h1.":A6$6dCkB$
+GYmQ:7\iuetJ#T)$\@.9hbP3Fto?'m>%YY*A]A'#!FqYg>Wk$^`i!og)q,RX[CYI&u2IcCb55
+du>k0Z)/R4Wt2t<mW<ISPd0U]A;u;s!Os9EU$-!hp)`DS"N0mmP:EOiVpdt:QKsWDQ]A5h:!Pq
+noMH)HiF<j%cTradBVXP\[ggNR')RS?ngAg?H?hMBjc2Iagl2>CJlBCst*`cg(aoiSl["u^@
+Gi?`qehr,i*q#t3m%NDCi2IPKq70YHL^08.?R0pj=^qhB41rT#%9N)(Ll&2F-[rDF1:J`;rC
+aa<JPY+Tf+TNE!!i'DVRBh&KnNQ@S_F#($^<ou3"3bk/XKI+H;!<IPkEpcrFU/dj6Nb7#V@q
+:on32.kdi!6:Ma#K^_(dNhrpAY552N1"^#[?qQeQq6ZtPUseOQ6RAieP_%p<4FJJu(jQ_0'+
+,57Dh2bLYBL3)%U-G6.e&o!bZLl@=KRs:PG[Z7TGjWJ8Q2]AUYdYfFd+<g(>d>eQq4\&RdrlS
+)o?.SLVNB!,<uAQJN/nWNH-nc8C'*^WE7EVRR"^c-X*(9Os^aO0&;q3U!sUS5R[BDqrlmG7p
+u8LkcS%e/2[CCO)G'W3Omj`Pa,l%@WtU#OEQ;e=TDUcISc$`4G5L!cT&iqsQlLT-47bd9\/A
+dT_IKRdcjl%Q?<@Al$&D\e43TsEmGrg4Js3*'r#M?g0G;@MCA@@4o@)YM]AnEP29\i:+"abb0
+6I,N9sD1)I;Jf0=W!&#Q6Wpn;DnoeMJa<W@RJd)AXO;l*%2a?lCr9KqHM>Wqd!AN.H!f*N53
+@HGK!h8.><l`G>>Tg5j3E\l9MftuIf(Jas<#W\9*IAbL*HSQTR7nt9gi>?$"UgWVJ[<PIsX!
+t@k@/X,AUMo3A'jQ9f!PAt2mu[-YGHB]A3!=NGrl!7D*dEg/f1KCP`^"PHLMMacWGS2-aL[Yi
+p)Jf%jR+aNUg<1$C#1\WH_r,)9]AP_H1kNK<JoIC'%YRh/tUsgjoFSW);0R0/2U3gRN#;>g/_
+\="0oqrgD\7q`BA/?-,DuO8)R$R-@]AQfj8B=Y`\G:H>9QOZa)T$ZN_5^&CP'+RX&*`dV[NL8
+N=WL./S&o^[IX5L3!"GTC__`nE-[LUr)D2ZZnD.$p&KAmo%&5ab!U?>V-+RMLPPiC)H5FX++
+U`iDS$C,?Vr9u.[bNnNKm=m#DebbAsJ=BMW4*EVo`ggBirl<.U<m(7\a,e:5C"&$D11B,S%A
+kYILrU4L8rD.6J`/&oKRs:s-/mluY'!@rI9]A.Wi+3g<WY#K-#*f;0[%]A''4iO'5J-8B7G=B8
+5W,sL5BS=?HR0E=B%n]Ac.l9f']A0"aq4.Xj6RhLE7e`k+80,g`Rk$95Wf,!\!2;EaZ<,9b[Gb
+Gf&MWt<%=Z#7O!078bS.fti10iDFK+Y#A[7o,XEr8FF?%gk,l)]Ar:]A,psL=ojE#<*"F#OM7g
+]A'U[lP?=>%\Gf$t^7!n-A92I_o;@DAa7U&]A9hjdZ?L4A0rsT?[(IR'U6BIM1c$aafSPc,T[8
+9-la'`u7NHoJ]A_Zp1-.\`G#V[6[3iV!hnNPEo<?(pc\8^&-3nE<"5]AP_SSUj5H$uc=GCmtX"
+K""Q]A0A6l4,G=VcO8k<L/A0XBW/T2-:^g&(LHRgTY$0Y?rL2@Bk37[e-U?CK_7/.kgp(_9lJ
+AHm!KUrdt"/=W[\Bik2??pB#W#\UY>.[1=FT38T#\N!3Sf+lT.Z#tR1!*%;cg:f:;GMRnFpl
+"dc?2`>L,KlN;h@d9IPE:E?_gA(e!dgmSk9KEXh/Da5/@-81/bFMCkXu9[f<*DL>=cF<j(Lu
+.0NNeVhD;uB^XPL)m9:)crm+HH>1FhU&R%=Qk#FXh.eHm`DVBRJuq_h,Z<"u2XV@LJ=B<V[G
+#G0e/5Z59TS$&*5lF&oOYb(S6/50&C(8`oHn*!tL:Gsm1j_F($2-Ap&MFG3:bCMfY<3\GLi>
+Cn"IT2d9)*$@Ekgu.GlTt?NBD%uR?+QLH#s;[W*'#J`6R[QJ.#X4Y(GAe>fp$U>(DNXO6N!"
+^P*(r`1T?d3GM.GSX.__8QEHHEb8"6*3oY7-"uuF@E%4k\aagF:QSig\6E.iQmrZQa.m#<:C
+i.+"bH:PNom/0NEdikDc_AB/nDg;nR/->i/7,X3(hBWOO*hG-DV`dC11b0l_eBAL>?FA\2;*
++Y_#T=+MK;>T$Sd?470niYR'%8*lfK4QL$qU#9M`C_IcEUJKqs0:^RB?;l$3Q=!151mIj<gM
+)4(qVS-TSEY/,\,qmD9`1XBELB@U'*I@`:qEq==6Pq>m==b_hlQ]A-&JAS%.dKkd)a2YKm8-,
+^*`YCI2%8CLP1.jtI_@XQTAfQm7#Mk_dR`Oi2c:j0AF^sOf7;HPXHL;ccRg5T*qb*HtN_#aX
+Mf&C8..:rB0935W$SWaIiY]A1<7aYTi6RYi8@8oJ/9,i*+*)<sO16cG`;E+%n[#R\CU[DZ%_-
+6aP0q`2<MWhi@"D@$n@,]An]A.T;cQ$Wtk:B`Dfi2M\":e$rh4lr=f9@N4a@-T!6"M+=mq]A'd7
+;<i94k_5#,ekM`f:VI1)Dn\#=e`E5tu"D'c%?-n6i<@8R>g9.H`Z0+tU]AKX5C#cd0\X7sOA$
+p]AQ;g5le1F@>F6qmVq[dLO2i#64Y&*5YO:&6D@nrgDa0gmarcl[)d7qQ>P>a/6et0%Mf5+fm
+aQ'Nmk0W+XJud2DY&4J5.=_=I?75duD$Q!^gq*'N>f*!a1EPEU48.EE!HTVOsOe+ui81H:FD
+)nTF,`ch7/dou"/eTjcpG86S]ALrB*Bo@X!)n1HkI(S_S8EhDGBFn(3Od/Wn8^,1APu<aD'[3
+qQ9M?;V(@\!9rkY*W1_Yd?a4acr#:rl3Ir[SD2-iou4]AhZ!!RO+L/P$j*0_jDq=M9FRG=K+2
+b*d<6&/3k-).R$U(Gn*gW/M.5Q\(#s[=R/hLFqr8230)cEBMXfhNaKfC#NJ8LT*5Y$Pb1+9o
+Vm<Oj]APcOdUZY!u+X$D(g>ESb?7..#*i]A_#Ks/OLa4,n.I8D#QqS-'>qKViP8W-_,<kIG#h[
+job(?Of\P";d_]A&pifm8P06k5XWl8+9R.1G6'!1B92g.@6TL8X/?=@\l2b)>4YrE"rK!AJhS
+A,4gpO3$\SH/b]AK?mt7gBMsVQ]Am+gWTc#t_61nN@[04f";;&hW\LA]AKR8hX>?3KYdTaP.O&I
+p$A_Bnq_@_LY'ENBU6\Ee_5FJMAH;hnjKS'LZM@\!UCF@keE)#//<:^<!phOiV+1\l2:PUj\
+.r0;c^?:-65@ajkmr5O@.GpdE;P^Vu(dqiX3`bVV!lN9^\<qW]A;4Wg=]AnnbO5=;tF6k=cOub
+H%e\`3%1W6LCCJDO0?sonI#bZ[pK\oV-IYoa#bsXp243h+o]AK<CNW$^ifBWrCA)q;bJ):QY&
+-iR4FRq/V$_9co>Y5o`a$QjbL$K%dJF*ECr:Xm4Im\H;'N[6rH?kOZ>A5Ge^-piP`!Q=hTc+
+P_!%r(:-g_d<$'>#&KI6G)J.`pe%I9K_ol,^L,:m_@:?,f-2i;GB>[,Cmc/u,*aA#;F@gmdK
+;2e/s.p4MZc#NtOt*O*$NEbn5#mk;R]A<r$S'U]AscQb>#6-=;!ljXAXT)c5g+L0hkAt1Rf()r
+#2LQCD1Ar]Ai"[>W/tV)/^D5(N5NAT7/H^slKp0PSNH3-oi0d-3?B8iTqb7e^/ZPl1h!&0,Dc
+#?ngp;Q?eZ=M8;e/D"gWennII?T&d97k_@r/6!ele/a0JLM;]A:Q`5e+V#H3X:,"GJJFL/<]Ap
+OC]Al<AKP;kp/\,hY*q,Rlr;q^m+V9i^=O"cdI=En6eBPp?$0H/F&HN/JTZY(_Y%B$P88I]AXC
+cbTAGC'W(=3`<hTc_m'kfOe#R0dOI!%QS'6CGIS35\%@t]A>qpKa>Q_4o\:\acD3_b/JQ-Eqi
+h+M%-o0;lajh'j2Jp?pj_KgTD9MXDfOa5RW"#HR[U#mYRiQNpX.^pm_&;U]Ad+beCAlZdq:10
+$`3<'qL]A$SgfjV%cPTiXmU/t$*K=9_nFh;).?1^:\n?oNZ^i9:3cQGG6;j6cH@(rucM'k*?p
+eJA[69#[F,g>[*trd5;5cfLpt>eGTK;I"AWkDLi9b#'Su316:s#ubGDQ/tJ?-nIi^GSn-jjB
+Q!lp)cBuDc&&iB320@^DW>A[U[cE)_&n",piCta"AaLHhp:5ZBH!0*SYd?A&IGg`efLF8VBO
+9gXSq@fY47UE3#=MlJVUZ*5*u:4tO"SG)JS26[[:`9LTplRU(pUpLb^1^B'@D%>L+NpBCg*m
+RbaGO9)O*Ee77;nm5M>dqgX03kL?Fnk'U^<1uRM\PQ7P?@#pT3Q`fT2Gp,fWQ(>'$HoGgr(I
+GAiY/TOb7E>1%*Pb2E"F8]Ak$:'2)BG/XUc]A0[!+WkBq@-Xs?*(;Cm<WU*Z44G?\06C'p$/P$
+!^TBLZ3UM"E*2L@Pp%gi_EfKr_!o(EB?sTdI$(/1ZR"qGjsf"&!_+Co^CqUcHu<H4qZP%<]AB
+n5B>g0q7K!OsQ]A#J0dW)'8*;h\[XTH]A60P02Ji"'csQ:.^6QTqnt4C#WD("BQ-q]A6hH@c-nA
+dH\3N]A'@AH:)QAT%hd*$]AEtX,=C>C5<=tAmD@4QM'gPQ=28)hA&8C'CG8s1j3A/fq12VPYe1
+^jH(a\/Xn#)C!-j3&.Ua%KSdP65<o^iI2CiUOFM33_3$H@QsNq#fOl\+=a[_l,b2!WN)i=BX
+/'2$qGVWXO,E,t4)`<hcOg_FR`S64K360_"h$\R:=o'76P_o@t:8aOgSc3.)_CiXZo>85NaI
+$aQg+=_fs5KoMlYhgeNC83DbCB9EF_496WBal8f8VPG=\]AbVHn&f=Rd6:8.(3.scu(TInWO2
++X>qdbBtgqJs6RW:*AZn*ZJ'UV@/rXIe=LWTG_otkGclgEod4Zjo4-7^UYY&kI[.B>:'(Z?N
+*AYLqm1U7Q+((D'W(]AqV#E.F2>^>`k:NSG=goRp>+=kbqS6$""c&VL#g7rTe$'=mqX31!j"'
+R?h0a_Ac-=`R+QP#Fe`dKGqrFC\p>dUZo5ZVG5u@0d:B-EaUF84^6=hd`.OTYY)Z>NgWJn1k
+6U&Y/k(38q:'"G[+e\]Auksl07^?-O?cQ0%R!4X0/J6oMoII)HQ?!-W>uWFfJ&A=HjEqV$mFC
+'E=H6#S7r))7eo>A"A+C'^8bG31G6>kinU4c+oaS9Y$aG'LF&!<4SSIi1p`;fm,S+/h&^,'%
+7T?Z@%EPU+AO?]A"6a+$A0B>7O'nm/T;mXNRq^uLZQ.DY9pOgp84[_f?Nj$:`]A\VWJQMTg3uk
+l-ka/.Sj%^Ep%3s)Ih3gu-fCdK88^^J$CKtu0-[<eaB0"GQC08&-l^9BkH4s2In"Iu3M`OEP
+LLl?pO"+k$B'l8`&T@DD!>84?9_""C<7?,^#*u0T7b`$cMn.irHs47qmdANa1iQ0G9B-Mr.R
+3'>_=e/Shd/p!C@,H,L/pX@D=0GpB'Df<!ZPA9$.=/&nFXLIkJK$mQ6J'rldu8/O69Q3<hlc
+!`)9d0!b&Y@^0%NaYD@:a2GonMt^Btb47YF,+;b"3-mh._.b%Mk_>f14T(8q]AtHGp[Fa]A&G`
+bWVg,r^tK(,"k?`Irao(Itqb'00>q*cUN.kEF#>sFZWLiYQ[aND&$^lsnGDZH"JTNrro7@'n
+"8MS?mio;Nkr;D3MPX-oS0#g#9hWZ#I7W>L2E-OT#1OXt1L+"\smk42+o\@+5F1(e<#,QIb_
+^MMU5_Th%gZ`DX:9K,2,HAZLF*:jjo!fCA\,uJ[AOr-:F<EaZrr.HT*q&G<Lj-,^@-Rcdb36
+ZZ"Qp[)LX>P)n-HQE)^@Gb=*E*Ml%b<>'q\F:`hfu@jpF5Iid$D=3)[V78]A>t+Va/[2=]AI=O
+V(,-)[$5NckIJV[q"X\[f^7\HS'%HAE\fN\NSn(-i5k#9W(7XB)f%QJO/kp#H/>7]AS@lH5/q
+?0U>FW2r9;t%=L2gh#O:B)inLj`89(p<G(O5iDF`MKTduV8r@DH7Z[c+,&_7<mgdDe1O?8F8
+h89oHi%H6j^!b8>-\Tf!<RYZ#goIdEG&&?fKhp^-#rTW.@/clBLF#%^Si!%8`pG6u-,<1/SE
+;8)>=a0jIK(g8eOn78ePe%sOjJ:cI6q'UkMQ2'gjQL^#Nsq+'41UO>!eUbOXi`JPo4J.QN:4
+`Bdnm$VU5dLZZe+BXY__cN?JaNhFuqd0E-$)s+-OJ72:>>H3%!S5rF`9md2;m_2"$%:BEY4f
+)Sp-H7W99@&Y-jSN(.b)j'RZC"*47q]A%Gu5hZ*WV!(fUS7'8jaJc~
+]]></IM>
+</O>
+<Style index="0"/>
+</com.fr.report.cell.FloatElement>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float116"/>
+<PrivilegeControl/>
+<Location leftDistance="25565100" topDistance="24841200" width="5410200" height="5410200"/>
+<O t="Image">
+<IM>
+<![CDATA[[$P9H,ttPO-ammHhQ]A5KD/72#D=9G?R91-Wk/=]AFk<.q/pFj0$qX4@0X&cF(>1N?^XfNq1"H
+O)nj2VZU=W%Ors7V-G?*M]AUl1$,Om#N6/(:"RIl<\6BGu.gLb=c3c]AR;O*cCQ121<HP3`Cs?
+jc7E%S5gL3U1,:;`NBAjK!AZBOe%s',d-/*(Y@>lVqK9hk\,:C#p@ls/k=g=_a,&jOOb)>b+
+9q0CN=+3S2%AP!3K4TXE]AG8U#+X[+qS%"Crt?kIH3IiICANs:"Zf1Lj8\3?a0is+@DM0?m\e
+%6^hc2^o5[t9P6=kjVi5gC4r2Nf714QconEtQng>C<<?^4@]A.o^3Xm$1l+dbmP;^&eZe6>u`
+g%l3Vnu"Q2j9;gsRdgiXbd2"ZarGd8VI_1;Da?("cX`9N#-S^g(:)I/nG/>anl8to\WdlTI9
+h08#NdcEYX5r-3:i,%2S:D-M$SpF:TA]A'faKgBgnaBDZuc%&k"eAk$rm=7d0bPJg?X3&<J(_
+u8^AdGVnB01ekR+)-)EgbiS7NqT6BL=e(\9NoCB6HR<%Zh:KT[5o7]A..kFY`?Vn*%qr6#R?o
+84-&.XD'^*/S]Ab`9)gEo@#j@7*#DDC4fenlf/\Y6QWaoW0G@BS;b;kf51CJ<h%7NQnJt12Rq
+\6j'`Ug@%Ha2KG]A#=>'.obSa"liZf.IXCES\Q&HU>rDTo%sMi@0Br(AjkfSa5sY+[Yql\\.\
+ila@[)a<K^^>h9_d9sC<2ck=5X:F]A_(:1Y_^O0_Ym[(*UpB<jc@mtBpK;&)lg6,h[I#aP+.D
+E?."WEEOB.8#E[OiF^Ck,6<PRZM)PN<eEbq.AJeDDQ]A^.p*@Y?\(/4^sSCM=c5"/MJFB@>`L
+L<uZ$VAUG-G6l!fNAN9o4913sFC+]A'!Ne4KqkQ'A1%A2&(rnWDmq>)^WeWuh#+oD0/E]A@[2g
+&fd_MlD9Ts+TIb!Mn%?C!C7b-JeY54]A"loXk:[n_Cna,p]As,Ci%iQp6dNEN/alX&8;&il@"Q
+kgJuuHO:H,Wb<i[dJ`hkoU9_M#QmsO=!$0=o:BuUdX2T\(D[6-)/;@V3"$`"(Z0%QBUG;g3E
+YN?:U_.J(+;/O<I[\Lkr\LJi3>:TSCXhV/`kWMR@i%Nl!\)2B/?Sq.[J'gra]A<MQIf*2KYF@
+Q6uZa,o0Mn/[.=KR&q>]A^kf`OHD-aH:e'^-%#[Vm%Dkb2(AWn!4AUIq&\gnbBIC9D+4p^&*Z
+/@Xjk/Q2KMY3@XnfM3q*=S%jOtfBcK.?,"8=.nY79o#;UBYq"A<5jdHbKc6BS\PRgS]AXAg7R
+9?2L$Q:K6+@4oG(\<EYj]A[>^_5k=ObXP[XG]AD=W^hc3s(O(F*F6QEZDc7>YH5E11jGCoZHgW
+lmoM<`-)JMZ?J8Yi=1N1;2.dO1Q->^SD"9'co\L;[pfsf4@;mk'B`rgD]A=P$HiVD6mr@NA7&
+jjS[:DG,2>AOgmtjd&o`ZJ$92\$Jr;MF^i4p8f&#_)TKaq!+#,p-Us=qQE<O=#j0nprcXWVW
+eGP54Y]AFL6HI5'2)Qaj5m/@eQ2-[eLg_da,(0rfkDkuCI'R+7R7aMT]Aq8oLQ%j9\Hs("Tp6]A
+XK%F2bIRbG9hrUQ0]AZ7=qN4IGrA%ulJO<U%\?)r$Hq4Ho)PqRmc&*D%jqF(E5Tk4rEqf<eQB
+bN1<F9[>2BsI-,F-DKX=c9KX2BH&o3?'^B1d!UM$$9mQc5`S1i4Go"rMbcbk8h2Aq!pL\)Bn
+i<5=Xpf<n+W*0N,!I8K9U:QWg,U-;_k\F%.N;aPnWl-XX>"booK6W5csK(rNd6T]Ac_QZKp8+
+g5Q=LAAlA0'/gEe?p!lC:S!eb[$qA0<IJDnCE^Cgl#M=4Z(ItL)Z%rJ*]AUFM%8&\oEm+-ja`
+ggcTVL*6@2SiI7gR;tVRsZ?Y<Y_)icn>+JZ9R7q>Sg0^3@;#2u[:.Jg;R'Bmpg'D4Zb#7kW.
+c]A=3'e+ln1YZD+MO>g:m3^D8S0M.%)S,[946QY:.VDE?+:I'$A_Y&"Fjs#VWI7BiVJOB&C;O
+I$=TG.ZM9EjV7#Hi=sg4U;&NZ9V=/9oAR[#;JSN15,ciVBscG/[fYCJ@JEj7#F82o7<Pb+to
+[mcVQDc?VMgj\%tC*C5_0T\ofmpiY#S^)YZD:/0k+n:i;4m!nlQF*Ma8PrSqn^b7G8mQ-t0\
+QE^N@>aT!ECua5V^@KC;Y5Kdso64jI9F4KnqU@4fm%M^ZaChR.=^_H$4^=(5+n%?5ob8C60X
+hZ.?Q3\XC%BlnB&iXW)Frld;SoWI:"SsP006BhWq+_4B'p/B;a;H?5j://M-/cRoV5dp5b?R
+T+fdJZQL^6#I&W2lL0Tf+5h)n.U,j@GT9jq%\Qa#$:KR2ADOGV<8R^thh'NcFqJ,uC[d-P<Y
+ucR5P!P3@0^;E4]A(DcFm`Ue)O9k<"<LQ8?8WVjt$CSj68GoZ#f=a(04,>OD]At=G/\5ugrbhE
+sq1DQ).*-P]Ag;h$&E1$hkcIj;jIl/Mu_W,7aU:-Qi,I$_(0Nb<3.l0YOObodUqH.`&!&H2t7
+)8Smefo1#fZQ*Df.8+J5EjObf]A'G?<i&6[L/b6"1^6i)%g>;?>=Qj,GhGTH$\KpVdlNip8Ki
+$o0Ad&gp;%L4(hW\9H.BmCoAKOP2]A.N>q#QN8n@ONE"?+,qTDZbE8HWbMGVRZ@C:Sde8>QfK
+%:`9bC'0[(#R2&5[Q*B;b-lRmj?2KG"q]Aq=t@bS]AlbL:2Xq&[NR1k;W=:tI$coUW^sWi_u2d
+]A9Ag4b%alhgVHFmY6qj,l`,#lfHdt)n%D2^t]A#T*HOb_b`7J8PO2ocU<G,"U_/ZE%X7sU'cV
+[Un.CdS%_F!@hCDQ;,hjU`[hl*6q8So,g0&4]A-ULs*2/+E#<hN>CRG\#2kdrR620P2O@s+'6
+Cm[[WlhpZUc(X]ANi6!@hU)RY2Doe'!g/p`q+5mT$Xih.NDF;E[rCaV&,Pb.Q%DDSn!8h?nju
+hNq6Sk%GNp@U4\CLk&lr'I$!n?)&>hO@MB=EEAGD".`Y%fEY_3(CZ,Q?i]ATm^MXpeh._/"c/
+T=a7>33n,Z1./m74moZKO'%ZEc0d4(Gp4S5@9b%;Nb7ddZYB/c)<&#=aog"7@2`apW"kbD6E
+cRL<O$@&&<Ac%Rl0<\Ap9cVQ$W)XA46!+GLbP1BN,%8CeD=6b2=P-!,""W,3`]AGd$PY$8Y"s
+[B.5'M5/fj$*F<++7UT#u'WGN=pV"B-Mn0B<l>K*pL&gN",T</gG/jQgV8`QaXD]A#$5D<rl^
+B!6=Y]ASUUR'X[5/SFYa*@EJ.n0>`gD9,GKL3@Yk@l?&0re#B!)^p'5%1]A1Pm?D)=*MBG+M$C
+UN!2]Ad<%.Qb*qH^c;!ps_UHrfl!keX]A(TItFC#Rq-j?Ye&KI%]AfmD'IjlE29697Q&>,]A?[BM
+A)@/Ni+7fZj\T&X'V^S28H\3igY[^AA<>u\['<i&^P+Y.dGk:c4f>6`BI%HFQB&cTeh9cs#I
+hTMjbbd&T775F703W\d:?^uSB+DlPZ!@m'<C2mth]A3l=(/PJC/MLbL0HSF3kgM4#BID',<T1
+*o?6'4P_#]AJU2^1fbRoBM?h*qLO")*Bf&.,Fs\qi_6&a$'K[s"u*'BZNFo\q7^G[_Pc3h;i,
+$'SJQ[2+fQ%OoWQ%<r*t3f#1X8Dm/i<\X$cTmsVP+uHpWKs%9'!YH%Tpe443I:pP>jBNW4C1
+Ne]Ag:oB^o_N0%/lehIEhqE_pu?o"BJkkOYrQ/TZEM@m@PjNkC28=H81,S'3s^$hg(FaGjWoS
+@`#d:hD^L1X$aSe<W^ml4&6AuXm+TQHFFVhg!m*f9[K?;<Y4Q3R<_aV4Y;0LM*+eBUa#?VBD
+&Mt#VhRWopu:s!ks5:B[ig2BRbC))X+'%.f!#LM1+lLqat"sjJtu@IZ;i$/oH_kb:dp</r=m
+r_T)tE%E<W_7:)&.3e^oM>b-0<`6U-Jmj,N5sU^--GnBF,@>U*\kQY=huVpZNQ8D:`ujg6[%
+Gi.)DR`,Z#]A1Hbib[&dCG,m#\SQ]A?B.Xh4p"o!>52PVf,U9&-!BMo!Na&`J@/hHP:iLc>_MH
+N>-F't"'pkXcSk$@a4IgCh(RDr7&%cJWXd4.#E$.BbG(3[pf)cGGghar8j>=)P>/j:;mR.o9
+;C[6H)_ApX!77M&KMkbI:dIR;?%%u/NK\2htg^.Ik';l6[SB7k/VulK$F5Cl.n2$%n'SP0&^
+mS8iquTb";ag(dP6C+_llg$LNLb4*M;h<R-3(W%r2MrlJ#Zk^E;S;'nF=!.oZl':0H*15JG8
+Rl'm5Md=d1lABplMY6O=[9LZb9qjR$;shEu`UKCi8cp2);J-N6pob3T)\)&8:)VP[t'N.;o*
+TdWH<S"i4008hS3Z*HlLSdd0;$N[;F1ZBtaU,s'>IT>"EQme]AP2q\q=jhKW+!*/hrJ!2f+a+
+Y0)1"LuMhiu<R5d<>2A#:*59tNsQS^QU'?SMji2<iGW=9rBS@LAs)Cj%+<eqYBKMR!NJ6oOW
+IeF2jH`bjr"0=n:*5&bpm1W1-0KD^HN1c1^LZbnsBYl!%Hd$Z1m2UaYa=W_'C>H@kc2Wh$7i
+3G549?@)(-I1q%-3$Bkj2%<k%]A1!rjO]ADfgc.c@DpoZ(`FF?o^3DNkR35r$GH0haLi4An2aG
+H!S-Hh(`$&G)]AQ=uD,ulcq<o%bgV59eOf#VG-SE*%-Co_)rRW/Yh(-ZPe;cb"<J]A16nlLa2q
+41;]Au<'(oOSCZ7YJTYBcMs*eA"7rhu'RN1rI]ALO_Xu26j.MG:s7<pdq8k'V^)2_XS$;I;?fQ
+c;apP=[-L>Ba]AC#'co;[qjG"a65[9P-[T=@=f3<4lcI-f.CS`0AY%=gRMM-LG:=Yq7A6_)l6
+]Acp`>>GRWiu[j[d?eOjc*=Y=iV_f<b4Ao&='3`Oo>"J*-2g+P4UCbPb7kg=[:_M3rWFXG.?;
+Mllo3gKLk8.aX*Cg,mo;=6==aBH7[%94nApER?@*nRaHenQ]AVj,b2m"0^*4i"=qt(Q1m[Q9*
+Aknu`3&n@F)B5rHBUS%8>V!OjVKBmYN/8Lo`<%o]A)qZ79S(WErrW-P0^\nl_=Y?(<Nt$C"O!
+GLhVYi6,`hV'RIqbEf^%"<^'\UBR-5'2U>996?%Zd;mUqCLlN0gm#SD0RP+0QgUX)SY4sk=\
+CYS^3p]A$/3VB[;Am7U(GK#qj+>G,ZP6;KMoPddRG06OK8u4_NQ;C5(fS`O`OnenO2MLGNF(I
+crX/pB_'V-I1OiU8PlA(,P&3]Aon6K)?`_PFM=G!\O>`8!iD[nZa/BGHRA7`SjL>]AcTG7LWNr
+B2]AH;q7IUn^?etq"npJT3W-MNL4u+#3G@PE"GF]AD6:s1:u+*f]AODY6Cah4Ff3(>"._iSC4mN
+''n$[#6BE54G(dPg%$]A2ZBKl3e5\`96hShCk<5f+&s5]AOE0T>cqX]AnQ7U:Q:Bll4tZdPUtSO
+1a%E_Xr)'9&P1Z5:srg0'Bhk:'i3ikUQcpK'BM/^h[YXerP7L!b4EZaKo.8CW8fA8g8iQ\?^
+S[2G.%'o9N3GXd"tck3I45B<a8jDpA(;3Oa2[UKNmZ=Oe6,>DEJlISa2_o_-o:5i;[Qt(]A2Y
+fE]AQRs5bh'":1_Pq,Hof,Oa`cdHI\.gWJtVu3]ALp&jb<Mi6:RmqSMjT@bRbY7n!I>nh%[=]A!
+J6a\E5B55,U2kWf`$D\[>7!U^j235728lSdId21f7K3IQU=MCNf/kOHujelNC.ZW;bZ'JXc-
+;1Mi%%gZF.8DL,i-Ipuat33l\@flYTW+R/o#C/sPA3'Kq\U)W#?,RDH"`[D";OkW(,FO/V-$
+g(p'<?.##;NnMn`0FN&OBYKE*j6V+8,&4Sb+=h_1(<%K\a3-TW4DiVG_TQjY!(H=uY.)Ve^/
+m!=O5C@pq?EpA-4=sl&Qk:#M'`c'o>4Y-?Vsa&j6XoX"At9q_1(Hrdt8,DRsXj%=,`b,$%HF
+e%JZV4go3:9\f&BLar_#sh&hCiKh=8FC(4%K+6LH*bB]A#f`HV%L#'X,EVA=Fp=BQ$2A&0<P^
+SS_>clU13P0&Q3Vk5?DRG/tD;YANkUXpT#[r5l'KH>B;FGSD1d#hj&6BVn-\If(/6GiS"&,B
+6=Y1:`O]Ao6RC)8]AR#299E*mXt4Y=c`,!iU[<;?^M_==0[tq'R.L.=b`^!DMN`=X#M<(T/M]Ag
+r1,42W(#.tN6YTZ8cq9YMURm]A1DL_r)Cl;fe<lROiq3NUE=D_qIC^t7c$"tBE:QJ#$]AKC6`H
+.3d3didm@rbq-\/ni9Y3nK'W%O:E(U_oH50g*,Q=t>/A[u@N"_Y8m!/Eg,%dle(6C%KQ?B-a
+jQa_0TN`Znh8bN!rQZ$kO+FW9SKNMpRi,!^kjs^%M/,@!T$0P'f7:oKiA24)RT\4$HI@q^1>
+s4!qcjIG3bE>F^B3TVtD)lV+>_ugZF5S4Z4rl<KrhJQ<[-3U=-a",b]A:i#!HHd/5cUs+`:Ap
+-U1+:u46;$d?FL!IHR>#PF?G>b'7p*guof@<#h(mM`.;s):raRO5FFF.</B4pf;;JJ*l(AQ&
+:IBo(?r.;50Q\>*'PRH5RA?DS_i/3D4"uJUnO%?R'F`AA=l39.<5@p5\WGO1oUM0`5P3V4I8
+[=i+YbXE.%@*<4I"po3M\/?JUASNa4^j>8fB6HpHMiR<^\Pr0E@(B]AmB*,>f[rP*_O:tH!hE
+"7VsD!ROO?+R/Iu9HpO!.R:2s6+kiMRhn`maS7+,7b9sSn'GSpm8#,,1aIqk)(8lN<obrR5n
+r4'`6;6;ZhEj%53/AfPZ93(@`a#+(Sg#XbV^J]A.`*#>Ob*a1B_\22lMq$geP2]A?Sbob>`H`D
+gK9iMb\l$aG442Dd/k"5ddSKAUqN'H=&s&IaU]AVp!6E7dlBm3&dX`J'#338h6A4eWu4Md6>"
+!_Y\>5PEu.h$L[A=ueBs/7qF@RAa\?7Rso&X5a]A8kS3M^-n6E@6@J\_&*:^G]A0ZX]A3>3#f&E
+E=(j%<4+#RMMppC<.+GH[gF*171(6h?&ak!=aMOtn8F<:nWYM"JnHAa#9pS/J?GUIFdO:db/
+4L+bgC8@3*C\?\so_N\@bd*Re9+f8PG"`&8,OU.,J(Z([Ss!U,Q:6s,,7S*7\3&p^djN=d^=
+WB2rY-XH&G]A%BKVPL*gPEN4_8OLrA0/'4/0+VC^)%&+p=%.bT7U0eno<>kjrl(-9G&BXH9@>
+_U;mM598"<35qd>#)Sm172?>`\)DnUaW*>\j1Nt,AS`n;ZX[scg[ouMS?L4*W*n^i4N[ceSi
+F'!(#^\\qMKLI?MJntKSg2b,>m&q`bYsCEa\4G6=NtN<(5C`)BT#W3-)m-4,okht8Lt5dV[C
+Rlp<%^7oj3kNKrV_s_il5$L;biLAq\=.,E*(ompYt(W,%fStro!%.l=DZj2>Uq3U+L%(/b@A
+1.<qltc(pb^>,C;f-2L/&kFW,N`:+':!)YUsb#8+^`D1VgrMSr.mq*V!5A1N6J*e<.LqH*.'
+trtJ^,<bG6;*-HR#2Bj9j,h_OpSuUc5RAY1i<tp^nJq`Rlm&5p<#1cN#e8iI<nEO9cqtK9lO
+Tq:o,Z9G`!Ec=AlURZ=*t0SKG;"hiEDUUe[\8*eViUE5MI0H\=RE1:#.$gcRC,+FJ>tF^U<\
+pJb&`bRZ&Qh&CJLNWA(++KYXIa)Q]ACO,OJ7,t>,WoQDd-em"1@3=Cbkiqi9o4D0DR[GeWNI)
+4]A!2o^n/RK:V@M=:fFZG5UQcd/Z?U[?NUT7R[de2hNk(DEK\Z\9(hZ:RFHb`T25!IXpYK;K;
+]A^]AL*QjtJ!=ci+FHV-=9H-/%uEOpj1ER=#O=)DpUqhpdm!4QM45niFJIi1K[V?c0is%qEl]A]A
+:g'JeMt+XUns%c>k6DQT5k5,i?Kh1HWub?\[rS-C!fTZ:okJ8]A_&65G#a6Cp6E3?Q'hPT%qG
+`$Ac+W]A@kS<b?eE,H7d@?7T#]A)_iNcb'd<c^%HI3YU/9nUb$0r"qg""$AKJRt)L0c,j^^Hte
+TU/mW;Jreaic2sqKS&J*m`"+%`ia*a!+&VB>E'o1kfTLkAH)Ge9d25DO5A71:jP5;5;kWo',
+(IDW>p*L#HnE"StXQ#=:s'O=CpuBU3D<AQ;9YY13f#U2$eC\BKI`c\pMNfY7VF2>LCNpm;;P
+>15X+cp]Aahf1!#i/`(fb8n;%#q^KtlXbD##P?Q6t)patSTU-"bKqn,-;M,N>->%pW5Xa8,um
+'5<c]A89a[PEjHl't9jl-^=30^?M`e^k"9XQUh]AXHNmdRN4i>VL&[(6$Cc9tVrN:>KHd2SMq&
+gD')ZK/:X=9+SRFpEIR%F\P3[+_/#0[8)6Y"oBto6Ap*UNUl1[)abWsmr3k0nX=N*GNan]AN,
+/W5EH=2!iPD-02Ns8"qcc&<lIAhteb$ISg$NO4:2)F)!^Sc)3kg<;)*+f(-KPG@0hqSn7,pr
+L<=)R5Br7"%5Q=[ba+X#NpN/i,XRZZarM3:)U.bHFG2)6+pa:P(N4i;bW[_Y)>[UX7K$_8`o
+`OGF.UA;pUEe:p&lnV,9"SldKSEE^08D7_dU!/3+9gYYnDq?WNVU#:;O]AUjC(s*T%ShTDm;-
+gTj#p\e0rYI-6fA6AW.TV2<'n;*4*dj:TROC.GN8?jRe?TMaSk4M!T=kb`uUo4*t%ZG"C@kf
+&,TCdM>]AQ'6eme=c$ZVV2T,YSDsr&8'AgR'\#iX7cM,i_e]AW!1chR3^g*#e?6^5@IUrC5XG3
+.2GX-5/R$/c+><$m<8!TW@MCE)+FleEo57kbZpEcQMN?b@5t.fk]A_u8E+#841H:NueTJn6#7
+!Khpin=`o]A1W`=buDAl@6PfqG)+>g!M5JrftOYhQ@!pWi_&(Es"NP6JXA">[EHgq",ZO9ANg
+TV8,I<U0DVlAA%=t@g]Ann[4,a,.$]A<TO&<4lOO2Z!hX%ZkR3Q*rlin*Q1cWK.p6Is#L'GoS4
+($$M=*,G7&5INLGU:[gB+qh"T/4$2\F;O^RpQ&[qt'>-JW7icS@KmIY9U;7Ql(rR=NpVriSO
+fp&KVh#GU0P%@AD#kZYY+ZBgKQ5'&%og4b6b'UU9dA18_aqLl.Lmb/^E-r$RB8JK9)MD23u%
+d4\RFar99&K'K3QG)tmnXOD%:]AsqJCU]A&(->R$M_mEg9afMP_aj:OrRSmNDC`f^[Q7UJO?g>
+,ajLDoTXR_[l'eVI'3(E;*m]AA5`JLmd8@TT:DndUgFhA`ff&e/@iZK\0Rh0DsiJidi$rc?bO
+O6<noNSX\]AenaoGu:;&^K^2oi7bI9kPi@UOQ5KP_0$&$S642&Hi3F$_K26s3rQZ\d6h-6/Q]A
+0j3F^L2(a9a!Z;c?7`BDmaW\gt=X@h:2WGMeGc"V]A?l\j<J.J'>O87MIR6\jQ+b93>%Gu'jp
+B=>GlX>=92#='=ajeXtRMDYPI`"o':u1C#Z9LOUH-"$aUq!OR1Uu^*-#;:4(sJ-gFpth2.Qc
+_dt6V45kT)=_GSh&,M-thI3;s4Yld+\!?pi#RrfrVAubJ"9GYqDGP,P<ne`_=2)AS7>A"3VP
+XEi-(Y8nO!@g9!o`#URE0)4%SEd+M@Nof+75sdED&^s)^h<0OjA5!g:(&hpJD=aEPTWH2%?`
+dLPk(5VXT0W$'0Z$$Y`Xuqhfk::ed]As!E6j//T"3l:<jc75\M&jIJLmiJHbVA&hf6q\-;"*f
+Z5-:G")0t8lR&+>?AI,&Tt/N1&Q8bMa@"X%'Z4KSe<VV3S#^1d**q+,G_QnX**G[YaTAE`N%
+OY<'!-t:1'J2edMH64fjuc"BenRmuO>"j70\8rbHh\B9RlPj`Gg8q0>.r+rIPV-B_MYLM6=p
+aG[+K_k.Z:e?MAFA7`Vso7rcf#dK0*$3tsufo:R,INq;EH^ZhrVNPJ*p,fUN\(KgK,kC"b3[
+f&-Ns=`XA^R":r=i_..#rRbb#`D\CTL$!1<7W7K'dN'HEeLIhVO=n9lbi"&0'=]A$:tMog9B8
+bhrlU4:[6n`K$_\`mX`?Vn6ufbo"S&6M2=Z$2d0YgDW?Rt^L7NV;A\M'dn[';A:$)H96U549
+tL=e(:a7&\^8K6I<Ni!b?d'[-*LD3"DZJ+fHrh4<!8Tfe]AKVq-!)%a^JUa@nD7sa:Cp9H#"R
+YS+=ujZ>U'c"$%"2?lo?)q'LU$U#BHp/g:>f6@OV76BhI9fhDY:1rKfN3P$uDnhet.'(<>nQ
+VHc"[L"jcdnb/lE\NFUq6>7G\SO&q+W5FLHU<?/"&eGieU*NGR'%m=,;fkKKf7g&.]AV^:jE?
+-t$@2MuV`GD?Ph-c4sL*'i=q(.2Fo-!B'ba_P>&1OM>IbO4IPaY`sNJ4_UiRoqM@P2dD&b5e
+KTVg^`mjnAYp'+#]ASbAt_X<J7k/`84"&RupbH#T&XK%3LspojW90#*1Tih8TN9]AJ^jl%EfbT
+sdM9`J"p4;0gM38!)H/;^&!VlA3>p1Wl)E1Q2igeB'3mH*0)m:=H/<UI)j7M`G\nGM@5AmGW
+8*Hd&$U.<M2N2;%u1;3bEmWq?gFHk4l6>);8.Xhak,.6o'k%pBf\0^%Pm]AakBu35VC;"^;J\
+C:o?Ila^K'(@\gBlU<hRQDBIV-XW+1Z.MuOf%g\DgsifU9hf!;!B=1O.&P/c'3c"MVGWT3n-
+CYgRHY##cS=O9R1?":YY$*G4Q8*a.GB7NN+qU,*Tjp-"NCO;l0sI+9#%eSf:;lVn`/HVq?R+
+H<AMti$_&!*fmEV[4KqCB;tPJ<NL7Hq<-6+?;6W7=m>[Z49KXuhm*(4]A\?Ci^YX)_FjVO=Y&
+Ri+%H9GJLk6p;De9.aYT5WYuLth3*A0(d\l42k#i:kr#<7$K71',+5^(3fEIS(*0X4"<o1tM
+*&V_u]A1`&)h!,S9S^QgKb;5`_?<3&Kj&">SmeHkU&:36<<#=)NAm"gnj0&o*6he122XC^o`[
+l=mH#(cFpTf8D>j]AL"fWU^Y2NZqXH"+Ob"2i^1n#EOoFm(gID%jV1nZ4sA(ls%W@[WX`4!R=
+U"6df!rE4T/&U:W2qbA2f6,Ak"D#058p0:.HoWL]A`os(pBq@#n?@J]A/i!j/7h0HN-[TAm<QC
+OL19*-Ue2bkZ\"bdkSV]A<6"#)oq]A!$$Ka%8l`csg9C"?#6"6>A"Z'h!>K49??$En<B84j*LT
+lJoPG(jj9WY)d*eMoQJg]Ab86[FC@m(?CcH.Z0Y3Fq`,qCa344W_c*f!sZ-A7F`;"Qjn^`VuM
+]A/AhX.Hc`H_dG1>se+@74`$HpaC7RTZ"3BG;"WUjkLd)OJla"'n;J,pAuWm\GDMeJ'1rHgbp
+Vp,Hf=_3N7GCda&@66kb0@3:\Zs<AOrHJ)tAh3PaWOOZ@N>Q\VPBfl'%R`aj+_W%#ftaT69A
+H]A8?p^t7h&2iMae=Q]Ad,tQQNuM"W$Cc:^&[@-Y`Z8?.aPLl>in1?ALZ>.jR=sh]AqjbP+(XS*
+$_RKZEL?D1);r5=S%[B3*7@9QF:""@'I\RC(ehM(X?h`?[M^#okG+^lj+A5n>J.!/Qp2`:BX
+ula&_.jPSma<f?#5/A+!@9\+:Ki_4_BBWs\2d%PWt+tebZ1'eWB@U?S3uo=`7dI/9]A$c&]AmT
+7!JbJP8>U<kWIe=R`/XFZ?\&R=-f/d?44:5nB`_M=8gei@Ff!#/scFBAbT)Ghu<juGX)&^>n
+2T;Dacl[T"7:mbN-hG(a>%Mk8XN)PM`u/RPARrGkFSb4FJ`H5<V2Y%nq=L\5":T\\.>1J(^L
+9_o:RE:Hltu^S6(;kMQ<[C]AX%[#0;OaRW)grd1Xc:Ad"-XDfg'c'g;43mS1s>B-4-3e,fN&U
+%.Oi_-A^H(D_@)U)B@d5+m)Tu:r"XKgZMo>j2Ufma19K_)M[e($q%>4AZ[^5pl_pF.B8[0$R
+J2K,k0]A+dPY1$0^fh8W/#tY9`Md7E*16^rIra??^e>tr%/T0i9Y.t$C2gX,pOgi`eZ8%<X!A
+>9q(($sN`91^%52)ukHu]AM5e.h(AJ2_GR:XPF:/T8Gp@m#IZ1/J8+XCRTpdt#8k@Wp)=KZ`F
+.h2j[JTYeU]AXp,-k]AP6?R)t"kH5F_gjlD@L9U$W;K(3`i1.cX5jG!Tq08RB&FHTb<`\TAo8U
+uPT+&R4aguo(B(8q-!C)nD/-MdN76MNkPWl%2,*TND?1)B>TbU:QEQ1B/=DTaC+DD(<)WL+'
+YNB\H<@.)h8/4%JWF2Y=MAuQA3'JU5MfR?b^$EG`JigaK]Ap2e<-`e/#-3ruAu^`)j`fWj_94
+d.YZJh>_T,]AGMeK53h$3d/F*^eBt]AX`.=BE=P^1E97LcJNdLAN(&q0Xii$h$2rMf<oGW(9Da
+M3)]AC)0NpMi:SQ1]A.[29ptW$5prPbibhZRrjJeMSi/JF:[c=o:$*MKulRdsoV<._659gQ'b/
+;_,-b]Ac"d&(q(t!*Q@%N0gCN+C.YblG=D\=\,NWpp!L$$\jNM8a*X,15UHYHc^FG'QQDZ-D"
+kOT!rV#I9K<`nE$W+2YDDg=T!T-L;"(+XZd!E[Yr:=uGe!5sg?_UF6=j(R:>OToI&V3*"kOJ
+jc":`FTDQ1BYB$j*r@^-\T^U@GFp2EPL&7U1^AcO=iT$.7HpWOGW+:ihZA?\ub/\B5?M#hHr
+GC$gMZYD%[E\g">j,.l$LL!:Ta40U`Rq`&#=[..-97/m)Jl;B\Ta:p3*@$1GD2S&>bj.PXFk
+91$@Pg!c^*H3JnF\,ncPY,p1@cY^@+9Jb,qMAJ=@ib'p566D7/fA.cV1]A^#d"Q($s!-UbX?&
+bP-lO&PfVT7FnYK%iuC:3g:+-`uq8$beW+g.N?SO`@2@$\.4/VDLmsKF[a<^!-cW;-SmoJr8
+b&9#`o,.<X`UM3.U7f:qCXNFO!M&$2nYl'bjmnbiZ+7(7b"l7Fm8_<lQH"-l"IN;QU!K_I.3
+oXRh-hnR)]AlM5oC"lKJZj4SB4b!)e'XH:Z?j<a;-soWf$.8q,/im[#;?4)VKj%Jp2[<nOKjC
+eXj"b,X83@d5Ems1)SL&!)h)=S[M5G^udhj6'!&7;J.aiRn>@^fGSNce1R<co^-8o3%*L^G5
+SdnnSmmif*8q#Y`p[m9U[m7>rM2M&<U6^7aENAF.W0$G@h,G>;s\7!qB(*cW`A3c(LZ9UrB^
+,6W?A/Db>,l=\sdZS;%*oTE4+i@gEC[(G(U;fcaF=gtf@Na`QN$Hb17M;]A$XW8OBM-:`i?2V
+SHAPV96/'Qg6H0`W4gTM9lQ?@O#.e,t4ieje.Vk-7e%,n+@CC8<-"TIS0e6X1R9'?&ASb>hS
+m;ZYu.Q/5;t!3=$`U?_mL637)VI_Kk`AsCM^Y'5tH*qP_Mi9'<UgK]A4Qnfr?HGs(q`5LB"Uk
+n>`Mj4t8T[%#iUM4,3@4:>FGe@1cG"/2)BEK"4/h40Xu]AY=n?G$fc'`V)/?1B<,@;"ad#M?(
+KEfCuBuKL,_9cH"96gVU8goBDJ1TBSV#_+qncRj[=I/mq/.5Q7;SY/l6QIFg<#(-F64cnZ.s
+hqkZOYJ('/"@nIl3q#?.c^Zk"K[j>I8[p!I7qh+IAktFZ4e.jVZsO^'Z&ifGGEiaJ;-aGeR/
+E5Vp"d:k<!k`Mr%E8u"O:-ioWVSl>1Y8Ib'tsr^-!PojJ\Z'+'Z-h3,37l%oJTcC`Vq8VW`_
+d&Je9@hC5YT#P!Y'gL\^[D<(`@?Rm+q@uT9TFjRV;JtG"oBP`)62gaI`H?7kU6%t:ip8/s_?
+6Y\GH4,RbU0+_m.er1XRIn4c3=O"Y;9T!0/APA]Ao2<e*0:#/Sc&Q6>Q+**]Ao0M.!!.'>]A)c'
+L8?;g'J^XG-*qR#QqVc)<c^jtUg6ndB[`360K6obER@WW67HWh0hLiT&pefGK"jL`>?Tbr6N
+hkTUJ-*RBCZd8=ta;@*9hT9eY0FG'AaQ]A>R6Nq/b5uMXaW0H8"Y,>@,*[D?G*A"g4:&Y.UD+
+lS:`FP*O'lf&Q[[7Dm7V[<`g/oY2)HnJOfP(r:"<_Af)_=^!(Ef^"]AX)+<.%NnVpSH=`9/E9
+9T/<c.84Kq?P&2s;$JQgXPsmE'+cqqD)SF[Ykgf&:%7.nE*t^&;p^<Q8qjm`+J1a-lIUN.2d
+ol.,\%((tFb(i5bX,'i*8KbcDfZpC@+QZ]A6(PB@>TdWJ_A7-=>A@65%cme7JS&d4<!SVDjr(
+t_0]AOFh'g>'udR"qfcX1^5N'6IgQb`BMoQj@8"k?Z82gm5),XR&m$4WhNT_t_k*LS?@<)p-E
+/',Z9q@Gj2@DCWU*Vo%U`,WoGl=1:^nQ6Yr!AR^.fadR,QPGofd?8cijB=9@W+P%M9nGduM"
+SljUnsj0ODT6+39rjeiRU7h[;jTSi^\Yk[ngDu5L`&/FmPGsW76,/2tblHjuPC!<E;T/_')#
++#tKs*E-K&kU>PSQ$PX6f1H%%91f76Te^k^22l'?;7.nsQa@!1M'iOV>HF$n:`jgk'o.,0D!
+F5W#$FqTQpM@(<_6d0kf"K$G2]AKt2B)C#^hkbnAU]AISKD`lE-Sr%6[]AnhDg<<YF*I-AUX>a:
+Mi-Gu.U%WeD]A!eT4lNsu[AnH3E-5[HerXc*+d3oj%L',S75[>)Xl8oaeQ!d"\>.oc*1'1-,L
+cDFoS?4T:DnDuWS!3S/QU"-`cQun)FSVY:;D&;m_fC/;s2"&i_LLgO9(fIH#nQ;MO>rg0t9$
+:O"`O$MUTH6IG'!pSQ7>B-'7*B=NCm:e&3P+H8*]A[a+2gUj7o:OTSUQ#LO3l`A%BD-"nC[L(
+U8$6f@JLp?eWe0%i')MCc)T+3"8kl2C(W32OWh6-&iR\/Uit0%kg]A&`'j>8_=(B43]A!mrM&9
+1hjpN)F.tB8sg?n"^?7(^-k$DWW$s_&9HMWb2kQ7_H[gnV;qk')F7@-)@@d3;LA2S/QU.18,
+h^=U!TC7<(KhTV^[2=!^A7R?Hb?d1ju&N@6D""Q3S=<I,=cEsAdGdj$9PUIif17Q5sUG+lQH
+;dr^g_s)Wm=DJSq1UYJKi'i,\im:;HOjcrmBPM4t;aI?:;S<O9XJ]AW?"M?/Po('LU3]A\l#$4
+;72"(QdS:hd^TdDa%qZ*X:A%#)SbXe,Al%[%/-iZr%CHb"MJerX^en-Yp]ApGcKb*d6VZ";Fa
+(GZI6XFhqfaZVkg7,Z':?b9l"^aUT4HqL!'Y=4%u=BDmQ+!q!9sBdGiejcW94r+$("o>HVT(
+nQ'43hjF7!AcLfJ,4hP6e[l?:7A.LG=4\Bq2QTOkFr9(#*fY/(?a,g;KggI>iQHK.HDRi(NU
+#XIB?o/o;`NgW++S&W1afo5T<]Aq"8uJdS"CAjG'@KuVZss@-$4m(D\U]A>>_Y)3jFI./9lp6X
+2LXp6hU90[aa%=Qn=XIhrSWIL#a8`c$7F)i-[[-4W\?LdZDaJ\7AbFdQS"H,be_2l4,rI4SD
+/"+hdC_j\Un'Fr0d"R1'iuG!h]A?KIQH>dd.\8&8bGHU>$)a[`,1uJ=q4&P$u^'6]A8!*km%gV
+gJZ&E=Zfnqt<mC1fq-,/<2($Pm`J3`L]AF4U]A+0k$%Zm!pi'$8$Jr,g#rC,%-rk3u.-j(THKM
+0*'EL=7u+5=)KdRL\tC/0DYG0VeU]A`8`&K*M\3PCRNBAW<%"nc'>J>,jU&_Qm#dtM<(L3J8o
+F[1$AXT9=]ADCXoR`<6:*C>p1i^X+!(Y_89cmQb&YSc?X&g;FSA=&L+<`AK,g)?(e$rl-risQ
+B;hJImoE@?:"iIDLNgS8Mkd(Z7ou*H/s/F@l$ubPo[+sjR=j>dR(8bpKs%C`Y&h>ca`$0_]AB
+m2tkC@LM@Y9Y?O>KG@$)>Q\lTg64`$1tQ+CWI=*]A5GMlbIO<<LIsudcI'EnNKF7Y(pphRdjE
+6Z2G8eoEI5%[N>0L%,cXeetcAA'@Fl>8LR0:]AV/d:R,T3:;K-\A4gmE??TE"JDs!3RY@9pJ%
+NU2<87""MU.VItZntO/ro7H[P")>V^i!t/EC;)rMC''=nnMBmcNM_[lR$l>@2aBcC1MJCPHj
+h#*;JWKZr!`RoN7e1)7mgF=6GNnGd2jFcX1l,Uicl9OkI)P_i1fHlT4dJ`:YR;S$81p>6$'?
+9'm#tAogNgR9@fK-r.Jn,MQBLN&aW+B.^OG4XcDKH"6b6RWi)jQo<[SM;Dk8qhNeMRAU^9*o
+*Q(.t:+^,c&MP5<QI'8N=?+R*_bfkCI*,Ijn96B-)h`6_1KE1k1X7KQ"f.+8hu_AOpc7QZ4K
+lCbU5iU?.)q4H1\0S512!5XQb_+a=dUi,KfK15"9L^\Zp(Slt7I(`=3IgM)t2$He)pr*Wm:b
+j;)?LL]Aj&c5^&BPqe+8ZV&)>^#3d,"qk^;)F+,5U]A4M4/;+h4M.a_H))'jos'==cCB8`ILnm
+tc$ClO*/1N,i/5scnLuN:OcZgdLB4l:gAnP\g,R0TK%_;BQ:::p^C.m$UXVT)-knP+<-;&U7
+OViCg$uAZ`nibUk/aOCWo_8f/1?er/DBh_Q@Oijnl!eZ3;'@\uq>t;EUV*&]A`X9N;5iJqF)C
+TL`@-n82+C$m&k/\s9Gi:e$K'nu$L8X.G;=A'p7#D1X38=@;LoJ%;'_h\,(l<"LrKLu$-t"X
+tV*H<b#E'&@M7U(CgjSGQC3>"o7so7\oPm<CjDod'J$d3`pT>%tG\(LZc^)`0o@XhI:[KR.e
+'V5u_0`_W9!h%SNbS<A.ac;]A7TaiJBGkNF)u*:akibKI'u`&hO(DBY#kapgG6mfQ+Q,0^D^-
+eRYM<M'%dCkF^K7<D'#0`2c-"&OnJ=7=eTB:C:a3%i0hjd#MR#Ia/6NT)6cH9ZZbInT]AK0Vj
+mYH#T63\VK4;p=K^MceB&#&VX6>hV-JPH!u?4<5aC^["(PO2gD1_ROnnT5i&kJKM1aqRbt3a
+*]A#09RAc)GWad)mQ"c'.D/-4=K<$:1sdK+ZCT7OPOg5:!m?uSIG?rc!]Ah=cD?!PhdGZV3$QD
+lLZrhZ'M=+g>An_k]Am3kD7c,(>k-./5C9e7l'A3E\:'*OE#$)XmoH&f'OWEG+`&@Hia<b=4U
+jL(1$GpgRInd.1;J)6($D\:TS`27bli4OZG=3c&I&S8Q8g"IDluDB/EZM]A=H*TCAmUk,t1S3
+1=GH6[?_Xm(-5fLR<T!mCJ-Dej#=4_;>N/,s)cF+nDV\'\ns#1,h&P3AV(N\H<U&B?O4)K_J
+indbFjWgRQ%TRdnA%g%rL]AlTg:pt:/Prl.G^$,mYODul>NgKZ8N&kSBP;6'U%R`BFAOXa=-3
+MR>#nm:"RZ9PNN4UlHZk+kYWC>;3j<dllM;\"WD/,]A/`[[$!g,kZ9oub7d.kcHY`i*%>Nhgd
+^,_e%Xqm<;5jBc?G,D:`j*nL:96t!X_/Jq:%s)]A?YAnX`[?g?JuSlVu0<FIeJco%FUq,>$-4
+R%Vhf3N'%Wo24RVsCJ9O:l8<e$"kAPP$\uDL5q'%D3\Y`PXo$NV#4=[@rVIH9:G"?#18m[#>
+1*0HE85"(U=2^tfYIIGmH86t5,^Ljkl_(G65JWW=ndXph^l^cAs@@XQDG!]AW@TL*6$TV#_2g
+:FWE[.6IiJf2Wr,)aJq;82Bt$?d&67!58esUjqWhf7#L3q!J1MJV6`cM.C"C!L9$4!>ZPM`.
+$,E%eOt="]A6H*5QFU1q^WhNqL/F;?nMKU1LE-4$,bXn`rH;X\E=Z[Z5=+eBkh%=7mj>1#-S=
+1"K!T.LV0iFZY3U.WStomaH$+B_o(`F8_.Yc3^7k%k):$c1SLik*(MFg@V^oQA^Dp)V$<jfk
+ds-pOc>B/FC/Qp9e5''Sd(AsYt.E@OiB/XVO.k@p`Wb#:WNiBg"?oC(cL&^fIm(f6R(HKli)
+:[_e1jp4bc"HHR-D2>:ttb6TQ`K5GeW<>\(o`hiRKIg-LnQPK,ful4:W_X)hEs7jPf9ZK8BC
+YL#O#b2jC':2m^[ZD<>pT-lpt8a'CM<bip2#d']A62Vm/@dUimJcBun:*kJg;fnp`l&dmP:Nl
+MOR2gQ1qe6SRpk;JI\k[u&jj7gAtAu5//W.;LuEr\6]A$X5^O7nU[0ma#G`Ge)Wd\rgf4!ZVG
+eT<[c*RS7O(IUKXoQoG+d4;dg,4H#erK*J3tW_d)b[CV&on=j#6#=mDH@jHb<7tf:qS9l^S7
+O1b*h/730/_@[/$@6j/miE8H?>*Lfg3p#K6C@SZ@-^V%&6o9l/T;Hfm'O01^RG1k&mS-^]APg
+dL\,[=hYD%^Ta<2:p^r%C]A]AN^g#<=0@?84N!.$]Ar6?>6.A%bnN@+\C(Fnj`]A1rfH7=a_#;W'
+0&[-mY@&I?-%Ru`Vrh=CY_c44pjt[?[)iuc1+UZ$2`lG=8-$8u0-C-^BpOO49nZ0R(?q]Ad7?
+q%R_:(%EQ+SNT7O&t0ISXB_l!3ZAfd^WS8%h6AZ>&Xl&fr.pG6mE)fo^BA4=5,R,qJCRj9Z#
+2_>d]AAp[NU%?HW"D>!*,$CCEP.5fZ*/mfg=!2^,angdDbqM<:8Gq)KHRnVPhcL[);VlKpf>A
+p&AiQ4pJ!b`H<ZPcjo'[:,G**d15+,Od\T9g0Cu'gkMj3&$,n$tpW%DEK]AKcKu_nSd>)$G*U
+>8JS4nH!rd$F_257`9d1St)@$2o)pI<.&P8P_Nc13@A1&`eT#i'WrFZ9r??4]A^G":J9iVBYq
+_*h)#*nMDu(cW&0?.Ym56NSGPfYD#p'.^Z&^0.*MF^a%Gm)CdWCS,^[E"^)q>9eBdc`#ie\0
+G<o,s54QS*H>T^NY"F0&8gI65>)@O8SF:5[NUOi/ak"qXYEnEb4]AEgr,aM&\>fGOY5PS\/\6
+_eb<13m_Z(Y?^9fTc*kgAj^?^3VeS*hm^#`om0Dm<)M?]AIIlgD\eZep]A$@pG?AcNtZ[c".m-
+\&Hncdh-:_R:]AWLP#$A(N7G)QMajZop2/<0f))Q-,&<hddUtH'(B@'NNr-Ynt(,:A5;S2+@.
+i)$c*?9]APn&]Af7\39U[3tQA$ig2'"V?d%CkQj?XU;VqEH0!'<MG-FY)qK**E8F:"V5Y-@ftI
+EhJ[U@[tB;n=h:SkS#khT/HSfX)p!]Ar!6'pG!MWW"Ib.OE=%dQlA.JC'?X%go5Ttjp%;.G3s
+I`o.bC-=0fWfV&tlRI\4d[ejQ+VS&[F*IO]AU/P_9LC&mODIc6F5:jON?;["Gn`an<pSM6G!W
+8k>BMh+gjP#m><Rl+=R,RM88+8S9e0>-n&#R)1;*%%@FDn.bJMl!2gTp.Vo)76lB-m0:6F]AD
+"%]Ak*Y'B=A?/'/A>Y8]Aag@HInduX)qCgHq8HWT'h[6pL$U''XB<."G2R^&$9fq(_=UIQ%QCI
+u/]A\mP>(&D*PbuP7a#@:q>D_HIP0&VRuMtK44T!+=pFQ5g^$-+,<2rhb;?1t0l*#IFHla95Y
+DN//g5?Zi"E_$FX@JT$<\,O"l\NKb_,g?jUj_&8%-o`"O.8&NqC%*s.3?Ud:fac-<1'$A@8C
+^-QOo#aINc.7.:[=e?&G0l]Ad"/&8NLt+HY6n;AhgKWU\_9A^EL(O_5HkT>C^+M>fE@Q_G&2"
+<@D7Pe5Buq2m&YU%>$_$i*6/ZL^0hU^eV[l#=]Ac1&"RqIanopS'nb-p#>*uk6c4=El54G\5!
+k$o0qcQ.FOJS"3q?`)qi-4\ZiTY'<O'=(`CFdeElc--K<,)iYM4u*X@drn.g*gf%]AD5juj_d
+sG\0Q^s$/tIP"_=V)T46n3Id3.Al[V%E(t)F3p"qg_f/GTG@OEdi_/ktQg6K.ZrQCH5KY@bD
+SR#M9p1o0B]A^HX"[(B&+173/m<`=ctf>0X`dnS!bH/egKet+JcIW;p9BA@\1JT@k7?=1Wen%
+a0(56(l\[H/e/:;KO!UCU$(G5q%W8RsM1*2nE/ZSIDA3]As_.n.TkY3.d*<,niYeWcJ]AbIprh
+7VI1o6IEjCfS!Rr3)6]AtG(s!p&j%D[&MEm`R]AT4D"@1`M0b9V]AU[TNZr$eA,7Nb2W+,HU'HF
+#,]A##@<V0SYD1GX/-Zb-*SlbpWDs[p.h_\<$;:_4RU9;Uo'`:<7qXpmhS-Hp'l:u1,1mTC)R
+=M-XK&ApmZr4<(ga8?jr`o,s.+%bH-0.;N/T]AH<i:$2,[bC!K#eMW!nDK1IHY@9<7ERTi%90
+5PmW;.=/bjN([hoJ&G9P<l^j&q:g(phJ<=u9qRiRQ^ff,((Y4d(^[Q6P5)4CQ);HJWtQ$&BW
+>uZ%&8Up,l/FcBEi@&"$Wd(E,unkdH^`[+E2&I411GlEkC5MV0[m=,?-[f9f0E5S%Bk33Qst
+8[NQqkSi<qQ!HNPWDV_p_2?Wkts.QC5JkCV0PGKfm./cKP`/I:.ee_npC`4qWM)O@GE>6UFl
+1k,p\&6+4-t19D)7XRb^X>Kn%'>eRhMXF:k6oto\%RW:kihO[8@X"-Cs"6l\:8li-/1"f-nS
+$573r>F6Jd<[R_-TFEj6`[)'<MQc9[<F0/X''Mg6V\K@Co]A$$=]A`S=p:1PgjqW(/[qZQTsh&
+qocD*80Ou;2GKD[QBj?L5^Xq<Si!3gi%1*rn31JP?`;Bb0,>`8r`_]Ackh]AI++)mSd$m>eDGr
+f/:!Z;<g%HIWd5$a7)0er3D?Kp(!_`W'HDYN'C4;%7;=3#%XDs=J8r'DlYS9eh&EQMto:smY
+RVhPC%UtGm(J4G:k&Ha2u7DsX\)p-PEIe9$3f=4t\P0E90+'AF4*S`Ls$1;sq(WkIn+V7543
+70CS`\j"E.Tsl%`KTEhV8F!XoXN;))LLYiVe^"C-`dR/^9R$faPqG@K#e?FM'N0QeQm\d=,\
+O#T52V+A.'V#3R[,t0t+EV'0<aq7:^i<T<]AN_98KPfQjrDplI"!Okun%0=bB\9&M.8SI^8U,
+02l#7pATcD*JtWk5A6O<N2&npcW^c4UtBZFLaZtU%nTXU'e2sE0@[0/;JN@XSLLa:Mi319\N
+uX6Bha:+<Ytd3!!s#+ocW]A^i@.P(7Q=+VYo9'O!KJ#Dqb;cel-^lk"q;O&qr3MP$qP<bA>e\
+>UW:+RS3r&A8\0*4)Qd8PMX191Ie[L*ZqWX6/php=r/!*dF/,I;5;+9.-V67bM(o*HL6XRoY
+g>WA*`j-_WD-#Y7M]Apg'o=<1:#R(tDI,AZSa4ne_MP#n%J8`aPE44H2onOIPK#l*"2&Stqds
+YN^(gDSmij,2!Unl7EsWa2.5`7eWGc7-p*L\\Dr73UN4G/fUOYSlV2%,Sb_nI&anbqLHa%5%
+YB[m?EC<n?o%6t5\C;88YK1Rt3GaR%#@DWs0hNrKP6g>*.L#pmh3ualRl&/jM!-#t&f"Zr`#
+Jf:>GB??"3M&+U0OVYa&;eH`H[A5NiuMD&OTNpdhnoN?UNq\%Y`k;OImR=!@(QG:rL`A9$(s
+jIf=8U7R/1F-]A;*lI&9<CCUC0P;DJWdB$FL0>c(N%<`7HnDCFkkE;WpjZ[DRhC=fUOIm?)1g
+TCuul)gmcY9*AVN#C/YlI<q>=0,N4A_Ye\qWH1s%C*7Gc4B'-7YH<aoT[,$Jj,:6`77d6E9c
+A1khNk*5d"pDfF]AmkM57B`<?Y&.4iY]A#UG,6F/%2QdNaQ3iBfnaJQ2[)7.)_3%0^3KZC^J0R
+8X(Kj/2&7@_ri%%G0F;e`RLndHbb^d6]AN^$\00l3rOYrb-#S!Rrt+:9(5"3Abn7;BZ*D]A$c0
+cImq2[@FV.>D)'bq9[>["thWQL6U1?BgHDlfUh0gJ<p%S@q:65ca1Ab:$liuM!eqMNJ]A1__F
+h;\[Z%Kp]A:[';shVYl_=j`J%=f"VNMcMMdon)@?E,2BV(L$k3%q[-sYj]Am=f-&u"aL2?/*?\
+U*ouX]AVi[^Jk`hcMR)9oqR'?qb-;e57EmEqt0,ERbbPOVbS83?b`d[:RjDIa0b)0B.R.=s5`
+.VL\/!^n,$3jR&>jq1r.ENd1O2m#FC7Q=6_XT)@DUmnePD6`qSrK%PpS6^s-pJORP;a%qI;u
+fsNRQN9o$sjR@UYr;,3U7!>:mA8rG#f)UXc,:,XePe<*!L!(:Y)m!8Q<Z:K(ZH8H_ZtV=r>.
+#:!Y$IrRkK]AVWbapuHm.QuSl!@\fd`(FB50ECJ4V^NsAcYsicdGI*orS9BkmI4I.$:2Ss4uP
+s\KZTiMH>[<@M^=laF^t^@a8<f$D\!U,*@C3-t:V(4`QoDh;G1^/5T+]AHuPM]ABZ,&0-)q<f9
+<i@2[S'UWW_eo!:$AX]A^T)g]Aqu7+E"q;JAlo6h2`"/##NuGk#U\P:VU$:%(d`@P81.:+lC%?
+&OnJCXoonOX'lSsCNr,G@F00+,FC]A>VrmCTNUcZBiUmB+RE6UTcandfAKppeu:9gg,R;g7"/
+**RA\P8KNp[eS>_b,^W2r%8/`l,hBQM&aD+mFu]A$bEbkEr7DTF?p1K7Me:C''F.`=ZTGR4h2
+5ssW(%[D)V(96CH>qWY\u11BcZcRZ*BVWX+((FE'jDuW#2t29&**;iSn&VoMQECc72:sDBT]A
+6?MKF6-1%(Sg!\eaM)6!3/P2A"`F10!.^9`T1."Drr&SgZEA:+:U\]ABor#8`0nb#Hk3csT3?
+du0V*m!ZtLO)PNl2N_&@T<6&T>o<\=Yja.KQ/:*N;WM7Z+Oo^J$IBXDVS?_4``N@))[_orji
+X5i?(4%5^s^OrHHLVNqe(Um+F1<*7?lm6W[@0b1tbtgsOu996`\cnq$OTrKFRX%rcM`L'3M\
+.pX/&3N$&iG0Mj-/*XqHZ_Va-i$[H=""1nKg9h<hZaASg;^Z>4Yb?0rG`<Wl>OhQY7>hp!Bk
+qKs7RTZ&D]A^G=29#(+<kp\s#Zm0(GaM`l-RfD8bUc#$FtSQ@>a4B#K]AbKTn"l+4;h5XSP_GW
+h(DTQhM!KCUGS9M1'n<mUnAL1D`XNm:YMHj:1HtMbe0+DIq4@\JpaZm`jt37j;lB6Y5L[OWj
+([eC8Mk#$6lQ'BG;Op/Ds5R:W,!2mW8;s$hq.h]AoG]AJlo_`uU<peVKrUf>Q-]AB*]Aht+1[0J2
+ecG"4jD]A2-$0Ko&\)lI@E"hR@tVSNM1fGlPMdNnF&3?+P-@_JP2H/Z@Z+X(g$0P@r+,EVB1t
+'/+3>D5@!.:ER5U_I8bdiaG^ck!pih+A#h5S;f9)Nu3d`:m;,D+3%oWT0Q=O!KA"f&cn$&o:
+WJOrTu)mcehR,WWo@'h5&`jrr)^eSc9c@cBQEaC$O2>1j[A:R`H%7SN;bfCGc")G0Zt_M'r_
+KVaf=k&#uSXZ!UFc&Z&=B.[7Bj&f0%"o!'CK0^Mu!D2\cN@R;VZ_&m&i(j8:_Lb=pbCtT\3W
+.apZ%#GN&+Tst&6>;=6M,>)+]A6H*[43>_=cBE=p]AlVqA,XO*-/`[FU1?DM8<fkehiZ_[).Z^
+L+dd=2q2FfjhnbA[&On9pN.[/]AEf1c/A[qTr+KMnfH^F`2`R>WMZ*NlClM9/i"<M@:H6>;QW
+V`W'4/KThh?Asr+YDK[/]A-G^,L/Sl>A=G(N*_soQ:1=De2`J(W?-hS)ZRnpaC$0<Y-77SjoI
+E.B2H.l2C/I2fBct\S`46j"a."LlDP0J%QS.fR_P%/@Bd%A4+tXXn15SFj%\&ZbG'23ZE/Fi
+)mr>^[n5mP*<Mu'O>XP;Cd:P3RZdG_=4$:sFf#@g$eGKRIT/HEJZWK:?UQ1E_ZR&=h2L%lZ9
+V+55le=YAjerj]AM*3=D(\,2/,%"Ur<I:`*]AmCmIT8:r1NUjeQomqDr#(mW@_N[`!-Q^+o4V.
+H(EEk,_C_N?jp?d#b)%?AC6tA+kc?M!I]AQ(!UDg(jAbjscF>m9rAWgqG"#`2TgiWsS4bhV"/
+@_L*3`F(er2>g;4@OnVuip6hg`)_\h-n")FB;`X5--)(/=<o1kg&Wrh<OK*,UZ9JKf[KZBT0
+E6R?>mmdG_NW;;:En]AcqB;9@Wq8:I(icec\On)ip9N^m#6pZpK">[gE!TUAD0UhUt=pJ\6n[
+$+/YrKhopIP=^K77BOP?.H[C,*9f&[o02'.oLS[!AEV>SU2Oe!t&IHB178`8^nIa2HcD/kMj
+dh5ro'uA<='qi%T"f?Y.k7YK("0H3"oNhL's^)pr@<p'/B"fu'UB@>'c\dGb#=tE8o%r,fKa
+@n:K$03@cSBcn)WYeq-T$^!5nmL#='7/E<*oX!9+!7"!A)(2uqq<!-&"W!>#K$)ussYJ2dPg
+!/L_"%KI%F5TBcD!5nmL#69P^+:`o]A!9/OBbn#qVa?B&$i(F%M!!#SZ:.26O@"J~
+]]></IM>
+</O>
+<Style index="0"/>
+</com.fr.report.cell.FloatElement>
+</FloatElementList>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" cs="25" s="1">
+<O>
+<![CDATA[杜邦分析]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="3" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="3" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="3" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="3" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="3" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="3" cs="2" s="3">
+<O>
+<![CDATA[净资产收益率]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="3" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="3" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="3" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="3" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="3" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="3" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="3" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="3" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="3" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="3" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="4" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="4" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="4" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="4" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="4" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="4" cs="2" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=K9 * Q9]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="4" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="4" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="4" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="4" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="4" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="4" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="4" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="4" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="4" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="4" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="5" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="5" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="6" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="6" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="6" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="6" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="6" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="6" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="6" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="6" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="6" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="6" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="6" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="6" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="6" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="6" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="6" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="6" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="6" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="7" cs="2" s="3">
+<O>
+<![CDATA[总资产收益率]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="7" cs="2" rs="2" s="9">
+<O>
+<![CDATA[×]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="7" cs="3" s="10">
+<O>
+<![CDATA[权益系数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="7" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="8" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="8" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="8" cs="2" s="11">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=I13 * S13]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="8" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="8" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="8" cs="3" s="12">
+<O t="I">
+<![CDATA[5]]></O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="19" r="8" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="8" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="8" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="8" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="8" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="8" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="8" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="9" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="9" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="9" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="9" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="9" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="9" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="9" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="9" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="9" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="9" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="9" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="9" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="9" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="9" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="10" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="10" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="10" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="10" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="10" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="10" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="10" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="10" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="10" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="10" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="10" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="10" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="10" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="10" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="10" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="10" s="13">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="10" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="10" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="10" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="10" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="10" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="10" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="10" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="10" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="11" cs="2" s="3">
+<O>
+<![CDATA[主营业务利润率]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="11" rs="2" s="9">
+<O>
+<![CDATA[×]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="11" cs="2" s="3">
+<O>
+<![CDATA[总资产周转率]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="11" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="12" cs="2" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=G17 / L17]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="12" cs="2" s="11">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=O17 / U17]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="12" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="13" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="13" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="13" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="14" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="14" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="14" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="14" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="14" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="14" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="14" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="14" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="14" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="14" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="14" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="14" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="14" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="14" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="14" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="14" s="13">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="14" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="14" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="14" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="14" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="14" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="14" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="14" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="14" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="15" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="15" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="15" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="15" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="15" cs="2" s="3">
+<O>
+<![CDATA[净利润]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="15" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="15" rs="2" s="9">
+<O>
+<![CDATA[÷]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="15" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="15" cs="2" s="3">
+<O>
+<![CDATA[主营业务收入]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="15" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="15" cs="2" s="3">
+<O>
+<![CDATA[主营业务收入]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="15" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="15" rs="2" s="9">
+<O>
+<![CDATA[÷]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="15" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="15" cs="2" s="3">
+<O>
+<![CDATA[资产总额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="15" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="15" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="15" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="15" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="16" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="16" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="16" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="16" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="16" cs="2" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=B21 - F21 + I21 - L21]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="16" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="16" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="16" cs="2" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=B21]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="16" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="16" cs="2" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=B21]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="16" s="2">
+<O>
+<![CDATA[]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="16" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="16" cs="2" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=P21 + W21]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="16" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="16" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="16" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="16" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="17" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="17" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="17" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="18" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="18" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="18" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="18" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="18" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="18" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="18" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="18" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="18" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="18" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="18" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="18" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="18" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="18" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="18" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="18" s="13">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="18" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="18" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="18" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="18" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="18" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="18" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="18" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="18" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="19" cs="3" s="10">
+<O>
+<![CDATA[主营业务收入]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="19" rs="2" s="9">
+<O>
+<![CDATA[—]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="19" cs="2" s="3">
+<O>
+<![CDATA[全部成本]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="19" rs="2" s="9">
+<O>
+<![CDATA[+]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="19" cs="2" s="10">
+<O>
+<![CDATA[其他业务利润]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="19" rs="2" s="9">
+<O>
+<![CDATA[—]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="19" cs="2" s="10">
+<O>
+<![CDATA[所得税]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="19" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="19" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="19" cs="3" s="3">
+<O>
+<![CDATA[流动资产]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="19" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="19" rs="2" s="9">
+<O>
+<![CDATA[+]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="19" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="19" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="19" cs="2" s="3">
+<O>
+<![CDATA[长期资产]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="19" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="20" cs="3" s="12">
+<O t="DSColumn">
+<Attributes dsName="科目余额表" columnName="期末余额"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[科目代码]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[6001]]></O>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="5" r="20" cs="2" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=B25 + F25 + I25 + L25 + O25]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="20" cs="2" s="12">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="11" r="20" cs="2" s="12">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="13" r="20" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="20" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="20" cs="3" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=H29 + K29 + N29 + Q29 + U29]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="20" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="20" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="20" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="20" cs="2" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=N33 + Q33 + U33 + Y33]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="20" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="21" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="21" s="14">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="21" s="15">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="21">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="21">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="21" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="21" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="22" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="22" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="22" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="22" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="22" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="22" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="22" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="22" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="22" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="22" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="22" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="22" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="22" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="22" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="22" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="22" s="13">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="22" s="16">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="22" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="22" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="22" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="22">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="22">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="22" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="22" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="23" cs="3" s="10">
+<O>
+<![CDATA[主营业务成本]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="23" rs="2" s="9">
+<O>
+<![CDATA[+]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="23" cs="2" s="10">
+<O>
+<![CDATA[营业费用]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="23" rs="2" s="9">
+<O>
+<![CDATA[+]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="23" cs="2" s="10">
+<O>
+<![CDATA[财务费用]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="23" rs="2" s="9">
+<O>
+<![CDATA[+]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="23" cs="2" s="10">
+<O>
+<![CDATA[主营业务税金]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="23" rs="2" s="9">
+<O>
+<![CDATA[+]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="23" cs="2" s="10">
+<O>
+<![CDATA[管理费用]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="23" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="23" s="16">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="23" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="23" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="23" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="23" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="23" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="23" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="23" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="24" cs="3" s="12">
+<O t="DSColumn">
+<Attributes dsName="科目余额表" columnName="期末余额"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[科目代码]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[6051]]></O>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="5" r="24" cs="2" s="12">
+<O t="DSColumn">
+<Attributes dsName="科目余额表" columnName="期末余额"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[科目代码]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[6601]]></O>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="8" r="24" cs="2" s="12">
+<O t="DSColumn">
+<Attributes dsName="科目余额表" columnName="期末余额"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[科目代码]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[6603]]></O>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="11" r="24" cs="2" s="12">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="14" r="24" cs="2" s="12">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="16" r="24" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="24" s="16">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="24" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="24" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="24" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="24" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="24" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="24" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="24" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="25" s="16">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="25" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="25" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="25" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="26" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="26" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="26" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="26" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="26" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="26" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="26" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="26" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="26" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="26" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="26" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="26" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="26" s="13">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="26" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="26" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="26" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="26" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="26" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="26" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="26" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="27" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="27" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="27" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="27" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="27" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="27" cs="2" s="10">
+<O>
+<![CDATA[货币资金]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="27" rs="2" s="9">
+<O>
+<![CDATA[+]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="27" cs="2" s="10">
+<O>
+<![CDATA[短期投资]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="27" rs="2" s="9">
+<O>
+<![CDATA[+]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="27" cs="2" s="10">
+<O>
+<![CDATA[应收账款]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="27" rs="2" s="9">
+<O>
+<![CDATA[+]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="27" cs="3" s="10">
+<O>
+<![CDATA[存货]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="27" rs="2" s="9">
+<O>
+<![CDATA[+]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="27" cs="2" s="10">
+<O>
+<![CDATA[其他流动资产]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="27">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="27" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="27" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="27" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="28" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="28" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="28" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="28" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="28" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="28" cs="2" s="12">
+<O t="DSColumn">
+<Attributes dsName="科目余额表" columnName="期末余额"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[科目代码]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[1001]]></O>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="10" r="28" cs="2" s="12">
+<O t="DSColumn">
+<Attributes dsName="科目余额表" columnName="期末余额"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[科目代码]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[2001]]></O>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="13" r="28" cs="2" s="12">
+<O t="DSColumn">
+<Attributes dsName="科目余额表" columnName="期末余额"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[科目代码]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[1122]]></O>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="16" r="28" cs="3" s="12">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="20" r="28" cs="2" s="12">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="22" r="28">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="28" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="28" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="28" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="29" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="29" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="30" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="30" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="30" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="30" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="30" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="30" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="30" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="30" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="30" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="30" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="30" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="30" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="30" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="30" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="30" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="30" s="13">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="30" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="30" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="30" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="30" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="30" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="30" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="30" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="30" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="31" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="31" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="31" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="31" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="31" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="31" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="31" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="31" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="31" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="31" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="31" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="31" cs="2" s="10">
+<O>
+<![CDATA[长期投资]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="31" rs="2" s="9">
+<O>
+<![CDATA[+]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="31" cs="3" s="10">
+<O>
+<![CDATA[固定资产]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="31" rs="2" s="9">
+<O>
+<![CDATA[+]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="31" cs="2" s="10">
+<O>
+<![CDATA[无形资产]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="31" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="31" rs="2" s="9">
+<O>
+<![CDATA[+]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="31" cs="2" s="10">
+<O>
+<![CDATA[其他长期资产]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="32" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="32" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="32" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="32" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="32" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="32" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="32" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="32" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="32" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="32" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="32" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="32" cs="2" s="12">
+<O t="DSColumn">
+<Attributes dsName="科目余额表" columnName="期末余额"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[科目代码]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[2501]]></O>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="16" r="32" cs="3" s="17">
+<O t="DSColumn">
+<Attributes dsName="科目余额表" columnName="期末余额"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[科目代码]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[1601]]></O>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="20" r="32" cs="2" s="12">
+<O t="DSColumn">
+<Attributes dsName="科目余额表" columnName="期末余额"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[科目代码]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[1701]]></O>
+</Compare>
+</Condition>
+<Complex reselect="true"/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="22" r="32" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="32" cs="2" s="12">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.NumberEditor">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue/>
+</NumberAttr>
+</Widget>
+<Expand/>
+</C>
+<C c="2" r="34" cs="13" s="18">
+<O>
+<![CDATA[指标说明]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="34">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="34" cs="10" s="18">
+<O>
+<![CDATA[本表数据结果]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="35" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="36" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="36" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="36" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="36" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="36" cs="9" rs="6" s="20">
+<O>
+<![CDATA[    杜邦分析法利用几种主要的财务比率之间的关系来综合地分析企业的财务状况，这种分析方法最早由美国杜邦公司使用，故名杜邦分析法。杜邦分析法是一种用来评价公司赢利能力和股东权益回报水平，从财务角度评价企业绩效的一种经典方法。其基本思想是将企业净资产收益率逐级分解为多项财务比率乘积，这样有助于深入分析比较企业经营业绩。]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="36" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="36" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="36" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="36" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="36" cs="6" rs="6" s="20">
+<O>
+<![CDATA[    Z值与公司发生财务危机的可能性成反比，Z值越小。公司发生财务危机的可能行就越大，Z值越大，公司发生财务危机的可能性就越小。对于不同的企业，临界值可能会有所不同。本表根据实际的计算后发现，Z得分仅有0.7，因此前景堪忧，企业很可能破产。]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="37" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="37" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="37" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="37" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="37" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="37" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="37" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="37" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="38" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="38" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="38" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="38" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="38" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="38" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="38" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="38" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="39" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="39" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="39" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="39" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="39" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="39" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="39" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="39" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="40" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="40" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="40" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="40" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="40" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="40" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="40" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="40" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="41" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="41" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="41" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="41" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="41" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="41" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="41" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="41" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="42" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="43" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="44" s="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting>
+<PaperSize width="57600000" height="42768000"/>
+<Margin top="986400" left="2743200" bottom="986400" right="2743200"/>
+</PaperSetting>
+<Background name="NullBackground"/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="128" foreground="-14722911"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Century Gothic" style="0" size="80" foreground="-1447447"/>
+<Background name="ColorBackground" color="-13719584"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00000]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-1182733"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Left style="1" color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-4144960"/>
+<Left style="1" color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-4144960"/>
+<Right style="1" color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="宋体" style="1" size="80"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Century Gothic" style="0" size="80" foreground="-1447447"/>
+<Background name="ColorBackground" color="-9908567"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.000000]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-1182733"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-1182733"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1" color="-4144960"/>
+<Left style="1" color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1" color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Right style="1" color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.0]]></Format>
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-1182733"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-15773809"/>
+<Background name="ColorBackground" color="-3085062"/>
+<Border>
+<Bottom style="2" color="-4144960"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1907998"/>
+<Border/>
+</Style>
+<Style imageLayout="1" paddingLeft="13">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-8355712"/>
+<Background name="ColorBackground" color="-1907998"/>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="HBA"/>
+<PreviewType PreviewType="0"/>
+</WorkBook>

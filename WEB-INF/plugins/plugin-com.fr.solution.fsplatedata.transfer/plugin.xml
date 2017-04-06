@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.solution.fsplatedata.transfer</id>
+    <name><![CDATA[平台数据迁移]]></name>
+    <active>yes</active>
+    <version>1.9</version>
+    <env-version>8.0</env-version>
+    <jartime>2017-03-17</jartime>
+    <vendor>finereport.richie</vendor>
+    <description><![CDATA[支持将finedb的旧数据从内置hsql迁移到mysql，oracle，sql server中；支持将logdb的数据结构（不包括旧数据）从内置hsql迁移到mysql,oracle以及sql server中。]]></description>
+    <change-notes><![CDATA[
+        [2016-08-23]支持finedb的迁移和自定义logdb连接<br/>
+        [2016-12-23]修改了交互，可以选择性的开启logdb的迁移<br/>
+        [2017-03-16]修复bug,提供对sql server的支持<br/>
+        [2017-03-29]修复定时任务迁移后配置信息错乱的bug<br/>
+
+
+    ]]></change-notes>
+
+    <extra-core>
+        <XMLFileManagerProvider class="com.fr.solution.data.transfer.fun.finedbconfig.TransferTargetManager"/>
+        <XMLFileManagerProvider class="com.fr.solution.data.transfer.fun.logadmin.LogDBXMLFileManager"/>
+        <LogDBRecordProcessor class="com.fr.solution.data.transfer.fun.logadmin.RealLogDB"/>
+        <LocaleFinder class="com.fr.solution.data.transfer.locale.TransferLocaleFinder"/>
+    </extra-core>
+
+    <extra-platform>
+        <PlateProvider class="com.fr.solution.data.transfer.FSDataTransferPlateAnchor"/>
+        <DataTransferProcessor class="com.fr.solution.data.transfer.fun.finedbconfig.FineDBDataTransfer"/>
+    </extra-platform>
+    <move-after-install>
+        <File name="transfer.xml" dir="/resources" operation="0"/>
+        <File name="logdb.xml" dir="/resources" operation="0"/>
+    </move-after-install>
+</plugin>

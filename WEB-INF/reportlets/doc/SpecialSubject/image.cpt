@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20131111" releaseVersion="7.0.5">
+<ReportWebAttr>
+<ServerPrinter/>
+<WebWriteContent>
+<Listener event="afterload">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[FR.ComboBoxEditor.prototype.initContent=function ($dom, showValue, index) {
+        if (showValue == null) {  
+            showValue = '';  
+        }  
+        var self = this; 
+        $dom.height(this.options.sonHeight)  
+.attr("title",showValue)  
+.text(showValue)  
+.addClass(index > -1 ? 'fr-combo-list-item' : 'fr-combo-list-item fr-combo-list-item-noselect')  
+            .hover(function (e) {  
+                  
+                self.setFocusWithIndex(index);  
+                setTimeout(function (e) {  
+                    if (!e) {  
+                        return;  
+                    }  
+                    var target = $(e.target);  
+                    if (self.$view[0]A.style.display != "none" && target.isChildAndSelfOf($(this).parent().children())) {  
+                        $(this).removeClass("fr-combo-selected");  
+                    }  
+                }, 10);   
+                if(self.options.widgetName=="CESHI"){ 
+               	 if(showValue!='不选'){
+                $("#img").attr("src","http://localhost:8075/WebReport/page_demo/"+showValue+".png");}
+                	else
+                 $("#img").attr("src","http://localhost:8075/WebReport/page_demo/翠鸟.png");
+                } 
+            })  
+            .click(function (e) {  
+                self.inList = true;  
+                self._setSelectedIndex(index > -1 ? index : self.getItemsLength());  
+                self._onEnterPressed();  
+            });  
+    }]]></Content>
+</JavaScript>
+</Listener>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.write.Submit">
+<WidgetAttr/>
+<Text>
+<![CDATA[${i18n('Utils-Submit')}]]></Text>
+<IconName>
+<![CDATA[submit]]></IconName>
+<Verify failVerifySubmit="false"/>
+</Widget>
+<Widget class="com.fr.report.web.button.write.Verify">
+<WidgetAttr/>
+<Text>
+<![CDATA[${i18n('Verify-Data_Verify')}]]></Text>
+<IconName>
+<![CDATA[verify]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.FlashPrint">
+<WidgetAttr/>
+<Text>
+<![CDATA[${i18n('Utils-Print[Client]A')}]]></Text>
+<IconName>
+<![CDATA[flashprint]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr/>
+<Text>
+<![CDATA[${i18n('Print')}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr/>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr/>
+<Text>
+<![CDATA[${i18n('Email')}]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.write.AppendColumnRow">
+<WidgetAttr/>
+<Text>
+<![CDATA[${i18n('Add')}${i18n('Record')}]]></Text>
+<IconName>
+<![CDATA[appendcolumn]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.write.ShowCellValue">
+<WidgetAttr/>
+<LabelAttr verticalcenter="true" textalign="0" autoline="false"/>
+<FRFont name="SimSun" style="0" size="72"/>
+<widgetValue/>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<SelectedColor/>
+<WebWrite isSheet="false"/>
+<UnloadCheck/>
+</WebWriteContent>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<RowHeight defaultValue="723900">
+<![CDATA[2095500,495300,495300,952500,723900,723900,723900,723900,723900,723900,723900,723900,1143000,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,3733800,3962400,2743200,2743200,2743200,3467100,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" cs="7" s="0">
+<O>
+<![CDATA[当鼠标滑过下拉框各选项时，选项对应的图片显示在单元格B2中。]]></O>
+<Expand/>
+</C>
+<C c="1" r="3" cs="2" rs="9" s="1">
+<O>
+<![CDATA[<img id=\"img\" src=\"http://localhost:8075/WebReport/page_demo/翠鸟.png\">]]></O>
+<CellGUIAttr showAsHTML="true"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand/>
+</C>
+<C c="4" r="3" s="2">
+<O>
+<![CDATA[下拉框：]]></O>
+<Expand/>
+</C>
+<C c="5" r="3" s="3">
+<O>
+<![CDATA[]]></O>
+<CellGUIAttr showAsDefault="true"/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.ComboBox">
+<WidgetName name="ceshi"/>
+<WidgetAttr/>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="1" value="翠鸟"/>
+<Dict key="2" value="蜂鸟"/>
+<Dict key="3" value="丹顶鹤"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue/>
+</Widget>
+<CellInsertPolicy/>
+<Expand/>
+</C>
+<C c="0" r="12" s="4">
+<O>
+<![CDATA[注：]]></O>
+<Expand/>
+</C>
+<C c="1" r="12" cs="6" s="5">
+<O>
+<![CDATA[1. 代码见 模板>>模板web属性>>填报页面设置>>，里面加了个“加载结束事件”，见其中代码]]></O>
+<Expand/>
+</C>
+<C c="0" r="13" s="5">
+<Expand/>
+</C>
+<C c="1" r="13" s="5">
+<Expand/>
+</C>
+<C c="2" r="13" s="5">
+<Expand/>
+</C>
+<C c="3" r="13" s="5">
+<Expand/>
+</C>
+<C c="4" r="13" s="5">
+<Expand/>
+</C>
+<C c="5" r="13" s="5">
+<Expand/>
+</C>
+<C c="6" r="13" s="5">
+<Expand/>
+</C>
+<C c="0" r="14" s="5">
+<Expand/>
+</C>
+<C c="1" r="14" cs="6" s="5">
+<O>
+<![CDATA[2. 代码中指定了图片路径，具体图片名称由鼠标所滑过的下拉框选项决定]]></O>
+<Expand/>
+</C>
+<C c="0" r="15" s="5">
+<Expand/>
+</C>
+<C c="1" r="15" s="5">
+<Expand/>
+</C>
+<C c="2" r="15" s="5">
+<Expand/>
+</C>
+<C c="3" r="15" s="5">
+<Expand/>
+</C>
+<C c="4" r="15" s="5">
+<Expand/>
+</C>
+<C c="5" r="15" s="5">
+<Expand/>
+</C>
+<C c="6" r="15" s="5">
+<Expand/>
+</C>
+<C c="0" r="16" s="5">
+<Expand/>
+</C>
+<C c="1" r="16" cs="6" s="5">
+<O>
+<![CDATA[3. 图片名称要和下拉框内选项的显示值一致]]></O>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="1" size="96" foreground="-16744320"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="1" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-65536"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-65536"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="HAF"/>
+<PreviewType PreviewType="1"/>
+</WorkBook>

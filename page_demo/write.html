@@ -1,0 +1,12 @@
+<html>     
+<head>     
+<title>自定义浏览页面</title>   
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+</head>     
+<body>     
+<div id="toolbar">     
+<button type="button" onclick="document.getElementById('reportFrame').contentWindow.contentPane.writeReport()">提交</button>
+</div>     
+<iframe id="reportFrame" onload="afterload()" src="/WebReport/ReportServer?reportlet=doc/Form/FreeFrom/FreeForm.cpt&op=write&__showtoolbar__=false" width = 100% height = 80%></iframe>     
+</body>     
+</html> 

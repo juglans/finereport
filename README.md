@@ -1,0 +1,1 @@
+## finereport 8.0 image based on `andreptb/tomcat:8` for deployment.

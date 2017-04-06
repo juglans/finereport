@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LoginDBManager driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/logdb?useUnicode=true&amp;characterEncoding=UTF-8" username="root" password="" isEnabled="false">
+</LoginDBManager>

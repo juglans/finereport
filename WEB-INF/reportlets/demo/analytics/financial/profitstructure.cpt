@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20140501" releaseVersion="7.1.1">
+<TableDataMap>
+<TableData name="ds1" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT 类别,sum(本期) as 本期金额 FROM 利润分析
+group by 类别]]></Query>
+</TableData>
+<TableData name="ds2" class="com.fr.data.impl.DBTableData">
+<Parameters>
+<Parameter>
+<Attributes name="leibie"/>
+<O>
+<![CDATA[收入]]></O>
+</Parameter>
+</Parameters>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT 小类,sum(本期) as 本期金额 FROM 利润分析
+where 类别='${leibie}'
+group by 小类
+]]></Query>
+</TableData>
+<TableData name="ds3" class="com.fr.data.impl.DBTableData">
+<Parameters>
+<Parameter>
+<Attributes name="leibie"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="pj"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+</Parameters>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM 利润分析 where 1=1
+ ${if(len(leibie) == 0,"","and 类别 = '" + leibie + "'")}
+ ${if(len(pj) == 0,"","and 小类 = '" + pj + "'")}]]></Query>
+</TableData>
+<TableData name="ds4" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM 利润分析 where 类别='收入']]></Query>
+</TableData>
+<TableData name="ds5" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM 利润分析 where 类别='支出']]></Query>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars/>
+<WebPage isPage="false" isShowAsImage="false" isAutoScale="false" isTDHeavy="false"/>
+</WebPageContent>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[342900,1600200,419100,7429500,723900,1104900,876300,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[381000,1828800,6896100,762000,4176000,4176000,1371600,647700,1485900,419100,2209800,495300,4991100,4176000,4176000,1371600,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" cs="15" s="0">
+<O>
+<![CDATA[利润结构分析]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="3" cs="2">
+<O t="CC">
+<LayoutAttr selectedIndex="0"/>
+<Chart name="Default">
+<Chart class="com.fr.chart.chartattr.Chart">
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<ChartAttr isJSDraw="true"/>
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor borderColor="-1"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="0.3"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[收支占比]]></O>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="true" position="0"/>
+</Title>
+<Plot class="com.fr.chart.chartattr.PiePlot">
+<Plot>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="-1" seriesDragEnable="false" plotStyle="4"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" seriesLabel="${SERIES}${BR}${CATEGORY}${BR}${VALUE}"/>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name="">
+<AttrList>
+<Attr class="com.fr.chart.base.AttrBorder">
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false"/>
+<newColor borderColor="-1"/>
+</AttrBorder>
+</Attr>
+<Attr class="com.fr.chart.base.AttrBorder">
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false"/>
+<newColor borderColor="-1"/>
+</AttrBorder>
+</Attr>
+</AttrList>
+</ConditionAttr>
+</DefaultAttr>
+</ConditionCollection>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="true"/>
+<newColor borderColor="-8355712"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="true"/>
+<FRFont name="SimSun" style="0" size="80"/>
+</Legend>
+<DataSheet>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isVisible="false"/>
+</DataSheet>
+<NameJavaScriptGroup>
+<NameJavaScript name="图表超链1">
+<JavaScript class="com.fr.chart.web.ChartHyperRelateCellLink">
+<JavaScript class="com.fr.chart.web.ChartHyperRelateCellLink">
+<Parameters>
+<Parameter>
+<Attributes name="leibie"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SERIES]]></Attributes>
+</O>
+</Parameter>
+</Parameters>
+<TargetFrame>
+<![CDATA[_blank]]></TargetFrame>
+<Features width="500" height="270"/>
+<realateName realateValue="E4"/>
+</JavaScript>
+</JavaScript>
+</NameJavaScript>
+<NameJavaScript name="图表超链2">
+<JavaScript class="com.fr.chart.web.ChartHyperRelateCellLink">
+<JavaScript class="com.fr.chart.web.ChartHyperRelateCellLink">
+<Parameters>
+<Parameter>
+<Attributes name="类别"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SERIES]]></Attributes>
+</O>
+</Parameter>
+</Parameters>
+<TargetFrame>
+<![CDATA[_blank]]></TargetFrame>
+<Features width="500" height="270"/>
+<realateName realateValue="M4"/>
+</JavaScript>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<newPlotFillStyle>
+<AttrFillStyle>
+<AFStyle colorStyle="1"/>
+<FillStyleName fillStyleName="明亮"/>
+<ColorList>
+<OColor colvalue="-15830324"/>
+<OColor colvalue="-9657585"/>
+<OColor colvalue="-683247"/>
+<OColor colvalue="-375997"/>
+<OColor colvalue="-15290420"/>
+<OColor colvalue="-8011743"/>
+<OColor colvalue="-3069334"/>
+<OColor colvalue="-15830324"/>
+<OColor colvalue="-9657585"/>
+<OColor colvalue="-683247"/>
+<OColor colvalue="-375997"/>
+<OColor colvalue="-15290420"/>
+<OColor colvalue="-8011743"/>
+<OColor colvalue="-3069334"/>
+<OColor colvalue="-15830324"/>
+<OColor colvalue="-9657585"/>
+<OColor colvalue="-683247"/>
+<OColor colvalue="-375997"/>
+<OColor colvalue="-15290420"/>
+<OColor colvalue="-8011743"/>
+<OColor colvalue="-3069334"/>
+<OColor colvalue="-15830324"/>
+<OColor colvalue="-9657585"/>
+<OColor colvalue="-683247"/>
+<OColor colvalue="-375997"/>
+<OColor colvalue="-15290420"/>
+<OColor colvalue="-8011743"/>
+<OColor colvalue="-3069334"/>
+<OColor colvalue="-15830324"/>
+<OColor colvalue="-9657585"/>
+<OColor colvalue="-683247"/>
+<OColor colvalue="-375997"/>
+</ColorList>
+</AttrFillStyle>
+</newPlotFillStyle>
+<PieAttr subType="1" smallPercent="0.15"/>
+</Plot>
+</Plot>
+<ChartDefinition>
+<OneValueCDDefinition seriesName="类别" valueName="本期金额" function="com.fr.data.util.function.NoneFunction">
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[ds1]]></Name>
+</TableData>
+<CategoryName value=""/>
+</OneValueCDDefinition>
+</ChartDefinition>
+</Chart>
+</Chart>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="3" cs="7">
+<O t="CC">
+<LayoutAttr selectedIndex="0"/>
+<Chart name="Default">
+<Chart class="com.fr.chart.chartattr.Chart">
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<ChartAttr isJSDraw="true"/>
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="0.3"/>
+</AttrAlpha>
+</GI>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$leibie + "结构"]]></Attributes>
+</O>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="true" position="0"/>
+</Title>
+<Plot class="com.fr.chart.chartattr.PiePlot">
+<Plot>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="-1" seriesDragEnable="false" plotStyle="4"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" seriesLabel="${SERIES}${BR}${CATEGORY}${BR}${VALUE}"/>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name="">
+<AttrList>
+<Attr class="com.fr.chart.base.AttrBorder">
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false"/>
+<newColor borderColor="-1"/>
+</AttrBorder>
+</Attr>
+<Attr class="com.fr.chart.base.AttrBorder">
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false"/>
+<newColor borderColor="-1"/>
+</AttrBorder>
+</Attr>
+</AttrList>
+</ConditionAttr>
+</DefaultAttr>
+</ConditionCollection>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="true"/>
+<newColor borderColor="-8355712"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="true"/>
+<FRFont name="SimSun" style="0" size="80"/>
+</Legend>
+<DataSheet>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isVisible="false"/>
+</DataSheet>
+<NameJavaScriptGroup>
+<NameJavaScript name="图表超链1">
+<JavaScript class="com.fr.chart.web.ChartHyperRelateCellLink">
+<JavaScript class="com.fr.chart.web.ChartHyperRelateCellLink">
+<Parameters>
+<Parameter>
+<Attributes name="pj"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SERIES]]></Attributes>
+</O>
+</Parameter>
+<Parameter>
+<Attributes name="leibie"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$leibie]]></Attributes>
+</O>
+</Parameter>
+</Parameters>
+<TargetFrame>
+<![CDATA[_blank]]></TargetFrame>
+<Features width="500" height="270"/>
+<realateName realateValue="M4"/>
+</JavaScript>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<newPlotFillStyle>
+<AttrFillStyle>
+<AFStyle colorStyle="1"/>
+<FillStyleName fillStyleName="明亮"/>
+<ColorList>
+<OColor colvalue="-15830324"/>
+<OColor colvalue="-9657585"/>
+<OColor colvalue="-683247"/>
+<OColor colvalue="-375997"/>
+<OColor colvalue="-15290420"/>
+<OColor colvalue="-8011743"/>
+<OColor colvalue="-3069334"/>
+<OColor colvalue="-15830324"/>
+<OColor colvalue="-9657585"/>
+<OColor colvalue="-683247"/>
+<OColor colvalue="-375997"/>
+<OColor colvalue="-15290420"/>
+<OColor colvalue="-8011743"/>
+<OColor colvalue="-3069334"/>
+<OColor colvalue="-15830324"/>
+<OColor colvalue="-9657585"/>
+<OColor colvalue="-683247"/>
+<OColor colvalue="-375997"/>
+<OColor colvalue="-15290420"/>
+<OColor colvalue="-8011743"/>
+<OColor colvalue="-3069334"/>
+<OColor colvalue="-15830324"/>
+<OColor colvalue="-9657585"/>
+<OColor colvalue="-683247"/>
+<OColor colvalue="-375997"/>
+<OColor colvalue="-15290420"/>
+<OColor colvalue="-8011743"/>
+<OColor colvalue="-3069334"/>
+<OColor colvalue="-15830324"/>
+<OColor colvalue="-9657585"/>
+<OColor colvalue="-683247"/>
+<OColor colvalue="-375997"/>
+</ColorList>
+</AttrFillStyle>
+</newPlotFillStyle>
+<PieAttr subType="1" smallPercent="0.15"/>
+</Plot>
+</Plot>
+<ChartDefinition>
+<OneValueCDDefinition seriesName="小类" valueName="本期金额" function="com.fr.data.util.function.NoneFunction">
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[ds2]]></Name>
+</TableData>
+<CategoryName value=""/>
+</OneValueCDDefinition>
+</ChartDefinition>
+</Chart>
+</Chart>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="3" cs="4">
+<O t="CC">
+<LayoutAttr selectedIndex="0"/>
+<Chart name="默认">
+<Chart class="com.fr.chart.chartattr.Chart">
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor borderColor="-4144960"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<ChartAttr isJSDraw="true"/>
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(len($pj) = 0, "明细", $pj) + "结构"]]></Attributes>
+</O>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="88"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="true" position="0"/>
+</Title>
+<Plot class="com.fr.chart.chartattr.Bar2DPlot">
+<CategoryPlot>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="1"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" seriesLabel="${VALUE}"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name=""/>
+</DefaultAttr>
+</ConditionCollection>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="true"/>
+<FRFont name="Microsoft YaHei" style="0" size="72"/>
+</Legend>
+<DataSheet>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isVisible="false"/>
+</DataSheet>
+<newPlotFillStyle>
+<AttrFillStyle>
+<AFStyle colorStyle="1"/>
+<FillStyleName fillStyleName="雅致"/>
+<ColorList>
+<OColor colvalue="-13204802"/>
+<OColor colvalue="-12212362"/>
+<OColor colvalue="-1027290"/>
+<OColor colvalue="-1124489"/>
+<OColor colvalue="-13414555"/>
+<OColor colvalue="-5007538"/>
+<OColor colvalue="-13055107"/>
+<OColor colvalue="-2249165"/>
+<OColor colvalue="-8107085"/>
+<OColor colvalue="-7092907"/>
+<OColor colvalue="-10525036"/>
+<OColor colvalue="-2148223"/>
+<OColor colvalue="-13725034"/>
+<OColor colvalue="-13204802"/>
+<OColor colvalue="-12212362"/>
+<OColor colvalue="-1027290"/>
+<OColor colvalue="-1124489"/>
+<OColor colvalue="-13414555"/>
+<OColor colvalue="-5007538"/>
+<OColor colvalue="-13055107"/>
+<OColor colvalue="-2249165"/>
+<OColor colvalue="-8107085"/>
+<OColor colvalue="-7092907"/>
+<OColor colvalue="-10525036"/>
+<OColor colvalue="-2148223"/>
+<OColor colvalue="-13725034"/>
+<OColor colvalue="-13204802"/>
+<OColor colvalue="-12212362"/>
+<OColor colvalue="-1027290"/>
+<OColor colvalue="-1124489"/>
+<OColor colvalue="-13414555"/>
+<OColor colvalue="-5007538"/>
+</ColorList>
+</AttrFillStyle>
+</newPlotFillStyle>
+<RectanglePlotAttr interactiveAxisTooltip="false"/>
+<xAxis>
+<CategoryAxis class="com.fr.chart.chartattr.CategoryAxis">
+<newAxisAttr isShowAxisLabel="true"/>
+<AxisLineStyle AxisStyle="1" MainGridStyle="0"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="3"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Microsoft YaHei" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</CategoryAxis>
+</xAxis>
+<yAxis>
+<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
+<ValueAxisAttr201108 alignZeroValue="false"/>
+<newAxisAttr isShowAxisLabel="true"/>
+<AxisLineStyle AxisStyle="1" MainGridStyle="1"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="2"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Century Gothic" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</ValueAxis>
+</yAxis>
+<secondAxis>
+<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
+<ValueAxisAttr201108 alignZeroValue="false"/>
+<newAxisAttr isShowAxisLabel="true"/>
+<AxisLineStyle AxisStyle="1" MainGridStyle="1"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="4"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Century Gothic" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</ValueAxis>
+</secondAxis>
+<CateAttr isStacked="false"/>
+<BarAttr isHorizontal="false" overlap="0.0" interval="1.0"/>
+<Bar2DAttr isSimulation3D="false"/>
+</CategoryPlot>
+</Plot>
+<ChartDefinition>
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[ds3]]></Name>
+</TableData>
+<CategoryName value="项目"/>
+<ChartSummaryColumn name="本期" function="com.fr.data.util.function.NoneFunction" customName="本期"/>
+</MoreNameCDDefinition>
+</ChartDefinition>
+</Chart>
+</Chart>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="5" s="1">
+<O>
+<![CDATA[行次]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="5" s="1">
+<O>
+<![CDATA[资产项目]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="5" cs="2" s="1">
+<O>
+<![CDATA[2011年]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="5" s="1">
+<O>
+<![CDATA[2012年]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="5" s="1">
+<O>
+<![CDATA[变动趋势]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="5" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="5" cs="2" s="1">
+<O>
+<![CDATA[行次]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="5" cs="3" s="1">
+<O>
+<![CDATA[负债项目]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="5" s="1">
+<O>
+<![CDATA[2011年]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="5" s="1">
+<O>
+<![CDATA[2012年]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="5" s="1">
+<O>
+<![CDATA[变动趋势]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="6">
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0" showAsDefault="true"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand/>
+</C>
+<C c="1" r="6" s="2">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=seq()]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0" showAsDefault="true"/>
+<CellPageAttr/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[row() % 2 == 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Scope val="1"/>
+<Background name="ColorBackground" color="-855310"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<CellInsertPolicy/>
+<Expand dir="0" leftParentDefault="false" left="C7"/>
+</C>
+<C c="2" r="6" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds4" columnName="项目"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0" showAsDefault="true"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand dir="0"/>
+</C>
+<C c="3" r="6" cs="2" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds4" columnName="上期"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0" showAsDefault="true"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand dir="0"/>
+</C>
+<C c="5" r="6" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds4" columnName="本期"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0" showAsDefault="true"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="6" s="2">
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[F7 - D7 <= 0]]></Formula>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[row()%2!=0]]></Formula>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(C7)!=0]]></Formula>
+</Condition>
+</JoinCondition>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="1">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n(O#beX]A55A/7"A7/eW#k/.?rVuotkN-hnf!IV)\F0()FZ5V/I@
+(`CBn"IM7HIl7F?_b!o415`a6BQFB4]Auc:HM\DI:qHK%t0SD-7-?pQ1J]A]Ajc;>r+!4V^o]A4;
+1VtW;Z<;61KY.+!q?Zq,dY',8@HH2@('AhNUn7;RaB</Wd*a&#CbOg#QY<Cc*D-pf.j5\mdc
+*,okm<H+ko>UWbf*>Bk42:7-QAKN]A[63m`H.a!T1<8s-J_g?Us1UY.[jOK1jL!(uYFkakp#F
+BEn"9&UH*MA;qp(iFbNb^j48AREY><>V5HSdPZb5PiiO,</FZaR6rVc-TbJ*0F8%*m!d!KKG
+`4)k_^V5)?1U#kBNRJ]A:pA*hMrr%8XA_*>/s(BNEhmN9nDY;bVD"t"Tkjb1KIt.J\>?lZbdf
+8?bLA1#G)+MI3"YFVOqgm7>:D_'5MHe1/$EOG+SucL`Ho"bc%\62d`%6<9If#T0Jqn^V?>X!
+;,e[Bqj=1\$OO's%q9o#m`9VG-rpSCjJ#ZIX3ih!7a_sD?Y)MOhE@AN74uM;CGFC#QiG_.?Z
+d/FuhQ]AKjqEMU^lf35PX"cY/5!Af/%#m5*'I`Bkl$1="Rm6>qHC9);ML>g`qe+I1s8N#pqu1
+B;ioLoM:S&:ccG<EIhmp8VH/DiR^WUcBRX3I:`%3tJkC<*([I,^)M>^D!r51nan6MW">5%VL
+:Ae:3D<a7\bD[gQ1[IZ>CPpaZdg,HDVlQH53i@WX!!~
+]]></IM>
+</Background>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[F7 - D7 > 0]]></Formula>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[row()%2!=0]]></Formula>
+</Condition>
+</JoinCondition>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="1">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n(O#beX]A55A/7"A7/eW#k/.?rVunI_VKn/44-VYP1"6Ff0?7lp3
+=WR4&`RNhO]A$@/`]Ar'qRuO\LW(3ND2Pk<Q[(`0e(lT?s86\[g/dmF.d)9+mX':U4?o7>--bD
+!o7X"T55t=j]A#Hl3:Ak%]A$_"9,9R&J3I^S4M#7(8-qg8"teJFia[NFp"pu'Nha!^lbqcA0OA
+C75"^?YlQeq[R[H`d*59Bh<(]API?%f-<32fJ;FUKUV<$G2""k+1D((#Zu1sai7PS_le\N>\e
+B7iplm2l[\ZE/n\EpO1Ws1X$?X\@ctl$RQEC]ADJnpUg_FoU394mhhY$ers8UbjEkM51VYbP?
+i[Z=CgN%nK#IQa/]AD_HKQ>>6$T(RL0p%A1))e%pIG2M3CJ&B%[@[#OMpU]AZ"L"D7*G?8[p^N
+o8#GmpHUpjrSdSY-6PjltbA;K43I5sb:a.`E>j"k1ccO5F!RBAB8\Z/C#OjaUmSZ36Ls#PB@
+U=EX:LV>pKGs8Ta@mFi[lrck2dI9tNtc26793kEYFrce.qnVhZjQLZofqAV@<B%l\e$/OKFY
+Y9[Tg:FnKKA0S`SL(!r:egc'Iskqha6Y,=s0a8NL]A?=^]A^^N*'u-<uMn2,9l[CEDd=:WQb]AE
+dV7nmL^R&40eGtSt/BobKf4)SL(K$3h=WmAOh0WtEI]A\25P'AJfWhV\@q^3jZuoXLNU_;M&a
+_b,Ab2N[Ai?2\$Z3@-K_!!~
+]]></IM>
+</Background>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性3]]></Name>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[F7 - D7 <= 0]]></Formula>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[row()%2==0]]></Formula>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(C7)!=0]]></Formula>
+</Condition>
+</JoinCondition>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="1">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n&P`/B5L7,j4?\j'c>'AdIl4EW,Ooe!Dqo=10d^ZD%0]Af<:f2Is
+s>kq"DY-:J5IehnO2Mn*7)\-[h?rp\k!`:\0LYI/3>Q<qaSuWLoJUSna/Z]AY*[td]AOPd2nkl
+LnTf9#k=pAK%W6[E*IbK6p[-t?H[AfM5I0t$inBG85.nM3s8.S\S$O*\/F%MjGL_a-T3a.QH
+W'>.qV\Bo=3c3H2W`tbM/U#D:?G`0rUfX)O`cF/r-$]A2I!L&4ji#*@0->WBo_s-Lqm/`!+',
+dshVA-BgZ3;1^4#qSiT7LNcW7F?8^`+C*q6<WnBUG:GE;1e\>JZ@k*_"IrBBjB5&LjT1;ED-
+L#YD3I6Clon8^kT]A-Z!G=1>s.NB/i"oZbOE>6d("lAKqmFiK22'7TlSro;%[rFr-I\jG;GhK
+`VWRV,9_Sh=l+E,<SdFa[V(5!DjZpgWhOL/BX`^^7\Y9L.mNVi,%U`NA3S"_%dUc[L7t3r.r
+g_o`J7R@B[qI[>O"^ng\upRshO\"Dn<YOG9_nKZoNQ"@I!SL]Ac2K^-h^Rr9q/9QGOYs5s?<%
+qY.o-;2"0hRmRR?M+ITNrT(Xs*rTd:8:6"G?4&h/u\[!G$N!_:$pb\*M)pdB?iJ7co/GpdeW
+JuDgM-/J%@3LHU)U@T$m:]AFoVJq[ksGdf8o0rgK8[1k.lfe/$c2s9DZ>fLteC5;LM[3bMUd^
+ofJO*J$2p0FCjMqpU'oelOWej8%4odli0-+=)WFpcS'cTFUHaHW>:U<Q`1AjG^6T>rYcG6#'
+FY+7Zm"p[Y)6]Al0@H;c7,Fn!!~
+]]></IM>
+</Background>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性4]]></Name>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[F7 - D7 > 0]]></Formula>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[row()%2==0]]></Formula>
+</Condition>
+</JoinCondition>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="1">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n&P`/B5L7,j4?\j'c>'AdIl4EW,Ooe$j8QddO"[geHGkAEW^Uhm
+;`_8)K.u]AUY401HkMFE:Lj*JfBC_Df;e)<0_MhVuB9d[(FfAT!mb;c<GX4rTX3WJ,]AA6]AIA!
+prN//am>S[m[I<8W$a24d3PY:LgR!BT!_[a%#HeO8r;#rpLZc?(HFk/=NP$-3[C)n%DH$(bP
+*Sc.4jSFXDR;i<O7qAooCU;VW,j[$c7SnclW;&jb,`jkRBNls\lHHCieGS$-D.u$DYpOVpKp
+*T]A:1_S`T1aRB)MZ"]ACC2Gp!29lDm-j"s/,0e8([:&VS0)fNmI!>f&OE^[Gt<Nf<8Nt?XMO]A
+\8V-/4mT7gfR@W!a%me(*qba>YKY^hqtp,+mi?j32e%h445miimI'RmjYnY95Fl&$UY,NuBC
+NJdca04j(Lj:+S_AM&pW`TE%]Ac/PSm0Mp$AJqu@--#AU`Ocl3/1Df8krJ2Q>fNjnGfuK"\Pb
+1f&r'+,l)!#4Kj6AJ"KYN6-%5g2mr?rrup[LrVl!KknBg\jt"tWX4RCOBBS_.hL,9[qYaIpB
+4h)1RX4.jU@b^C-]Aaf_J*c75oY/Ku2bWHg.fTHnq".(]AY>F:"_:HMZ%Xaf(q,%&FJ"-E:_O4
+d1J'Td+<*SMSmJd+bO1EfIj4'CFLLi=,AGgG^YF:nu+;CJhkkD0^^\RmXc9([SkMPEK[XZd8
+CTgrjIAXe"2gNfa^I`o=]AXPZM-)IpIs7P.#nV0V/8$*J<mXG.bo'BkFO"P^Zi^f'^&+[')X.
+RQrVh?As~
+]]></IM>
+</Background>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="7" r="6" s="2">
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0" showAsDefault="true"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand/>
+</C>
+<C c="8" r="6" cs="2" s="2">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=seq()]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0" showAsDefault="true"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand dir="0" leftParentDefault="false" left="L7"/>
+</C>
+<C c="10" r="6" cs="3" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds5" columnName="项目"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0" showAsDefault="true"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand dir="0" leftParentDefault="false"/>
+</C>
+<C c="13" r="6" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds5" columnName="上期"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0" showAsDefault="true"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand dir="0"/>
+</C>
+<C c="14" r="6" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds5" columnName="本期"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0" showAsDefault="true"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand dir="0"/>
+</C>
+<C c="15" r="6" s="2">
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[o7 - N7 <= 0]]></Formula>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[row()%2!=0]]></Formula>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(M7)!=0]]></Formula>
+</Condition>
+</JoinCondition>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="1">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n(O#beX]A55A/7"A7/eW#k/.?rVuotkN-hnf!IV)\F0()FZ5V/I@
+(`CBn"IM7HIl7F?_b!o415`a6BQFB4]Auc:HM\DI:qHK%t0SD-7-?pQ1J]A]Ajc;>r+!4V^o]A4;
+1VtW;Z<;61KY.+!q?Zq,dY',8@HH2@('AhNUn7;RaB</Wd*a&#CbOg#QY<Cc*D-pf.j5\mdc
+*,okm<H+ko>UWbf*>Bk42:7-QAKN]A[63m`H.a!T1<8s-J_g?Us1UY.[jOK1jL!(uYFkakp#F
+BEn"9&UH*MA;qp(iFbNb^j48AREY><>V5HSdPZb5PiiO,</FZaR6rVc-TbJ*0F8%*m!d!KKG
+`4)k_^V5)?1U#kBNRJ]A:pA*hMrr%8XA_*>/s(BNEhmN9nDY;bVD"t"Tkjb1KIt.J\>?lZbdf
+8?bLA1#G)+MI3"YFVOqgm7>:D_'5MHe1/$EOG+SucL`Ho"bc%\62d`%6<9If#T0Jqn^V?>X!
+;,e[Bqj=1\$OO's%q9o#m`9VG-rpSCjJ#ZIX3ih!7a_sD?Y)MOhE@AN74uM;CGFC#QiG_.?Z
+d/FuhQ]AKjqEMU^lf35PX"cY/5!Af/%#m5*'I`Bkl$1="Rm6>qHC9);ML>g`qe+I1s8N#pqu1
+B;ioLoM:S&:ccG<EIhmp8VH/DiR^WUcBRX3I:`%3tJkC<*([I,^)M>^D!r51nan6MW">5%VL
+:Ae:3D<a7\bD[gQ1[IZ>CPpaZdg,HDVlQH53i@WX!!~
+]]></IM>
+</Background>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[o7 - N7 > 0]]></Formula>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[row()%2!=0]]></Formula>
+</Condition>
+</JoinCondition>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="1">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n(O#beX]A55A/7"A7/eW#k/.?rVunI_VKn/44-VYP1"6Ff0?7lp3
+=WR4&`RNhO]A$@/`]Ar'qRuO\LW(3ND2Pk<Q[(`0e(lT?s86\[g/dmF.d)9+mX':U4?o7>--bD
+!o7X"T55t=j]A#Hl3:Ak%]A$_"9,9R&J3I^S4M#7(8-qg8"teJFia[NFp"pu'Nha!^lbqcA0OA
+C75"^?YlQeq[R[H`d*59Bh<(]API?%f-<32fJ;FUKUV<$G2""k+1D((#Zu1sai7PS_le\N>\e
+B7iplm2l[\ZE/n\EpO1Ws1X$?X\@ctl$RQEC]ADJnpUg_FoU394mhhY$ers8UbjEkM51VYbP?
+i[Z=CgN%nK#IQa/]AD_HKQ>>6$T(RL0p%A1))e%pIG2M3CJ&B%[@[#OMpU]AZ"L"D7*G?8[p^N
+o8#GmpHUpjrSdSY-6PjltbA;K43I5sb:a.`E>j"k1ccO5F!RBAB8\Z/C#OjaUmSZ36Ls#PB@
+U=EX:LV>pKGs8Ta@mFi[lrck2dI9tNtc26793kEYFrce.qnVhZjQLZofqAV@<B%l\e$/OKFY
+Y9[Tg:FnKKA0S`SL(!r:egc'Iskqha6Y,=s0a8NL]A?=^]A^^N*'u-<uMn2,9l[CEDd=:WQb]AE
+dV7nmL^R&40eGtSt/BobKf4)SL(K$3h=WmAOh0WtEI]A\25P'AJfWhV\@q^3jZuoXLNU_;M&a
+_b,Ab2N[Ai?2\$Z3@-K_!!~
+]]></IM>
+</Background>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性3]]></Name>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[o7 - N7 <= 0]]></Formula>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[row()%2==0]]></Formula>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[len(M7)!=0]]></Formula>
+</Condition>
+</JoinCondition>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="1">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n&P`/B5L7,j4?\j'c>'AdIl4EW,Ooe!Dqo=10d^ZD%0]Af<:f2Is
+s>kq"DY-:J5IehnO2Mn*7)\-[h?rp\k!`:\0LYI/3>Q<qaSuWLoJUSna/Z]AY*[td]AOPd2nkl
+LnTf9#k=pAK%W6[E*IbK6p[-t?H[AfM5I0t$inBG85.nM3s8.S\S$O*\/F%MjGL_a-T3a.QH
+W'>.qV\Bo=3c3H2W`tbM/U#D:?G`0rUfX)O`cF/r-$]A2I!L&4ji#*@0->WBo_s-Lqm/`!+',
+dshVA-BgZ3;1^4#qSiT7LNcW7F?8^`+C*q6<WnBUG:GE;1e\>JZ@k*_"IrBBjB5&LjT1;ED-
+L#YD3I6Clon8^kT]A-Z!G=1>s.NB/i"oZbOE>6d("lAKqmFiK22'7TlSro;%[rFr-I\jG;GhK
+`VWRV,9_Sh=l+E,<SdFa[V(5!DjZpgWhOL/BX`^^7\Y9L.mNVi,%U`NA3S"_%dUc[L7t3r.r
+g_o`J7R@B[qI[>O"^ng\upRshO\"Dn<YOG9_nKZoNQ"@I!SL]Ac2K^-h^Rr9q/9QGOYs5s?<%
+qY.o-;2"0hRmRR?M+ITNrT(Xs*rTd:8:6"G?4&h/u\[!G$N!_:$pb\*M)pdB?iJ7co/GpdeW
+JuDgM-/J%@3LHU)U@T$m:]AFoVJq[ksGdf8o0rgK8[1k.lfe/$c2s9DZ>fLteC5;LM[3bMUd^
+ofJO*J$2p0FCjMqpU'oelOWej8%4odli0-+=)WFpcS'cTFUHaHW>:U<Q`1AjG^6T>rYcG6#'
+FY+7Zm"p[Y)6]Al0@H;c7,Fn!!~
+]]></IM>
+</Background>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性4]]></Name>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[o7 - N7   > 0]]></Formula>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[row()%2==0]]></Formula>
+</Condition>
+</JoinCondition>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="1">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n&P`/B5L7,j4?\j'c>'AdIl4EW,Ooe$j8QddO"[geHGkAEW^Uhm
+;`_8)K.u]AUY401HkMFE:Lj*JfBC_Df;e)<0_MhVuB9d[(FfAT!mb;c<GX4rTX3WJ,]AA6]AIA!
+prN//am>S[m[I<8W$a24d3PY:LgR!BT!_[a%#HeO8r;#rpLZc?(HFk/=NP$-3[C)n%DH$(bP
+*Sc.4jSFXDR;i<O7qAooCU;VW,j[$c7SnclW;&jb,`jkRBNls\lHHCieGS$-D.u$DYpOVpKp
+*T]A:1_S`T1aRB)MZ"]ACC2Gp!29lDm-j"s/,0e8([:&VS0)fNmI!>f&OE^[Gt<Nf<8Nt?XMO]A
+\8V-/4mT7gfR@W!a%me(*qba>YKY^hqtp,+mi?j32e%h445miimI'RmjYnY95Fl&$UY,NuBC
+NJdca04j(Lj:+S_AM&pW`TE%]Ac/PSm0Mp$AJqu@--#AU`Ocl3/1Df8krJ2Q>fNjnGfuK"\Pb
+1f&r'+,l)!#4Kj6AJ"KYN6-%5g2mr?rrup[LrVl!KknBg\jt"tWX4RCOBBS_.hL,9[qYaIpB
+4h)1RX4.jU@b^C-]Aaf_J*c75oY/Ku2bWHg.fTHnq".(]AY>F:"_:HMZ%Xaf(q,%&FJ"-E:_O4
+d1J'Td+<*SMSmJd+bO1EfIj4'CFLLi=,AGgG^YF:nu+;CJhkkD0^^\RmXc9([SkMPEK[XZd8
+CTgrjIAXe"2gNfa^I`o=]AXPZM-)IpIs7P.#nV0V/8$*J<mXG.bo'BkFO"P^Zi^f'^&+[')X.
+RQrVh?As~
+]]></IM>
+</Background>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting orientation="1">
+<PaperSize width="28800000" height="40320000"/>
+<Margin top="0" left="0" bottom="0" right="0"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="false" delayPlaying="true" windowPosition="1" align="1"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="128" foreground="-14722911"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1" color="-8355712"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-2624775"/>
+<Border>
+<Top style="1" color="-2236963"/>
+<Bottom style="1" color="-2236963"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-2236963"/>
+<Bottom style="1" color="-2236963"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="HBB"/>
+<PreviewType PreviewType="0"/>
+</WorkBook>

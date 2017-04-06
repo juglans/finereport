@@ -1,0 +1,24 @@
+ <html> 
+ <head> 
+ <title>FineReport Demo</title> 
+ <meta http-equiv="Content-Type" content="text/html; charset=GBK" />  
+<script type="text/javascript" src="/WebReport/ReportServer?op=emb&resource=finereport.js"></script>  
+<link rel="stylesheet" type="text/css" href="/WebReport/ReportServer?op=emb&resource=finereport.css"/>  
+ <script type='text/javascript'> 
+ function doPrint(){   
+    var url="http://localhost:8075/WebReport/ReportServer?reportlet="; 
+    url+=document.report.cpt.value;   
+	var isPopUp = false;
+	var config = {'url' : url,'isPopUp' : isPopUp}
+    FR.doURLPDFPrint(config);   
+    //FR.doURLPDFPrint(url,false);  
+}   
+ </script> 
+ </head> 
+ <body> 
+ <form name="report"> 
+ <input id="cpt" type="checkbox" value="GettingStarted.cpt" />gettingstarted.cpt<br> 
+ </form> 
+ <input type=button name=doprint onclick=doPrint() value='doPrint'></input> 
+ </body> 
+ </html>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<TableDataMap>
+<TableData name="chaobiaomingxi" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[用户号,,.,,用户名称,,.,,联系电话,,.,,用气性质,,.,,用气地址,,.,,气表型号,,.,,本月起数,,.,,本月止数,,.,,本月用量,,.,,气价,,.,,本月气费,,.,,抄表日期,,.,,抄表人,,.,,收费/冲减日期,,.,,通气日期,,.,,预收款余额,,.,,当前表]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[V-2JP,0LaLY58s:jg2?M.u28p]ARL,F+:b@+[Rqe34J!<9\jb-B@kLp%e+n\:8HDi6Gh-k7+T
+b*OhAJCum*m8EH%HCcR/;5OHPtuGMROE%IU+in0;c8QpM7m5*[*p,m[0oYG4W=U%a&C#f;os
+\V]AT?HB\$AS<m,kn1T+;drskA"4*P:b2gW'C<sP":SGO?CkC^D6kigHgK_Z*h>W[mjNot`<O
+\34ecO&!?K[4qt1!=oUYn?I)keG3[9_UQ<UWd`!J%RCSm0't8Zh50l5DB[pHi$u,>!Fb-AUA
+dHZsm8qhq+Xna2KWX4BgQuG;&"1nGm/jHq.l;Ge/Zt$^ZiA/9%D8oh5RpUe^]Au(cU@3dnNd/
+jSJPRh:aX1N@n\74=QZ$7O&Dde[W3CDQ]AB(!kodnr"Z=eNQSbb9f;*o'OCX$F5lIV!Q]A]Ai*_
+Gl0WgpT/DH]A\1j4N.i"af?Mj3Tp'3XQ7oW/sbn[hWdf%Y:0Ud;Ig.pN^"P(>_dY7a81=bXs&
+i_uXK8!]AP8`-`k_EHjWjG\Db\05D'Z4-:ic$/SJu*GE$S=Q[-iDNNHU''N[3;i_Qo.FHe,dV
+MNiO>8j+%5,IEHTQ8<t/VkW:''a5sBW56UHjj>Qir+sA:H7`R,Ifr<&#3An3nd<N&\1_+0jj
+fA)oL\&oC1k[4MQNi8JQuV2,d^n2ff`oSP@a"N$<j%`1S*13'%2iR_*#k4ZkA275jH[N$R_d
+=brP4EuusJ6Q+U[M]AoXO1)#^o)LNWtIY;=D^0W_")_X0t[?PSMRuQ;M-r1iJMr_5q_AIL19K
+;>/MGVl^L!<Jr#YfpP2k)\G9;3]AM"&\:G2)'735r>os(Yp/6A6f!Er:m>9*3Nq0$_h[+@ZCu
++8TFUVF8ZEua$hH8R;DT-'>D*aQ.p9W,21\1c^-20'U.8BPWo@4r]ADSVQ]A@.n8ruXfoi+]Ak4
+m%'S<5]Ajg<24:+1pJLLrINu#_JF,ppM\FuaP:IDf1ideT,a69Jg7,cM,3bWRb1]A1KkTQhWa]A
+/h5a6g:4K+,JFV0_7%Q@5XpasOJUG(\aJ7\mKVRQ;O]A+%]A>ieYo2J;?rfaga0/hb:_J:`+$s
+r_j\+@=c&D1Ecp$ggtSTXsm)-b&"4tHTuk8hD\0B(8'->cqcNTQG\B2WrHEYO2&'_@q'tK#*
+n*9r4.6V=q+gS9_I&XZ[Em"<B==DbmofVj5&2(,T)*B:J5biI>E^RfQ2?Ngmj%o.q$WE6s)Y
+\2t?<f",fE$UGf4<'kR_p0'pt/N=rB8X!d-uGW^[3\a";_bCdEln7!nMaaI>#ME:>G)^dFlg
+2?'-YBdctYH-M^_/EQ`cTBP-4'$lT(cIUYIW?d:671N.XXY'2DV(TrLe"G;<b<u0K3YOZMZb
+\rO,Z@d^'Lc>1o($`%Uok?:FR:oA[68+*H[S\g^/F9"FFdtnR<RR.QDR&h;im@.Y<h$^K#ma
+)D4QKO")<[q?SU6#B\"Z[M<Z5":(c.l2r-.612h\PnLTZ<_tcK*n:QtRIqj[aJeHr+q.=<r<
+@+SJlOo&b<ihOA);E\e[Ood[dR.A++lF#4?u$?.pr/e*]AsY]A\$l"_n2:C,0U*.)Uq[;(YS=Z
+5:jP=ZHG@-\F&V/JF2IK_n80CQGmuWbSk]AYTc8FWcV;4Ol]AU#lK)N>qaM6V"24d?$@E#2TSE
+KI<-b4qtf1Sf!JZ%H:6GWZ1HBK,2R9FVr"MGMAdIt;eQDlgj^q8^j(H4f>TNc6-iN9$ZOK[1
+u6O;\_*5D4P,_sa\`j85JoS.RhR9V(lA'kd]AhKR!J*+!-Pg-j'UpSm?J8ga.%Dif"K>1O+?*
+M')G27"qtGE#>5'3"eRq<`DbPg.iH<F6a.TkC&fR9:g#kHWf>^jN='b+CL^F,q$WmC,tOu^s
+HVZ7QG?EUAA0mq$?3Dk)F4)>%o)3s"mO*%(EB("b<#j/Daeh%^0&XNceh[X]A^?)F;FF.`ftO
+?@aIO>C"F2B?as'/#fTT?<b+Q0c@;s2XSoTPD<>=Q*0._DLDMQ"pKN8KNt85<O91L-Ua:%)>
+n$BD22p_-ioc<">Y<a[aq^jJij'5>ZJ-/4c#X;W62h83"DdnKk*+pE2,;jY0ARC(%=/F[[KR
+[6``GBWLWAn$f@59Tc[Wfe\nQQr=6J3IFgpt'<nsr4]A'Bj*Fu@T^6OXHsBhU(IE51#h2qLah
+.DEMaZSuYQETO\lc7,_I.SUC!.UInbpHeBdnC&j(WB(YpVG\T<_L!>*C]A?a6W6lj^k:eUVkD
+S<bSq53>?fM&^@E5GbPFW%p_]ATt026dq@lYa6*,HSP:9KiVbCAS]A[.hNntPcOJ%``&=[5*KH
+2`]AMTGN]ADRnFuor&KeVBo0`M,(S`@U%#%_DmA.%mmbP__i8IDa^ng>8//@Ss0f<\jr+XjHrD
+GLB?pD<aR8nIPT4KeT#3C[s]A^@k7s51:T#iUI69SMKS@'j)B!(*qA[[.LK$#.^TR0GJuL"Hi
+.ue&,1q+YqeiXdT('0Z["ur-VT:BdPXm:F`7^o+sRs\ir>F=g@I>\);;W/60<XAV+D-(8&0N
+ZACU*#Z8%hT5o0kCX6guR<h'M9c976:Iq.VE3iMi?$a;'#Zpkp,\5Ec7]Af,I708QAH"G[Y^I
+K4nG1VsMWgS"RPG,IT7J#:O^1Ckec>KhbhAed+ERf;i6k8Wg!@&hj5L\,3ULTek)>()f]A!,S
+JPE!NQ:6e^UVqpbS@N__R@!XO"L0;i,`me&O(a\#m[j=k*SVJK\=9r"(PG1[%in9uDK3Hs@[
+^tU+HMI;[=ml@Oa[6R]AIe/&NFto27BQjiBFs[@&S'.\5(m_1!U"$=\bMgm,a^$3OkJC/d&iC
+D@>!K.!TR76l,7Q\Ie(Ft8]AmV$^E]A,'N4h*G5KHY30K818%`6$Lu5SToi^^=R_?1"8)r2keA
+%"W,nY[<7^o#[.f18?qS_Ltn>J&;Q3O0tY[b>&Y@08'>Ir[f]A=pGupl,eh`-h?8f:bQs<GEd
+EEa]A#_d/S(9oEg6#9rWE-e*T:EX>Z.WPQ!YR!Z8YqSG:9)A8Q<D!?K9'2ZU3bY%hV)HBhFgP
++dUY<C._!M.Cd58Y(qh"BPHud]A/2Oes5hlSQI=jfa*r~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.page.First">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-First')}]]></Text>
+<IconName>
+<![CDATA[first]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Previous">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-Previous')}]]></Text>
+<IconName>
+<![CDATA[previous]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.PageNavi">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Next">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-Next')}]]></Text>
+<IconName>
+<![CDATA[next]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Last">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-Last')}]]></Text>
+<IconName>
+<![CDATA[last]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.FlashPrint">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Utils-Print[Client]A')}]]></Text>
+<IconName>
+<![CDATA[flashprint]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Print')}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Email')}]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<WebPage isPage="false" isShowAsImage="false" isAutoScale="false" isTDHeavy="false"/>
+</WebPageContent>
+<WebWriteContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.FlashPrint">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Utils-Print[Client]A')}]]></Text>
+<IconName>
+<![CDATA[flashprint]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Print')}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Email')}]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.write.ShowCellValue">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<widgetValue/>
+<LabelAttr verticalcenter="true" textalign="0" autoline="false"/>
+<FRFont name="SimSun" style="0" size="72"/>
+<border style="0" color="-723724"/>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<SelectedColor/>
+<WebWrite SheetPosition="3"/>
+<RptLocation isShowAtLeft="true"/>
+<UnloadCheck/>
+<ShowWidgets/>
+<OtherAttr isAutoStash="false"/>
+</WebWriteContent>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR F="1" T="3"/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[381000,1752480,0,1333500,952500,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[914400,2482851,3130551,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" cs="2" s="0">
+<O>
+<![CDATA[  抄表明细查询]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="1" r="2" s="1">
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="2" r="2" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="3" s="2">
+<O>
+<![CDATA[序号]]></O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="2" r="3" s="2">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$param]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<Expand dir="1"/>
+</C>
+<C c="1" r="4" s="3">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=chaobiaomingxi.select(#0)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr/>
+<CellPageAttr/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[row() % 2! = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Scope val="1"/>
+<Background name="ColorBackground" color="-657158"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="2" r="4" s="3">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=chaobiaomingxi.value(B5, C4)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="2"/>
+<CellPageAttr/>
+<CellInsertPolicy/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings shrinkToFitMode="2" headerHeight="0" footerHeight="0">
+<PaperSetting>
+<PaperSize width="38880000" height="42768000"/>
+<Margin top="286560" left="720000" bottom="286560" right="574560"/>
+</PaperSetting>
+<Background name="NullBackground"/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="false" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+<ParameterUI class="com.fr.form.main.parameter.FormParameterUI">
+<Layout class="com.fr.form.ui.container.WParameterLayout">
+<WidgetName name="para"/>
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Margin top="1" left="1" bottom="1" right="1"/>
+<Border>
+<border style="0" color="-723724" type="0" borderStyle="0"/>
+<WidgetTitle>
+<O>
+<![CDATA[新建标题]]></O>
+<FRFont name="SimSun" style="0" size="72"/>
+<Position pos="0"/>
+</WidgetTitle>
+<Alpha alpha="1.0"/>
+</Border>
+<Background name="ColorBackground" color="-1184275"/>
+<LCAttr vgap="0" hgap="0" compInterval="0"/>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.CheckBoxGroup">
+<WidgetName name="param"/>
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.FormulaDictionary">
+<FormulaDict>
+<![CDATA[=TABLEDATAFIELDS("chaobiaomingxi")]]></FormulaDict>
+</Dictionary>
+<widgetValue>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=["用户","用户名称","联系电话","本月气费","抄表日期","抄表人","用气地址"]A]]></Attributes>
+</O>
+</widgetValue>
+<BGAttr columnsInRow="9"/>
+<NotAdaptive/>
+</InnerWidget>
+<BoundsAttr x="26" y="5" width="1007" height="53"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.parameter.FormSubmitButton">
+<WidgetName name="formSubmit0"/>
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[查询]]></Text>
+<Hotkeys>
+<![CDATA[enter]]></Hotkeys>
+</InnerWidget>
+<BoundsAttr x="318" y="65" width="309" height="26"/>
+</Widget>
+<Sorted sorted="false"/>
+<Display display="true"/>
+<DelayDisplayContent delay="false"/>
+<Position position="0"/>
+<Design_Width design_width="960"/>
+<MobileWidgetList>
+<Widget widgetName="param"/>
+</MobileWidgetList>
+<WidgetNameTagMap/>
+</Layout>
+<DesignAttr width="960" height="101"/>
+</ParameterUI>
+<Parameter>
+<Attributes name="param"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Background name="ColorBackground" color="-1184275"/>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="128" foreground="-1"/>
+<Background name="ColorBackground" color="-11561760"/>
+<Border>
+<Top style="1" color="-3352093"/>
+<Bottom style="1" color="-3352093"/>
+<Left style="1" color="-3352093"/>
+<Right style="1" color="-3352093"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="80" foreground="-13421773"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-13421773"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top style="1" color="-3024920"/>
+<Bottom style="1" color="-3024920"/>
+<Left style="1" color="-3024920"/>
+<Right style="1" color="-3024920"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="0"/>
+</WorkBook>

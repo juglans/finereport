@@ -1,0 +1,22 @@
+{"type": "FeatureCollection",
+"center":[111.5332,27.3779],
+
+"features":
+[
+{"type": "Feature","properties": {"name":"怀化市"},"geometry": {"type": "Point","coordinates": [109.9512,27.4438]}},
+{"type": "Feature","properties": {"name":"永州市"},"geometry": {"type": "Point","coordinates": [111.709,25.752]}},
+{"type": "Feature","properties": {"name":"邵阳市"},"geometry": {"type": "Point","coordinates": [110.9619,26.8121]}},
+{"type": "Feature","properties": {"name":"郴州市"},"geometry": {"type": "Point","coordinates": [113.2361,25.8673]}},
+{"type": "Feature","properties": {"name":"常德市"},"geometry": {"type": "Point","coordinates": [111.4014,29.2676]}},
+{"type": "Feature","properties": {"name":"常德市"},"geometry": {"type": "Point","coordinates": [111.4014,29.2676]}},
+{"type": "Feature","properties": {"name":"湘西土家族苗族自治州"},"geometry": {"type": "Point","coordinates": [109.7864,28.6743]}},
+{"type": "Feature","properties": {"name":"衡阳市"},"geometry": {"type": "Point","coordinates": [112.4121,26.7902]}},
+{"type": "Feature","properties": {"name":"岳阳市"},"geometry": {"type": "Point","coordinates": [113.2361,29.1357]}},
+{"type": "Feature","properties": {"name":"益阳市"},"geometry": {"type": "Point","coordinates": [111.731,28.3832]}},
+{"type": "Feature","properties": {"name":"长沙市"},"geometry": {"type": "Point","coordinates": [113.0823,28.2568]}},
+{"type": "Feature","properties": {"name":"株洲市"},"geometry": {"type": "Point","coordinates": [113.5327,27.0319]}},
+{"type": "Feature","properties": {"name":"张家界市"},"geometry": {"type": "Point","coordinates": [110.5115,29.328]}},
+{"type": "Feature","properties": {"name":"娄底市"},"geometry": {"type": "Point","coordinates": [111.6431,27.7185]}},
+{"type": "Feature","properties": {"name":"湘潭市"},"geometry": {"type": "Point","coordinates": [112.5439,27.7075]}}
+]
+}

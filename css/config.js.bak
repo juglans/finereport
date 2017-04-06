@@ -1,0 +1,51 @@
+;(function() {
+var bui_config_110_config_debug;
+bui_config_110_config_debug = function () {
+  //from seajs
+  function getScriptAbsoluteSrc(node) {
+    return node.hasAttribute ? 
+    node.src : 
+    node.getAttribute('src', 4);
+  }
+  var BUI = window.BUI = window.BUI || {};
+  BUI.use = seajs.use;
+  BUI.config = seajs.config;
+  var scripts = document.getElementsByTagName('script'), loaderScript = scripts[scripts.length - 1], src = getScriptAbsoluteSrc(loaderScript), loaderPath = src.substring(0, src.lastIndexOf('/')),
+    debug = loaderScript.getAttribute('debug') === 'true' ? true : false;
+  BUI.loaderScript = loaderScript;
+
+  seajs.config({ paths: { 'bui': loaderPath } });
+  BUI.setDebug = function (debug) {
+    BUI.debug = debug;
+
+    var regexp = new RegExp('^(' + loaderPath + '\\S*).js$');
+    if (!debug) {
+      seajs.config({
+        map: [[
+            regexp,
+            '$1-min.js'
+          ]]
+      });
+    } else {
+      var map = seajs.data.map;
+      var mapReg;
+      if (!map) {
+        return;
+      }
+      for (var i = map.length - 1; i >= 0; i--) {
+        mapReg = map[i][0];
+        if (Object.prototype.toString.call(mapReg) === '[object RegExp]' && mapReg.toString() === regexp.toString()) {
+          map.splice(i, 1);
+        }
+      }
+    }
+  };
+  BUI.setDebug(debug);
+
+  if (window.jQuery) {
+    window.define('jquery', [], function () {
+      return window.jQuery;
+    });
+  }
+}();
+}());

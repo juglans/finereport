@@ -1,0 +1,2958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<TableDataMap>
+<TableData name="ds0" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[BUName,,.,,ProjSequence,,.,,ProjGUID,,.,,ProjName,,.,,ProjReportName,,.,,BProductTypeCode,,.,,type1,,.,,type2]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[SWqMsK0Tu:T?",Ig=Ym#<52)$7ZCOI@'$bNd$Q^<[ZSM(.jf]ASZa>3*94_0/MaO,H2seZAg"
+BZD(aSW%hS!>/K*<m']Ad#NX.qb+.66c-PGQMb$I;U3`BmYB*O^bs1A&G_Wl!u@.ZQ.E9l5#)
+bI)sU]A`PLHrej:rAX)t6!a[*GLHIParjC*jAUmt;J=/9WIp]A]A\ZQlXf]AH(E-N:Yk;2F`hu=(
+?_#DJ'_]AYKuL9_L`>H7,!GF_%I0%KPaHV`@K/J&;rrt<bI3GaU^fDR4N9%AHnm+'@;O#65/6
+%B+D8&*rU:YE"#p_&C+Q6ZT,'C/:N,df(rOmLqebP,d"&4NO+57A]AkB[Z5/6rKF<&@7IG?JO
+!bI@c6XW4P).GmRF?HMOdl.~
+]]></RowData>
+</TableData>
+<TableData name="ds2" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[ProjGUID,,.,,BProductTypeCode,,.,,htts,,.,,htje,,.,,ysje,,.,,wsje,,.,,wsts,,.,,xjwyqts,,.,,xjwyqje,,.,,xjyyqts,,.,,xjyyqje,,.,,xjyyqycxts,,.,,xjyyqycxje,,.,,xjyyqfqts,,.,,xjyyqfqje,,.,,ajts,,.,,ajje,,.,,ydts,,.,,ydje,,.,,wbtts,,.,,wbtje,,.,,wspts,,.,,wspje,,.,,wfdts,,.,,wfdje,,.,,wdts1,,.,,wdje1,,.,,wdts2,,.,,wdje2,,.,,wdts3,,.,,wdje3]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer]]></ColumnTypes>
+<RowData>
+<![CDATA[[8]AX+`#oINS(D%8$:dXms*rHp;HOV7BS2h,-o3K.%A3pd*/G[YN*\^\Rh1+VRiL6&d-Q6@`c
+MA>EKL';"JQiW]A7>&cm#`FS,#EfeJKXE0`"30Xe`3EQ`[;,a%.`0g7eYK-3*YrAWR[mgH[nj
++.;:JJg.Ia[aPlNO?GAKGf;`BGWKO4^^RXX!3&a"JXh`Pt"MReCWH=Z?)bCB::8@U^&D.$_=
+5XWVBJl]A^(g$MmS@(-upL*C;Kf:,[G.Ul5q[Q!)>s>*N?kY+ul3RuiPbolY-)VL!j\<ND~
+]]></RowData>
+</TableData>
+<TableData name="ds1" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[ProjGUID,,.,,BProductTypeCode,,.,,htts,,.,,htmj,,.,,htje]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[78[8%_]AT6_`m]AHIe^%p_q]ADfAO>c-0L6[/mMe&#n-=QpFWr:*b3E3[3!*au"d&MQ)]AU`dr<*
+s=-*8jO\+pG<5!:+3eXp?MD"5@p?dD0Y`.DVeoTPcM\411hGcEkr`bJu'TRO?kp,)C#=`o\'
+p&G**iT8:@6U%\%fq;O.r^_Ah]AGT6ra]ATsWS0"g2Sq$rr%2IrEZ$$>pb4q)?o_[DN5DHH.1@
+\S8RB]A1hd[m2e@aY/N]A&MH%>G^EbBQBri181s8:c/6\=$N~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR F="0" T="4"/>
+<FR/>
+<HC/>
+<FC/>
+<UPFCR COLUMN="false" ROW="true"/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1905000,1141920,1141920,1141920,1141920,1141920,1141920,1141920,1141920,1141920,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[5760000,0,1152000,1152000,1152000,1727200,1727200,1152000,1152000,1152000,1152000,1152000,1152000,1152000,1152000,1152000,1152000,0,0,1152000,1152000,1152000,1152000,1152000,1296000,1152000,1296000,1152000,1152000,1152000,1152000,1152000,1296000,1152000,1152000,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" cs="35" s="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[="江苏地区截止" + var_date + "应收款汇总表（单位：万元）"]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1" rs="4" s="1">
+<O>
+<![CDATA[公司/项目/形态]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" s="1">
+<PrivilegeControl/>
+</C>
+<C c="2" r="1" cs="2" rs="3" s="1">
+<O>
+<![CDATA[合同销售]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="1" cs="3" rs="3" s="1">
+<O>
+<![CDATA[应收款]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="1" cs="2" s="2">
+<O>
+<![CDATA[产品费用]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="1" cs="8" s="3">
+<O>
+<![CDATA[产品费用（已过期）]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="1" cs="2" rs="3" s="4">
+<O>
+<![CDATA[按揭合计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="1" cs="8" s="5">
+<O>
+<![CDATA[实施费用（未过期）]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="1" cs="8" s="6">
+<O>
+<![CDATA[实施费用（已过期）]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="2" s="1">
+<PrivilegeControl/>
+</C>
+<C c="7" r="2" cs="2" rs="2" s="7">
+<O>
+<![CDATA[(未过期)]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="2" cs="2" rs="2" s="3">
+<O>
+<![CDATA[小计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="2" cs="2" rs="2" s="3">
+<O>
+<![CDATA[已上线]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="2" cs="2" rs="2" s="3">
+<O>
+<![CDATA[未上线]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="2" cs="2" rs="2" s="3">
+<O>
+<![CDATA[准备上线]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="2" cs="2" rs="2" s="5">
+<O>
+<![CDATA[小计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="2" cs="2" rs="2" s="5">
+<O>
+<![CDATA[已上线]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="2" cs="2" rs="2" s="5">
+<O>
+<![CDATA[未上线]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="2" cs="2" rs="2" s="5">
+<O>
+<![CDATA[准备上线]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="2" cs="2" rs="2" s="6">
+<O>
+<![CDATA[小计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="2" cs="2" rs="2" s="6">
+<O>
+<![CDATA[半年内]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="2" cs="2" s="8">
+<O>
+<![CDATA[半年以上]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="2" cs="2" rs="2" s="6">
+<O>
+<![CDATA[一年以上]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="3" s="1">
+<PrivilegeControl/>
+</C>
+<C c="31" r="3" cs="2" s="9">
+<O>
+<![CDATA[一年内]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="4" s="1">
+<PrivilegeControl/>
+</C>
+<C c="2" r="4" s="1">
+<O>
+<![CDATA[个数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="4" s="1">
+<O>
+<![CDATA[金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="4" s="1">
+<O>
+<![CDATA[个数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="4" s="1">
+<O>
+<![CDATA[合同额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="4" s="1">
+<O>
+<![CDATA[应收款]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="4" s="2">
+<O>
+<![CDATA[个数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="4" s="2">
+<O>
+<![CDATA[金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="4" s="3">
+<O>
+<![CDATA[个数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="4" s="3">
+<O>
+<![CDATA[金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="4" s="3">
+<O>
+<![CDATA[个数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="4" s="3">
+<O>
+<![CDATA[金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="4" s="3">
+<O>
+<![CDATA[个数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="4" s="3">
+<O>
+<![CDATA[金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="4" s="3">
+<O>
+<![CDATA[个数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="4" s="3">
+<O>
+<![CDATA[金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="4" s="4">
+<O>
+<![CDATA[户数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="4" s="4">
+<O>
+<![CDATA[金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="4" s="5">
+<O>
+<![CDATA[个数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="4" s="5">
+<O>
+<![CDATA[金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="4" s="5">
+<O>
+<![CDATA[个数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="4" s="5">
+<O>
+<![CDATA[金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="4" s="5">
+<O>
+<![CDATA[个数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="4" s="5">
+<O>
+<![CDATA[金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="4" s="5">
+<O>
+<![CDATA[个数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="4" s="5">
+<O>
+<![CDATA[金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="4" s="6">
+<O>
+<![CDATA[个数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="4" s="6">
+<O>
+<![CDATA[金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="4" s="6">
+<O>
+<![CDATA[个数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="4" s="6">
+<O>
+<![CDATA[金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="4" s="6">
+<O>
+<![CDATA[个数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="32" r="4" s="6">
+<O>
+<![CDATA[金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="4" s="6">
+<O>
+<![CDATA[个数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="34" r="4" s="6">
+<O>
+<![CDATA[金额]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="5" s="10">
+<O t="DSColumn">
+<Attributes dsName="ds0" columnName="BUName"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.report.web.button.form.TreeNodeToggleButton">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="1" r="5" s="1">
+<PrivilegeControl/>
+</C>
+<C c="2" r="5" s="11">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(C9) = 0, null, sum(C9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="5" s="11">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(D9) = 0, null, sum(D9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="5" s="1">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(E9) = 0, null, sum(E9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="5" s="11">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(F9) = 0, null, sum(F9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="5" s="11">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(G9) = 0, null, sum(G9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="5" s="2">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(H9) = 0, null, sum(H9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="5" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(I9) = 0, null, sum(I9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="5" s="3">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(J9) = 0, null, sum(J9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="5" s="13">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(K9) = 0, null, sum(K9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="5" s="3">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(L9) = 0, null, sum(L9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="5" s="13">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(M9) = 0, null, sum(M9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="5" s="3">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(N9) = 0, null, sum(N9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="5" s="13">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(O9) = 0, null, sum(O9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="5" s="3">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(P9) = 0, null, sum(P9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="5" s="13">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(Q9) = 0, null, sum(Q9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="5" s="14">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(R9) = 0, null, sum(R9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="5" s="14">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(S9) = 0, null, sum(S9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="5" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(T9) = 0, null, sum(T9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(U9) = 0, null, sum(U9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="5" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(V9) = 0, null, sum(V9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(W9) = 0, null, sum(W9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="5" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(X9) = 0, null, sum(X9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(Y9) = 0, null, sum(Y9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="5" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(Z9) = 0, null, sum(Z9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="5" s="15">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AA9) = 0, null, sum(AA9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="5" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AB9) = 0, null, sum(AB9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AC9) = 0, null, sum(AC9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="5" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AD9) = 0, null, sum(AD9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AE9) = 0, null, sum(AE9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AF9) = 0, null, sum(AF9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="32" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AG9) = 0, null, sum(AG9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="5" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AH9) = 0, null, sum(AH9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="34" r="5" s="16">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AI9) = 0, null, sum(AI9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="6" s="17">
+<O t="DSColumn">
+<Attributes dsName="ds0" columnName="ProjReportName"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.report.web.button.form.TreeNodeToggleButton">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+</Widget>
+<Expand dir="0" leftParentDefault="false" left="A6"/>
+</C>
+<C c="1" r="6" s="18">
+<O t="DSColumn">
+<Attributes dsName="ds0" columnName="ProjGUID"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="2" r="6" s="18">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(C9) = 0, null, sum(C9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="6" s="19">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(D9) = 0, null, sum(D9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="6" s="18">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(E9) = 0, null, sum(E9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="6" s="19">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(F9) = 0, null, sum(F9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="6" s="19">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(G9) = 0, null, sum(G9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="6" s="20">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(H9) = 0, null, sum(H9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="6" s="21">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(I9) = 0, null, sum(I9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="6" s="22">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(J9) = 0, null, sum(J9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="6" s="23">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(K9) = 0, null, sum(K9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="6" s="22">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(L9) = 0, null, sum(L9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="6" s="23">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(M9) = 0, null, sum(M9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="6" s="22">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(N9) = 0, null, sum(N9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="6" s="23">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(O9) = 0, null, sum(O9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="6" s="22">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(P9) = 0, null, sum(P9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="6" s="23">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(Q9) = 0, null, sum(Q9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="6" s="24">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(R9) = 0, null, sum(R9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="6" s="24">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(S9) = 0, null, sum(S9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="6" s="25">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(T9) = 0, null, sum(T9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="6" s="26">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(U9) = 0, null, sum(U9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="6" s="25">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(V9) = 0, null, sum(V9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="6" s="26">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(W9) = 0, null, sum(W9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="6" s="25">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(X9) = 0, null, sum(X9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="6" s="26">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(Y9) = 0, null, sum(Y9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="6" s="25">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(Z9) = 0, null, sum(Z9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="6" s="26">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AA9) = 0, null, sum(AA9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="6" s="27">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AB9) = 0, null, sum(AB9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="6" s="28">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AC9) = 0, null, sum(AC9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="6" s="27">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AD9) = 0, null, sum(AD9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="6" s="28">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AE9) = 0, null, sum(AE9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="6" s="28">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AF9) = 0, null, sum(AF9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="32" r="6" s="28">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AG9) = 0, null, sum(AG9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="6" s="27">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AH9) = 0, null, sum(AH9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="34" r="6" s="28">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AI9) = 0, null, sum(AI9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="7" s="29">
+<O t="DSColumn">
+<Attributes dsName="ds0" columnName="type1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A7"/>
+</C>
+<C c="1" r="7" s="30">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="7" s="30">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(C9) = 0, null, sum(C9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="7" s="31">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(D9) = 0, null, sum(D9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="7" s="30">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(E9) = 0, null, sum(E9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="7" s="31">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(F9) = 0, null, sum(F9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="7" s="31">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(G9) = 0, null, sum(G9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="7" s="32">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(H9) = 0, null, sum(H9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="7" s="33">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(I9) = 0, null, sum(I9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="7" s="34">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(J9) = 0, null, sum(J9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="7" s="35">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(K9) = 0, null, sum(K9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="7" s="34">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(L9) = 0, null, sum(L9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="7" s="35">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(M9) = 0, null, sum(M9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="7" s="34">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(N9) = 0, null, sum(N9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="7" s="35">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(O9) = 0, null, sum(O9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="7" s="34">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(P9) = 0, null, sum(P9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="7" s="35">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(Q9) = 0, null, sum(Q9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="7" s="36">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(R9) = 0, null, sum(R9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="7" s="36">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(S9) = 0, null, sum(S9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="7" s="37">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(T9) = 0, null, sum(T9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="7" s="38">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(U9) = 0, null, sum(U9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="7" s="37">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(V9) = 0, null, sum(V9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="7" s="38">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(W9) = 0, null, sum(W9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="7" s="37">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(X9) = 0, null, sum(X9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="7" s="38">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(Y9) = 0, null, sum(Y9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="7" s="37">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(Z9) = 0, null, sum(Z9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="7" s="38">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AA9) = 0, null, sum(AA9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="7" s="39">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AB9) = 0, null, sum(AB9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="7" s="40">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AC9) = 0, null, sum(AC9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="7" s="39">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AD9) = 0, null, sum(AD9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="7" s="40">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AE9) = 0, null, sum(AE9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="7" s="40">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AF9) = 0, null, sum(AF9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="32" r="7" s="40">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AG9) = 0, null, sum(AG9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="7" s="39">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AH9) = 0, null, sum(AH9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="34" r="7" s="40">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AI9) = 0, null, sum(AI9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="8" s="41">
+<O t="DSColumn">
+<Attributes dsName="ds0" columnName="type2"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A8"/>
+</C>
+<C c="1" r="8" s="42">
+<O t="DSColumn">
+<Attributes dsName="ds0" columnName="BProductTypeCode"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="2" r="8" s="42">
+<O t="DSColumn">
+<Attributes dsName="ds1" columnName="htts"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[ProjGUID]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds0" columnName="ProjGUID"/>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[BProductTypeCode]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds0" columnName="BProductTypeCode"/>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="A9"/>
+</C>
+<C c="3" r="8" s="43">
+<O t="DSColumn">
+<Attributes dsName="ds1" columnName="htje"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="4" r="8" s="42">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="wsts"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[ProjGUID]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds0" columnName="ProjGUID"/>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[BProductTypeCode]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds0" columnName="BProductTypeCode"/>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0" leftParentDefault="false" left="A9"/>
+</C>
+<C c="5" r="8" s="43">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="htje"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="8" s="43">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="wsje"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="7" r="8" s="44">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="xjwyqts"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="8" r="8" s="45">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="xjwyqje"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="9" r="8" s="46">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="xjyyqts"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="10" r="8" s="47">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="xjyyqje"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="11" r="8" s="46">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="xjyyqycxts"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="12" r="8" s="47">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="xjyyqycxje"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="13" r="8" s="46">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="xjyyqfqts"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="14" r="8" s="47">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="xjyyqfqje"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="15" r="8" s="46">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(J9 - L9 - N9 = 0, null, J9 - L9 - N9)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="8" s="47">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(K9 - M9 - O9 = 0, null, K9 - M9 - O9)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="8" s="48">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="ajts"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="18" r="8" s="49">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="ajje"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="19" r="8" s="50">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="ydts"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="20" r="8" s="51">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="ydje"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="21" r="8" s="51">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="wbtts"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="22" r="8" s="51">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="wbtje"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="23" r="8" s="51">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="wspts"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="24" r="8" s="51">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="wspje"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="25" r="8" s="51">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="wfdts"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="26" r="8" s="51">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="wfdje"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="27" r="8" s="52">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(AD9 + AF9 + AH9 = 0, null, AD9 + AF9 + AH9)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="8" s="52">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(AE9 + AG9 + AI9 = 0, null, AE9 + AG9 + AI9)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="8" s="52">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="wdts1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="30" r="8" s="52">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="wdje1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="31" r="8" s="52">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="wdts2"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="32" r="8" s="52">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="wdje2"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="33" r="8" s="52">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="wdts3"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="34" r="8" s="52">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="wdje3"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[$$$ = 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="0" r="9" s="53">
+<O>
+<![CDATA[合计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="9" s="54">
+<PrivilegeControl/>
+</C>
+<C c="2" r="9" s="55">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(C9) = 0, null, sum(C9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="9" s="55">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(D9) = 0, null, sum(D9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="9" s="55">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(E9) = 0, null, sum(E9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="9" s="55">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(F9) = 0, null, sum(F9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="9" s="55">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(G9) = 0, null, sum(G9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="9" s="56">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(H9) = 0, null, sum(H9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="9" s="56">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(I9) = 0, null, sum(I9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="9" s="57">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(J9) = 0, null, sum(J9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="9" s="57">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(K9) = 0, null, sum(K9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="9" s="57">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(L9) = 0, null, sum(L9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="9" s="57">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(M9) = 0, null, sum(M9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="9" s="57">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(N9) = 0, null, sum(N9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="9" s="57">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(O9) = 0, null, sum(O9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="9" s="57">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(P9) = 0, null, sum(P9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="9" s="57">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(Q9) = 0, null, sum(Q9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="17" r="9" s="58">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(R9) = 0, null, sum(R9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="18" r="9" s="58">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(S9) = 0, null, sum(S9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="19" r="9" s="59">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(T9) = 0, null, sum(T9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="20" r="9" s="59">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(U9) = 0, null, sum(U9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="21" r="9" s="59">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(V9) = 0, null, sum(V9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="22" r="9" s="59">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(W9) = 0, null, sum(W9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="23" r="9" s="59">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(X9) = 0, null, sum(X9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="24" r="9" s="59">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(Y9) = 0, null, sum(Y9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="25" r="9" s="59">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(Z9) = 0, null, sum(Z9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="9" s="59">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AA9) = 0, null, sum(AA9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="9" s="60">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AB9) = 0, null, sum(AB9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="9" s="60">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AC9) = 0, null, sum(AC9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="9" s="60">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AD9) = 0, null, sum(AD9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="9" s="60">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AE9) = 0, null, sum(AE9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="9" s="60">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AF9) = 0, null, sum(AF9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="32" r="9" s="60">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AG9) = 0, null, sum(AG9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="9" s="60">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AH9) = 0, null, sum(AH9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="34" r="9" s="60">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(sum(AI9) = 0, null, sum(AI9))]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings shrinkToFitMode="2" isHorizontalCenterOnPage="true" headerHeight="0" footerHeight="0">
+<PaperSetting orientation="1">
+<PaperSize width="42768000" height="60480000"/>
+<Margin top="986400" left="432000" bottom="986400" right="432000"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="false" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="1" size="112" foreground="-8355712"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14461771"/>
+<Background name="ColorBackground" color="-8736281"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-15040349"/>
+<Background name="ColorBackground" color="-8796950"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14511245"/>
+<Background name="ColorBackground" color="-8726856"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-10710748"/>
+<Background name="ColorBackground" color="-4858782"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-6256342"/>
+<Background name="ColorBackground" color="-1519770"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" vertical_alignment="1" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-15040349"/>
+<Background name="ColorBackground" color="-8796950"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" vertical_alignment="3" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-6256342"/>
+<Background name="ColorBackground" color="-1519770"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" vertical_alignment="1" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-6256342"/>
+<Background name="ColorBackground" color="-1519770"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14461771"/>
+<Background name="ColorBackground" color="-8736281"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14461771"/>
+<Background name="ColorBackground" color="-8736281"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-15040349"/>
+<Background name="ColorBackground" color="-8796950"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14511245"/>
+<Background name="ColorBackground" color="-8726856"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="ColorBackground" color="-13312"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-10710748"/>
+<Background name="ColorBackground" color="-4858782"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-6256342"/>
+<Background name="ColorBackground" color="-1519770"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="11">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14461771"/>
+<Background name="ColorBackground" color="-6041099"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14461771"/>
+<Background name="ColorBackground" color="-6041099"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14461771"/>
+<Background name="ColorBackground" color="-6041099"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-15040349"/>
+<Background name="ColorBackground" color="-5709834"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-15040349"/>
+<Background name="ColorBackground" color="-5709834"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14511245"/>
+<Background name="ColorBackground" color="-6101554"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14511245"/>
+<Background name="ColorBackground" color="-6101554"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="ColorBackground" color="-13159"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-10710748"/>
+<Background name="ColorBackground" color="-3084916"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-10710748"/>
+<Background name="ColorBackground" color="-3084916"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-6256342"/>
+<Background name="ColorBackground" color="-992116"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-6256342"/>
+<Background name="ColorBackground" color="-992116"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="34">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14461771"/>
+<Background name="ColorBackground" color="-1052689"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14461771"/>
+<Background name="ColorBackground" color="-1052689"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14461771"/>
+<Background name="ColorBackground" color="-1052689"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-15040349"/>
+<Background name="ColorBackground" color="-1052689"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-15040349"/>
+<Background name="ColorBackground" color="-1052689"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14511245"/>
+<Background name="ColorBackground" color="-1052689"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14511245"/>
+<Background name="ColorBackground" color="-1052689"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="ColorBackground" color="-1052689"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-10710748"/>
+<Background name="ColorBackground" color="-1052689"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-10710748"/>
+<Background name="ColorBackground" color="-1052689"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-6256342"/>
+<Background name="ColorBackground" color="-1052689"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-6256342"/>
+<Background name="ColorBackground" color="-1052689"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" rotation="2" imageLayout="1" paddingLeft="43">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14461771"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14461771"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14461771"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-15040349"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-15040349"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14511245"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14511245"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-10710748"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-10710748"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-6256342"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="1" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-11631152"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-11631152"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-11631152"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-12147252"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-12271728"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-26368"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-6965441"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1982403"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="2"/>
+</WorkBook>

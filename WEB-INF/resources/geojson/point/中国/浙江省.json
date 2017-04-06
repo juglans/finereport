@@ -1,0 +1,16 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"丽水市"},"geometry": {"type": "Point","coordinates": [119.5642,28.1854]}},
+{"type": "Feature","properties": {"name":"杭州市"},"geometry": {"type": "Point","coordinates": [119.5313,29.8773]}},
+{"type": "Feature","properties": {"name":"温州市"},"geometry": {"type": "Point","coordinates": [120.498,27.8119]}},
+{"type": "Feature","properties": {"name":"宁波市"},"geometry": {"type": "Point","coordinates": [121.5967,29.6466]}},
+{"type": "Feature","properties": {"name":"舟山市"},"geometry": {"type": "Point","coordinates": [122.2559,30.2234]}},
+{"type": "Feature","properties": {"name":"台州市"},"geometry": {"type": "Point","coordinates": [121.1353,28.6688]}},
+{"type": "Feature","properties": {"name":"金华市"},"geometry": {"type": "Point","coordinates": [120.0037,29.1028]}},
+{"type": "Feature","properties": {"name":"衢州市"},"geometry": {"type": "Point","coordinates": [118.6853,28.8666]}},
+{"type": "Feature","properties": {"name":"绍兴市"},"geometry": {"type": "Point","coordinates": [120.564,29.7565]}},
+{"type": "Feature","properties": {"name":"嘉兴市"},"geometry": {"type": "Point","coordinates": [120.9155,30.6354]}},
+{"type": "Feature","properties": {"name":"湖州市"},"geometry": {"type": "Point","coordinates": [119.8608,30.7782]}}
+]
+}

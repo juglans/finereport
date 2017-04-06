@@ -1,0 +1,1763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<TableDataMap>
+<TableData name="ds1" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[depid,,.,,ShortName,,.,,DepCodeID,,.,,DepOrder]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.Integer,java.lang.String,java.lang.String,java.lang.Integer]]></ColumnTypes>
+<RowData>
+<![CDATA[-&tV*_E\Z#f9K9ZK^!ksDPq@t&k@YKJj71Z+:umgF:g0iRE72M9X_-2GEidQgp_<8A+XdG65
+Ct8(qS#,-58d%$K:\;Hb/t=8.e,k1)$n4g7F1qb.S^G"M6Dbp>YY(la3dd5"S#X#9egjBm,]A
+2JO3rOHYAq@=:0r\K0]AH`n:8p[ZNq6M;CQRSfk@OZ\,[iAVr"%Qc*lQl5#S&<P6AegD:W@G,
+UiNl~
+]]></RowData>
+</TableData>
+<TableData name="ds2" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[depid,,.,,ShortName,,.,,DepCodeID,,.,,pptr]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.Integer,java.lang.String,java.lang.String,java.lang.Integer]]></ColumnTypes>
+<RowData>
+<![CDATA[9iC@RgHZ>J]Am5K!K($VIhV02'<$G2;5=uSUWi?4(8.>`"5&.(BbP3^8>BKSi6'_B6AnP^gf$
+";oT@`Vl1p&E?IJAh=8R0qG0S\#BqtTD\?cNifLK@"EB%aq+p2-9",CgX8D^\@V\n9E.^1Y5
+A!7318g#-A2B'[-c"0!hA_0P<q26hSOY?i(+&Q]A]AiY=jt1QTZ<hJqpb@D<oie!*2PiL'LOQ4
+MDQYr$9Q8l=#4Z_g'm`?DY\hAQ67DJQ+eK<]A]APf3j&Nm)=dKAUTpk)#)@f+U=jjrDOHk03WS
+TFgXYr2jNuJ\9#9NC#A&/I"&1!2[X$T7B=\`AU:--p0R.@^%-``CdCh0Ni8IX,G/,S"o5Em`
+YBkjQ`KeV8?/CHH"q5Md!(rEl*W;9W""j\lKFA:@G!)]A.9!^#^0$,nGkcQ<MZa^NTbCj9")9
+b6dc!hdLn6j%pmd1EP%<1n1]A]AqFGl/8W1;s64;h+mr?gV\kq(n@`+::l,^5..d*Y`TSjiUnA
+!kX1(V>gK2OH*kL5quZ~
+]]></RowData>
+</TableData>
+<TableData name="ds3" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[depid,,.,,ShortName,,.,,DepCodeID,,.,,pptr]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.Integer,java.lang.String,java.lang.String,java.lang.Integer]]></ColumnTypes>
+<RowData>
+<![CDATA[Z`p[lI(H*?`SU8`>Lu")hna#=aD#0m^h%4pb5#lQXJ]Ah]A5fM!aiW&~
+]]></RowData>
+</TableData>
+<TableData name="ds4" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[yue,,.,,yue1,,.,,单位编码,,.,,年计划]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[D,X)N`#oIm1T/&2^q'Ka=sQXIgl:o%/D3olYI,/10l)pFH`A0Y[CFG\)`3'ceM`4eA.`.tLd
+IcJWZB,7le%k/TE`?LA7[n^N(:,qj[IQcp#jL"(5^L,)3o>si!J68>4s2r9+;R3$@r7$oG%B
+2'aNfhbi%-d'fh"hb9q*A5p/>]ALaS2/SfmVm'YX,Viar[lBQm^@9QqF[Z*MdW)@P@mStU>1o
+&)qVC;m-=]A)7/i`ap4">YcpY7O#F>4LCYIjnDM9\m:=]A2p(oY[a6D*^E)hl$=)72Bb.spP-=
+m^AY_L18^5QH0lJil(hpU*jc(4QShF<<&A$m"l><^:CY^'~
+]]></RowData>
+</TableData>
+<TableData name="ds5" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[制单日期,,.,,单位编码,,.,,原煤产量月累,,.,,原煤产量年累]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[<KOg-"#'u_CGLkMJ+3Gq7?L"N=*fWf!cs9NB0#`N(/NY#O9.EGVYMETJRpRhdU9hYAI9E8T<
+u*0AUXoN^f:m5)%M)pCtpUpA2cO2`A+9M\h!X'mY.tH`$0cb*/HVE?._"P"(H<QQ;*Vk\&$s
+4,(S'jSHf0U[NCpM(*!gZ5nl7FHaNV0M:#<IH$M]A;O@<EN#c+-7C5\eZKr`SV9A<-AYX$&an
+>`kLI<BnI#1b;Q!<~
+]]></RowData>
+</TableData>
+<TableData name="ds6" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[制单日期,,.,,单位编码,,.,,原煤产量月累,,.,,原煤产量年累]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[7?G\)`%VHacYPK$A"3,JfP45*3P?"1.2EZ'L$pB9&lI^6a,34E;VNC`70h:?F?s5t,'t+hTV
+k<s`]AU@o\M(f6>eT$HD:S\-7UksC&q-99+DC*T:,=<PX$5"O)K7+*6+_2L*!VCP@+el*6a33
+e*s1;eqD4Sb'kg3+RT?SbM_crsJZisqFZO.o#ji%)P;-e+3b,A-QeKo9]ADM[~
+]]></RowData>
+</TableData>
+<TableData name="ds7" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[制单日期,,.,,单位编码,,.,,原煤产量月累,,.,,原煤产量年累]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[4cmc#`%VTdcV-4DiiW7#L58qqr?ii*L&p>nq8%Ur"Y`@OQjF#%7$H5/[!I!"0oHNS,(#,5pr
+9+K[JQ\+R_ji]A8Ft$#F=NK66CFXK,^,*XP,V,mKH`GR]AX_IQ>ACuWG)3=@i`jZ@j4u'T.pRO
+qW%rap=.,l0:?bNc0Q'srGJW3TW]Ak4oY5b<C94tofIjSeW5O'G-f$<<dI`$*)D-+2PIX_~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<Title>
+<![CDATA[产量完成情况]]></Title>
+<WebPageContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.page.First">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-First')}]]></Text>
+<IconName>
+<![CDATA[first]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Previous">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-Previous')}]]></Text>
+<IconName>
+<![CDATA[previous]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.PageNavi">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Next">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-Next')}]]></Text>
+<IconName>
+<![CDATA[next]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Last">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-Last')}]]></Text>
+<IconName>
+<![CDATA[last]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.FlashPrint">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Utils-Print[Client]A')}]]></Text>
+<IconName>
+<![CDATA[flashprint]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="false" excelP="false" excelO="true" excelS="false" word="false" image="false" html="true"/>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<WebPage isPage="false" isShowAsImage="false" isAutoScale="false" isTDHeavy="false"/>
+</WebPageContent>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR F="0" T="3"/>
+<FR/>
+<HC/>
+<FC/>
+<UPFCR COLUMN="false" ROW="true"/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[914400,1981200,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[952500,838200,2209800,2324100,2743200,2552700,1752600,2705100,2705100,1866900,2514600,1981200,3124200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" cs="13" rs="2" s="0">
+<O>
+<![CDATA[生产产量完成情况报表]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="2" cs="3" rs="2" s="1">
+<O t="BiasTextPainter">
+<IsBackSlash value="false"/>
+<![CDATA[       项目 |  单位]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="2" rs="2" s="1">
+<O>
+<![CDATA[全年计划（吨）]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="2" cs="3" s="1">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=month($riqi) + "月"]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="2" cs="5" s="1">
+<O>
+<![CDATA[累计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="2" rs="2" s="1">
+<O>
+<![CDATA[完成年计划%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="3" s="1">
+<O>
+<![CDATA[计划]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="3" s="1">
+<O>
+<![CDATA[实际]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="3" s="1">
+<O>
+<![CDATA[完成%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="7" r="3" s="1">
+<O>
+<![CDATA[计划]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="3" s="1">
+<O>
+<![CDATA[实际]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="3" s="1">
+<O>
+<![CDATA[完成%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="3" s="1">
+<O>
+<![CDATA[去年同期]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="3" s="1">
+<O>
+<![CDATA[同期比%]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="4" cs="3" s="2">
+<O>
+<![CDATA[集团公司]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="4" s="2">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D6 + D7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="4" s="2">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(E6 + E7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="4" s="3">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(F6 + F7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="4" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(E5 = 0 || len(E5) = 0, "", F5 / E5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="7" r="4" s="2">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(H6 + H7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="4" s="3">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(I6 + I7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="4" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(H5 = 0 || len(H5) = 0, "", I5 / H5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="10" r="4" s="3">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(K6 + K7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="4" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(K5 = 0 || len(K5) = 0, "", I5 / K5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="4" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(D5 = 0 || len(D5) = 0, "", I5 / D5)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="5" cs="3" s="5">
+<O>
+<![CDATA[直营厂合计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="5" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="5" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(E8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="5" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(F8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="5" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(E6 = 0 || len(E6) = 0, "", F6 / E6)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="7" r="5" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(H8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="5" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(I8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="5" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(H6 = 0 || len(H6) = 0, "", I6 / H6)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="10" r="5" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(K8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="5" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(K6 = 0 || len(K6) = 0, "", I6 / K6)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="5" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(D6 = 0 || len(D6) = 0, "", I6 / D6)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="6" cs="3" s="5">
+<O>
+<![CDATA[整合厂合计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="6" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D10 + D12)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="6" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(E9 + E11)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="6" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(F10 + F12)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="6" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(E7 = 0 || len(E7) = 0, "", F7 / E7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="7" r="6" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(H9 + H11)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="6" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(I10 + I12)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="6" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(H7 = 0 || len(H7) = 0, "", I7 / H7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="10" r="6" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(K9 + K11)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="6" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(K7 = 0 || len(K7) = 0, "", I7 / K7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="6" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(D7 = 0 || len(D7) = 0, "", I7 / D7)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="7" s="8">
+<O>
+<![CDATA[直营厂]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="7" cs="2" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds1" columnName="ShortName"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="3" r="7" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds4" columnName="年计划"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds1" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="4" r="7" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds4" columnName="yue"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[3]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds1" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="5" r="7" s="3">
+<O t="DSColumn">
+<Attributes dsName="ds5" columnName="原煤产量月累"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds1" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<SelectCount count="1"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="7" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(E8 = 0 || len(E8) = 0, "", F8 / E8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="7" r="7" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds4" columnName="yue1"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[3]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds1" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="8" r="7" s="3">
+<O t="DSColumn">
+<Attributes dsName="ds7" columnName="原煤产量年累"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds1" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<SelectCount count="1"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="9" r="7" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(H8 = 0 || len(H8) = 0, "", I8 / H8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="10" r="7" s="3">
+<O t="DSColumn">
+<Attributes dsName="ds6" columnName="原煤产量年累"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds1" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<SelectCount count="1"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="11" r="7" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(K8 = 0 || len(K8) = 0, "", I8 / K8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="7" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(D8 = 0 || len(D8) = 0, "", I8 / D8)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="8" rs="4" s="8">
+<O>
+<![CDATA[整合厂]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="8" rs="2" s="9">
+<O t="DSColumn">
+<Attributes dsName="ds3" columnName="ShortName"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="0">
+<O>
+<![CDATA[集团公司]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[集团]]></O>
+</HighlightAction>
+</Highlight>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性2]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="0">
+<O>
+<![CDATA[潞蒙公司]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[潞蒙]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand dir="0"/>
+</C>
+<C c="2" r="8" s="5">
+<O>
+<![CDATA[合计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="8" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="8" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(E10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="8" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(F10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="8" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(E9 = 0 || len(E9) = 0, "", F9 / E9)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="7" r="8" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(H10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="8" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(I10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="8" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(H9 = 0 || len(H9) = 0, "", I9 / H9)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="10" r="8" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(K10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="8" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(K9 = 0 || len(K9) = 0, "", I9 / K9)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="8" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(D9 = 0 || len(D9) = 0, "", I9 / D9)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="9" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="ShortName"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[pptr]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds3" columnName="depid"/>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[2]]></CNUMBER>
+<CNAME>
+<![CDATA[ShortName]]></CNAME>
+<Compare op="1">
+<O>
+<![CDATA[宇鑫煤业]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="3" r="9" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds4" columnName="年计划"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[3]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds2" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="4" r="9" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds4" columnName="yue"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds2" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="5" r="9" s="3">
+<O t="DSColumn">
+<Attributes dsName="ds5" columnName="原煤产量月累"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[2]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds2" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<SelectCount count="1"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="9" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(E10 = 0 || len(E10) = 0, "", F10 / E10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="7" r="9" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds4" columnName="yue1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds2" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="8" r="9" s="3">
+<O t="DSColumn">
+<Attributes dsName="ds7" columnName="原煤产量年累"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[2]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds2" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<SelectCount count="1"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="9" r="9" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(H10 = 0 || len(H10) = 0, "", I10 / H10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="10" r="9" s="3">
+<O t="DSColumn">
+<Attributes dsName="ds6" columnName="原煤产量年累"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[2]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds2" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<SelectCount count="1"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="11" r="9" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(K10 = 0 || len(K10) = 0, "", I10 / K10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="9" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(D10 = 0 || len(D10) = 0, "", I10 / D10)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="10" rs="2" s="9">
+<O t="DSColumn">
+<Attributes dsName="ds1" columnName="ShortName"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[2]]></CNUMBER>
+<CNAME>
+<![CDATA[ShortName]]></CNAME>
+<Compare op="1">
+<O>
+<![CDATA[慈林山]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[2]]></CNUMBER>
+<CNAME>
+<![CDATA[ShortName]]></CNAME>
+<Compare op="1">
+<O>
+<![CDATA[李村矿]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[2]]></CNUMBER>
+<CNAME>
+<![CDATA[ShortName]]></CNAME>
+<Compare op="1">
+<O>
+<![CDATA[高河矿]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[2]]></CNUMBER>
+<CNAME>
+<![CDATA[ShortName]]></CNAME>
+<Compare op="1">
+<O>
+<![CDATA[夏店矿]]></O>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="2" r="10" s="5">
+<O>
+<![CDATA[合计]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="10" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(D12)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="10" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(E12)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="10" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(F12)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="10" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(E11 = 0 || len(E11) = 0, "", F11 / E11)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="7" r="10" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(H12)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="8" r="10" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(I12)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="9" r="10" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(H11 = 0 || len(H11) = 0, "", I11 / H11)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="10" r="10" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=sum(K12)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="10" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(K11 = 0 || len(K11) = 0, "", I11 / K11)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="10" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(D11 = 0 || len(D11) = 0, "", I11 / D11)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="11" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds2" columnName="ShortName"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[pptr]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds1" columnName="depid"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="3" r="11" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds4" columnName="年计划"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds2" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="4" r="11" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds4" columnName="yue"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds2" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="5" r="11" s="3">
+<O t="DSColumn">
+<Attributes dsName="ds5" columnName="原煤产量月累"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds2" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<SelectCount count="1"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="11" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(E12 = 0 || len(E12) = 0, "", F12 / E12)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="7" r="11" s="2">
+<O t="DSColumn">
+<Attributes dsName="ds4" columnName="yue1"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds2" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="8" r="11" s="3">
+<O t="DSColumn">
+<Attributes dsName="ds7" columnName="原煤产量年累"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds2" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<SelectCount count="1"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="9" r="11" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(H12 = 0 || len(H12) = 0, "", I12 / H12)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.ObjectCondition">
+<Compare op="2">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.FRFontHighlightAction">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-65536"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="10" r="11" s="3">
+<O t="DSColumn">
+<Attributes dsName="ds6" columnName="原煤产量年累"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[2]]></CNUMBER>
+<CNAME>
+<![CDATA[单位编码]]></CNAME>
+<Compare op="0">
+<SimpleDSColumn dsName="ds2" columnName="DepCodeID"/>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<SelectCount count="1"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="11" r="11" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(K12 = 0 || len(K12) = 0, "", I12 / K12)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="11" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=if(D12 = 0 || len(D12) = 0, "", I12 / D12)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting orientation="1">
+<PaperSize width="42768000" height="60480000"/>
+<Margin top="986400" left="2743200" bottom="986400" right="2743200"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<WorkSheetAttr direction="0" indexsToCopy="3-4" start="4" oppoStart="0" end="11" oppoEnd="12" maxRowOrColumn="29"/>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="false" delayPlaying="false" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="1" size="144" foreground="-8355712"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="1" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-11229516"/>
+<Border>
+<Top style="1" color="-1"/>
+<Bottom style="1" color="-1"/>
+<Left style="1" color="-1"/>
+<Right style="1" color="-1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-8355712"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top style="1" color="-3355444"/>
+<Bottom style="1" color="-3355444"/>
+<Left style="1" color="-3355444"/>
+<Right style="1" color="-3355444"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-8355712"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top style="1" color="-3355444"/>
+<Bottom style="1" color="-3355444"/>
+<Left style="1" color="-3355444"/>
+<Right style="1" color="-3355444"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0%]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-8355712"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top style="1" color="-3355444"/>
+<Bottom style="1" color="-3355444"/>
+<Left style="1" color="-3355444"/>
+<Right style="1" color="-3355444"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14145496"/>
+<Background name="ColorBackground" color="-723724"/>
+<Border>
+<Top style="1" color="-3355444"/>
+<Bottom style="1" color="-3355444"/>
+<Left style="1" color="-3355444"/>
+<Right style="1" color="-3355444"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14145496"/>
+<Background name="ColorBackground" color="-723724"/>
+<Border>
+<Top style="1" color="-3355444"/>
+<Bottom style="1" color="-3355444"/>
+<Left style="1" color="-3355444"/>
+<Right style="1" color="-3355444"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0%]]></Format>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-14145496"/>
+<Background name="ColorBackground" color="-723724"/>
+<Border>
+<Top style="1" color="-3355444"/>
+<Bottom style="1" color="-3355444"/>
+<Left style="1" color="-3355444"/>
+<Right style="1" color="-3355444"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-11229516"/>
+<Background name="ColorBackground" color="-4660248"/>
+<Border>
+<Top style="1" color="-3355444"/>
+<Bottom style="1" color="-3355444"/>
+<Left style="1" color="-3355444"/>
+<Right style="1" color="-3355444"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-11229516"/>
+<Background name="ColorBackground" color="-1705735"/>
+<Border>
+<Top style="1" color="-3355444"/>
+<Bottom style="1" color="-3355444"/>
+<Left style="1" color="-3355444"/>
+<Right style="1" color="-3355444"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="0"/>
+</WorkBook>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.plugin.report.lazysheet</id>
+    <name><![CDATA[多sheet懒加载]]></name>
+    <active>yes</active>
+    <version>2.1</version>
+    <env-version>8.0</env-version>
+    <jartime>2016-05-20</jartime>
+    <vendor email="solution@finereport.com">solution.richie</vendor>
+    <description><![CDATA[多sheet报表仅仅只加载当前sheet（不支持sheet间运算）]]></description>
+    <change-notes><![CDATA[
+        [2016-04-11]增加插件API兼容性检测<br/>
+    ]]></change-notes>
+    <extra-core>
+        <LocaleFinder class="com.fr.plugin.lazy.sheet.locale.LazyLocaleFinder"/>
+    </extra-core>
+    <extra-report>
+        <ActorProvider class="com.fr.plugin.lazy.sheet.LazySheetActorMark"/>
+    </extra-report>
+    <extra-designer>
+        <PreviewProvider class="com.fr.plugin.lazy.sheet.LazySheetPreview"/>
+    </extra-designer>
+</plugin>

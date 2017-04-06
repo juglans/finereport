@@ -1,0 +1,26 @@
+{"type": "FeatureCollection",
+"features":
+[
+{"type": "Feature","properties": {"name":"清远市"},"geometry": {"type": "Point","coordinates": [112.9175,24.3292]}},
+{"type": "Feature","properties": {"name":"韶关市"},"geometry": {"type": "Point","coordinates": [113.7964,24.7028]}},
+{"type": "Feature","properties": {"name":"湛江市"},"geometry": {"type": "Point","coordinates": [110.3577,20.9894]}},
+{"type": "Feature","properties": {"name":"梅州市"},"geometry": {"type": "Point","coordinates": [116.1255,24.1534]}},
+{"type": "Feature","properties": {"name":"河源市"},"geometry": {"type": "Point","coordinates": [114.917,23.9722]}},
+{"type": "Feature","properties": {"name":"肇庆市"},"geometry": {"type": "Point","coordinates": [112.1265,23.5822]}},
+{"type": "Feature","properties": {"name":"惠州市"},"geometry": {"type": "Point","coordinates": [114.6204,23.1647]}},
+{"type": "Feature","properties": {"name":"茂名市"},"geometry": {"type": "Point","coordinates": [111.0059,22.0221]}},
+{"type": "Feature","properties": {"name":"江门市"},"geometry": {"type": "Point","coordinates": [112.6318,22.1484]}},
+{"type": "Feature","properties": {"name":"阳江市"},"geometry": {"type": "Point","coordinates": [111.8298,22.0715]}},
+{"type": "Feature","properties": {"name":"云浮市"},"geometry": {"type": "Point","coordinates": [111.7859,22.8516]}},
+{"type": "Feature","properties": {"name":"广州市"},"geometry": {"type": "Point","coordinates": [113.5107,23.2196]}},
+{"type": "Feature","properties": {"name":"汕尾市"},"geometry": {"type": "Point","coordinates": [115.5762,23.0438]}},
+{"type": "Feature","properties": {"name":"揭阳市"},"geometry": {"type": "Point","coordinates": [116.1255,23.313]}},
+{"type": "Feature","properties": {"name":"珠海市"},"geometry": {"type": "Point","coordinates": [113.7305,22.1155]}},
+{"type": "Feature","properties": {"name":"佛山市"},"geometry": {"type": "Point","coordinates": [112.8955,23.1097]}},
+{"type": "Feature","properties": {"name":"潮州市"},"geometry": {"type": "Point","coordinates": [116.7847,23.8293]}},
+{"type": "Feature","properties": {"name":"汕头市"},"geometry": {"type": "Point","coordinates": [117.1692,23.3405]}},
+{"type": "Feature","properties": {"name":"深圳市"},"geometry": {"type": "Point","coordinates": [114.5435,22.5439]}},
+{"type": "Feature","properties": {"name":"东莞市"},"geometry": {"type": "Point","coordinates": [113.8953,22.901]}},
+{"type": "Feature","properties": {"name":"中山市"},"geometry": {"type": "Point","coordinates": [113.4229,22.478]}}
+]
+}

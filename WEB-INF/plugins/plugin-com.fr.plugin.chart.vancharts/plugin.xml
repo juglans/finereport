@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugin>
+    <id>com.fr.plugin.chart.vancharts</id>
+    <name><![CDATA[图表(新特性)]]></name>
+    <active>yes</active>
+    <version>8.4.8</version>
+    <env-version>8.0</env-version>
+    <jartime>2017-02-17</jartime>
+    <vendor>finereport.eason.shine.Jeffrey.xiaohu</vendor>
+    <description><![CDATA[使用全新的SVG技术构建的图表,具有流畅的动画的效果,高度自定义的展现设计]]></description>
+    <change-notes><![CDATA[
+     <p>[2017-4-5]<a>修复仪表盘界面丢失，GIS地图超链不生效的bug</a></p>
+     <p>[2017-3-7]<a>兼容FR下拉树控件的bug</a></p>
+     <p>[2017-1-18]<a>修复移动端文字竖排和对数坐标轴计算的bug</a></p>
+     <p>[2017-1-13]<a>流向地图的国际化繁体英文补充</a></p>
+     <p>[2017-1-10]<a>提高流向地图的性能，修复数据表色块的bug</a></p>
+     <p>[2017-1-6]<a>新增了流向地图，词云两种图表类型，增加了effect动画和图例悬浮效果</a></p>
+     <p>[2016-11-24]<a>全新的漏斗图，热力地图，和改进图表切换效果</a></p>
+     <p>[2016-09-30]<a>移动端适配</a></p>
+     <p>[2016-07-18]<a>坐标轴翻转属性</a></p>
+     <p>[2016-07-18]<a>全新的多层饼图</a></p>
+     <p>[2016-07-18]<a href="http://bbs.finereport.com/thread-75925-1-1.html">全新的地图</a></p>
+     <p>[2016-06-23]<a href="http://bbs.finereport.com/thread-75266-1-1.html">全新的组合图</a></p>
+     <p>[2016-04-14]<a href="http://bbs.finereport.com/thread-73795-1-1.html">全新的散点图与气泡图。包含对大数据的额外优化处理及富有力学因素的气泡图</a></p>
+     <p>[2016-02-14]<a href="http://bbs.finereport.com/thread-72700-1-1.html">全新的雷达图</a></p>
+     <p>[2015-12-28]<a href="http://bbs.finereport.com/thread-71912-1-1.html">全新的仪表盘</a></p>
+     <p>[2015-12-01]<a href="http://bbs.finereport.com/thread-71364-1-1.html">全新的面积图</a></p>
+     <p>[2015-11-25]<a href="http://bbs.finereport.com/thread-71202-1-1.html">全新的折线图</a></p>
+     <p>[2015-11-05]<a href="http://bbs.finereport.com/thread-70899-1-1.html">全新的柱形图与条形图</a></p>
+     <p>[2015-10-10]<a href="http://bbs.finereport.com/thread-70328-1-1.html">全新饼图</a></p>
+    ]]></change-notes>
+    <extra-core>
+        <LocaleFinder class="com.fr.plugin.chart.locale.VanChartLocaleFinder"/>
+        <JavaScriptFileHandler class="com.fr.plugin.chart.VanChartsBaseJavaScript"/>
+        <CssFileHandler class="com.fr.plugin.chart.VanChartsBaseCss"/>
+    </extra-core>
+    <extra-report/>
+    <extra-designer>
+    </extra-designer>
+
+    <extra-core>
+        <XMLFileManagerProvider class="com.fr.plugin.chart.phantom.PhantomConfigManager"/>
+    </extra-core>
+
+    <!--依赖类型可选择file或者plugin-->
+    <!--文件类型的依赖的根目录从WebInfo开始-->
+    <dependence>
+        <Item key="plugin.geojson" type="file" location="/resources/geojson"/>
+        <Item key="plugin.phantomjs" type="service" location="/resources/phantomjs" class="com.fr.plugin.chart.phantom.PhantomService"/>
+    </dependence>
+
+    <extra-chart>
+        <!--是否开启图表切换模式-->
+        <ChangeChart change="false"/>
+
+        <IndependentChartProvider class="com.fr.plugin.chart.pie.PieIndependentVanChart" plotID="VanChartPiePlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.column.ColumnIndependentVanChart" plotID="VanChartColumnPlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.bar.BarIndependentVanChart" plotID="VanChartBarPlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.line.LineIndependentVanChart" plotID="VanChartLinePlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.area.AreaIndependentVanChart" plotID="VanChartAreaPlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.gauge.GaugeIndependentVanChart" plotID="VanChartGaugePlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.radar.RadarIndependentVanChart" plotID="VanChartRadarPlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.scatter.ScatterIndependentVanChart" plotID="VanChartScatterPlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.bubble.BubbleIndependentVanChart" plotID="VanChartBubblePlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.custom.CustomIndependentVanChart" plotID="VanChartCustomPlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.multilayer.MultiPieIndependentVanChart" plotID="VanChartMultiPiePlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.map.MapIndependentVanChart" plotID="VanChartMapPlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.drillmap.DrillMapIndependentVanChart" plotID="VanChartDrillMapPlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.treemap.TreeMapIndependentVanChart" plotID="VanChartTreeMapPlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.funnel.FunnelIndependentVanChart" plotID="VanChartFunnelPlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.heatmap.HeatMapIndependentVanChart" plotID="VanChartHeatMapPlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.wordcloud.WordCloudIndependentVanChart" plotID="VanChartWordCloudPlot" priority="3"/>
+
+    </extra-chart>
+
+    <extra-chart-designer>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.pie.PieIndependentVanChartInterface" plotID="VanChartPiePlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.column.ColumnIndependentVanChartInterface" plotID="VanChartColumnPlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.bar.BarIndependentVanChartInterface" plotID="VanChartBarPlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.line.LineIndependentVanChartInterface" plotID="VanChartLinePlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.area.AreaIndependentVanChartInterface" plotID="VanChartAreaPlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.gauge.GaugeIndependentVanChartInterface" plotID="VanChartGaugePlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.radar.RadarIndependentVanChartInterface" plotID="VanChartRadarPlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.scatter.ScatterIndependentVanChartInterface" plotID="VanChartScatterPlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.bubble.BubbleIndependentVanChartInterface" plotID="VanChartBubblePlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.custom.CustomIndependentVanChartInterface" plotID="VanChartCustomPlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.multilayer.MultiPieIndependentVanChartInterface" plotID="VanChartMultiPiePlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.map.MapIndependentVanChartInterface" plotID="VanChartMapPlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.drillmap.DrillMapIndependentVanChartInterface" plotID="VanChartDrillMapPlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.treemap.TreeMapIndependentVanChartInterface" plotID="VanChartTreeMapPlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.funnel.designer.FunnelIndependentVanChartInterface" plotID="VanChartFunnelPlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.heatmap.designer.HeatMapIndependentVanChartInterface" plotID="VanChartHeatMapPlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.wordcloud.designer.WordCloudIndependentVanChartInterface" plotID="VanChartWordCloudPlot" priority="3"/>
+
+    </extra-chart-designer>
+
+    <extra-designer>
+        <MenuHandler class="com.fr.plugin.chart.map.server.MapMenuHandler"/>
+    </extra-designer>
+
+    <move-after-install>
+        <File name="phantom.xml" dir="/resources" operation="0"/>
+    </move-after-install>
+
+</plugin>

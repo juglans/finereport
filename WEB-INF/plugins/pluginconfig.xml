@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PluginConfigManager xmlVersion="20151125" releaseVersion="8.0.0">
+<installedPlugins>
+<p>
+<![CDATA[plugin-com.fr.plugin.chart.vancharts]]></p>
+<p>
+<![CDATA[plugin-com.fr.online.update]]></p>
+<p>
+<![CDATA[plugin-com.fr.plugin.exportform]]></p>
+<p>
+<![CDATA[plugin-com.fr.plugin.reportfit]]></p>
+<p>
+<![CDATA[plugin-com.fr.plugin.updateOnLineInFSPlate]]></p>
+<p>
+<![CDATA[plugin-com.fr.solution.fsplatedata.transfer]]></p>
+<p>
+<![CDATA[plugin-com.fr.plugin.widget.excel.excelexport]]></p>
+<p>
+<![CDATA[plugin-com.fr.plugin.report.lazysheet]]></p>
+</installedPlugins>
+</PluginConfigManager>
