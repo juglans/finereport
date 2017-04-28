@@ -32,6 +32,8 @@ latest:FineReport 8.0.0 Build # 2017.04.01.09.59.08.435，不定期更新最新�
 
 - 报表自适应插件 V3.9.7 
 
+- 增加js公共组件库
+
 ### run finereport on swarm mode
 
 使用默认配置启动，可以作为测试访问使用，重启后所有信息都不保留。
