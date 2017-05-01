@@ -99,8 +99,6 @@ function initPage() {
     });
 
     page.injectJs('format.js');
-    page.injectJs('leaflet.js');
-    page.injectJs('d3.js');
     page.injectJs('vancharts-all.js');
     page.evaluate(shim); // for 1.9
     page.evaluate(function() {
@@ -140,6 +138,14 @@ function render(arg, cb) {
         height: arg.height || DEFAULT_HEIGHT
     };
     if (arg.js) {
+        // when FR.Browser.r.safari === true
+        // Date.prototype.setMonth is revised;
+        // i18n4properties.js set Date.prototype.setMonth again;
+        page.evaluate(function () {
+            if (Date.brokenSetMonth) {
+                Date.prototype.setMonth = Date.brokenSetMonth;
+            }
+        });
         page.evaluateJavaScript("function(){" + arg.js + "}");
     }
     page.evaluate(function(arg, isOSX) {
@@ -175,10 +181,6 @@ function render(arg, cb) {
 
         option['plotOptions'] = option['plotOptions'] || {};
         option['plotOptions']['animation'] = false;
-
-        if (option.geo && option.geo.data && option.geo.data[0] === '{') {
-            option.geo.data = JSON['parse'](option.geo.data);
-        }
 
         w.vanCharts.setOptions(option);
     }, arg, isOSX);

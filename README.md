@@ -1,6 +1,6 @@
 ## finereport 8.0 image based on `andreptb/tomcat:8`
 
-latest:FineReport 8.0.0 Build # 2017.04.01.09.59.08.435，不定期更新最新的 finereport jar 包。
+latest:FineReport 8.0.0 Build # `2017.04.20.17.11.16.274`，不定期更新最新的 finereport jar 包。
 
 做这个镜像的初衷是为了生产机部署方便，把基础的组件和插件更新和安装好后打包，基础镜像是在使用了多个 tomcat 镜像后才找到的最稳定，bug 最少的，主要做的修改为：
 

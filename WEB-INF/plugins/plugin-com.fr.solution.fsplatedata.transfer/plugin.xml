@@ -3,7 +3,7 @@
     <id>com.fr.solution.fsplatedata.transfer</id>
     <name><![CDATA[平台数据迁移]]></name>
     <active>yes</active>
-    <version>1.9</version>
+    <version>1.10</version>
     <env-version>8.0</env-version>
     <jartime>2017-03-17</jartime>
     <vendor>finereport.richie</vendor>
@@ -13,8 +13,7 @@
         [2016-12-23]修改了交互，可以选择性的开启logdb的迁移<br/>
         [2017-03-16]修复bug,提供对sql server的支持<br/>
         [2017-03-29]修复定时任务迁移后配置信息错乱的bug<br/>
-
-
+        [2017-04-20]修复挂载bi模板导致我创建的文件夹丢失的bug<br/>
     ]]></change-notes>
 
     <extra-core>

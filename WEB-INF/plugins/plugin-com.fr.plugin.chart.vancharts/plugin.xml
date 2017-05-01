@@ -2,13 +2,13 @@
     <id>com.fr.plugin.chart.vancharts</id>
     <name><![CDATA[图表(新特性)]]></name>
     <active>yes</active>
-    <version>8.4.8</version>
+    <version>8.5.0</version>
     <env-version>8.0</env-version>
-    <jartime>2017-02-17</jartime>
+    <jartime>2017-04-19</jartime>
     <vendor>finereport.eason.shine.Jeffrey.xiaohu</vendor>
     <description><![CDATA[使用全新的SVG技术构建的图表,具有流畅的动画的效果,高度自定义的展现设计]]></description>
     <change-notes><![CDATA[
-     <p>[2017-4-5]<a>修复仪表盘界面丢失，GIS地图超链不生效的bug</a></p>
+     <p>[2017-4-23]<a>新甘特图，新框架图</a></p>
      <p>[2017-3-7]<a>兼容FR下拉树控件的bug</a></p>
      <p>[2017-1-18]<a>修复移动端文字竖排和对数坐标轴计算的bug</a></p>
      <p>[2017-1-13]<a>流向地图的国际化繁体英文补充</a></p>
@@ -69,6 +69,8 @@
         <IndependentChartProvider class="com.fr.plugin.chart.funnel.FunnelIndependentVanChart" plotID="VanChartFunnelPlot" priority="3"/>
         <IndependentChartProvider class="com.fr.plugin.chart.heatmap.HeatMapIndependentVanChart" plotID="VanChartHeatMapPlot" priority="3"/>
         <IndependentChartProvider class="com.fr.plugin.chart.wordcloud.WordCloudIndependentVanChart" plotID="VanChartWordCloudPlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.gantt.GanttIndependentVanChart" plotID="VanChartGanttPlot" priority="3"/>
+        <IndependentChartProvider class="com.fr.plugin.chart.structure.StructureIndependentVanChart" plotID="VanChartStructurePlot" priority="3"/>
 
     </extra-chart>
 
@@ -90,6 +92,8 @@
         <IndependentChartUIProvider class="com.fr.plugin.chart.funnel.designer.FunnelIndependentVanChartInterface" plotID="VanChartFunnelPlot" priority="3"/>
         <IndependentChartUIProvider class="com.fr.plugin.chart.heatmap.designer.HeatMapIndependentVanChartInterface" plotID="VanChartHeatMapPlot" priority="3"/>
         <IndependentChartUIProvider class="com.fr.plugin.chart.wordcloud.designer.WordCloudIndependentVanChartInterface" plotID="VanChartWordCloudPlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.gantt.designer.GanttIndependentVanChartInterface" plotID="VanChartGanttPlot" priority="3"/>
+        <IndependentChartUIProvider class="com.fr.plugin.chart.structure.desinger.StructureIndependentVanChartInterface" plotID="VanChartStructurePlot" priority="3"/>
 
     </extra-chart-designer>
 
